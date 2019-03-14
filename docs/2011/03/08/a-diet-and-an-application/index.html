@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="map[]">
+    <meta name="generator" content="Hugo 0.54.0" />
+    <title>noone.dev</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
+    <link rel="stylesheet" href="/fontawesome-free-5.7.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="http://noone.dev/scss/main.min.eb5f6698e9eef38a204f38a27f3631ace5720b7526fb244b4d3828ca090437c6.css">
+</head>
+<body><nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/">$HOME</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/about/">~/about</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/posts/">~/posts</a>
+            </li>
+            
+            
+        </ul>
+    </div>
+</nav><div id="content" class="container">
+<h5>Mar 08  2011 <a href="http://noone.dev/2011/03/08/a-diet-and-an-application/">A Diet and an Application</a></h5>
+<hr />
+<div class="post-content">
+    <p>I&#8217;ve started on the <a title="Paleo Lifestyle" href="http://paleodietlifestyle.com/" target="_blank">Paleo Diet</a>, which, of course, means I have to create a software application to go along with it.</p>
+
+<p>I decided this was a good time to give <a title="Asp.net MVC" href="http://www.asp.net/mvc" target="_blank">MVC3</a> and <a title="MongoDB" href="http://www.mongodb.org/" target="_blank">MongoDB</a> a test drive.  After diving in, I realized that I could benefit from some dependency injection via MVC3&#8217;s DependencyResolver.  I&#8217;ve been wanting to learn <a title="Autofac" href="http://code.google.com/p/autofac/" target="_blank">Autofac</a>, so I threw that in as the container.  This was sweet, as it injected my repository implementations into my controllers with very little setup.</p>
+
+<p>At this point, I&#8217;ve learned all about the Razor view engine, DI with Autofac and DependencyResolver, MongoDB with the NoRM driver, jQuery, jQuery-ui, and some other MVC3 goodness.</p>
+
+<p>For various reasons, including the fact that my web hosting provider is a Linux/non-ASP.NET provider, I ported the whole thing to Rails/MySql.  I&#8217;m glad I went through the MVC3 process, because I learned a lot, but in the end, Rails is just simpler.  As for MongoDB, and NoSQL in general, I think it&#8217;s best served as an edge case storage medium for fast read operations.  Data is relational.</p>
+
+<p>Alas, here is a screenshot of the recipe database.  I&#8217;ll be adding lots of features, including menus and weight management.  You can&#8217;t see it here, but it has a cool tag cloud feature and theme switching.</p>
+
+<p><a href="https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2011/03/recipes.png"><img class="alignnone size-medium wp-image-640" title="recipes" src="https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2011/03/recipes.png?resize=300%2C139" alt="Recipes" srcset="https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2011/03/recipes.png?resize=300%2C139 300w, https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2011/03/recipes.png?w=876 876w" sizes="(max-width: 300px) 85vw, 300px" data-recalc-dims="1" /></a></p>
+
+</div>
+
+    </div></body>
+<script src="jquery-3.3.1.slim/jquery.slim.min.js"></script>
+<script src="bootstrap-4.3.1/js/dist/dropdown.js"></script>
+
+</html>

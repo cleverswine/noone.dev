@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="map[]">
+    <meta name="generator" content="Hugo 0.54.0" />
+    <title>noone.dev</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
+    <link rel="stylesheet" href="/fontawesome-free-5.7.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="http://noone.dev/scss/main.min.eb5f6698e9eef38a204f38a27f3631ace5720b7526fb244b4d3828ca090437c6.css">
+</head>
+<body><nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/">$HOME</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/about/">~/about</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/posts/">~/posts</a>
+            </li>
+            
+            
+        </ul>
+    </div>
+</nav><div id="content" class="container">
+<h5>Mar 20  2013 <a href="http://noone.dev/2013/03/20/last-fm-recent-tracks-with-angularjs/">Last.fm Recent Tracks with AngularJS</a></h5>
+<hr />
+<div class="post-content">
+    <p><a href="http://angularjs.org/" title="AngularJS" target="_blank">AngularJS</a> is an MVC framework for javascript. It is best suited for round-tripping resources with a RESTful service. In this post, I will simply get a list of recent tracks from Last.fm, treating each track as a resource. The Last.fm API is documented <a href="http://www.last.fm/api" title="Last.fm API" target="_blank">here</a>. There is no round-tripping in this example. I&#8217;ll also be utilizing <a href="http://twitter.github.com/bootstrap/" title="Bootstrap" target="_blank">Twitter Bootstrap</a> for layout.</p>
+
+<p>To start, create the AngularJS application and a controller for recent tracks. Since this is a simple application, there are no routes and views. The controller will be invoked inline on the main page. Routes and views are easily added once you get a handle on the framework.</p>
+
+<pre lang="javascript">'use strict';
+
+var LastFmApp = angular.module('lastfm-app', []);
+
+LastFmApp.controller('RecentTracksController',
+    function RecentTracksController($scope, $http) {
+        var url = 'http://ws.audioscrobbler.com/2.0/';
+        var params = {
+            method: 'user.getrecenttracks',
+            api_key: 'your_api_key',
+            limit: 12,
+            user: 'user_name',
+            format: 'json'
+        };
+        $http.get(url, { params: params })
+            .success(function (data) {
+                $scope.songs = data.recenttracks.track;
+            })
+            .error(function (data, status) {
+                console.log(data || "Request failed");
+                console.log(status);
+            });       
+    });</pre>
+
+<p>The HTML (simplified for brevity).</p>
+
+<pre lang="html">
+
+
+
+    
+
+<div class="container" ng-controller="RecentTracksController">
+  <ul class="thumbnails">
+    <li class="span4" ng-repeat="song in songs">
+      <a class="thumbnail" href="{{song.url}}" title="{{song.artist['#text']}} - {{song.name}}" style="display: block;">
+                          
+      
+      <div class="media">
+        <div class="pull-left" href="#">
+          <img class="media-object" src="{{song.image[2]['#text']}}" />
+                                  
+        </div>
+                                
+        
+        <div class="media-body">
+          <strong>{{song.artist['#text']}}</strong><br />
+                                      {{song.name}}<br />
+                                      <em>{{song.date['#text']}}</em>
+                                  
+        </div>
+                            
+      </div>
+                      </a>
+                  
+    </li>
+            
+  </ul>
+      
+</div>
+    
+    
+    
+    
+
+</pre>
+
+<p>The resulting grid will look something like this:</p>
+
+<p><a href="https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2013/03/Capture.png"><img src="https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2013/03/Capture.png?resize=300%2C167" alt="Recent Tracks" class="aligncenter size-medium wp-image-842" srcset="https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2013/03/Capture.png?resize=300%2C167 300w, https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2013/03/Capture.png?resize=624%2C349 624w, https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2013/03/Capture.png?w=631 631w" sizes="(max-width: 300px) 85vw, 300px" data-recalc-dims="1" /></a></p>
+
+</div>
+
+    </div></body>
+<script src="jquery-3.3.1.slim/jquery.slim.min.js"></script>
+<script src="bootstrap-4.3.1/js/dist/dropdown.js"></script>
+
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="map[]">
+    <meta name="generator" content="Hugo 0.54.0" />
+    <title>noone.dev</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
+    <link rel="stylesheet" href="/fontawesome-free-5.7.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="http://noone.dev/scss/main.min.eb5f6698e9eef38a204f38a27f3631ace5720b7526fb244b4d3828ca090437c6.css">
+</head>
+<body><nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/">$HOME</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/about/">~/about</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/posts/">~/posts</a>
+            </li>
+            
+            
+        </ul>
+    </div>
+</nav><div id="content" class="container">
+<h5>Mar 08  2011 <a href="http://noone.dev/2011/03/08/mvc3-mongodb-autofac/">MVC3 &#43; MongoDB &#43; Autofac</a></h5>
+<hr />
+<div class="post-content">
+    <p>I recently posted a <a href="http://blog.cleverswine.net/2011/03/08/a-diet-and-an-application/">brief summary</a> of creating a recipe database.  I decided to expand on that and go into the implementation details of using ASP.NET MVC3 with MongoDB and Autofac.  This code depends on the <a href="https://github.com/atheken/NoRM">NoRM</a> driver for <a href="http://www.mongodb.org/">MongoDB</a>, <a href="http://code.google.com/p/autofac/">Autofac</a>, and <a href="http://www.asp.net/mvc">MVC3</a> (and it&#8217;s dependencies). This is by no means the only (or best) way to do things, but this is how I chose to do it.  I&#8217;ve simplified the repository to one method for brevity, but you&#8217;d obviously want to add all of the required CRUD operations.</p>
+
+<p>First, we&#8217;ll want to create an interface for our database session.  The implementation of this interface can be swapped out depending on the backing store.</p>
+
+<pre lang="csharp" line="1">public interface ISession : IDisposable
+{
+    System.Linq.IQueryable&lt;T> All&lt;T>() where T : class, new();
+}
+</pre>
+
+<p>Add a MongoDB implementation of ISession.  This implementation will eventually be used in our repository.</p>
+
+<pre lang="csharp" line="1">public class MongoSession : ISession
+{
+    private readonly IMongo _provider;
+
+    public MongoSession()
+    {
+        //this looks for a connection string in your Web.config
+        //&lt;connectionStrings>
+        //  &lt;add name="db" connectionString="mongodb://localhost/testdb?strict=true"/>
+        //&lt;/connectionStrings>
+        _provider = Mongo.Create("db");
+    }
+
+    public IQueryable&lt;T> All&lt;T>() where T : class, new()
+    {
+        return _provider.GetCollection&lt;T>().AsQueryable();
+    }
+
+    public void Dispose()
+    {
+        _provider.Dispose();
+    }
+}
+</pre>
+
+<p>Create an interface for the repository.  This is what the controller will expect to be injected via it&#8217;s constructor.</p>
+
+<pre lang="csharp" line="1">public interface IRecipeRepository
+{
+    IEnumerable&lt;RecipeCard> GetAll(int page = 1, int pageSize = 10);
+}
+</pre>
+
+<p>Add the IRecipeRepository implementation, which is created with a new()-able type of ISession.  Why didn&#8217;t I just inject an ISession into the repository?  It&#8217;s because Mongo sessions are expected to be disposed of after use, as connections are pooled and reused.  Therefore we have to create and dispose of our sessions when using them.  This might require some workarounds if you really did switch repositories (do nothing on Dispose(), etc).</p>
+
+<pre lang="csharp" line="1">public class RecipeRepository&lt;SessionT> : IRecipeRepository where SessionT : ISession, new()
+{
+    public IEnumerable&lt;RecipeCard> GetAll(int page = 1, int pageSize = 10)
+    {
+        using (var session = new SessionT())
+        {
+            return session.All&lt;RecipeCard>().OrderByDescending(r => r.UpdatedDate).Skip(pageSize * (page - 1)).Take(pageSize).ToList();
+        }
+    }
+}
+</pre>
+
+<p>Now it&#8217;s time set up our IoC container.  We&#8217;ll do this in the Global.asax.cs.  Here we are registering a recipe repository of type MongoSession such that any controller that expects an IRecipeRepository in the constructor will get this.  We&#8217;re letting Autofac handle controller creation and dependency injection.  See the <a href="http://code.google.com/p/autofac/wiki/Mvc3Integration">Autofac MVC3 integration page</a> for more details.</p>
+
+<pre lang="csharp" line="1">protected void Application_Start()
+{
+    var builder = new ContainerBuilder();
+    builder.Register(r => new RecipeRepository&lt;MongoSession>()).As&lt;IRecipeRepository>().InstancePerLifetimeScope();
+    builder.RegisterControllers(Assembly.GetExecutingAssembly());
+
+    var container = builder.Build();
+    DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
+
+    AreaRegistration.RegisterAllAreas();
+
+    RegisterGlobalFilters(GlobalFilters.Filters);
+    RegisterRoutes(RouteTable.Routes);
+}
+</pre>
+
+<p>Finally, here is our controller.  Notice we never have to create a repository object &#8211; one was injected for us.</p>
+
+<pre lang="csharp" line="1">private readonly IRecipeRepository recipeRepository;
+
+public RecipesController(IRecipeRepository recipeRepository)
+{
+    this.recipeRepository = recipeRepository;
+}
+
+public ViewResult Index()
+{
+    return View(recipeRepository.GetAll());
+}
+</pre>
+
+<p>That&#8217;s it.</p>
+
+</div>
+
+    </div></body>
+<script src="jquery-3.3.1.slim/jquery.slim.min.js"></script>
+<script src="bootstrap-4.3.1/js/dist/dropdown.js"></script>
+
+</html>

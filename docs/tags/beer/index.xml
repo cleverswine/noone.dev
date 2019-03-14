@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beer on noone.dev</title>
+    <link>http://noone.dev/tags/beer/</link>
+    <description>Recent content in Beer on noone.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2019, Kevin Noone; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 11 Apr 2009 13:47:09 +0000</lastBuildDate>
+    
+	<atom:link href="http://noone.dev/tags/beer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spring Beer &amp;#038; Wine Festival</title>
+      <link>http://noone.dev/2009/04/11/spring-beer-wine-festival/</link>
+      <pubDate>Sat, 11 Apr 2009 13:47:09 +0000</pubDate>
+      
+      <guid>http://noone.dev/2009/04/11/spring-beer-wine-festival/</guid>
+      <description>We&amp;#8217;re heading over to the Spring Beer &amp;#038; Wine Festival this afternoon. I prefer the spring event because it&amp;#8217;s indoors and much less crowded than the summer or winter ones. Walking Man brewery has a couple of interestingly named beers at the fest: Streetwalker Malt Liquor and Big Black Homo. I may have to try them based on the names alone.</description>
+    </item>
+    
+    <item>
+      <title>Ninkasi</title>
+      <link>http://noone.dev/2008/04/06/ninkasi/</link>
+      <pubDate>Sun, 06 Apr 2008 12:50:46 +0000</pubDate>
+      
+      <guid>http://noone.dev/2008/04/06/ninkasi/</guid>
+      <description>On Friday, Bren wondered into the New Seasons Market in Happy Valley to find the brewer from Ninkasi giving a talk and presentation. She was kind enough to purchase my 3 favorite Ninkasi varieties. Ninkasi is based in Eugene, so I think it&amp;#8217;s cool that he came to make an appearance in Happy Valley for the beer-loving Portland area.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="map[]">
+    <meta name="generator" content="Hugo 0.54.0" />
+    <title>noone.dev</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
+    <link rel="stylesheet" href="/fontawesome-free-5.7.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="http://noone.dev/scss/main.min.eb5f6698e9eef38a204f38a27f3631ace5720b7526fb244b4d3828ca090437c6.css">
+</head>
+<body><nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/">$HOME</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/about/">~/about</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/posts/">~/posts</a>
+            </li>
+            
+            
+        </ul>
+    </div>
+</nav><div id="content" class="container">
+<h5>Sep 09  2011 <a href="http://noone.dev/2011/09/09/findkill-a-linux-process-by-name/">Find/Kill a Linux Process by Name</a></h5>
+<hr />
+<div class="post-content">
+    <p>I was doing some research to figure out how to easily kill a Linux process given part of it&#8217;s name. It&#8217;s fairly simple to do it manually, but if you didn&#8217;t already know, programmers are lazy.</p>
+
+<p>The first thing I was doing&#8230;</p>
+
+<blockquote>
+<p>ps aux | grep Foo</p>
+</blockquote>
+
+<p>find the process ID (PID) with my eyes, and then kill it&#8230;</p>
+
+<blockquote>
+<p>kill -9 123456</p>
+</blockquote>
+
+<p>Next, I started finding complex piped commands to find and extract the PID. For instance&#8230;</p>
+
+<blockquote>
+<p>pid=`ps -eo pid,args | grep Foo | grep -v grep | cut -c1-6`</p>
+</blockquote>
+
+<p>and slightly simpler&#8230;</p>
+
+<blockquote>
+<p>ps aux | grep Foo | grep -v grep | awk &#8216;{print $2}&#8217;</p>
+</blockquote>
+
+<p>Finally, I discovered <a href="http://www.linuxmanpages.com/man1/pgrep.1.php" title="pgrep" target="_blank">pgrep and pkill</a>. There are quite a few options for each command, but simply put:</p>
+
+<p>To get the PID for a process with a name containing &#8216;Foo&#8217;&#8230;</p>
+
+<blockquote>
+<p>pgrep Foo</p>
+</blockquote>
+
+<p>To get the PID for a process with a command line containing &#8216;Bar&#8217; (as in &gt; Foo -n Bar)&#8230;</p>
+
+<blockquote>
+<p>pgrep -f Bar</p>
+</blockquote>
+
+</div>
+
+    </div></body>
+<script src="jquery-3.3.1.slim/jquery.slim.min.js"></script>
+<script src="bootstrap-4.3.1/js/dist/dropdown.js"></script>
+
+</html>

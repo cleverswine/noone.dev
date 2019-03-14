@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="map[]">
+    <meta name="generator" content="Hugo 0.54.0" />
+    <title>noone.dev</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
+    <link rel="stylesheet" href="/fontawesome-free-5.7.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="http://noone.dev/scss/main.min.eb5f6698e9eef38a204f38a27f3631ace5720b7526fb244b4d3828ca090437c6.css">
+</head>
+<body><nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/">$HOME</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/about/">~/about</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/posts/">~/posts</a>
+            </li>
+            
+            
+        </ul>
+    </div>
+</nav><div id="content" class="container">
+<h5>Aug 07  2012 <a href="http://noone.dev/2012/08/07/project-la-cocina/">Project &amp;#8211; La Cocina</a></h5>
+<hr />
+<div class="post-content">
+    <p><a href="http://www.flickr.com/photos/cleverswine/7735155734/" title="photo sharing"><img style="border: solid 2px #000000;" src="https://i2.wp.com/farm9.staticflickr.com/8422/7735155734_7110a42dea_m.jpg?w=840" alt="" data-recalc-dims="1" /></a></p>
+
+<p>I&#8217;ve been working on a new Rails application for storing our recipes. It&#8217;s at a point where it is being hosted and used by us. Some of the style is borrowed (stolen) from <a href="http://www.themarthablog.com/" target="_blank">Martha Stewart&#8217;s blog</a>.</p>
+
+<p>The big feature of La Cocina is it&#8217;s ability to pull in recipes from a number of other recipe sites.  I&#8217;m using the <a href="http://nokogiri.org/" target="_blank">nokogiri</a> gem to do screen scraping for recipe data.  There&#8217;s an admin interface for creating new screen scrapers (which I call &#8220;scarfers&#8221;), so it&#8217;s easy to add new recipe sites by entering DOM paths (CSS or XPath) and some other options.  With one click of a bookmarklet on a supported site (we have 5 configured so far), the recipe is in our database.</p>
+
+<p>Other stuff in use: <a href="https://github.com/amatsuda/kaminari" target="_blank">kaminari</a> for pagination, <a href="https://github.com/thoughtbot/paperclip/" target="_blank">paperclip</a> for image attachments (including fetching from a URL, resizing, and generating thumbnails), <a href="https://github.com/mbleigh/acts-as-taggable-on/" target="_blank">acts-as-taggable-on</a> for tagging, <a href="http://sass-lang.com/" target="_blank">SASS</a> for CSS, <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a> for some design and layout, <a href="http://www.mysql.com/" target="_blank">MySql</a> as the database, and miscellaneous <a href="http://jquery.com/" target="_blank">jQuery</a> for client-side things.</p>
+
+<p>There are a few things left for me to do.  For one, I want to make it a true multi-user site so I can share it or create a demo account for showing it off.</p>
+
+</div>
+
+    </div></body>
+<script src="jquery-3.3.1.slim/jquery.slim.min.js"></script>
+<script src="bootstrap-4.3.1/js/dist/dropdown.js"></script>
+
+</html>

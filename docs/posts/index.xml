@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on noone.dev</title>
+    <link>http://noone.dev/posts/</link>
+    <description>Recent content in Posts on noone.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2019, Kevin Noone; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 14 Mar 2019 15:09:54 -0700</lastBuildDate>
+    
+	<atom:link href="http://noone.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello Web .NET Core</title>
+      <link>http://noone.dev/posts/hello-web-dotnet/</link>
+      <pubDate>Thu, 14 Mar 2019 15:09:54 -0700</pubDate>
+      
+      <guid>http://noone.dev/posts/hello-web-dotnet/</guid>
+      <description>This is a basic web server written in ASP.NET Core.
+using Microsoft.AspNetCore; using Microsoft.AspNetCore.Hosting; using Microsoft.AspNetCore.Builder; using Microsoft.AspNetCore.Http; using Microsoft.Extensions.DependencyInjection; namespace HelloWeb { public class Program { public static void Main(string[] args) { CreateWebHostBuilder(args).Build().Run(); } public static IWebHostBuilder CreateWebHostBuilder(string[] args) =&amp;gt; WebHost.CreateDefaultBuilder(args) .UseStartup&amp;lt;Startup&amp;gt;(); } public class Startup { public void Configure(IApplicationBuilder app) { app.Run(async (context) =&amp;gt; { await context.Response.WriteAsync(&amp;#34;Hello World!&amp;#34;); }); } } } </description>
+    </item>
+    
+    <item>
+      <title>Hello Web Go</title>
+      <link>http://noone.dev/posts/hello-web-go/</link>
+      <pubDate>Thu, 14 Mar 2019 14:38:04 -0700</pubDate>
+      
+      <guid>http://noone.dev/posts/hello-web-go/</guid>
+      <description>This is the most basic web server written in Go.
+package main import ( &amp;#34;fmt&amp;#34; &amp;#34;net/http&amp;#34; ) func main() { http.HandleFunc(&amp;#34;/&amp;#34;, func(w http.ResponseWriter, r *http.Request) { fmt.Fprintf(w, &amp;#34;Hello World!&amp;#34;) }) http.ListenAndServe(&amp;#34;:80&amp;#34;, nil) } </description>
+    </item>
+    
+  </channel>
+</rss>

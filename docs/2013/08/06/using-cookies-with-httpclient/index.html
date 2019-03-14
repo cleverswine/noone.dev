@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="map[]">
+    <meta name="generator" content="Hugo 0.54.0" />
+    <title>noone.dev</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
+    <link rel="stylesheet" href="/fontawesome-free-5.7.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="http://noone.dev/scss/main.min.eb5f6698e9eef38a204f38a27f3631ace5720b7526fb244b4d3828ca090437c6.css">
+</head>
+<body><nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/">$HOME</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/about/">~/about</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/posts/">~/posts</a>
+            </li>
+            
+            
+        </ul>
+    </div>
+</nav><div id="content" class="container">
+<h5>Aug 06  2013 <a href="http://noone.dev/2013/08/06/using-cookies-with-httpclient/">Using cookies with HttpClient</a></h5>
+<hr />
+<div class="post-content">
+    <p>This simple code snippet shows how to store and use cookies from a web request using the .Net <a href="http://msdn.microsoft.com/en-us/library/system.net.http.httpclient.aspx" target="_blank">HttpClient</a>. For example, if an API or site sends a token or authentication cookie, you may need to store it and send it on all subsequent requests to show that you are authenticated. This would be for a session-based service. The key is to create a single <a href="http://msdn.microsoft.com/en-us/library/system.net.cookiecontainer.aspx" target="_blank">CookieContainer</a> instance and a single <a href="http://msdn.microsoft.com/en-us/library/system.net.http.httpclienthandler.aspx" target="_blank">HttpClientHandler</a> instance to hold it. Assume the following class is registered as a singleton.</p>
+
+<pre lang="csharp">public class WebClient
+{
+    private CookieContainer _cookieContainer;
+    private HttpClientHandler _handler;
+
+    private HttpClientHandler Handler
+    {
+        get
+        {
+            if (_handler == null)
+            {
+                _cookieContainer = new CookieContainer();
+                _handler = new HttpClientHandler { CookieContainer = _cookieContainer, UseCookies = true, AllowAutoRedirect = false };
+            }
+            return _handler;
+        }
+    }
+
+    private HttpClient GetClient()
+    {
+        // the second param prevents the Handler from being disposed with the client
+        var client = new HttpClient(Handler, false);
+        client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+        return client;
+    }
+
+    public async Task Get&lt;T>(string path) where T : class
+    {
+        using (var client = GetClient())
+        {
+            var content = await client.GetStringAsync(path);
+            return JsonConvert.DeserializeObject&lt;T>(content);
+        }
+    }
+}</pre>
+
+</div>
+
+    </div></body>
+<script src="jquery-3.3.1.slim/jquery.slim.min.js"></script>
+<script src="bootstrap-4.3.1/js/dist/dropdown.js"></script>
+
+</html>

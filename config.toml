@@ -4,7 +4,21 @@ title = "noone.dev"
 author = "Kevin Noone"
 copyright = "Copyright © 2019, Kevin Noone; all rights reserved."
 paginate = 10
+publishDir = "docs"
+theme = "swinix"
 
+[params]
+  Name = "Kevin Noone"
+  Description = "Software Engineer in Portland, Oregon, USA"
+  ProfilePicture = "/profile.png"
+  UserName = "knoone"
+  Brand = "$HOME"
+  [params.contact]
+    linkedin = "https://www.linkedin.com/in/kevinnoone/"
+    github = "https://github.com/cleverswine"
+    twitter = "https://twitter.com/cleverswine/"
+    flickr = "http://www.flickr.com/photos/cleverswine/"
+  
 [menu]
   [[menu.main]]
     identifier = "about"

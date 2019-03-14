@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="map[]">
+    <meta name="generator" content="Hugo 0.54.0" />
+    <title>noone.dev</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
+    <link rel="stylesheet" href="/fontawesome-free-5.7.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="http://noone.dev/scss/main.min.eb5f6698e9eef38a204f38a27f3631ace5720b7526fb244b4d3828ca090437c6.css">
+</head>
+<body><nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/">$HOME</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/about/">~/about</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/posts/">~/posts</a>
+            </li>
+            
+            
+        </ul>
+    </div>
+</nav><div id="content" class="container">
+<h5>Mar 14  2019 <a href="http://noone.dev/posts/hello-web-dotnet/">Hello Web .NET Core</a></h5>
+<hr />
+<div class="post-content">
+    <p>This is a basic web server written in ASP.NET Core.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#66d9ef">using</span> Microsoft.AspNetCore;
+<span style="color:#66d9ef">using</span> Microsoft.AspNetCore.Hosting;
+<span style="color:#66d9ef">using</span> Microsoft.AspNetCore.Builder;
+<span style="color:#66d9ef">using</span> Microsoft.AspNetCore.Http;
+<span style="color:#66d9ef">using</span> Microsoft.Extensions.DependencyInjection;
+
+<span style="color:#66d9ef">namespace</span> HelloWeb
+{
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Program</span>
+    {
+        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> Main(<span style="color:#66d9ef">string</span><span style="color:#a6e22e">[]</span> args)
+        {
+            CreateWebHostBuilder(args).Build().Run();
+        }
+
+        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> IWebHostBuilder CreateWebHostBuilder(<span style="color:#66d9ef">string</span><span style="color:#a6e22e">[]</span> args) =&gt;
+            WebHost.CreateDefaultBuilder(args)
+                .UseStartup&lt;Startup&gt;();
+    }
+
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Startup</span>
+    {
+        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> Configure(IApplicationBuilder app)
+        {
+            app.Run(<span style="color:#66d9ef">async</span> (context) =&gt;
+            {
+                <span style="color:#66d9ef">await</span> context.Response.WriteAsync(<span style="color:#e6db74">&#34;Hello World!&#34;</span>);
+            });
+        }
+    }
+}</code></pre></div>
+
+</div>
+
+    </div></body>
+<script src="jquery-3.3.1.slim/jquery.slim.min.js"></script>
+<script src="bootstrap-4.3.1/js/dist/dropdown.js"></script>
+
+</html>

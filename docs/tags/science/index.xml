@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Science on noone.dev</title>
+    <link>http://noone.dev/tags/science/</link>
+    <description>Recent content in Science on noone.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2019, Kevin Noone; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 17 Mar 2009 08:56:22 +0000</lastBuildDate>
+    
+	<atom:link href="http://noone.dev/tags/science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dr. Dobb&amp;#8217;s Journal</title>
+      <link>http://noone.dev/2009/03/17/dr-dobbs-journal/</link>
+      <pubDate>Tue, 17 Mar 2009 08:56:22 +0000</pubDate>
+      
+      <guid>http://noone.dev/2009/03/17/dr-dobbs-journal/</guid>
+      <description>I&amp;#8217;ve been subscribing to Dr. Dobb&amp;#8217;s Journal for at least 10 years. It has always been my favorite technical magazine because of it&amp;#8217;s diversity of topics and brain-stirring articles. I got a letter in the mail last week saying that they were ceasing production of the full magazine. Instead, they will offer a Dr. Dobb&amp;#8217;s Report stuffed into issues of InformationWeek. I&amp;#8217;ll have to spend more time on their web site, as it looks like they have some good content on there.</description>
+    </item>
+    
+    <item>
+      <title>Why is Bird Poop White?</title>
+      <link>http://noone.dev/2008/02/12/why-is-bird-poop-white/</link>
+      <pubDate>Tue, 12 Feb 2008 10:30:44 +0000</pubDate>
+      
+      <guid>http://noone.dev/2008/02/12/why-is-bird-poop-white/</guid>
+      <description>I was admiring the site of a beautiful seagull flying peacefully through downtown, when it suddenly dropped some poop in mid-flight. I watched the white poop fall from the bird to the ground. Then I got to thinking, why is bird poop white? A quick web search led me to Yahoo Answers. It turns out that birds don&amp;#8217;t urinate. They have one multipurpose hole for pee, poo, sex, and birth. Here&amp;#8217;s the detailed explanation.</description>
+    </item>
+    
+  </channel>
+</rss>

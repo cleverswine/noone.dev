@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uncategorized on noone.dev</title>
+    <link>http://noone.dev/tags/uncategorized/</link>
+    <description>Recent content in Uncategorized on noone.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2019, Kevin Noone; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 14 Jul 2007 12:22:08 +0000</lastBuildDate>
+    
+	<atom:link href="http://noone.dev/tags/uncategorized/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Matchbox Desktop Config</title>
+      <link>http://noone.dev/2007/07/14/matchbox-desktop-config/</link>
+      <pubDate>Sat, 14 Jul 2007 12:22:08 +0000</pubDate>
+      
+      <guid>http://noone.dev/2007/07/14/matchbox-desktop-config/</guid>
+      <description>I&amp;#8217;m working on a new project for my PDA. The application will allow for configuring the Matchbox Desktop (which is the user interface for my PDA). Without this application, users of Matchbox (on a PDA anyway) must edit a series of configuration files in order to create folders and move programs from folder to folder. My program allows for adding/editing/deleting applications and folders. It&amp;#8217;s written in Python 2.4 using the GTK library for UI.</description>
+    </item>
+    
+    <item>
+      <title>iPhone, OpenMoko, HTC Shift</title>
+      <link>http://noone.dev/2007/07/09/iphone-openmoko-htc-shift/</link>
+      <pubDate>Mon, 09 Jul 2007 14:00:44 +0000</pubDate>
+      
+      <guid>http://noone.dev/2007/07/09/iphone-openmoko-htc-shift/</guid>
+      <description>I&amp;#8217;ve been hacking away at my Sharp Zaurus for a couple of years now. It has brought me great pleasure, but I&amp;#8217;m in need of a new toy. Anyone&amp;#8217;s input is appreciated. At the moment, my options are:
+iPhone:
+Pros: It looks nice and does lots of cool stuff (I assume). There will be a large software repository due to it&amp;#8217;s popularity.
+Cons: It&amp;#8217;s Apple. I don&amp;#8217;t want a machine so tightly coupled with a corporation.</description>
+    </item>
+    
+    <item>
+      <title>Web Builder 2.0</title>
+      <link>http://noone.dev/2006/12/04/web-builder-20/</link>
+      <pubDate>Mon, 04 Dec 2006 11:25:00 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/12/04/web-builder-20/</guid>
+      <description>I am in Vegas at the Web Builder 2.0 conference. It is day 1 and I&amp;#8217;ve aleady picked up some interesting ideas. The focus is creating rich front-end web applications using tools such as Ajax and web services.
+Also, I met Pete Rose yesterday!</description>
+    </item>
+    
+    <item>
+      <title>N.L. Cardinals Win!</title>
+      <link>http://noone.dev/2006/10/28/nl-cardinals-win/</link>
+      <pubDate>Sat, 28 Oct 2006 11:45:39 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/10/28/nl-cardinals-win/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Updated Zaurus Screenshots</title>
+      <link>http://noone.dev/2006/10/18/updated-zaurus-screenshots/</link>
+      <pubDate>Wed, 18 Oct 2006 14:59:33 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/10/18/updated-zaurus-screenshots/</guid>
+      <description>I&amp;#8217;ve spent quite a bit of time lately configuring my PDA to be just how I like it, from the look-and-feel to the installed applications.
+Here is the updated page with screenshots.</description>
+    </item>
+    
+    <item>
+      <title>Get Motivated</title>
+      <link>http://noone.dev/2006/10/06/get-motivated/</link>
+      <pubDate>Fri, 06 Oct 2006 14:51:08 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/10/06/get-motivated/</guid>
+      <description>On Monday, I get to attend a seminar called &amp;#8220;Get Motivated,&amp;#8221; with speakers including Steve Forbes, Rudoph Giuliani, and General Colin Powell. To boot, I get to use this as training for my job. Details</description>
+    </item>
+    
+    <item>
+      <title>Last Harvest</title>
+      <link>http://noone.dev/2006/09/16/last-harvest/</link>
+      <pubDate>Sat, 16 Sep 2006 15:57:41 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/09/16/last-harvest/</guid>
+      <description>Summer is over and the colder weather is rolling in, so we picked the last of our tomatos, onions, and peppers. Salsa!</description>
+    </item>
+    
+    <item>
+      <title>Beverly Beach</title>
+      <link>http://noone.dev/2006/09/13/beverly-beach/</link>
+      <pubDate>Wed, 13 Sep 2006 19:01:28 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/09/13/beverly-beach/</guid>
+      <description>We went on a nice camping trip to Beverly Beach, in Newport, last weekend. We also explored downtown Newport, going to the &amp;#8220;Ripley&amp;#8217;s Believe it or Not&amp;#8221; museum and the wax museum. Here is a video of the beach, and here are some photos.</description>
+    </item>
+    
+    <item>
+      <title>New Toys</title>
+      <link>http://noone.dev/2006/09/04/new-toys/</link>
+      <pubDate>Mon, 04 Sep 2006 19:35:59 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/09/04/new-toys/</guid>
+      <description>I have 2 fairly new toys that are exciting enough (to me) to write about. One is a 37&amp;#8243; LCD television from Olevia. I got a great deal on it, and we are very happy with it. Unfortunately, we don&amp;#8217;t have HD service yet. Soon. The other toy is a mouse for my PDA. The mouse itself isn&amp;#8217;t that impressive, but it gives my PDA a laptop feel. I&amp;#8217;m currently running Linux with ICEWM as the window manager.</description>
+    </item>
+    
+    <item>
+      <title>I am a&amp;#8230;</title>
+      <link>http://noone.dev/2006/08/25/i-am-a/</link>
+      <pubDate>Fri, 25 Aug 2006 14:36:09 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/08/25/i-am-a/</guid>
+      <description>Materialist          94%      Modernist          88%      Existentialist          69%      Postmodernist          44%      Cultural Creative          44%      Romanticist          44%      Idealist          19%      Fundamentalist          6%      &amp;lt;p&amp;gt; &amp;lt;a href=&#39;http://quizfarm.</description>
+    </item>
+    
+    <item>
+      <title>Happy Birthday Bren</title>
+      <link>http://noone.dev/2006/07/26/happy-birthday-bren/</link>
+      <pubDate>Wed, 26 Jul 2006 09:50:48 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/07/26/happy-birthday-bren/</guid>
+      <description>Today is Brenda&amp;#8217;s birthday!</description>
+    </item>
+    
+    <item>
+      <title>100&#43; degrees, part II</title>
+      <link>http://noone.dev/2006/07/22/100-degrees-part-ii/</link>
+      <pubDate>Sat, 22 Jul 2006 11:01:03 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/07/22/100-degrees-part-ii/</guid>
+      <description>Yesterday (Friday), the temperature reached 104 degrees in the Portland area. Today we&amp;#8217;re in for another hot one. Did someone say that global warming is not a concern?</description>
+    </item>
+    
+    <item>
+      <title>Small Vacation</title>
+      <link>http://noone.dev/2006/07/21/small-vacation/</link>
+      <pubDate>Fri, 21 Jul 2006 09:07:16 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/07/21/small-vacation/</guid>
+      <description>Work has kept me busy and tired, hence the lack of updates&amp;#8230;
+I&amp;#8217;m taking a small vacation to Seattle this weekend. We&amp;#8217;ll be seeing the Red Sox vs. Mariners on Sunday, and then we&amp;#8217;re going to Ikea on Monday. Before we take off to Seattle, we&amp;#8217;re going to see Bill Maher here in P-town.
+I saw something disturbing yesterday: there are some crazy people that think the current conflict between Israel and Hezbollah is a sign of the second coming of Christ, and they are happy about it.</description>
+    </item>
+    
+    <item>
+      <title>New PDA Screenshots</title>
+      <link>http://noone.dev/2006/07/07/new-pda-screenshots/</link>
+      <pubDate>Fri, 07 Jul 2006 15:47:21 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/07/07/new-pda-screenshots/</guid>
+      <description>I&amp;#8217;ve updated the software on my Sharp Zaurus PDA, and also updated my screenshots:
+See screenshots here</description>
+    </item>
+    
+    <item>
+      <title>100&#43; degrees</title>
+      <link>http://noone.dev/2006/06/25/98-degrees/</link>
+      <pubDate>Sun, 25 Jun 2006 13:22:39 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/06/25/98-degrees/</guid>
+      <description>It has reached 100 degrees here in Gresham&amp;#8230; in the shade!</description>
+    </item>
+    
+    <item>
+      <title>My first Ruby/GTK app</title>
+      <link>http://noone.dev/2006/06/19/my-first-rubygtk-app/</link>
+      <pubDate>Mon, 19 Jun 2006 20:41:52 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/06/19/my-first-rubygtk-app/</guid>
+      <description>In experimenting with the GTK widget set (an open source, cross platform user interface library), I&amp;#8217;ve produced this little application to search Amazon.com for movie titles. The movies can be saved locally and be printed to make DVD covers, etc. It&amp;#8217;s not finished yet. Ruby is the language I&amp;#8217;ve chosen for this development.</description>
+    </item>
+    
+    <item>
+      <title>Bye Netflix</title>
+      <link>http://noone.dev/2006/06/02/bye-netflix/</link>
+      <pubDate>Fri, 02 Jun 2006 14:34:55 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/06/02/bye-netflix/</guid>
+      <description>I&amp;#8217;m no longer using Netflix since I now have Directv with more channels than I know what to do with (including the MLB channels so I can watch the Astros make their way to the World Series again). I replaced the movie section of this page (below, to the right) with a music section, &amp;#8220;I&amp;#8217;m listening to&amp;#8230;&amp;#8221;. Here I will link to the artist site and provide 1 full song for download.</description>
+    </item>
+    
+    <item>
+      <title>Schmap Portland Guide</title>
+      <link>http://noone.dev/2006/05/29/schmap-portland-guide/</link>
+      <pubDate>Mon, 29 May 2006 10:23:18 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/05/29/schmap-portland-guide/</guid>
+      <description>9 of my flickr photos were chosen to be used for the Schmap Portland Guide. From the Schmap web site:
+The Schmap Portland Guide comes with dynamic maps, useful links, playable tours, top picks, plus photos and reviews for 100s of sights and attractions, hotels, restaurants, theaters, museums&amp;#8230;</description>
+    </item>
+    
+    <item>
+      <title>G-town</title>
+      <link>http://noone.dev/2006/05/28/g-town/</link>
+      <pubDate>Sun, 28 May 2006 21:31:55 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/05/28/g-town/</guid>
+      <description>I&amp;#8217;ve officially moved to Gresham (see garden photos &amp;#8211;&amp;gt;), and we are busily unpacking and getting organized. Garage sale coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Funny Installation Message</title>
+      <link>http://noone.dev/2006/05/19/funny-installation-message/</link>
+      <pubDate>Fri, 19 May 2006 22:26:55 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/05/19/funny-installation-message/</guid>
+      <description>This is an actual screenshot from an installation program for my usb device server:</description>
+    </item>
+    
+    <item>
+      <title>Some Weekend Fun</title>
+      <link>http://noone.dev/2006/05/08/weekend-fun/</link>
+      <pubDate>Mon, 08 May 2006 11:10:14 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/05/08/weekend-fun/</guid>
+      <description>Check out many photos from the family visit to PDX. They are on my flickr page.
+
+I&amp;#8217;ve been on call all weekend &amp;#8211; no fun. This weekend, however, I&amp;#8217;m going to see the Round Rock Express vs. Portland Beavers (baseball) at PGE Park.</description>
+    </item>
+    
+    <item>
+      <title>A Ruby Project (finally)</title>
+      <link>http://noone.dev/2006/04/27/a-ruby-project-finally/</link>
+      <pubDate>Thu, 27 Apr 2006 13:46:29 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/04/27/a-ruby-project-finally/</guid>
+      <description>I have finally published some Ruby code that I&amp;#8217;ve been playing around with. It&amp;#8217;s nothing big, but I&amp;#8217;m still learning. See the ruby [on rails] page.</description>
+    </item>
+    
+    <item>
+      <title>Hometown Tourism</title>
+      <link>http://noone.dev/2006/04/27/hometown-tourism/</link>
+      <pubDate>Thu, 27 Apr 2006 12:22:41 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/04/27/hometown-tourism/</guid>
+      <description>We had a delightful time last weekend with my parents and aunt and uncle. Our activities included: Multnomah Falls, Mt. Hood, Vista House, Mt. St. Helens, Japanese Garden, Council Crest, Saturday Market, and the Farmer&amp;#8217;s Market. Photos coming real soon&amp;#8230;</description>
+    </item>
+    
+    <item>
+      <title>VNC on the PDA</title>
+      <link>http://noone.dev/2006/04/17/vnc-on-the-pda/</link>
+      <pubDate>Mon, 17 Apr 2006 07:49:17 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/04/17/vnc-on-the-pda/</guid>
+      <description>I was able to VNC (Virtual Network Computing) from my PDA, running linux, to my Windows 2000 server. It&amp;#8217;s very cool.
+Here&amp;#8217;s a screenshot (click thumbnail):</description>
+    </item>
+    
+    <item>
+      <title>Kohl&amp;#8217;s</title>
+      <link>http://noone.dev/2006/04/09/kohls/</link>
+      <pubDate>Sun, 09 Apr 2006 21:54:27 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/04/09/kohls/</guid>
+      <description>Kohl&amp;#8217;s had a grand opening sale today in Gresham. I&amp;#8217;ve never been to a Kohl&amp;#8217;s before and now I know where I&amp;#8217;ll be buying most of my clothing. Their stuff is insanely cheap, and high quality (brand names). Today, I bought 15 pairs of black socks for about $18 total! I&amp;#8217;ll be disposing of my current inventory of socks and I&amp;#8217;ll never have to match them up again &amp;#8211; because my 15 pairs are all exactly the same!</description>
+    </item>
+    
+    <item>
+      <title>New PDA</title>
+      <link>http://noone.dev/2006/03/23/new-pda/</link>
+      <pubDate>Thu, 23 Mar 2006 08:21:49 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/03/23/new-pda/</guid>
+      <description>I bought a new linux-based PDA last week. This one is the Sharp SL-C1000. It has a 640&amp;#215;480 screen and a full qwerty keyboard. It&amp;#8217;s basically a tiny laptop.
+Screenshots</description>
+    </item>
+    
+    <item>
+      <title>St. Patrick&amp;#8217;s Day</title>
+      <link>http://noone.dev/2006/03/17/st-patricks-day/</link>
+      <pubDate>Fri, 17 Mar 2006 10:04:53 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/03/17/st-patricks-day/</guid>
+      <description>We will be going to the Bucket Brigade Cafe &amp;#038; Ale House (pictured above) this evening to celebrate St. Patrick&amp;#8217;s Day.</description>
+    </item>
+    
+    <item>
+      <title>Anti-pattern</title>
+      <link>http://noone.dev/2006/03/16/anti-pattern/</link>
+      <pubDate>Thu, 16 Mar 2006 08:42:12 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/03/16/anti-pattern/</guid>
+      <description>This is an interesting read about anti-patterns as they apply to programming and other facets of IT.</description>
+    </item>
+    
+    <item>
+      <title>PDX Shows</title>
+      <link>http://noone.dev/2006/03/09/pdx-shows/</link>
+      <pubDate>Thu, 09 Mar 2006 09:30:33 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/03/09/pdx-shows/</guid>
+      <description>A new flickr group focused on live music in Portland has been started.</description>
+    </item>
+    
+    <item>
+      <title>March Snow</title>
+      <link>http://noone.dev/2006/03/09/march-snow/</link>
+      <pubDate>Thu, 09 Mar 2006 08:23:02 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/03/09/march-snow/</guid>
+      <description>It snowed again last night. We thought Spring was around the corner, but it&amp;#8217;s not quite here yet. KATU News
+This isn&amp;#8217;t weather-related, but some friends of a friend got a cool write-up in this week&amp;#8217;s Willamette Week. Jackmove. Read it here.</description>
+    </item>
+    
+    <item>
+      <title>Kevin</title>
+      <link>http://noone.dev/2006/03/02/kevin/</link>
+      <pubDate>Thu, 02 Mar 2006 08:12:50 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/03/02/kevin/</guid>
+      <description>This is my name in Japanese, according to Lexiquetos.</description>
+    </item>
+    
+    <item>
+      <title>Mariners vs. Beavers</title>
+      <link>http://noone.dev/2006/02/27/mariners-vs-beavers/</link>
+      <pubDate>Mon, 27 Feb 2006 10:03:40 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/02/27/mariners-vs-beavers/</guid>
+      <description>I will be seeing the Seattle Mariners play the Portland Beavers here at PGE Park on March 31.
+&amp;#8220;Popular major league club travels to Portland to face 2006 edition of hometown Portland Beavers.&amp;#8221;</description>
+    </item>
+    
+    <item>
+      <title>Home and Garden</title>
+      <link>http://noone.dev/2006/02/25/home-and-garden/</link>
+      <pubDate>Sat, 25 Feb 2006 19:13:18 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/02/25/home-and-garden/</guid>
+      <description>I survived the Portland Home and Garden Show today.</description>
+    </item>
+    
+    <item>
+      <title>This is Me</title>
+      <link>http://noone.dev/2006/02/24/this-is-me/</link>
+      <pubDate>Fri, 24 Feb 2006 17:40:49 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/02/24/this-is-me/</guid>
+      <description>This is me.
+I didn&amp;#8217;t get photos from Bridgeport, but I did upload some of me doing handyman work. see them on flickr.</description>
+    </item>
+    
+    <item>
+      <title>New Eyes</title>
+      <link>http://noone.dev/2006/02/23/new-eyes/</link>
+      <pubDate>Thu, 23 Feb 2006 10:36:00 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/02/23/new-eyes/</guid>
+      <description>My new eye glasses have arrived. How do I look? Actually, that&amp;#8217;s Elvis Costello. I&amp;#8217;ll get a photo of myself in the near future. We&amp;#8217;re going to the grand re-opening of the Bridgeport Brewpub and Bakery this evening. Maybe I&amp;#8217;ll take some photos there.</description>
+    </item>
+    
+    <item>
+      <title>Teeth</title>
+      <link>http://noone.dev/2006/02/21/teeth/</link>
+      <pubDate>Tue, 21 Feb 2006 17:03:10 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/02/21/teeth/</guid>
+      <description>I had my teeth cleaned today, for the first time in&amp;#8230; a while. I stand by my theory that the number of visits to the dentist is proportional to the number of tooth problems one has (the theory is not unfounded). I&amp;#8217;m thinking once every 18 months is often enough for cleaning.</description>
+    </item>
+    
+    <item>
+      <title>Rubbernecking</title>
+      <link>http://noone.dev/2006/02/18/rubbernecking/</link>
+      <pubDate>Sat, 18 Feb 2006 13:07:41 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/02/18/rubbernecking/</guid>
+      <description>Rubbernecking is where drivers slow down to look at recent collisions or anything out of the ordinary on the highway.
+No one likes a rubbernecker, so why does everyone do it?</description>
+    </item>
+    
+    <item>
+      <title>Popsicles</title>
+      <link>http://noone.dev/2006/02/17/popsicles/</link>
+      <pubDate>Fri, 17 Feb 2006 10:16:23 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/02/17/popsicles/</guid>
+      <description>We are all popsicles in Portland. Not only is it freezing, but the winds are blowing &amp;#8220;pretty good&amp;#8221;.
+wunderground.com</description>
+    </item>
+    
+    <item>
+      <title>February Snow</title>
+      <link>http://noone.dev/2006/02/14/february-snow/</link>
+      <pubDate>Tue, 14 Feb 2006 16:36:22 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/02/14/february-snow/</guid>
+      <description>We got a little bit of snow in Lake Oswego last night, and more is forecast for this weekend. I guess spring isn&amp;#8217;t quite here yet.</description>
+    </item>
+    
+    <item>
+      <title>Squirrel</title>
+      <link>http://noone.dev/2006/02/13/squirrel/</link>
+      <pubDate>Mon, 13 Feb 2006 08:56:05 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/02/13/squirrel/</guid>
+      <description>Squirrels in Gresham are friendly. We took a nice walk on the Springwater Corridor Trail on Sunday.</description>
+    </item>
+    
+    <item>
+      <title>Spring Cleaning, Valentine&amp;#8217;s, and Fake Meat</title>
+      <link>http://noone.dev/2006/02/11/spring-cleaning-valentines-and-fake-meat/</link>
+      <pubDate>Sat, 11 Feb 2006 19:30:59 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/02/11/spring-cleaning-valentines-and-fake-meat/</guid>
+      <description>We took some old computer hardware to Free Geek today. Bren had an old school Tandy and a dot matrix printer stored away in the closet. I meant to take photos, in case the computer museum needed them, but I forgot. Meanwhile, I received a fabulous Valentine&amp;#8217;s Day present today (early, I know) &amp;#8211; a Creative Zen Micro 6gb mp3 player! Very nice, very nice. And if that isn&amp;#8217;t enough, we just ate stuffed bellpeppers made with fake ground meat.</description>
+    </item>
+    
+    <item>
+      <title>Or&amp;#8230; Drew Carey</title>
+      <link>http://noone.dev/2006/02/10/or-drew-carey/</link>
+      <pubDate>Fri, 10 Feb 2006 16:32:27 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/02/10/or-drew-carey/</guid>
+      <description>I&amp;#8217;m thinking that I&amp;#8217;ll look more like Drew Carey when I get my new glasses. I&amp;#8217;d never wear a suit, of course.</description>
+    </item>
+    
+    <item>
+      <title>I look just like Buddy Holly</title>
+      <link>http://noone.dev/2006/02/07/i-look-just-like-buddy-holly/</link>
+      <pubDate>Tue, 07 Feb 2006 16:30:01 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/02/07/i-look-just-like-buddy-holly/</guid>
+      <description>I went to the optometrist today and ordered new glasses, similar to the ones pictured here (but not quite as extreme). My eyes were proclaimed healthy and they have only slightly degraded over the past 4 years (the last time I saw the optometrist).</description>
+    </item>
+    
+    <item>
+      <title>Sunshine II</title>
+      <link>http://noone.dev/2006/02/06/sunshine-ii/</link>
+      <pubDate>Mon, 06 Feb 2006 10:13:42 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/02/06/sunshine-ii/</guid>
+      <description>It is forecasted that we will have a week of sunshine in Portland. Spring is near.</description>
+    </item>
+    
+    <item>
+      <title>Pink Monkey</title>
+      <link>http://noone.dev/2006/02/02/pink-monkey/</link>
+      <pubDate>Thu, 02 Feb 2006 13:30:07 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/02/02/pink-monkey/</guid>
+      <description>I have acquired two pink monkeys, one of which laughs hysterically. See comment for more info.</description>
+    </item>
+    
+    <item>
+      <title>Stacy&amp;#8217;s</title>
+      <link>http://noone.dev/2006/02/02/stacys/</link>
+      <pubDate>Thu, 02 Feb 2006 08:10:32 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/02/02/stacys/</guid>
+      <description>Stacy&amp;#8217;s Pita Chips are the best chips that I have ever tasted. I particularly like the Parmesan, Garlic &amp;#038; Herb and the Pesto &amp;#038; Sundried Tomato.</description>
+    </item>
+    
+    <item>
+      <title>Sunshine</title>
+      <link>http://noone.dev/2006/02/01/sunshine/</link>
+      <pubDate>Wed, 01 Feb 2006 19:49:55 +0000</pubDate>
+      
+      <guid>http://noone.dev/2006/02/01/sunshine/</guid>
+      <description>Sunshine milk is the best milk that I have ever tasted, and I am a milk connoisseur.</description>
+    </item>
+    
+  </channel>
+</rss>

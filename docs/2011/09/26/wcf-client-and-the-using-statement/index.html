@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="map[]">
+    <meta name="generator" content="Hugo 0.54.0" />
+    <title>noone.dev</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
+    <link rel="stylesheet" href="/fontawesome-free-5.7.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="http://noone.dev/scss/main.min.eb5f6698e9eef38a204f38a27f3631ace5720b7526fb244b4d3828ca090437c6.css">
+</head>
+<body><nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/">$HOME</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/about/">~/about</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/posts/">~/posts</a>
+            </li>
+            
+            
+        </ul>
+    </div>
+</nav><div id="content" class="container">
+<h5>Sep 26  2011 <a href="http://noone.dev/2011/09/26/wcf-client-and-the-using-statement/">WCF Client and the &amp;#8220;using&amp;#8221; Statement</a></h5>
+<hr />
+<div class="post-content">
+    <p>As I was researching patterns and practices for a WCF client implementation, I came across a bug in the .Net implementation of ClientBase<T> (whether it&#8217;s actually a bug is arguable). It&#8217;s well documented on the web, but it could cause major headaches if you happened to miss it.</p>
+
+<p>The core of the issue is that ClientBase<T> implements IDisposable. With this knowledge, just about any programmer would naturally wrap its usage in a using{} block. Digging deeper, you&#8217;ll find that the ClientBase<T> Dispose() method simply calls Close() on the underlying connection. This is problematic because in certain connection states (such as &#8220;Faulted&#8221;), the Close() will fail. As I said, this is well documented elsewhere, for example: <a title="Avoiding Problems with the Using Statement" href="http://msdn.microsoft.com/en-us/library/aa355056.aspx" target="_blank">on MSDN</a>, <a href="http://stackoverflow.com/questions/573872/what-is-the-best-workaround-for-the-wcf-client-using-block-issue" title="What is the best workaround for the WCF client `using` block issue?" target="_blank">Stack Overflow</a>, and <a href="http://blogs.msdn.com/b/jjameson/archive/2010/03/18/avoiding-problems-with-the-using-statement-and-wcf-service-proxies.aspx" title="Avoiding Problems with the Using Statement and WCF Service Proxies" target="_blank">here</a>.</p>
+
+<p>There are a few different solutions to this issue. I went with a simple Disposable wrapper&#8230;</p>
+
+<pre lang="csharp">// Get a disposable MyClientWrapper object
+using(var clientWrapper = ClientFactory.GetMyClientWrapper())
+{
+    clientWrapper.Client.DoSomething();
+}
+
+public class MyClientWrapper : IDisposable
+{
+    private readonly MyClient _client;
+
+    public MyClientWrapper(Binding binding, Uri endpoint)
+    {
+        // creates an instance of MyClient, which is derived from ClientBase&lt;T>
+        _client = new MyClient(binding, new EndpointAddress(endpoint.ToString()));
+    }
+
+    public MyClient Client
+    {
+        get { return _client; }
+    }
+
+    public void Dispose()
+    {
+        // safe dispose with extension method (below)
+        _client.CloseProxy();
+    }
+}
+
+// extension method for safe Close() on ClientBase&lt;T>
+public static void CloseProxy(this ClientBase&lt;T> proxy) where T : class
+{
+    try
+    {
+        if (proxy.State != CommunicationState.Closed 
+                && proxy.State != CommunicationState.Faulted)
+        {
+            proxy.Close(); // may throw exception while closing
+        }
+        else
+        {
+            proxy.Abort();
+        }
+    }
+    catch (CommunicationException)
+    {
+        proxy.Abort();
+        throw;
+    }
+}</pre>
+
+</div>
+
+    </div></body>
+<script src="jquery-3.3.1.slim/jquery.slim.min.js"></script>
+<script src="bootstrap-4.3.1/js/dist/dropdown.js"></script>
+
+</html>

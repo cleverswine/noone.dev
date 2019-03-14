@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="map[]">
+    <meta name="generator" content="Hugo 0.54.0" />
+    <title>noone.dev</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
+    <link rel="stylesheet" href="/fontawesome-free-5.7.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="http://noone.dev/scss/main.min.eb5f6698e9eef38a204f38a27f3631ace5720b7526fb244b4d3828ca090437c6.css">
+</head>
+<body><nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/">$HOME</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/about/">~/about</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/posts/">~/posts</a>
+            </li>
+            
+            
+        </ul>
+    </div>
+</nav><div id="content" class="container">
+<h5>Mar 17  2011 <a href="http://noone.dev/2011/03/17/using-complex-xsds-as-embedded-resources/">Complex XSDs as Embedded Resources</a></h5>
+<hr />
+<div class="post-content">
+    <p>I was recently tasked with validating XML files against a very complex set of XSD schema files.  This is easily accomplished if your XSD files live on the filesystem, because the .Net xml resolver can find referenced schemas via a relative or absolute Uri.  In my case, the schema files were compiled as embedded resources in my project.  As expected, the XML schema loader didn&#8217;t know how to find referenced schemas &#8211; it was likely searching for them  in the path of the running application.  To solve this, I had to help out the schema loader by implementing a custom resolver that knew how to pull schema from the embedded resources.  The code&#8230;</p>
+
+<p>Implement a custom XmlUrlResolver to find schema references as embedded resources.</p>
+
+<pre lang="csharp">public class ManifestResourceResolver : XmlUrlResolver
+{
+    private readonly Assembly _resourceAssembly;
+    private readonly string _baseNamespaceForReferences;
+
+    public ManifestResourceResolver(Assembly resourceAssembly, string baseNamespaceForReferences)
+    {
+        _resourceAssembly = resourceAssembly;
+        _baseNamespaceForReferences = baseNamespaceForReferences.EndsWith(".") ? baseNamespaceForReferences : baseNamespaceForReferences + ".";
+    }
+
+    override public object GetEntity(Uri absoluteUri, string role, Type ofObjectToReturn)
+    {
+        if (absoluteUri.IsFile)
+        {
+            var file = Path.GetFileName(absoluteUri.AbsolutePath);
+            var stream = _resourceAssembly.GetManifestResourceStream(_baseNamespaceForReferences + file);
+            return stream;
+        }
+        return null;
+    }
+}
+</pre>
+
+<p>Create a XmlSchemaSet, and set the XmlResolver property to the custom resolver implemented above. Then, load up the main XSD schema.</p>
+
+<pre lang="csharp">var xmlSchemaSet = new XmlSchemaSet();
+xmlSchemaSet.XmlResolver = new ManifestResourceResolver(Assembly.GetExecutingAssembly(), "MyApp.Schemas");
+using (var stream = Assembly.GetCallingAssembly().GetManifestResourceStream("MyApp.Schemas.MainSchema.xsd"))
+{
+    var xmlSchema = XmlSchema.Read(stream, null);
+    xmlSchemaSet.Add(xmlSchema);
+}
+</pre>
+
+<p>Create a XmlReaderSettings object and set the Schemas property to the schema set loaded above. Lastly, load up an XML file with an XmlReader and read it.</p>
+
+<pre lang="csharp">XmlReaderSettings settings = new XmlReaderSettings();
+settings.ValidationType = ValidationType.Schema;
+settings.Schemas = xmlSchemaSet;
+settings.ValidationEventHandler += new ValidationEventHandler (ValidationCallBack);
+
+XmlReader reader = XmlReader.Create("SomeXml.xml", settings);
+while (reader.Read());
+</pre>
+
+<p>The validation callback function will be invoked on each validation error while reading the file with the XmlReader.</p>
+
+<pre lang="csharp">private static void ValidationCallBack(object sender, ValidationEventArgs e)
+{
+    Console.WriteLine("Validation Error: {0}", e.Message);
+}
+</pre>
+
+<p>References:</p>
+
+<ul>
+<li><a href="http://msdn.microsoft.com/en-us/library/as3tta56%28v=VS.90%29.aspx">Validation Using the XmlSchemaSet</a></li>
+<li><a href="http://www.hanselman.com/blog/LoadingXmlSchemaFilesOutOfAssemblyResources.aspx">Loading XmlSchema files out of Assembly Resources</a><br />
+(contains some obsoleted code, but it was still helpful)</li>
+</ul>
+
+</div>
+
+    </div></body>
+<script src="jquery-3.3.1.slim/jquery.slim.min.js"></script>
+<script src="bootstrap-4.3.1/js/dist/dropdown.js"></script>
+
+</html>
