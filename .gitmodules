@@ -1,0 +1,3 @@
+[submodule "themes/swinix"]
+	path = themes/swinix
+	url = https://cleverswine@github.com/cleverswine/hugo-swinix.git

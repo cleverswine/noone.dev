@@ -1,0 +1,20 @@
+baseURL = "http://noone.dev/"
+languageCode = "en-us"
+title = "noone.dev"
+author = "Kevin Noone"
+copyright = "Copyright © 2019, Kevin Noone; all rights reserved."
+paginate = 10
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    url = "/posts/"
+    weight = 10
+
+
