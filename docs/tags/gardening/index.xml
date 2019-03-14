@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gardening on noone.dev</title>
-    <link>http://noone.dev/tags/gardening/</link>
+    <link>/tags/gardening/</link>
     <description>Recent content in Gardening on noone.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2019, Kevin Noone; all rights reserved.</copyright>
     <lastBuildDate>Mon, 25 Jun 2012 11:55:19 +0000</lastBuildDate>
     
-	<atom:link href="http://noone.dev/tags/gardening/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/gardening/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Vegetable Garden</title>
-      <link>http://noone.dev/2012/06/25/vegetable-garden/</link>
+      <link>/2012/06/25/vegetable-garden/</link>
       <pubDate>Mon, 25 Jun 2012 11:55:19 +0000</pubDate>
       
-      <guid>http://noone.dev/2012/06/25/vegetable-garden/</guid>
+      <guid>/2012/06/25/vegetable-garden/</guid>
       <description>We built a small raised vegetable garden this year in one of the only spots in our yard that gets more than 4 hours of sunshine. It happens to be next to the driveway, but that&amp;#8217;s okay.</description>
     </item>
     
     <item>
       <title>Canning Fever</title>
-      <link>http://noone.dev/2011/08/31/canning-fever/</link>
+      <link>/2011/08/31/canning-fever/</link>
       <pubDate>Wed, 31 Aug 2011 18:01:24 +0000</pubDate>
       
-      <guid>http://noone.dev/2011/08/31/canning-fever/</guid>
+      <guid>/2011/08/31/canning-fever/</guid>
       <description>Pasta Sauce and Blueberry Jam
 Originally uploaded by cleverswine
 
@@ -35,10 +35,10 @@ Bren has canning fever. It all started with a canning book that she received as 
     
     <item>
       <title>Slow Gardening</title>
-      <link>http://noone.dev/2011/07/18/slow-gardening/</link>
+      <link>/2011/07/18/slow-gardening/</link>
       <pubDate>Mon, 18 Jul 2011 18:15:54 +0000</pubDate>
       
-      <guid>http://noone.dev/2011/07/18/slow-gardening/</guid>
+      <guid>/2011/07/18/slow-gardening/</guid>
       <description>Bellpepper
 Originally uploaded by cleverswine
 

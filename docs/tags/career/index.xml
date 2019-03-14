@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Career on noone.dev</title>
-    <link>http://noone.dev/tags/career/</link>
+    <link>/tags/career/</link>
     <description>Recent content in Career on noone.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2019, Kevin Noone; all rights reserved.</copyright>
     <lastBuildDate>Mon, 23 Feb 2009 12:04:58 +0000</lastBuildDate>
     
-	<atom:link href="http://noone.dev/tags/career/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/career/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Some Notes on Job Searching</title>
-      <link>http://noone.dev/2009/02/23/some-notes-on-job-searching/</link>
+      <link>/2009/02/23/some-notes-on-job-searching/</link>
       <pubDate>Mon, 23 Feb 2009 12:04:58 +0000</pubDate>
       
-      <guid>http://noone.dev/2009/02/23/some-notes-on-job-searching/</guid>
+      <guid>/2009/02/23/some-notes-on-job-searching/</guid>
       <description>I&amp;#8217;ve recently been thinking about how I can improve my job search tactics. There are tons of web sites out there with great advice for job seekers, and some things are just obvious. I&amp;#8217;ve decided to jot down some random, and not so random, thoughts of my own about the process (with a focus on the tech industry).
 Resources
 Where to find job openings&amp;#8230;

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Food on noone.dev</title>
-    <link>http://noone.dev/tags/food/</link>
+    <link>/tags/food/</link>
     <description>Recent content in Food on noone.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2019, Kevin Noone; all rights reserved.</copyright>
     <lastBuildDate>Wed, 31 Aug 2011 18:01:24 +0000</lastBuildDate>
     
-	<atom:link href="http://noone.dev/tags/food/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/food/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Canning Fever</title>
-      <link>http://noone.dev/2011/08/31/canning-fever/</link>
+      <link>/2011/08/31/canning-fever/</link>
       <pubDate>Wed, 31 Aug 2011 18:01:24 +0000</pubDate>
       
-      <guid>http://noone.dev/2011/08/31/canning-fever/</guid>
+      <guid>/2011/08/31/canning-fever/</guid>
       <description>Pasta Sauce and Blueberry Jam
 Originally uploaded by cleverswine
 
@@ -26,10 +26,10 @@ Bren has canning fever. It all started with a canning book that she received as 
     
     <item>
       <title>Local Groceries</title>
-      <link>http://noone.dev/2011/03/13/local-groceries/</link>
+      <link>/2011/03/13/local-groceries/</link>
       <pubDate>Sun, 13 Mar 2011 13:32:57 +0000</pubDate>
       
-      <guid>http://noone.dev/2011/03/13/local-groceries/</guid>
+      <guid>/2011/03/13/local-groceries/</guid>
       <description>We did this week&amp;#8217;s grocery shopping at Food Front in the Hillsdale neighborhood. They carry many local and organic food products. And, it may be my imagination, but local eggs fresh from the chicken taste so much better than the mass produced commercial eggs.</description>
     </item>
     

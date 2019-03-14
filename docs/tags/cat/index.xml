@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cat on noone.dev</title>
-    <link>http://noone.dev/tags/cat/</link>
+    <link>/tags/cat/</link>
     <description>Recent content in Cat on noone.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2019, Kevin Noone; all rights reserved.</copyright>
     <lastBuildDate>Fri, 19 Apr 2013 19:23:35 +0000</lastBuildDate>
     
-	<atom:link href="http://noone.dev/tags/cat/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/cat/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cat</title>
-      <link>http://noone.dev/2013/04/19/cat/</link>
+      <link>/2013/04/19/cat/</link>
       <pubDate>Fri, 19 Apr 2013 19:23:35 +0000</pubDate>
       
-      <guid>http://noone.dev/2013/04/19/cat/</guid>
+      <guid>/2013/04/19/cat/</guid>
       <description>We are getting a cat today! Sly and Cordy have been gone for 2-3 years now, and we&amp;#8217;ve been talking about getting more cats for a while. Brenda found a good one at the Troutdale humane society yesterday. She&amp;#8217;s 6 months old and had just arrived at the shelter. Lots of photos coming soon&amp;#8230;
 
 [Edit] Her name is Olivia.</description>

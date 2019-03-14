@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Misctech on noone.dev</title>
-    <link>http://noone.dev/tags/misctech/</link>
+    <link>/tags/misctech/</link>
     <description>Recent content in Misctech on noone.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2019, Kevin Noone; all rights reserved.</copyright>
     <lastBuildDate>Wed, 18 Sep 2013 17:22:38 +0000</lastBuildDate>
     
-	<atom:link href="http://noone.dev/tags/misctech/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/misctech/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Evolution</title>
-      <link>http://noone.dev/2013/09/18/evolution/</link>
+      <link>/2013/09/18/evolution/</link>
       <pubDate>Wed, 18 Sep 2013 17:22:38 +0000</pubDate>
       
-      <guid>http://noone.dev/2013/09/18/evolution/</guid>
+      <guid>/2013/09/18/evolution/</guid>
       <description>I&amp;#8217;ve been thinking for a while about moving my simple web site and blog to a different platform. I&amp;#8217;m currently paying to host everything on a traditional hosting service. Ten years ago, this was really the only option if you wanted buy a domain and put a web site out there (there was also self hosting with dynamic DNS, but I was never brave enough to open up my home network).</description>
     </item>
     
     <item>
       <title>Best Purchases</title>
-      <link>http://noone.dev/2013/02/25/best-purchases/</link>
+      <link>/2013/02/25/best-purchases/</link>
       <pubDate>Mon, 25 Feb 2013 13:51:14 +0000</pubDate>
       
-      <guid>http://noone.dev/2013/02/25/best-purchases/</guid>
+      <guid>/2013/02/25/best-purchases/</guid>
       <description>I feel like we&amp;#8217;ve made some good purchases in the past year. Here are some of the things that I like the most. Click the thumbnails for more information.
  Magic Bullet  Mr Beams LED Spotlight  Roku 2 XD  Saga, by Brian K. Vaughan  Samsung HW-E551 Sound Bar  Teavana PerfecTea Tea Maker   &amp;nbsp;</description>
     </item>
     
     <item>
       <title>Find/Kill a Linux Process by Name</title>
-      <link>http://noone.dev/2011/09/09/findkill-a-linux-process-by-name/</link>
+      <link>/2011/09/09/findkill-a-linux-process-by-name/</link>
       <pubDate>Fri, 09 Sep 2011 17:19:40 +0000</pubDate>
       
-      <guid>http://noone.dev/2011/09/09/findkill-a-linux-process-by-name/</guid>
+      <guid>/2011/09/09/findkill-a-linux-process-by-name/</guid>
       <description>I was doing some research to figure out how to easily kill a Linux process given part of it&amp;#8217;s name. It&amp;#8217;s fairly simple to do it manually, but if you didn&amp;#8217;t already know, programmers are lazy.
 The first thing I was doing&amp;#8230;
  ps aux | grep Foo
@@ -47,37 +47,37 @@ The first thing I was doing&amp;#8230;
     
     <item>
       <title>Moto Droid</title>
-      <link>http://noone.dev/2009/12/21/moto-droid/</link>
+      <link>/2009/12/21/moto-droid/</link>
       <pubDate>Mon, 21 Dec 2009 19:29:46 +0000</pubDate>
       
-      <guid>http://noone.dev/2009/12/21/moto-droid/</guid>
+      <guid>/2009/12/21/moto-droid/</guid>
       <description>I switched to Verizon and got the Droid phone this weekend. I am writing from it. So far it&amp;#8217;s great. That&amp;#8217;s all&amp;#8230;</description>
     </item>
     
     <item>
       <title>card.ly</title>
-      <link>http://noone.dev/2009/07/27/cardly/</link>
+      <link>/2009/07/27/cardly/</link>
       <pubDate>Mon, 27 Jul 2009 15:03:39 +0000</pubDate>
       
-      <guid>http://noone.dev/2009/07/27/cardly/</guid>
+      <guid>/2009/07/27/cardly/</guid>
       <description>This is basically what I wanted to do with my web site. I wonder if I should just relinquish cleverswine.net and call http://card.ly/cleverswine my new home?</description>
     </item>
     
     <item>
       <title>Dr. Dobb&amp;#8217;s Journal</title>
-      <link>http://noone.dev/2009/03/17/dr-dobbs-journal/</link>
+      <link>/2009/03/17/dr-dobbs-journal/</link>
       <pubDate>Tue, 17 Mar 2009 08:56:22 +0000</pubDate>
       
-      <guid>http://noone.dev/2009/03/17/dr-dobbs-journal/</guid>
+      <guid>/2009/03/17/dr-dobbs-journal/</guid>
       <description>I&amp;#8217;ve been subscribing to Dr. Dobb&amp;#8217;s Journal for at least 10 years. It has always been my favorite technical magazine because of it&amp;#8217;s diversity of topics and brain-stirring articles. I got a letter in the mail last week saying that they were ceasing production of the full magazine. Instead, they will offer a Dr. Dobb&amp;#8217;s Report stuffed into issues of InformationWeek. I&amp;#8217;ll have to spend more time on their web site, as it looks like they have some good content on there.</description>
     </item>
     
     <item>
       <title>Some Notes on Job Searching</title>
-      <link>http://noone.dev/2009/02/23/some-notes-on-job-searching/</link>
+      <link>/2009/02/23/some-notes-on-job-searching/</link>
       <pubDate>Mon, 23 Feb 2009 12:04:58 +0000</pubDate>
       
-      <guid>http://noone.dev/2009/02/23/some-notes-on-job-searching/</guid>
+      <guid>/2009/02/23/some-notes-on-job-searching/</guid>
       <description>I&amp;#8217;ve recently been thinking about how I can improve my job search tactics. There are tons of web sites out there with great advice for job seekers, and some things are just obvious. I&amp;#8217;ve decided to jot down some random, and not so random, thoughts of my own about the process (with a focus on the tech industry).
 Resources
 Where to find job openings&amp;#8230;
@@ -86,73 +86,73 @@ I&amp;#8217;ve actually found the most promising job opportunities on Craigslist
     
     <item>
       <title>Free HD With DVR Capability</title>
-      <link>http://noone.dev/2009/02/02/free-hd-with-dvr-capability/</link>
+      <link>/2009/02/02/free-hd-with-dvr-capability/</link>
       <pubDate>Mon, 02 Feb 2009 16:51:01 +0000</pubDate>
       
-      <guid>http://noone.dev/2009/02/02/free-hd-with-dvr-capability/</guid>
+      <guid>/2009/02/02/free-hd-with-dvr-capability/</guid>
       <description>I bought a PCTV 800e HD TV tuner card from Woot! some time ago, but never really used it. While watching The Office last night in high definition (using a cheap HD antenna, not a cable or satellite subscription), we were wishing that we could pause the show as we do with our DirecTV service. That&amp;#8217;s when I remembered my tuner card purchase and decided to get that set up with our media PC today.</description>
     </item>
     
     <item>
       <title>First Impressions</title>
-      <link>http://noone.dev/2008/11/10/first-impressions/</link>
+      <link>/2008/11/10/first-impressions/</link>
       <pubDate>Mon, 10 Nov 2008 06:37:01 +0000</pubDate>
       
-      <guid>http://noone.dev/2008/11/10/first-impressions/</guid>
+      <guid>/2008/11/10/first-impressions/</guid>
       <description>I&amp;#8217;m at the Chicago office this week, helping out on a .Net web project. I haven&amp;#8217;t seen much of the city yet, but my first impression is that it&amp;#8217;s big and old (old != bad). I&amp;#8217;m staying about .75 miles from the office, so I might walk back to the hotel this evening and check things out on the way. I probably won&amp;#8217;t get out much while I&amp;#8217;m here, but if I do, I&amp;#8217;ll be sure to take photos.</description>
     </item>
     
     <item>
       <title>More Buying News</title>
-      <link>http://noone.dev/2008/07/30/more-buying-news/</link>
+      <link>/2008/07/30/more-buying-news/</link>
       <pubDate>Wed, 30 Jul 2008 09:23:46 +0000</pubDate>
       
-      <guid>http://noone.dev/2008/07/30/more-buying-news/</guid>
+      <guid>/2008/07/30/more-buying-news/</guid>
       <description>I&amp;#8217;ve put my big buys on hold for now. I can&amp;#8217;t decide what kind of car I want. I test drove the MINI Cooper and did not like it. It was too small, too noisy, and although the interior was pretty fancy, it felt cheap. As for the BMW and Audi, I can&amp;#8217;t see spending $40k on a car when I can get one that works just as well for $20k.</description>
     </item>
     
     <item>
       <title>FriendFeed</title>
-      <link>http://noone.dev/2008/06/02/friendfeed/</link>
+      <link>/2008/06/02/friendfeed/</link>
       <pubDate>Mon, 02 Jun 2008 15:38:07 +0000</pubDate>
       
-      <guid>http://noone.dev/2008/06/02/friendfeed/</guid>
+      <guid>/2008/06/02/friendfeed/</guid>
       <description>So I&amp;#8217;ve been using FriendFeed for a few months now. It basically aggregates my online activity (mostly via &amp;#8220;social&amp;#8221; networks like Facebook and Flickr) and then provides a feed for anyone to consume. It&amp;#8217;s not a bad idea, but it&amp;#8217;s really too bad that we need something like this. I think it&amp;#8217;s a sign that the social web is out of control. Anyway, I find it useful to track what my friends are doing on the web, since we have similar interests.</description>
     </item>
     
     <item>
       <title>Multitasking Television</title>
-      <link>http://noone.dev/2008/04/12/multitasking-television/</link>
+      <link>/2008/04/12/multitasking-television/</link>
       <pubDate>Sat, 12 Apr 2008 16:59:25 +0000</pubDate>
       
-      <guid>http://noone.dev/2008/04/12/multitasking-television/</guid>
+      <guid>/2008/04/12/multitasking-television/</guid>
       <description>Now that I&amp;#8217;ve had enough of the Perfect Day (sun is bad), I&amp;#8217;ve migrated to the great indoors. There are at least 4 things I&amp;#8217;d like to be doing while indoors: listening to music, looking at photos, browsing the web, and watching baseball. As it turns out, I&amp;#8217;m doing all 4 at once! Check it out.</description>
     </item>
     
     <item>
       <title>The Programmer Dress Code</title>
-      <link>http://noone.dev/2007/12/07/the-programmer-dress-code/</link>
+      <link>/2007/12/07/the-programmer-dress-code/</link>
       <pubDate>Fri, 07 Dec 2007 09:16:28 +0000</pubDate>
       
-      <guid>http://noone.dev/2007/12/07/the-programmer-dress-code/</guid>
+      <guid>/2007/12/07/the-programmer-dress-code/</guid>
       <description>This is an funny article about how most visionaries in the programming world have beards and dress like slobs. I have to say, dressing nice and shaving are at the bottom of my list of priorities. I think the same could be said for most of the programmers that I know.</description>
     </item>
     
     <item>
       <title>IT Crowd coming to NBC!?</title>
-      <link>http://noone.dev/2007/05/14/it-crowd-coming-to-nbc/</link>
+      <link>/2007/05/14/it-crowd-coming-to-nbc/</link>
       <pubDate>Mon, 14 May 2007 11:50:21 +0000</pubDate>
       
-      <guid>http://noone.dev/2007/05/14/it-crowd-coming-to-nbc/</guid>
+      <guid>/2007/05/14/it-crowd-coming-to-nbc/</guid>
       <description>According to this article, my favorite geek TV show, The IT Crowd, is coming to NBC. The show is about misunderstood IT workers, and is hilarious. It currently only airs in Britain and can also be watched online.</description>
     </item>
     
     <item>
       <title>Software List</title>
-      <link>http://noone.dev/2007/03/06/software-list/</link>
+      <link>/2007/03/06/software-list/</link>
       <pubDate>Tue, 06 Mar 2007 15:27:39 +0000</pubDate>
       
-      <guid>http://noone.dev/2007/03/06/software-list/</guid>
+      <guid>/2007/03/06/software-list/</guid>
       <description>I created a somewhat exhaustive list of software that I use (see Pages on the right). I did this for 2 reasons: one, it&amp;#8217;s a convenient place for me to go if I need to reinstall any or all of my software, and two, it may be helpful to others. If there&amp;#8217;s something that you think I left off of the list, add it as a comment to this post. Gracias.</description>
     </item>
     

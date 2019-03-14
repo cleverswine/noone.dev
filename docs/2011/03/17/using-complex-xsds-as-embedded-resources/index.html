@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
     <link rel="stylesheet" href="/fontawesome-free-5.7.2/css/all.min.css">
     
-    <link rel="stylesheet" href="http://noone.dev/scss/main.min.eb5f6698e9eef38a204f38a27f3631ace5720b7526fb244b4d3828ca090437c6.css">
+    <link rel="stylesheet" href="/scss/main.min.eb5f6698e9eef38a204f38a27f3631ace5720b7526fb244b4d3828ca090437c6.css">
 </head>
 <body><nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <a class="navbar-brand" href="/">$HOME</a>
@@ -36,7 +36,7 @@
         </ul>
     </div>
 </nav><div id="content" class="container">
-<h5>Mar 17  2011 <a href="http://noone.dev/2011/03/17/using-complex-xsds-as-embedded-resources/">Complex XSDs as Embedded Resources</a></h5>
+<h5>Mar 17  2011 <a href="/2011/03/17/using-complex-xsds-as-embedded-resources/">Complex XSDs as Embedded Resources</a></h5>
 <hr />
 <div class="post-content">
     <p>I was recently tasked with validating XML files against a very complex set of XSD schema files.  This is easily accomplished if your XSD files live on the filesystem, because the .Net xml resolver can find referenced schemas via a relative or absolute Uri.  In my case, the schema files were compiled as embedded resources in my project.  As expected, the XML schema loader didn&#8217;t know how to find referenced schemas &#8211; it was likely searching for them  in the path of the running application.  To solve this, I had to help out the schema loader by implementing a custom resolver that knew how to pull schema from the embedded resources.  The code&#8230;</p>

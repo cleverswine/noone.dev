@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shopping on noone.dev</title>
-    <link>http://noone.dev/tags/shopping/</link>
+    <link>/tags/shopping/</link>
     <description>Recent content in Shopping on noone.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2019, Kevin Noone; all rights reserved.</copyright>
     <lastBuildDate>Wed, 27 Jan 2010 21:08:09 +0000</lastBuildDate>
     
-	<atom:link href="http://noone.dev/tags/shopping/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/shopping/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>New Home Office</title>
-      <link>http://noone.dev/2010/01/27/new-home-office/</link>
+      <link>/2010/01/27/new-home-office/</link>
       <pubDate>Wed, 27 Jan 2010 21:08:09 +0000</pubDate>
       
-      <guid>http://noone.dev/2010/01/27/new-home-office/</guid>
+      <guid>/2010/01/27/new-home-office/</guid>
       <description>After a few weeks of shopping in and around Portland, we finally landed some nice office furniture at a reasonable price. City Liquidators turns out to be the place for furniture (and other things ranging from tampons to sofas). Next up, we&amp;#8217;ll be painting the room.</description>
     </item>
     

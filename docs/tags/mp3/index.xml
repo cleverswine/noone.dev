@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mp3 on noone.dev</title>
-    <link>http://noone.dev/tags/mp3/</link>
+    <link>/tags/mp3/</link>
     <description>Recent content in Mp3 on noone.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2019, Kevin Noone; all rights reserved.</copyright>
     <lastBuildDate>Wed, 25 Mar 2009 19:29:26 +0000</lastBuildDate>
     
-	<atom:link href="http://noone.dev/tags/mp3/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/mp3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ID3 Tag Parsing</title>
-      <link>http://noone.dev/2009/03/25/id3-tag-parsing/</link>
+      <link>/2009/03/25/id3-tag-parsing/</link>
       <pubDate>Wed, 25 Mar 2009 19:29:26 +0000</pubDate>
       
-      <guid>http://noone.dev/2009/03/25/id3-tag-parsing/</guid>
+      <guid>/2009/03/25/id3-tag-parsing/</guid>
       <description>I&amp;#8217;ve been working on a project to read and update ID3 tags on my music collection. An ID3 tag is the meta data embedded in mp3 files that contains artist and other information. My initial goal is to batch update the &amp;#8220;genre&amp;#8221; field in my mp3 files. I&amp;#8217;ve written a simple .Net forms application to do this. I found a really good library created by Novell called TagLib Sharp. The library makes it super easy to read and write ID3 tags.</description>
     </item>
     
     <item>
       <title>Morrissey &amp;#8211; Irish Blood, English Heart</title>
-      <link>http://noone.dev/2007/12/11/morrissey-irish-blood-english-heart/</link>
+      <link>/2007/12/11/morrissey-irish-blood-english-heart/</link>
       <pubDate>Tue, 11 Dec 2007 12:20:12 +0000</pubDate>
       
-      <guid>http://noone.dev/2007/12/11/morrissey-irish-blood-english-heart/</guid>
+      <guid>/2007/12/11/morrissey-irish-blood-english-heart/</guid>
       <description>This is one of my favorite new Morrissey songs. It is fitting that part of my dad&amp;#8217;s family are Irish immigrants living in England.
 Morrissey &amp;#8211; Irish Blood, English Heart</description>
     </item>
     
     <item>
       <title>Metal, Old and New</title>
-      <link>http://noone.dev/2007/04/28/metal-old-and-new/</link>
+      <link>/2007/04/28/metal-old-and-new/</link>
       <pubDate>Sat, 28 Apr 2007 15:27:32 +0000</pubDate>
       
-      <guid>http://noone.dev/2007/04/28/metal-old-and-new/</guid>
+      <guid>/2007/04/28/metal-old-and-new/</guid>
       <description>The Old: an amazing cover of the Queen song &amp;#8220;Stone Cold Crazy&amp;#8221; by Metallica. This is, of course, when Metallica was still a metal band.
 Metallica &amp;#8211; Stone Cold Crazy
 The New: Lamb of God has caught my attention lately. You&amp;#8217;ll mostly find younger punks (not the good kind) listening to this stuff, but I like it anyway.
@@ -45,10 +45,10 @@ Lamb of God &amp;#8211; Redneck</description>
     
     <item>
       <title>Triple the Punk</title>
-      <link>http://noone.dev/2007/04/10/triple-the-punk/</link>
+      <link>/2007/04/10/triple-the-punk/</link>
       <pubDate>Tue, 10 Apr 2007 15:52:16 +0000</pubDate>
       
-      <guid>http://noone.dev/2007/04/10/triple-the-punk/</guid>
+      <guid>/2007/04/10/triple-the-punk/</guid>
       <description>Today I offer up three fine punk songs. These are three well known artists, so I won&amp;#8217;t go into a description of each. Use google if you really need to know more about them.
 NOFX &amp;#8211; Bottles To The Ground (party song)
 Suicidal Tendencies &amp;#8211; Institutionalized (80&amp;#8217;s rebellious youth)
@@ -57,20 +57,20 @@ Bad Brains &amp;#8211; I Against I (a classic)</description>
     
     <item>
       <title>Alison Krauss @ Edgefield</title>
-      <link>http://noone.dev/2007/03/31/alison-krauss-edgefield/</link>
+      <link>/2007/03/31/alison-krauss-edgefield/</link>
       <pubDate>Sat, 31 Mar 2007 09:31:38 +0000</pubDate>
       
-      <guid>http://noone.dev/2007/03/31/alison-krauss-edgefield/</guid>
+      <guid>/2007/03/31/alison-krauss-edgefield/</guid>
       <description>Alison Krauss will be at Macmenamins Edgefield on July 5, and we got great seats: 8 rows back in the center. I saw her once in San Francisco, but it was a huge outdoor concert under the Golden Gate bridge and I didn&amp;#8217;t hear much. This concert at the Edgefield will be more intimate and we&amp;#8217;ll be much closer.
 Alison Krauss &amp;#8211; When You Say Nothing At All</description>
     </item>
     
     <item>
       <title>Dag Nasty &amp;#8211; Values Here</title>
-      <link>http://noone.dev/2007/03/30/dag-nasty-values-here/</link>
+      <link>/2007/03/30/dag-nasty-values-here/</link>
       <pubDate>Fri, 30 Mar 2007 13:58:59 +0000</pubDate>
       
-      <guid>http://noone.dev/2007/03/30/dag-nasty-values-here/</guid>
+      <guid>/2007/03/30/dag-nasty-values-here/</guid>
       <description>Dag Nasty was my favorite punk band. They had a mostly positive message and lots of energy. I&amp;#8217;m not sure exactly what this song is about&amp;#8230; values and confidence?
 &amp;#8220;fear of failure; fear of reprimand; two big problems I&amp;#8217;ve never had; I never doubted what I had inside&amp;#8230; what I have inside&amp;#8221;
 Dag Nasty &amp;#8211; Values Here</description>
@@ -78,40 +78,40 @@ Dag Nasty &amp;#8211; Values Here</description>
     
     <item>
       <title>Uniform Choice &amp;#8211; Straight And Alert</title>
-      <link>http://noone.dev/2007/03/27/uniform-choice-straight-and-alert/</link>
+      <link>/2007/03/27/uniform-choice-straight-and-alert/</link>
       <pubDate>Tue, 27 Mar 2007 11:11:26 +0000</pubDate>
       
-      <guid>http://noone.dev/2007/03/27/uniform-choice-straight-and-alert/</guid>
+      <guid>/2007/03/27/uniform-choice-straight-and-alert/</guid>
       <description>A classic straight edge song from one of my favorite 80s punk bands, Uniform Choice. They weren&amp;#8217;t hugely popular, but I really like their anger and passion. This song is about how foolish and conformist it is to do drugs and get drunk.
 Uniform Choice &amp;#8211; Straight And Alert</description>
     </item>
     
     <item>
       <title>Hungry Lucy &amp;#8211; Could It Be</title>
-      <link>http://noone.dev/2007/03/26/hungry-lucy-could-it-be/</link>
+      <link>/2007/03/26/hungry-lucy-could-it-be/</link>
       <pubDate>Mon, 26 Mar 2007 11:57:21 +0000</pubDate>
       
-      <guid>http://noone.dev/2007/03/26/hungry-lucy-could-it-be/</guid>
+      <guid>/2007/03/26/hungry-lucy-could-it-be/</guid>
       <description>This is one of the first songs that I heard from Hungry Lucy, and it&amp;#8217;s still my favorite.
 Hungry Lucy &amp;#8211; Could It Be</description>
     </item>
     
     <item>
       <title>Ministry &amp;#8211; Unsung (Alternate Mix)</title>
-      <link>http://noone.dev/2007/03/23/ministry-unsung-alternate-mix/</link>
+      <link>/2007/03/23/ministry-unsung-alternate-mix/</link>
       <pubDate>Fri, 23 Mar 2007 10:07:23 +0000</pubDate>
       
-      <guid>http://noone.dev/2007/03/23/ministry-unsung-alternate-mix/</guid>
+      <guid>/2007/03/23/ministry-unsung-alternate-mix/</guid>
       <description>I&amp;#8217;m going to start posting songs on occasion. As much as I listen to music, I occasionally come across a song that really moves me and I want to share it. Plus, delicious has this cool inline player script (click on the play arrow).
 Ministry &amp;#8211; Unsung (Alternate Mix)</description>
     </item>
     
     <item>
       <title>Goat Mix</title>
-      <link>http://noone.dev/2007/03/22/goat-mix/</link>
+      <link>/2007/03/22/goat-mix/</link>
       <pubDate>Thu, 22 Mar 2007 15:00:26 +0000</pubDate>
       
-      <guid>http://noone.dev/2007/03/22/goat-mix/</guid>
+      <guid>/2007/03/22/goat-mix/</guid>
       <description>This is a song that I wrote years ago. I now have a real keyboard, so I&amp;#8217;m hoping to become inspired soon to really learn how to play and write real music. For now this is all I have to offer.
 Clever Swine &amp;#8211; Goat Mix</description>
     </item>
