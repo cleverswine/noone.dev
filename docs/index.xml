@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2019, Kevin Noone; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 14 Mar 2019 15:09:54 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 21 Mar 2019 16:33:02 -0700</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Parallelization in Go and .NET</title>
+      <link>/posts/parallelization-in-go-and-dotnet/</link>
+      <pubDate>Thu, 21 Mar 2019 16:33:02 -0700</pubDate>
+      
+      <guid>/posts/parallelization-in-go-and-dotnet/</guid>
+      <description>This is a comparison of bounded parallel processing with error handling and cancellation in Go and Dotnet.
+The sample code will take an array of strings and print the ASCII code representation if each string in parallel. For example &amp;ldquo;Lorem&amp;rdquo; would evaluate to Lorem/76/111/114/101/109/. If a string is empty, an error occurs and processing is canceled.
+First, the Go code.
+package main import ( &amp;#34;context&amp;#34; &amp;#34;fmt&amp;#34; &amp;#34;strings&amp;#34; &amp;#34;golang.org/x/sync/errgroup&amp;#34; ) func main() { parallelLimit := 4 testData := strings.</description>
+    </item>
     
     <item>
       <title>Hello Web .NET Core</title>

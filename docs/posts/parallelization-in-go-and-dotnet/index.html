@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="map[]">
+    <meta name="generator" content="Hugo 0.54.0" />
+    <title>noone.dev</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
+    <link rel="stylesheet" href="/fontawesome-free-5.7.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="/scss/main.min.eb5f6698e9eef38a204f38a27f3631ace5720b7526fb244b4d3828ca090437c6.css">
+</head>
+<body><nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/">$HOME</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/about/">~/about</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/posts/">~/posts</a>
+            </li>
+            
+            
+        </ul>
+    </div>
+</nav><div id="content" class="container">
+<h5>Mar 21  2019 <a href="/posts/parallelization-in-go-and-dotnet/">Parallelization in Go and .NET</a></h5>
+<hr />
+<div class="post-content">
+    <p>This is a comparison of bounded parallel processing with error handling and cancellation in Go and Dotnet.</p>
+
+<p>The sample code will take an array of strings and print the ASCII code representation if each string in parallel. For example &ldquo;Lorem&rdquo; would evaluate to <code>Lorem/76/111/114/101/109/</code>. If a string is empty, an error occurs and processing is canceled.</p>
+
+<p>First, the Go code.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+
+<span style="color:#f92672">import</span> (
+	<span style="color:#e6db74">&#34;context&#34;</span>
+	<span style="color:#e6db74">&#34;fmt&#34;</span>
+	<span style="color:#e6db74">&#34;strings&#34;</span>
+
+	<span style="color:#e6db74">&#34;golang.org/x/sync/errgroup&#34;</span>
+)
+
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+	<span style="color:#a6e22e">parallelLimit</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">4</span>
+	<span style="color:#a6e22e">testData</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">Split</span>(<span style="color:#e6db74">&#34;Lorem ipsum dolor sit amet consectetur adipiscing elit&#34;</span>, <span style="color:#e6db74">&#34; &#34;</span>)
+
+	<span style="color:#a6e22e">g</span>, <span style="color:#a6e22e">_</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">errgroup</span>.<span style="color:#a6e22e">WithContext</span>(<span style="color:#a6e22e">context</span>.<span style="color:#a6e22e">Background</span>())
+	<span style="color:#a6e22e">dataCh</span> <span style="color:#f92672">:=</span> make(<span style="color:#66d9ef">chan</span> <span style="color:#66d9ef">string</span>)
+	<span style="color:#66d9ef">go</span> <span style="color:#66d9ef">func</span>() {
+		<span style="color:#66d9ef">defer</span> close(<span style="color:#a6e22e">dataCh</span>)
+		<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">s</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">testData</span> {
+			<span style="color:#a6e22e">dataCh</span> <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">s</span>
+		}
+	}()
+	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> &lt; <span style="color:#a6e22e">parallelLimit</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span> {
+		<span style="color:#a6e22e">g</span>.<span style="color:#a6e22e">Go</span>(<span style="color:#66d9ef">func</span>() <span style="color:#66d9ef">error</span> {
+			<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">s</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">dataCh</span> {
+				<span style="color:#a6e22e">ascii</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">toASCII</span>(<span style="color:#a6e22e">s</span>)
+				<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+					println(<span style="color:#a6e22e">err</span>.<span style="color:#a6e22e">Error</span>())
+					<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">err</span>
+				}
+				println(<span style="color:#a6e22e">ascii</span>)
+			}
+			<span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nil</span>
+		})
+	}
+	<span style="color:#a6e22e">g</span>.<span style="color:#a6e22e">Wait</span>()
+}
+
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">toASCII</span>(<span style="color:#a6e22e">data</span> <span style="color:#66d9ef">string</span>) (<span style="color:#66d9ef">string</span>, <span style="color:#66d9ef">error</span>) {
+	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">data</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;&#34;</span> {
+		<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;&#34;</span>, <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Errorf</span>(<span style="color:#e6db74">&#34;empty data not allowed&#34;</span>)
+	}
+	<span style="color:#a6e22e">s</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">data</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;/&#34;</span>
+	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> &lt; len(<span style="color:#a6e22e">data</span>); <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span> {
+		<span style="color:#a6e22e">s</span> <span style="color:#f92672">+=</span> <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Sprintf</span>(<span style="color:#e6db74">&#34;%d/&#34;</span>, <span style="color:#a6e22e">data</span>[<span style="color:#a6e22e">i</span>])
+	}
+	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">s</span>, <span style="color:#66d9ef">nil</span>
+}</code></pre></div>
+
+<p>And now the .NET code.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#66d9ef">using</span> System;
+<span style="color:#66d9ef">using</span> System.Linq;
+<span style="color:#66d9ef">using</span> System.Threading;
+
+<span style="color:#66d9ef">namespace</span> dotnetP
+{
+    <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Program</span>
+    {
+        <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> Main(<span style="color:#66d9ef">string</span><span style="color:#a6e22e">[]</span> args)
+        {
+            <span style="color:#66d9ef">var</span> cts = <span style="color:#66d9ef">new</span> CancellationTokenSource();
+            <span style="color:#66d9ef">var</span> parallelLimit = <span style="color:#ae81ff">4</span>;
+            <span style="color:#66d9ef">var</span> testData = <span style="color:#e6db74">&#34;Lorem ipsum dolor sit amet consectetur adipiscing elit&#34;</span>.Split(<span style="color:#e6db74">&#34; &#34;</span>);
+
+            testData.AsParallel()
+                .WithDegreeOfParallelism(parallelLimit)
+                .WithCancellation(cts.Token)
+                .ForAll(s =&gt;
+                {
+                    <span style="color:#66d9ef">try</span>
+                    {
+                        Console.WriteLine(ToAscii(s));
+                    }
+                    <span style="color:#66d9ef">catch</span> (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                        cts.Cancel();
+                    }
+                });
+
+            Console.ReadLine();
+        }
+
+        <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">string</span> ToAscii(<span style="color:#66d9ef">string</span> s)
+        {
+            <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">string</span>.IsNullOrWhiteSpace(s)) <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> ArgumentException(<span style="color:#e6db74">&#34;empty data not allowed&#34;</span>);
+            <span style="color:#66d9ef">var</span> result = s + <span style="color:#e6db74">&#34;/&#34;</span>;
+            <span style="color:#66d9ef">foreach</span> (<span style="color:#66d9ef">char</span> a <span style="color:#66d9ef">in</span> s) result += <span style="color:#e6db74">$&#34;{(int)a}/&#34;</span>;
+            <span style="color:#66d9ef">return</span> result;
+        }
+    }
+}</code></pre></div>
+
+<p>It is debatable which is clearer, but I do like the elegance of Linq in C#.</p>
+
+</div>
+
+    </div></body>
+<script src="/jquery-3.3.1.slim/jquery.slim.min.js"></script>
+<script src="/bootstrap-4.3.1/js/dist/util.js"></script>
+<script src="/bootstrap-4.3.1/js/dist/dropdown.js"></script>
+<script src="/bootstrap-4.3.1/js/dist/collapse.js"></script>
+</html>
