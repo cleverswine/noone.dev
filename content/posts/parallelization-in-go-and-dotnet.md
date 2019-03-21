@@ -4,9 +4,9 @@ date: 2019-03-21T16:33:02-07:00
 draft: false
 ---
 
-This is a comparison of bounded parallel processing with error handling and cancellation in Go and Dotnet.
+This is a comparison of bounded parallel processing with error handling and cancellation in Go and .NET.
 
-The sample code will take an array of strings and print the ASCII code representation if each string in parallel. For example "Lorem" would evaluate to `Lorem/76/111/114/101/109/`. If a string is empty, an error occurs and processing is canceled.
+The sample code will take an array of strings and print the ASCII code representation of each string in parallel. For example "Lorem" would evaluate to `Lorem/76/111/114/101/109/`. If a string is empty, an error occurs and processing is canceled.
 
 First, the Go code.
 
