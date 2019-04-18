@@ -7,98 +7,62 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2019, Kevin Noone; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 20 Mar 2013 20:51:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Jul 2017 13:54:15 -0700</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Angularjs</title>
-      <link>/tags/angularjs/</link>
-      <pubDate>Wed, 20 Mar 2013 20:51:55 +0000</pubDate>
+      <title>WebSite</title>
+      <link>/tags/website/</link>
+      <pubDate>Thu, 13 Jul 2017 13:54:15 -0700</pubDate>
       
-      <guid>/tags/angularjs/</guid>
+      <guid>/tags/website/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Beer</title>
-      <link>/tags/beer/</link>
-      <pubDate>Sat, 11 Apr 2009 13:47:09 +0000</pubDate>
+      <title>MiscTech</title>
+      <link>/tags/misctech/</link>
+      <pubDate>Wed, 18 Sep 2013 17:22:38 +0000</pubDate>
       
-      <guid>/tags/beer/</guid>
+      <guid>/tags/misctech/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bootstrap</title>
-      <link>/tags/bootstrap/</link>
-      <pubDate>Wed, 20 Mar 2013 20:51:55 +0000</pubDate>
+      <title>WebStuff</title>
+      <link>/tags/webstuff/</link>
+      <pubDate>Wed, 18 Sep 2013 17:22:38 +0000</pubDate>
       
-      <guid>/tags/bootstrap/</guid>
+      <guid>/tags/webstuff/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Career</title>
-      <link>/tags/career/</link>
-      <pubDate>Mon, 23 Feb 2009 12:04:58 +0000</pubDate>
-      
-      <guid>/tags/career/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cat</title>
-      <link>/tags/cat/</link>
-      <pubDate>Fri, 19 Apr 2013 19:23:35 +0000</pubDate>
-      
-      <guid>/tags/cat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Food</title>
-      <link>/tags/food/</link>
-      <pubDate>Wed, 31 Aug 2011 18:01:24 +0000</pubDate>
-      
-      <guid>/tags/food/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Furniture</title>
-      <link>/tags/furniture/</link>
-      <pubDate>Wed, 27 Jan 2010 21:08:09 +0000</pubDate>
-      
-      <guid>/tags/furniture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gadgets</title>
-      <link>/tags/gadgets/</link>
-      <pubDate>Mon, 25 Feb 2013 13:51:14 +0000</pubDate>
-      
-      <guid>/tags/gadgets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gardening</title>
-      <link>/tags/gardening/</link>
-      <pubDate>Mon, 25 Jun 2012 11:55:19 +0000</pubDate>
-      
-      <guid>/tags/gardening/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hacking</title>
+      <title>hacking</title>
       <link>/tags/hacking/</link>
       <pubDate>Wed, 18 Sep 2013 17:22:38 +0000</pubDate>
       
       <guid>/tags/hacking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personal</title>
+      <link>/tags/personal/</link>
+      <pubDate>Fri, 19 Apr 2013 19:23:35 +0000</pubDate>
+      
+      <guid>/tags/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cat</title>
+      <link>/tags/cat/</link>
+      <pubDate>Fri, 19 Apr 2013 19:23:35 +0000</pubDate>
+      
+      <guid>/tags/cat/</guid>
       <description></description>
     </item>
     
@@ -112,47 +76,74 @@
     </item>
     
     <item>
-      <title>Humor</title>
-      <link>/tags/humor/</link>
-      <pubDate>Sat, 11 Oct 2008 12:11:54 +0000</pubDate>
+      <title>angularjs</title>
+      <link>/tags/angularjs/</link>
+      <pubDate>Wed, 20 Mar 2013 20:51:55 +0000</pubDate>
       
-      <guid>/tags/humor/</guid>
+      <guid>/tags/angularjs/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Lastfm</title>
-      <link>/tags/lastfm/</link>
-      <pubDate>Wed, 17 Mar 2010 12:09:56 +0000</pubDate>
+      <title>bootstrap</title>
+      <link>/tags/bootstrap/</link>
+      <pubDate>Wed, 20 Mar 2013 20:51:55 +0000</pubDate>
       
-      <guid>/tags/lastfm/</guid>
+      <guid>/tags/bootstrap/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Misctech</title>
-      <link>/tags/misctech/</link>
-      <pubDate>Wed, 18 Sep 2013 17:22:38 +0000</pubDate>
+      <title>Gadgets</title>
+      <link>/tags/gadgets/</link>
+      <pubDate>Mon, 25 Feb 2013 13:51:14 +0000</pubDate>
       
-      <guid>/tags/misctech/</guid>
+      <guid>/tags/gadgets/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Movies</title>
-      <link>/tags/movies/</link>
-      <pubDate>Fri, 30 May 2008 09:49:32 +0000</pubDate>
+      <title>Travel</title>
+      <link>/tags/travel/</link>
+      <pubDate>Thu, 11 Oct 2012 12:51:14 +0000</pubDate>
       
-      <guid>/tags/movies/</guid>
+      <guid>/tags/travel/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Mp3</title>
-      <link>/tags/mp3/</link>
-      <pubDate>Wed, 25 Mar 2009 19:29:26 +0000</pubDate>
+      <title>Gardening</title>
+      <link>/tags/gardening/</link>
+      <pubDate>Mon, 25 Jun 2012 11:55:19 +0000</pubDate>
       
-      <guid>/tags/mp3/</guid>
+      <guid>/tags/gardening/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photography</title>
+      <link>/tags/photography/</link>
+      <pubDate>Mon, 25 Jun 2012 11:55:19 +0000</pubDate>
+      
+      <guid>/tags/photography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Food</title>
+      <link>/tags/food/</link>
+      <pubDate>Wed, 31 Aug 2011 18:01:24 +0000</pubDate>
+      
+      <guid>/tags/food/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weather</title>
+      <link>/tags/weather/</link>
+      <pubDate>Mon, 18 Jul 2011 18:15:54 +0000</pubDate>
+      
+      <guid>/tags/weather/</guid>
       <description></description>
     </item>
     
@@ -175,29 +166,29 @@
     </item>
     
     <item>
-      <title>Personal</title>
-      <link>/tags/personal/</link>
-      <pubDate>Fri, 19 Apr 2013 19:23:35 +0000</pubDate>
+      <title>lastfm</title>
+      <link>/tags/lastfm/</link>
+      <pubDate>Wed, 17 Mar 2010 12:09:56 +0000</pubDate>
       
-      <guid>/tags/personal/</guid>
+      <guid>/tags/lastfm/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Photography</title>
-      <link>/tags/photography/</link>
-      <pubDate>Mon, 25 Jun 2012 11:55:19 +0000</pubDate>
+      <title>furniture</title>
+      <link>/tags/furniture/</link>
+      <pubDate>Wed, 27 Jan 2010 21:08:09 +0000</pubDate>
       
-      <guid>/tags/photography/</guid>
+      <guid>/tags/furniture/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Politics</title>
-      <link>/tags/politics/</link>
-      <pubDate>Mon, 11 Aug 2008 12:11:37 +0000</pubDate>
+      <title>shopping</title>
+      <link>/tags/shopping/</link>
+      <pubDate>Wed, 27 Jan 2010 21:08:09 +0000</pubDate>
       
-      <guid>/tags/politics/</guid>
+      <guid>/tags/shopping/</guid>
       <description></description>
     </item>
     
@@ -207,24 +198,6 @@
       <pubDate>Thu, 10 Dec 2009 19:17:05 +0000</pubDate>
       
       <guid>/tags/portland/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Science</title>
-      <link>/tags/science/</link>
-      <pubDate>Tue, 17 Mar 2009 08:56:22 +0000</pubDate>
-      
-      <guid>/tags/science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shopping</title>
-      <link>/tags/shopping/</link>
-      <pubDate>Wed, 27 Jan 2010 21:08:09 +0000</pubDate>
-      
-      <guid>/tags/shopping/</guid>
       <description></description>
     </item>
     
@@ -247,56 +220,47 @@
     </item>
     
     <item>
-      <title>Texas</title>
-      <link>/tags/texas/</link>
-      <pubDate>Tue, 16 Sep 2008 14:12:16 +0000</pubDate>
+      <title>Beer</title>
+      <link>/tags/beer/</link>
+      <pubDate>Sat, 11 Apr 2009 13:47:09 +0000</pubDate>
       
-      <guid>/tags/texas/</guid>
+      <guid>/tags/beer/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Travel</title>
-      <link>/tags/travel/</link>
-      <pubDate>Thu, 11 Oct 2012 12:51:14 +0000</pubDate>
+      <title>MP3</title>
+      <link>/tags/mp3/</link>
+      <pubDate>Wed, 25 Mar 2009 19:29:26 +0000</pubDate>
       
-      <guid>/tags/travel/</guid>
+      <guid>/tags/mp3/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Uncategorized</title>
-      <link>/tags/uncategorized/</link>
-      <pubDate>Sat, 14 Jul 2007 12:22:08 +0000</pubDate>
+      <title>Science</title>
+      <link>/tags/science/</link>
+      <pubDate>Tue, 17 Mar 2009 08:56:22 +0000</pubDate>
       
-      <guid>/tags/uncategorized/</guid>
+      <guid>/tags/science/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Weather</title>
-      <link>/tags/weather/</link>
-      <pubDate>Mon, 18 Jul 2011 18:15:54 +0000</pubDate>
+      <title>Career</title>
+      <link>/tags/career/</link>
+      <pubDate>Mon, 23 Feb 2009 12:04:58 +0000</pubDate>
       
-      <guid>/tags/weather/</guid>
+      <guid>/tags/career/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Website</title>
-      <link>/tags/website/</link>
-      <pubDate>Thu, 13 Jul 2017 13:54:15 -0700</pubDate>
+      <title>Humor</title>
+      <link>/tags/humor/</link>
+      <pubDate>Sat, 11 Oct 2008 12:11:54 +0000</pubDate>
       
-      <guid>/tags/website/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Webstuff</title>
-      <link>/tags/webstuff/</link>
-      <pubDate>Wed, 18 Sep 2013 17:22:38 +0000</pubDate>
-      
-      <guid>/tags/webstuff/</guid>
+      <guid>/tags/humor/</guid>
       <description></description>
     </item>
     
@@ -306,6 +270,42 @@
       <pubDate>Sun, 21 Sep 2008 09:07:07 +0000</pubDate>
       
       <guid>/tags/wedding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Texas</title>
+      <link>/tags/texas/</link>
+      <pubDate>Tue, 16 Sep 2008 14:12:16 +0000</pubDate>
+      
+      <guid>/tags/texas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Politics</title>
+      <link>/tags/politics/</link>
+      <pubDate>Mon, 11 Aug 2008 12:11:37 +0000</pubDate>
+      
+      <guid>/tags/politics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Movies</title>
+      <link>/tags/movies/</link>
+      <pubDate>Fri, 30 May 2008 09:49:32 +0000</pubDate>
+      
+      <guid>/tags/movies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uncategorized</title>
+      <link>/tags/uncategorized/</link>
+      <pubDate>Sat, 14 Jul 2007 12:22:08 +0000</pubDate>
+      
+      <guid>/tags/uncategorized/</guid>
       <description></description>
     </item>
     

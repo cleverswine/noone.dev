@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2019, Kevin Noone; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 21 Mar 2019 16:33:02 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 18 Apr 2019 15:24:10 -0700</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Displaying Parquet Files</title>
+      <link>/posts/displaying-parquet-files/</link>
+      <pubDate>Thu, 18 Apr 2019 15:24:10 -0700</pubDate>
+      
+      <guid>/posts/displaying-parquet-files/</guid>
+      <description>Apache Parquet is a columnar storage format available to any project in the Hadoop ecosystem, regardless of the choice of data processing framework, data model or programming language.
+I&amp;rsquo;ll look at 3 interesting ways to peek into parquet files.
+1) Jupyter Notebooks as a Simple Viewer Using a Jupyter Notebook with pyarrow and pandas
+2) PyQt5 for a Native GUI Using Python, pyarrow, and PyQt5 to display a simple, cross-platform, native UI table.</description>
+    </item>
     
     <item>
       <title>Parallelization in Go and .NET</title>
@@ -31,7 +43,7 @@ package main import ( &amp;#34;context&amp;#34; &amp;#34;fmt&amp;#34; &amp;#34;s
       
       <guid>/posts/hello-web-dotnet/</guid>
       <description>This is a basic web server written in ASP.NET Core.
-using Microsoft.AspNetCore; using Microsoft.AspNetCore.Hosting; using Microsoft.AspNetCore.Builder; using Microsoft.AspNetCore.Http; using Microsoft.Extensions.DependencyInjection; namespace HelloWeb { public class Program { public static void Main(string[] args) { CreateWebHostBuilder(args).Build().Run(); } public static IWebHostBuilder CreateWebHostBuilder(string[] args) =&amp;gt; WebHost.CreateDefaultBuilder(args) .UseStartup&amp;lt;Startup&amp;gt;(); } public class Startup { public void Configure(IApplicationBuilder app) { app.Run(async (context) =&amp;gt; { await context.Response.WriteAsync(&amp;#34;Hello World!&amp;#34;); }); } } } </description>
+using Microsoft.AspNetCore; using Microsoft.AspNetCore.Hosting; using Microsoft.AspNetCore.Builder; using Microsoft.AspNetCore.Http; using Microsoft.Extensions.DependencyInjection; namespace HelloWeb { public class Program { public static void Main(string[] args) { CreateWebHostBuilder(args).Build().Run(); } public static IWebHostBuilder CreateWebHostBuilder(string[] args) =&amp;gt; WebHost.CreateDefaultBuilder(args) .UseStartup&amp;lt;Startup&amp;gt;(); } public class Startup { public void Configure(IApplicationBuilder app) { app.Run(async (context) =&amp;gt; { await context.Response.WriteAsync(&amp;#34;Hello World!&amp;#34;); }); } } }  </description>
     </item>
     
     <item>

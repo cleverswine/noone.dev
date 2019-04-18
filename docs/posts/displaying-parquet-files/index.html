@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="map[]">
+    <meta name="generator" content="Hugo 0.55.2" />
+    <title>noone.dev</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
+    <link rel="stylesheet" href="/fontawesome-free-5.7.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="/scss/main.min.eb5f6698e9eef38a204f38a27f3631ace5720b7526fb244b4d3828ca090437c6.css">
+</head>
+<body><nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/">$HOME</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/about/">~/about</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/posts/">~/posts</a>
+            </li>
+            
+            
+        </ul>
+    </div>
+</nav><div id="content" class="container">
+<h5>Apr 18  2019 <a href="/posts/displaying-parquet-files/">Displaying Parquet Files</a></h5>
+<hr />
+<div class="post-content">
+    
+
+<p><a href="https://parquet.apache.org/">Apache Parquet</a> is a columnar storage format available to any project in the Hadoop ecosystem, regardless of the choice of data processing framework, data model or programming language.</p>
+
+<p>I&rsquo;ll look at 3 interesting ways to peek into parquet files.</p>
+
+<h4 id="1-jupyter-notebooks-as-a-simple-viewer">1) Jupyter Notebooks as a Simple Viewer</h4>
+
+<p>Using a <a href="https://jupyter.org/">Jupyter Notebook</a> with <a href="https://arrow.apache.org/docs/python/">pyarrow</a> and pandas</p>
+
+<p><img src="/jupyter.png" alt="Example image" /></p>
+
+<h4 id="2-pyqt5-for-a-native-gui">2) PyQt5 for a Native GUI</h4>
+
+<p>Using Python, <a href="https://arrow.apache.org/docs/python/">pyarrow</a>, and <a href="https://pypi.org/project/PyQt5/">PyQt5</a> to display a simple, cross-platform, native UI table. pyarrow only supports flat (single level) parquet files.</p>
+
+<p>This code was heavily borrowed from PyQt5 examples.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> sys
+<span style="color:#f92672">import</span> pyarrow.parquet <span style="color:#f92672">as</span> pq
+<span style="color:#f92672">import</span> pyarrow <span style="color:#f92672">as</span> pa
+<span style="color:#f92672">import</span> pandas <span style="color:#f92672">as</span> pd
+<span style="color:#f92672">from</span> PyQt5.QtWidgets <span style="color:#f92672">import</span> QApplication, QWidget, QTableWidget, QTableWidgetItem, QVBoxLayout
+
+
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">App</span>(QWidget):
+
+    <span style="color:#66d9ef">def</span> __init__(self):
+        super()<span style="color:#f92672">.</span>__init__()
+        self<span style="color:#f92672">.</span>title <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;example.parquet&#39;</span>
+        self<span style="color:#f92672">.</span>left <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+        self<span style="color:#f92672">.</span>top <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+        self<span style="color:#f92672">.</span>width <span style="color:#f92672">=</span> <span style="color:#ae81ff">800</span>
+        self<span style="color:#f92672">.</span>height <span style="color:#f92672">=</span> <span style="color:#ae81ff">600</span>
+        self<span style="color:#f92672">.</span>initUI()
+
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">initUI</span>(self):
+        self<span style="color:#f92672">.</span>setWindowTitle(self<span style="color:#f92672">.</span>title)
+        self<span style="color:#f92672">.</span>setGeometry(self<span style="color:#f92672">.</span>left, self<span style="color:#f92672">.</span>top, self<span style="color:#f92672">.</span>width, self<span style="color:#f92672">.</span>height)
+        self<span style="color:#f92672">.</span>createTable()
+        self<span style="color:#f92672">.</span>layout <span style="color:#f92672">=</span> QVBoxLayout()
+        self<span style="color:#f92672">.</span>layout<span style="color:#f92672">.</span>addWidget(self<span style="color:#f92672">.</span>tableWidget)
+        self<span style="color:#f92672">.</span>setLayout(self<span style="color:#f92672">.</span>layout)
+        self<span style="color:#f92672">.</span>show()
+
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">createTable</span>(self):
+        parquet_file <span style="color:#f92672">=</span> pq<span style="color:#f92672">.</span>ParquetFile(<span style="color:#e6db74">&#39;example.parquet&#39;</span>)
+        pfmeta <span style="color:#f92672">=</span> parquet_file<span style="color:#f92672">.</span>metadata
+        pfdata <span style="color:#f92672">=</span> parquet_file<span style="color:#f92672">.</span>read_row_group(<span style="color:#ae81ff">0</span>)
+
+        self<span style="color:#f92672">.</span>tableWidget <span style="color:#f92672">=</span> QTableWidget()
+        self<span style="color:#f92672">.</span>tableWidget<span style="color:#f92672">.</span>setRowCount(pfmeta<span style="color:#f92672">.</span>num_rows)
+        self<span style="color:#f92672">.</span>tableWidget<span style="color:#f92672">.</span>setColumnCount(pfmeta<span style="color:#f92672">.</span>num_columns)
+        self<span style="color:#f92672">.</span>tableWidget<span style="color:#f92672">.</span>setHorizontalHeaderLabels(list(map(<span style="color:#66d9ef">lambda</span> x: x<span style="color:#f92672">.</span>name, pfdata)))
+
+        <span style="color:#66d9ef">for</span> column_position <span style="color:#f92672">in</span> range(pfmeta<span style="color:#f92672">.</span>num_columns):
+            all_column_data <span style="color:#f92672">=</span> pfdata[column_position]
+            <span style="color:#66d9ef">for</span> data_position <span style="color:#f92672">in</span> range(len(all_column_data)):
+                v <span style="color:#f92672">=</span> all_column_data[data_position]
+                self<span style="color:#f92672">.</span>tableWidget<span style="color:#f92672">.</span>setItem(data_position, column_position, QTableWidgetItem(str(v<span style="color:#f92672">.</span>as_py())))
+
+        self<span style="color:#f92672">.</span>tableWidget<span style="color:#f92672">.</span>resizeColumnsToContents()
+        self<span style="color:#f92672">.</span>tableWidget<span style="color:#f92672">.</span>move(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>)
+
+
+<span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;__main__&#39;</span>:
+    app <span style="color:#f92672">=</span> QApplication(sys<span style="color:#f92672">.</span>argv)
+    ex <span style="color:#f92672">=</span> App()
+    sys<span style="color:#f92672">.</span>exit(app<span style="color:#f92672">.</span>exec_())</code></pre></div>
+
+<p>Produces:</p>
+
+<p><img src="/pyqt.png" alt="Example image" /></p>
+
+<h4 id="3-parquet-go-for-deeper-analysis">3) parquet-go for Deeper Analysis</h4>
+
+<p>Using the <a href="https://github.com/xitongsys/parquet-go">parquet-go</a> library to show the schema (and a bonus go struct) for a parquet file. This library can process nested elements.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ ./parquet-tools -cmd schema -file example.parquet
+
+----- Go struct -----
+Schema struct <span style="color:#f92672">{</span>
+  First_name *string
+  Last_name *string
+  Gender *string
+  City *string
+<span style="color:#f92672">}</span>
+----- Json schema -----
+<span style="color:#f92672">{</span>
+  <span style="color:#e6db74">&#34;Tag&#34;</span>: <span style="color:#e6db74">&#34;name=schema, repetitiontype=REQUIRED&#34;</span>,
+  <span style="color:#e6db74">&#34;Fields&#34;</span>: <span style="color:#f92672">[</span>
+    <span style="color:#f92672">{</span>
+      <span style="color:#e6db74">&#34;Tag&#34;</span>: <span style="color:#e6db74">&#34;name=first_name, type=UTF8, repetitiontype=OPTIONAL&#34;</span>,
+      <span style="color:#e6db74">&#34;Fields&#34;</span>: null
+    <span style="color:#f92672">}</span>,
+    <span style="color:#f92672">{</span>
+      <span style="color:#e6db74">&#34;Tag&#34;</span>: <span style="color:#e6db74">&#34;name=last_name, type=UTF8, repetitiontype=OPTIONAL&#34;</span>,
+      <span style="color:#e6db74">&#34;Fields&#34;</span>: null
+    <span style="color:#f92672">}</span>,
+    <span style="color:#f92672">{</span>
+      <span style="color:#e6db74">&#34;Tag&#34;</span>: <span style="color:#e6db74">&#34;name=gender, type=UTF8, repetitiontype=OPTIONAL&#34;</span>,
+      <span style="color:#e6db74">&#34;Fields&#34;</span>: null
+    <span style="color:#f92672">}</span>,
+    <span style="color:#f92672">{</span>
+      <span style="color:#e6db74">&#34;Tag&#34;</span>: <span style="color:#e6db74">&#34;name=city, type=UTF8, repetitiontype=OPTIONAL&#34;</span>,
+      <span style="color:#e6db74">&#34;Fields&#34;</span>: null
+    <span style="color:#f92672">}</span>
+  <span style="color:#f92672">]</span>
+<span style="color:#f92672">}</span></code></pre></div>
+
+</div>
+
+    </div></body>
+<script src="/jquery-3.3.1.slim/jquery.slim.min.js"></script>
+<script src="/bootstrap-4.3.1/js/dist/util.js"></script>
+<script src="/bootstrap-4.3.1/js/dist/dropdown.js"></script>
+<script src="/bootstrap-4.3.1/js/dist/collapse.js"></script>
+</html>
