@@ -6,6 +6,7 @@ copyright = "Copyright © 2019, Kevin Noone; all rights reserved."
 paginate = 10
 publishDir = "docs"
 theme = "swinix"
+rssLimit = 50
 
 [params]
   Name = "Kevin Noone"
