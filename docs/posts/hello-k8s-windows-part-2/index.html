@@ -45,7 +45,7 @@
 
 <p>The source code for this example can be found at <a href="https://github.com/cleverswine/hello-k8s-win">https://github.com/cleverswine/hello-k8s-win</a></p>
 
-<p>These posts are besed on an intoductory presentation that I gave to my company.</p>
+<p>These posts are based on an intoductory presentation that I gave to my company.</p>
 
 <h3 id="deploy-to-a-local-kubernetes-k8s-cluster">Deploy to a local Kubernetes (k8s) cluster</h3>
 
@@ -171,6 +171,8 @@ Starting to serve on 127.0.0.1:8001
 # stream the logs:
 kubectl logs -f $(kubectl get po --selector=app=webui--output=jsonpath={.items..metadata.name})
 </code></pre>
+
+<p>Next: manage deployments with Helm (to be written)</p>
 
 </div>
 

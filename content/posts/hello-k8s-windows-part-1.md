@@ -8,7 +8,7 @@ This is the first in a multi-part series that will show how to easily get Kubern
 
 The source code for this example can be found at https://github.com/cleverswine/hello-k8s-win
 
-These posts are besed on an intoductory presentation that I gave to my company.
+These posts are based on an intoductory presentation that I gave to my company.
 
 ### Sample Application
 

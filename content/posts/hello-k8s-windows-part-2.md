@@ -8,7 +8,7 @@ This is the second in a multi-part series that will show how to easily get Kuber
 
 The source code for this example can be found at https://github.com/cleverswine/hello-k8s-win
 
-These posts are besed on an intoductory presentation that I gave to my company.
+These posts are based on an intoductory presentation that I gave to my company.
 
 ### Deploy to a local Kubernetes (k8s) cluster
 
@@ -145,3 +145,4 @@ kubectl logs --selector=app=webui
 kubectl logs -f $(kubectl get po --selector=app=webui--output=jsonpath={.items..metadata.name})
 ```
 
+Next: manage deployments with Helm (to be written)

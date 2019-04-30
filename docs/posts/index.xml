@@ -18,10 +18,7 @@
       <pubDate>Tue, 30 Apr 2019 13:10:25 -0700</pubDate>
       
       <guid>/posts/hello-k8s-windows-part-2/</guid>
-      <description>This is the second in a multi-part series that will show how to easily get Kubernetes up and running in Windows and deploy a sample application. Almost everything also applies to Linux, MacOS, etc.
-The source code for this example can be found at https://github.com/cleverswine/hello-k8s-win
-These posts are besed on an intoductory presentation that I gave to my company.
-Deploy to a local Kubernetes (k8s) cluster Install the tools</description>
+      <description></description>
     </item>
     
     <item>
@@ -32,7 +29,7 @@ Deploy to a local Kubernetes (k8s) cluster Install the tools</description>
       <guid>/posts/hello-k8s-windows-part-1/</guid>
       <description>This is the first in a multi-part series that will show how to easily get Kubernetes up and running in Windows and deploy a sample application. Almost everything also applies to Linux, MacOS, etc.
 The source code for this example can be found at https://github.com/cleverswine/hello-k8s-win
-These posts are besed on an intoductory presentation that I gave to my company.
+These posts are based on an intoductory presentation that I gave to my company.
 Sample Application Consider a simple message processing application, as shown here:</description>
     </item>
     
