@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hacking on noone.dev</title>
+    <title>hacking on noone.dev</title>
     <link>/tags/hacking/</link>
-    <description>Recent content in Hacking on noone.dev</description>
+    <description>Recent content in hacking on noone.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2019, Kevin Noone; all rights reserved.</copyright>
@@ -18,7 +18,7 @@
       <pubDate>Wed, 18 Sep 2013 17:22:38 +0000</pubDate>
       
       <guid>/2013/09/18/evolution/</guid>
-      <description></description>
+      <description>I&amp;#8217;ve been thinking for a while about moving my simple web site and blog to a different platform. I&amp;#8217;m currently paying to host everything on a traditional hosting service. Ten years ago, this was really the only option if you wanted buy a domain and put a web site out there (there was also self hosting with dynamic DNS, but I was never brave enough to open up my home network).</description>
     </item>
     
     <item>
