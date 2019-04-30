@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="map[]">
+    <meta name="generator" content="Hugo 0.55.4" />
+    <title>noone.dev</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
+    <link rel="stylesheet" href="/fontawesome-free-5.7.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="/scss/main.min.eb5f6698e9eef38a204f38a27f3631ace5720b7526fb244b4d3828ca090437c6.css">
+</head>
+<body><nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/">$HOME</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/about/">~/about</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/posts/">~/posts</a>
+            </li>
+            
+            
+        </ul>
+    </div>
+</nav><div id="content" class="container">
+<h5>Apr 30  2019 <a href="/posts/hello-k8s-windows-part-1/">Hello K8s in Windows - Part 1</a></h5>
+<hr />
+<div class="post-content">
+    
+
+<p>This is the first in a multi-part series that will show how to easily get Kubernetes up and running in Windows and deploy a sample application. Almost everything also applies to Linux, MacOS, etc.</p>
+
+<p>The source code for this example can be found at <a href="https://github.com/cleverswine/hello-k8s-win">https://github.com/cleverswine/hello-k8s-win</a></p>
+
+<p>These posts are besed on an intoductory presentation that I gave to my company.</p>
+
+<h3 id="sample-application">Sample Application</h3>
+
+<p>Consider a simple message processing application, as shown here:</p>
+
+<p><img src="/k8swinsample.png" alt="Example image" /></p>
+
+<p>Flow:</p>
+
+<ul>
+<li>Input comes in through user or machine via a REST API</li>
+<li>The Web UI puts a message on the processing queue</li>
+<li>The Calculator gets the message from the queue and starts processing it</li>
+<li>The Calculator sends status updates to the Web UI via a REST API (continues until processing is complete)</li>
+<li>The Web UI sends status updates to the browser</li>
+</ul>
+
+<h3 id="infrastructure-considerations">Infrastructure Considerations</h3>
+
+<p>Requirements for the Sample Application</p>
+
+<ul>
+<li>High availability / load balancing</li>
+<li>Host multiple applications with varying dependencies</li>
+<li>Automated and manual horizontal scaling of applications</li>
+<li>Application to application service discovery</li>
+<li>Graceful rollouts and rollbacks of individual applications</li>
+<li>Health checks and automated recovery</li>
+<li>Secure connectivity between application services</li>
+<li>Secret and configuration management</li>
+<li>Log aggregation</li>
+<li>Easily replicate the infrastructure for dev, test, etc.</li>
+<li>Easy and repeatable deployment mechanism</li>
+</ul>
+
+<h3 id="docker">Docker</h3>
+
+<p>Docker gives us the ability to &ldquo;containerize&rdquo; our applications.</p>
+
+<p>(from docker.com) A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.</p>
+
+<p>Portable across multiple environments</p>
+
+<ul>
+<li>Developer machine, bare metal server, VM, data center, cloud</li>
+<li>Consistent deployments, including dependencies</li>
+</ul>
+
+<p>Separation of concerns</p>
+
+<ul>
+<li>Developer packages app and it&rsquo;s version specific dependencies (e.g. runtime like Java, dotnet) in container</li>
+<li>Operations configures hosts and then runs, manages and monitors containers</li>
+</ul>
+
+<p>Container can be single deployable unit generated as artifact from repeatable build process</p>
+
+<p>Facilitates use of microservices architecture</p>
+
+<p>Startup is significantly faster than a VM (ephemeral workloads)</p>
+
+<h3 id="kubernetes">Kubernetes</h3>
+
+<p>Kubernetes (k8s) is a platform for automating deployment, scaling, and management of containerized applications.</p>
+
+<p><strong>Core concepts</strong></p>
+
+<p>Pod: A Pod represents a unit of deployment: a single instance of an application in Kubernetes, which might consist of either a single container or a small number of containers that are tightly coupled and that share resources.</p>
+
+<p>Service: A Kubernetes Service is an abstraction which defines a logical set of Pods and a policy by which to access them - sometimes called a micro-service.</p>
+
+<p>Deployment: You describe a desired state in a Deployment object, and the Deployment controller changes the actual state to the desired state at a controlled rate.</p>
+
+<p><strong>Architecture of a Kubernetes Cluster</strong></p>
+
+<p><em>credit <a href="https://en.wikipedia.org/wiki/Kubernetes">https://en.wikipedia.org/wiki/Kubernetes</a></em></p>
+
+<p><img src="/k8swinsample2.png" alt="Example image" /></p>
+
+<p><strong>How to get Kubernetes</strong></p>
+
+<p>Cloud Hosted:  Azure: Azure Kubernetes Service, Google: Google Kubernetes Engine, Amazon: Elastic Container Service for Kubernetes, and many more.</p>
+
+<p>On-premise: Kubeadm, Kubespray, OpenShift, and many more.</p>
+
+<p>For developers: Minikube, Docker Desktop, and many more.</p>
+
+<p>(see Picking the Right Solution - kubernetes.io)</p>
+
+<p><strong>Kubernetes and the Sample Application</strong></p>
+
+<p>Kubernetes deployments are described by YAML files, and deployments are as simple as:  kubectl apply -f my-app.yaml</p>
+
+<p>What types of build artifacts do we need for each application?</p>
+
+<ul>
+<li>A Docker image</li>
+<li>A YAML file (or files) to describe the deployment</li>
+</ul>
+
+<p>How do we interact with Kubernetes?</p>
+
+<ul>
+<li>Use the kubectl command line tool</li>
+<li>Use the Kubernetes Dashboard UI</li>
+</ul>
+
+<p>Next: <a href="/posts/hello-k8s-windows-part-2/">Part 2</a></p>
+
+</div>
+
+    </div></body>
+<script src="/jquery-3.3.1.slim/jquery.slim.min.js"></script>
+<script src="/bootstrap-4.3.1/js/dist/util.js"></script>
+<script src="/bootstrap-4.3.1/js/dist/dropdown.js"></script>
+<script src="/bootstrap-4.3.1/js/dist/collapse.js"></script>
+</html>

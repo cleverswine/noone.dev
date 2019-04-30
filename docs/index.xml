@@ -7,10 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2019, Kevin Noone; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 18 Apr 2019 15:24:10 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 30 Apr 2019 13:10:25 -0700</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hello K8s in Windows - Part 2</title>
+      <link>/posts/hello-k8s-windows-part-2/</link>
+      <pubDate>Tue, 30 Apr 2019 13:10:25 -0700</pubDate>
+      
+      <guid>/posts/hello-k8s-windows-part-2/</guid>
+      <description>This is the second in a multi-part series that will show how to easily get Kubernetes up and running in Windows and deploy a sample application. Almost everything also applies to Linux, MacOS, etc.
+The source code for this example can be found at https://github.com/cleverswine/hello-k8s-win
+These posts are besed on an intoductory presentation that I gave to my company.
+Deploy to a local Kubernetes (k8s) cluster Install the tools</description>
+    </item>
+    
+    <item>
+      <title>Hello K8s in Windows - Part 1</title>
+      <link>/posts/hello-k8s-windows-part-1/</link>
+      <pubDate>Tue, 30 Apr 2019 13:01:45 -0700</pubDate>
+      
+      <guid>/posts/hello-k8s-windows-part-1/</guid>
+      <description>This is the first in a multi-part series that will show how to easily get Kubernetes up and running in Windows and deploy a sample application. Almost everything also applies to Linux, MacOS, etc.
+The source code for this example can be found at https://github.com/cleverswine/hello-k8s-win
+These posts are besed on an intoductory presentation that I gave to my company.
+Sample Application Consider a simple message processing application, as shown here:</description>
+    </item>
     
     <item>
       <title>Displaying Parquet Files</title>
@@ -1146,7 +1170,7 @@ Also see The 8 Biggest Reasons Indiana Jones Is Better than Han Solo from Toples
       <pubDate>Sun, 25 May 2008 13:20:26 +0000</pubDate>
       
       <guid>/2008/05/25/lars-and-the-real-girl/</guid>
-      <description></description>
+      <description>We watched Lars and the Real Girl last night. It&amp;#8217;s one of the best movies I&amp;#8217;ve seen in a while, right up there with other popular independents like Juno and Little Miss Sunshine. It&amp;#8217;s billed as a comedy, but it was actually a moving drama with a comedic base. I almost cried, which means that the movie was very well written and directed &amp;#8211; especially considering that the co-star is an inflatable sex doll.</description>
     </item>
     
     <item>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="map[]">
+    <meta name="generator" content="Hugo 0.55.4" />
+    <title>noone.dev</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
+    <link rel="stylesheet" href="/fontawesome-free-5.7.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="/scss/main.min.eb5f6698e9eef38a204f38a27f3631ace5720b7526fb244b4d3828ca090437c6.css">
+</head>
+<body><nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/">$HOME</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/about/">~/about</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/posts/">~/posts</a>
+            </li>
+            
+            
+        </ul>
+    </div>
+</nav><div id="content" class="container">
+<h5>Apr 30  2019 <a href="/posts/hello-k8s-windows-part-2/">Hello K8s in Windows - Part 2</a></h5>
+<hr />
+<div class="post-content">
+    
+
+<p>This is the second in a multi-part series that will show how to easily get Kubernetes up and running in Windows and deploy a sample application. Almost everything also applies to Linux, MacOS, etc.</p>
+
+<p>The source code for this example can be found at <a href="https://github.com/cleverswine/hello-k8s-win">https://github.com/cleverswine/hello-k8s-win</a></p>
+
+<p>These posts are besed on an intoductory presentation that I gave to my company.</p>
+
+<h3 id="deploy-to-a-local-kubernetes-k8s-cluster">Deploy to a local Kubernetes (k8s) cluster</h3>
+
+<p><strong>Install the tools</strong></p>
+
+<ul>
+<li>Docker Desktop - enable Kubernetes after installing  (<a href="https://hub.docker.com/editions/community/docker-ce-desktop-windows">https://hub.docker.com/editions/community/docker-ce-desktop-windows</a>)</li>
+<li>kubectl (<a href="https://kubernetes.io/docs/tasks/tools/install-kubectl/">https://kubernetes.io/docs/tasks/tools/install-kubectl/</a>)</li>
+</ul>
+
+<h3 id="verify-connectivity-to-the-k8s-cluster">Verify connectivity to the k8s cluster</h3>
+
+<p>Once your local k8s cluster is up and running, you should be able to interact with it using <code>kubectl</code>.</p>
+
+<pre><code class="language-powershell">PS&gt; kubectl cluster-info
+Kubernetes master is running at https://localhost:6445
+KubeDNS is running at https://localhost:6445/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
+
+PS&gt; kubectl get nodes
+NAME                 STATUS    ROLES     AGE       VERSION
+docker-for-desktop   Ready     master    2d        v1.10.3
+</code></pre>
+
+<h3 id="clone-the-sample-repository">Clone the sample repository</h3>
+
+<pre><code>git clone https://github.com/cleverswine/hello-k8s-win
+</code></pre>
+
+<h3 id="build-docker-images-for-the-applications">Build Docker images for the applications</h3>
+
+<p>Since the k8s cluster is running locally, we can just build the images locally and k8s will be able to find them. No need to publish to a remote repository.</p>
+
+<pre><code class="language-powershell">PS&gt; docker build -t calculator:1.0.0 ./src/Calculator/
+...
+Successfully built 6b8146f7fdeb
+Successfully tagged calculator:1.0.0
+
+PS&gt; docker build -t webui:1.0.0 ./src/WebUI/
+...
+Successfully built 6b8146f7fdeb
+Successfully tagged webui:1.0.0
+</code></pre>
+
+<h3 id="install-rabbitmq-and-the-applications">Install rabbitmq and the applications</h3>
+
+<p>Use kubectl to do the installations</p>
+
+<pre><code>PS&gt; kubectl apply -f deploy/rabbitmq.yaml
+...
+service/rabbitmq-headless created
+service/rabbitmq created
+statefulset.apps/rabbitmq created
+
+PS&gt; kubectl apply -f deploy/calculator.yaml
+secret/calculator created
+service/calculator created
+deployment.apps/calculator created
+
+PS&gt; kubectl apply -f deploy/webui.yaml
+secret/webui created
+service/webui created
+deployment.apps/webui created
+</code></pre>
+
+<h3 id="verify-the-installation">Verify the installation</h3>
+
+<p>Use <code>kubectl</code> to explore what was deployed. Try things like: <code>kubectl get all</code>, <code>kubectl get svc</code>, etc.</p>
+
+<pre><code class="language-powershell">PS&gt; kubectl get pods
+NAME                         READY     STATUS    RESTARTS   AGE
+calculator-87dbdcdff-qh7f7   1/1       Running   0          16m
+rabbitmq-0                   1/1       Running   0          16m
+webui-675bfd674d-nthbz       1/1       Running   0          16m
+</code></pre>
+
+<p>Visit <a href="http://localhost:32500/">http://localhost:32500/</a> in the browser to see the WebUI in action.</p>
+
+<p><strong>Scale out the calculator</strong></p>
+
+<p>Manually scale the calculator service to two instances.</p>
+
+<pre><code class="language-powershell">kubectl scale --replicas=2 deployment/calculator
+</code></pre>
+
+<h3 id="extras">Extras</h3>
+
+<p><strong>Install the Kubernetes Dashboard (UI)</strong></p>
+
+<pre><code class="language-powershell">PS&gt; kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/alternative/kubernetes-dashboard.yaml
+...
+deployment.apps &quot;kubernetes-dashboard&quot; created
+service &quot;kubernetes-dashboard&quot; created
+</code></pre>
+
+<p>View the Kubernetes Dashboard</p>
+
+<pre><code class="language-powershell">PS&gt; kubectl proxy
+Starting to serve on 127.0.0.1:8001
+</code></pre>
+
+<p>Visit <a href="http://localhost:8001/api/v1/namespaces/kube-system/services/kubernetes-dashboard/proxy">http://localhost:8001/api/v1/namespaces/kube-system/services/kubernetes-dashboard/proxy</a> in the browser.</p>
+
+<h3 id="try-some-things">Try some things</h3>
+
+<p>Scale out the service to increase parallel processing of messages</p>
+
+<pre><code>kubectl scale --replicas=3 deployment/calculator
+</code></pre>
+
+<p>Roll out an upgrade and note that there is 0 downtime</p>
+
+<pre><code>kubectl apply -f deploy/calculator.yaml
+</code></pre>
+
+<p>Kill the service (simulating a crash) and watch it recover</p>
+
+<pre><code>kubectl delete po --selector=app=webui
+</code></pre>
+
+<p>View application logs</p>
+
+<pre><code>kubectl logs --selector=app=webui
+# stream the logs:
+kubectl logs -f $(kubectl get po --selector=app=webui--output=jsonpath={.items..metadata.name})
+</code></pre>
+
+</div>
+
+    </div></body>
+<script src="/jquery-3.3.1.slim/jquery.slim.min.js"></script>
+<script src="/bootstrap-4.3.1/js/dist/util.js"></script>
+<script src="/bootstrap-4.3.1/js/dist/dropdown.js"></script>
+<script src="/bootstrap-4.3.1/js/dist/collapse.js"></script>
+</html>
