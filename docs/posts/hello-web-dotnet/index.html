@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="map[]">
-    <meta name="generator" content="Hugo 0.55.4" />
+    <meta name="generator" content="Hugo 0.56.3" />
     <title>noone.dev</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
     <link rel="stylesheet" href="/fontawesome-free-5.7.2/css/all.min.css">
@@ -51,12 +51,12 @@
 {
     <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Program</span>
     {
-        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> Main(<span style="color:#66d9ef">string</span><span style="color:#a6e22e">[]</span> args)
+        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> Main(<span style="color:#66d9ef">string</span>[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
         }
 
-        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> IWebHostBuilder CreateWebHostBuilder(<span style="color:#66d9ef">string</span><span style="color:#a6e22e">[]</span> args) =&gt;
+        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> IWebHostBuilder CreateWebHostBuilder(<span style="color:#66d9ef">string</span>[] args) =&gt;
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup&lt;Startup&gt;();
     }

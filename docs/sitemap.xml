@@ -3,20 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts/hello-k8s-windows-part-2/</loc>
-    <lastmod>2019-04-30T13:10:25-07:00</lastmod>
+    <loc>/posts/</loc>
+    <lastmod>2019-08-13T11:07:26-07:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/posts/</loc>
-    <lastmod>2019-04-30T13:10:25-07:00</lastmod>
-    <priority>0</priority>
+    <loc>/posts/vuejs-in-docker/</loc>
+    <lastmod>2019-08-13T11:07:26-07:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-04-30T13:10:25-07:00</lastmod>
+    <lastmod>2019-08-13T11:07:26-07:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/hello-k8s-windows-part-2/</loc>
+    <lastmod>2019-04-30T13:10:25-07:00</lastmod>
   </url>
   
   <url>
@@ -591,14 +596,14 @@
   </url>
   
   <url>
-    <loc>/tags/humor/</loc>
+    <loc>/2008/10/11/super-us/</loc>
     <lastmod>2008-10-11T12:11:54+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/2008/10/11/super-us/</loc>
+    <loc>/tags/humor/</loc>
     <lastmod>2008-10-11T12:11:54+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
