@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on noone.dev</title>
@@ -6,7 +6,6 @@
     <description>Recent content in Posts on noone.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright © 2019, Kevin Noone; all rights reserved.</copyright>
     <lastBuildDate>Tue, 13 Aug 2019 11:07:26 -0700</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -33,7 +32,8 @@ yarn global add @vue/cli Create a new hello-world application and change into th
       <description>This is the second in a multi-part series that will show how to easily get Kubernetes up and running in Windows and deploy a sample application. Almost everything also applies to Linux, MacOS, etc.
 The source code for this example can be found at https://github.com/cleverswine/hello-k8s-win
 These posts are based on an intoductory presentation that I gave to my company.
-Deploy to a local Kubernetes (k8s) cluster Install the tools</description>
+Deploy to a local Kubernetes (k8s) cluster Install the tools
+ Docker Desktop - enable Kubernetes after installing (https://hub.</description>
     </item>
     
     <item>

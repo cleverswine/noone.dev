@@ -4,102 +4,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="map[]">
-    <meta name="generator" content="Hugo 0.56.3" />
+    <meta name="generator" content="Hugo 0.63.2" />
     <title>noone.dev</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
-    <link rel="stylesheet" href="/fontawesome-free-5.7.2/css/all.min.css">
-    
-    <link rel="stylesheet" href="/scss/main.min.eb5f6698e9eef38a204f38a27f3631ace5720b7526fb244b4d3828ca090437c6.css">
-</head>
-<body><nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="/">$HOME</a>
-    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto">
-            
-            
-            <li class="nav-item">
-                <a class="nav-link" href="/about/">~/about</a>
-            </li>
-            
-            
-            
-            <li class="nav-item">
-                <a class="nav-link" href="/posts/">~/posts</a>
-            </li>
-            
-            
-        </ul>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head><body><nav class="navbar is-light" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+            <img src="/apple-touch-icon.png" width="32" height="32">&nbsp;&nbsp;<strong>noone.dev</strong>
+        </a>
+        
+            <a class="navbar-item" href="/posts/"> posts </a>
+        
     </div>
-</nav><div id="content" class="container">
-<h5>Sep 26  2011 <a href="/2011/09/26/wcf-client-and-the-using-statement/">WCF Client and the &amp;#8220;using&amp;#8221; Statement</a></h5>
+</nav><section class="section">
+        <div class="container">
+<p class="title is-4"><a href="/2011/09/26/wcf-client-and-the-using-statement/">WCF Client and the &amp;#8220;using&amp;#8221; Statement</a></p>
+<p class="subtitle is-6 has-text-grey"><i class="fas fa-calendar-alt" aria-hidden="true"></i> September 26, 2011</p>
 <hr />
-<div class="post-content">
-    <p>As I was researching patterns and practices for a WCF client implementation, I came across a bug in the .Net implementation of ClientBase<T> (whether it&#8217;s actually a bug is arguable). It&#8217;s well documented on the web, but it could cause major headaches if you happened to miss it.</p>
-
-<p>The core of the issue is that ClientBase<T> implements IDisposable. With this knowledge, just about any programmer would naturally wrap its usage in a using{} block. Digging deeper, you&#8217;ll find that the ClientBase<T> Dispose() method simply calls Close() on the underlying connection. This is problematic because in certain connection states (such as &#8220;Faulted&#8221;), the Close() will fail. As I said, this is well documented elsewhere, for example: <a title="Avoiding Problems with the Using Statement" href="http://msdn.microsoft.com/en-us/library/aa355056.aspx" target="_blank">on MSDN</a>, <a href="http://stackoverflow.com/questions/573872/what-is-the-best-workaround-for-the-wcf-client-using-block-issue" title="What is the best workaround for the WCF client `using` block issue?" target="_blank">Stack Overflow</a>, and <a href="http://blogs.msdn.com/b/jjameson/archive/2010/03/18/avoiding-problems-with-the-using-statement-and-wcf-service-proxies.aspx" title="Avoiding Problems with the Using Statement and WCF Service Proxies" target="_blank">here</a>.</p>
-
-<p>There are a few different solutions to this issue. I went with a simple Disposable wrapper&#8230;</p>
-
-<pre lang="csharp">// Get a disposable MyClientWrapper object
-using(var clientWrapper = ClientFactory.GetMyClientWrapper())
-{
-    clientWrapper.Client.DoSomething();
-}
-
-public class MyClientWrapper : IDisposable
-{
-    private readonly MyClient _client;
-
-    public MyClientWrapper(Binding binding, Uri endpoint)
-    {
-        // creates an instance of MyClient, which is derived from ClientBase&lt;T>
-        _client = new MyClient(binding, new EndpointAddress(endpoint.ToString()));
-    }
-
-    public MyClient Client
-    {
-        get { return _client; }
-    }
-
-    public void Dispose()
-    {
-        // safe dispose with extension method (below)
-        _client.CloseProxy();
-    }
-}
-
-// extension method for safe Close() on ClientBase&lt;T>
-public static void CloseProxy(this ClientBase&lt;T> proxy) where T : class
-{
-    try
-    {
-        if (proxy.State != CommunicationState.Closed 
-                && proxy.State != CommunicationState.Faulted)
-        {
-            proxy.Close(); // may throw exception while closing
-        }
-        else
-        {
-            proxy.Abort();
-        }
-    }
-    catch (CommunicationException)
-    {
-        proxy.Abort();
-        throw;
-    }
-}</pre>
+<div class="content">
+    <p>As I was researching patterns and practices for a WCF client implementation, I came across a bug in the .Net implementation of ClientBase<!-- raw HTML omitted --> (whether it’s actually a bug is arguable). It’s well documented on the web, but it could cause major headaches if you happened to miss it.</p>
+<p>The core of the issue is that ClientBase<!-- raw HTML omitted --> implements IDisposable. With this knowledge, just about any programmer would naturally wrap its usage in a using{} block. Digging deeper, you’ll find that the ClientBase<!-- raw HTML omitted --> Dispose() method simply calls Close() on the underlying connection. This is problematic because in certain connection states (such as “Faulted”), the Close() will fail. As I said, this is well documented elsewhere, for example: <!-- raw HTML omitted -->on MSDN<!-- raw HTML omitted -->, <!-- raw HTML omitted -->Stack Overflow<!-- raw HTML omitted -->, and <!-- raw HTML omitted -->here<!-- raw HTML omitted -->.</p>
+<p>There are a few different solutions to this issue. I went with a simple Disposable wrapper…</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<blockquote>
+</blockquote>
 
 </div>
 
-    </div></body>
-<script src="/jquery-3.3.1.slim/jquery.slim.min.js"></script>
-<script src="/bootstrap-4.3.1/js/dist/util.js"></script>
-<script src="/bootstrap-4.3.1/js/dist/dropdown.js"></script>
-<script src="/bootstrap-4.3.1/js/dist/collapse.js"></script>
+        </div>
+    </section><footer class="footer">
+    <div class="content has-text-centered">
+        <p class="is-size-4">
+            
+                
+                    <a style="margin-right: 8px;" href="https://github.com/cleverswine/" aria-label="Github"   >
+                        <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                    </a>
+                
+                    <a style="margin-right: 8px;" href="https://twitter.com/cleverswine/" aria-label="Twitter"   >
+                        <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+                    </a>
+                
+                    <a style="margin-right: 8px;" href="https://www.linkedin.com/in/kevinnoone/" aria-label="LinkedIn"   >
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                
+                    <a style="margin-right: 8px;" href="http://www.flickr.com/photos/cleverswine/" aria-label="Flickr"   >
+                        <i class="fab fa-flickr" aria-hidden="true"></i>
+                    </a>
+                
+                    <a style="margin-right: 8px;" href="https://myhugosite.com/index.xml" aria-label="RSS" rel="alternate"   type="application/rss&#43;xml" >
+                        <i class="fas fa-rss" aria-hidden="true"></i>
+                    </a>
+                
+            
+        </p>
+        <p> © 2020 Kevin Noone · Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://bulma.io/">Bulma</a></p>
+    </div>
+</footer></body>
+
 </html>

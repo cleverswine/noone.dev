@@ -4,57 +4,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="map[]">
-    <meta name="generator" content="Hugo 0.56.3" />
+    <meta name="generator" content="Hugo 0.63.2" />
     <title>noone.dev</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
-    <link rel="stylesheet" href="/fontawesome-free-5.7.2/css/all.min.css">
-    
-    <link rel="stylesheet" href="/scss/main.min.eb5f6698e9eef38a204f38a27f3631ace5720b7526fb244b4d3828ca090437c6.css">
-</head>
-<body><nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="/">$HOME</a>
-    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto">
-            
-            
-            <li class="nav-item">
-                <a class="nav-link" href="/about/">~/about</a>
-            </li>
-            
-            
-            
-            <li class="nav-item">
-                <a class="nav-link" href="/posts/">~/posts</a>
-            </li>
-            
-            
-        </ul>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head><body><nav class="navbar is-light" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+            <img src="/apple-touch-icon.png" width="32" height="32">&nbsp;&nbsp;<strong>noone.dev</strong>
+        </a>
+        
+            <a class="navbar-item" href="/posts/"> posts </a>
+        
     </div>
-</nav><div id="content" class="container">
-<h5>Apr 30  2019 <a href="/posts/hello-k8s-windows-part-1/">Hello K8s in Windows - Part 1</a></h5>
+</nav><section class="section">
+        <div class="container">
+<p class="title is-4"><a href="/posts/hello-k8s-windows-part-1/">Hello K8s in Windows - Part 1</a></p>
+<p class="subtitle is-6 has-text-grey"><i class="fas fa-calendar-alt" aria-hidden="true"></i> April 30, 2019</p>
 <hr />
-<div class="post-content">
-    
-
-<p>This is the first in a multi-part series that will show how to easily get Kubernetes up and running in Windows and deploy a sample application. Almost everything also applies to Linux, MacOS, etc.</p>
-
+<div class="content">
+    <p>This is the first in a multi-part series that will show how to easily get Kubernetes up and running in Windows and deploy a sample application. Almost everything also applies to Linux, MacOS, etc.</p>
 <p>The source code for this example can be found at <a href="https://github.com/cleverswine/hello-k8s-win">https://github.com/cleverswine/hello-k8s-win</a></p>
-
 <p>These posts are based on an intoductory presentation that I gave to my company.</p>
-
 <h3 id="sample-application">Sample Application</h3>
-
 <p>Consider a simple message processing application, as shown here:</p>
-
-<p><img src="/k8swinsample.png" alt="Example image" /></p>
-
+<p><img src="/k8swinsample.png" alt="Example image"></p>
 <p>Flow:</p>
-
 <ul>
 <li>Input comes in through user or machine via a REST API</li>
 <li>The Web UI puts a message on the processing queue</li>
@@ -62,11 +37,8 @@
 <li>The Calculator sends status updates to the Web UI via a REST API (continues until processing is complete)</li>
 <li>The Web UI sends status updates to the browser</li>
 </ul>
-
 <h3 id="infrastructure-considerations">Infrastructure Considerations</h3>
-
 <p>Requirements for the Sample Application</p>
-
 <ul>
 <li>High availability / load balancing</li>
 <li>Host multiple applications with varying dependencies</li>
@@ -80,86 +52,82 @@
 <li>Easily replicate the infrastructure for dev, test, etc.</li>
 <li>Easy and repeatable deployment mechanism</li>
 </ul>
-
 <h3 id="docker">Docker</h3>
-
 <p>Docker gives us the ability to &ldquo;containerize&rdquo; our applications.</p>
-
 <p>(from docker.com) A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.</p>
-
 <p>Portable across multiple environments</p>
-
 <ul>
 <li>Developer machine, bare metal server, VM, data center, cloud</li>
 <li>Consistent deployments, including dependencies</li>
 </ul>
-
 <p>Separation of concerns</p>
-
 <ul>
 <li>Developer packages app and it&rsquo;s version specific dependencies (e.g. runtime like Java, dotnet) in container</li>
 <li>Operations configures hosts and then runs, manages and monitors containers</li>
 </ul>
-
 <p>Container can be single deployable unit generated as artifact from repeatable build process</p>
-
 <p>Facilitates use of microservices architecture</p>
-
 <p>Startup is significantly faster than a VM (ephemeral workloads)</p>
-
 <h3 id="kubernetes">Kubernetes</h3>
-
 <p>Kubernetes (k8s) is a platform for automating deployment, scaling, and management of containerized applications.</p>
-
 <p><strong>Core concepts</strong></p>
-
 <p>Pod: A Pod represents a unit of deployment: a single instance of an application in Kubernetes, which might consist of either a single container or a small number of containers that are tightly coupled and that share resources.</p>
-
 <p>Service: A Kubernetes Service is an abstraction which defines a logical set of Pods and a policy by which to access them - sometimes called a micro-service.</p>
-
 <p>Deployment: You describe a desired state in a Deployment object, and the Deployment controller changes the actual state to the desired state at a controlled rate.</p>
-
 <p><strong>Architecture of a Kubernetes Cluster</strong></p>
-
 <p><em>credit <a href="https://en.wikipedia.org/wiki/Kubernetes">https://en.wikipedia.org/wiki/Kubernetes</a></em></p>
-
-<p><img src="/k8swinsample2.png" alt="Example image" /></p>
-
+<p><img src="/k8swinsample2.png" alt="Example image"></p>
 <p><strong>How to get Kubernetes</strong></p>
-
 <p>Cloud Hosted:  Azure: Azure Kubernetes Service, Google: Google Kubernetes Engine, Amazon: Elastic Container Service for Kubernetes, and many more.</p>
-
 <p>On-premise: Kubeadm, Kubespray, OpenShift, and many more.</p>
-
 <p>For developers: Minikube, Docker Desktop, and many more.</p>
-
 <p>(see Picking the Right Solution - kubernetes.io)</p>
-
 <p><strong>Kubernetes and the Sample Application</strong></p>
-
 <p>Kubernetes deployments are described by YAML files, and deployments are as simple as:  kubectl apply -f my-app.yaml</p>
-
 <p>What types of build artifacts do we need for each application?</p>
-
 <ul>
 <li>A Docker image</li>
 <li>A YAML file (or files) to describe the deployment</li>
 </ul>
-
 <p>How do we interact with Kubernetes?</p>
-
 <ul>
 <li>Use the kubectl command line tool</li>
 <li>Use the Kubernetes Dashboard UI</li>
 </ul>
-
 <p>Next: <a href="/posts/hello-k8s-windows-part-2/">Part 2</a></p>
 
 </div>
 
-    </div></body>
-<script src="/jquery-3.3.1.slim/jquery.slim.min.js"></script>
-<script src="/bootstrap-4.3.1/js/dist/util.js"></script>
-<script src="/bootstrap-4.3.1/js/dist/dropdown.js"></script>
-<script src="/bootstrap-4.3.1/js/dist/collapse.js"></script>
+        </div>
+    </section><footer class="footer">
+    <div class="content has-text-centered">
+        <p class="is-size-4">
+            
+                
+                    <a style="margin-right: 8px;" href="https://github.com/cleverswine/" aria-label="Github"   >
+                        <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                    </a>
+                
+                    <a style="margin-right: 8px;" href="https://twitter.com/cleverswine/" aria-label="Twitter"   >
+                        <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+                    </a>
+                
+                    <a style="margin-right: 8px;" href="https://www.linkedin.com/in/kevinnoone/" aria-label="LinkedIn"   >
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                
+                    <a style="margin-right: 8px;" href="http://www.flickr.com/photos/cleverswine/" aria-label="Flickr"   >
+                        <i class="fab fa-flickr" aria-hidden="true"></i>
+                    </a>
+                
+                    <a style="margin-right: 8px;" href="https://myhugosite.com/index.xml" aria-label="RSS" rel="alternate"   type="application/rss&#43;xml" >
+                        <i class="fas fa-rss" aria-hidden="true"></i>
+                    </a>
+                
+            
+        </p>
+        <p> © 2020 Kevin Noone · Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://bulma.io/">Bulma</a></p>
+    </div>
+</footer></body>
+
 </html>

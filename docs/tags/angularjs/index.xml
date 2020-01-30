@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>angularjs on noone.dev</title>
@@ -6,7 +6,6 @@
     <description>Recent content in angularjs on noone.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright © 2019, Kevin Noone; all rights reserved.</copyright>
     <lastBuildDate>Wed, 20 Mar 2013 20:51:55 +0000</lastBuildDate>
     
 	<atom:link href="/tags/angularjs/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +17,8 @@
       <pubDate>Wed, 20 Mar 2013 20:51:55 +0000</pubDate>
       
       <guid>/2013/03/20/last-fm-recent-tracks-with-angularjs/</guid>
-      <description>AngularJS is an MVC framework for javascript. It is best suited for round-tripping resources with a RESTful service. In this post, I will simply get a list of recent tracks from Last.fm, treating each track as a resource. The Last.fm API is documented here. There is no round-tripping in this example. I&amp;#8217;ll also be utilizing Twitter Bootstrap for layout.
-To start, create the AngularJS application and a controller for recent tracks.</description>
+      <description>AngularJSis an MVC framework for javascript. It is best suited for round-tripping resources with a RESTful service. In this post, I will simply get a list of recent tracks from Last.fm, treating each track as a resource. The Last.fm API is documented here. There is no round-tripping in this example. I’ll also be utilizing Twitter Bootstrapfor layout.
+To start, create the AngularJS application and a controller for recent tracks. Since this is a simple application, there are no routes and views.</description>
     </item>
     
   </channel>

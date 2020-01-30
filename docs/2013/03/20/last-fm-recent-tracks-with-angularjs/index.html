@@ -4,121 +4,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="map[]">
-    <meta name="generator" content="Hugo 0.56.3" />
+    <meta name="generator" content="Hugo 0.63.2" />
     <title>noone.dev</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
-    <link rel="stylesheet" href="/fontawesome-free-5.7.2/css/all.min.css">
-    
-    <link rel="stylesheet" href="/scss/main.min.eb5f6698e9eef38a204f38a27f3631ace5720b7526fb244b4d3828ca090437c6.css">
-</head>
-<body><nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="/">$HOME</a>
-    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto">
-            
-            
-            <li class="nav-item">
-                <a class="nav-link" href="/about/">~/about</a>
-            </li>
-            
-            
-            
-            <li class="nav-item">
-                <a class="nav-link" href="/posts/">~/posts</a>
-            </li>
-            
-            
-        </ul>
-    </div>
-</nav><div id="content" class="container">
-<h5>Mar 20  2013 <a href="/2013/03/20/last-fm-recent-tracks-with-angularjs/">Last.fm Recent Tracks with AngularJS</a></h5>
-<hr />
-<div class="post-content">
-    <p><a href="http://angularjs.org/" title="AngularJS" target="_blank">AngularJS</a> is an MVC framework for javascript. It is best suited for round-tripping resources with a RESTful service. In this post, I will simply get a list of recent tracks from Last.fm, treating each track as a resource. The Last.fm API is documented <a href="http://www.last.fm/api" title="Last.fm API" target="_blank">here</a>. There is no round-tripping in this example. I&#8217;ll also be utilizing <a href="http://twitter.github.com/bootstrap/" title="Bootstrap" target="_blank">Twitter Bootstrap</a> for layout.</p>
-
-<p>To start, create the AngularJS application and a controller for recent tracks. Since this is a simple application, there are no routes and views. The controller will be invoked inline on the main page. Routes and views are easily added once you get a handle on the framework.</p>
-
-<pre lang="javascript">'use strict';
-
-var LastFmApp = angular.module('lastfm-app', []);
-
-LastFmApp.controller('RecentTracksController',
-    function RecentTracksController($scope, $http) {
-        var url = 'http://ws.audioscrobbler.com/2.0/';
-        var params = {
-            method: 'user.getrecenttracks',
-            api_key: 'your_api_key',
-            limit: 12,
-            user: 'user_name',
-            format: 'json'
-        };
-        $http.get(url, { params: params })
-            .success(function (data) {
-                $scope.songs = data.recenttracks.track;
-            })
-            .error(function (data, status) {
-                console.log(data || "Request failed");
-                console.log(status);
-            });       
-    });</pre>
-
-<p>The HTML (simplified for brevity).</p>
-
-<pre lang="html">
-
-
-
-    
-
-<div class="container" ng-controller="RecentTracksController">
-  <ul class="thumbnails">
-    <li class="span4" ng-repeat="song in songs">
-      <a class="thumbnail" href="{{song.url}}" title="{{song.artist['#text']}} - {{song.name}}" style="display: block;">
-                          
-      
-      <div class="media">
-        <div class="pull-left" href="#">
-          <img class="media-object" src="{{song.image[2]['#text']}}" />
-                                  
-        </div>
-                                
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head><body><nav class="navbar is-light" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+            <img src="/apple-touch-icon.png" width="32" height="32">&nbsp;&nbsp;<strong>noone.dev</strong>
+        </a>
         
-        <div class="media-body">
-          <strong>{{song.artist['#text']}}</strong><br />
-                                      {{song.name}}<br />
-                                      <em>{{song.date['#text']}}</em>
-                                  
-        </div>
-                            
-      </div>
-                      </a>
-                  
-    </li>
-            
-  </ul>
-      
-</div>
-    
-    
-    
-    
-
-</pre>
-
+            <a class="navbar-item" href="/posts/"> posts </a>
+        
+    </div>
+</nav><section class="section">
+        <div class="container">
+<p class="title is-4"><a href="/2013/03/20/last-fm-recent-tracks-with-angularjs/">Last.fm Recent Tracks with AngularJS</a></p>
+<p class="subtitle is-6 has-text-grey"><i class="fas fa-calendar-alt" aria-hidden="true"></i> March 20, 2013</p>
+<hr />
+<div class="content">
+    <p><!-- raw HTML omitted -->AngularJS<!-- raw HTML omitted --> is an MVC framework for javascript. It is best suited for round-tripping resources with a RESTful service. In this post, I will simply get a list of recent tracks from Last.fm, treating each track as a resource. The Last.fm API is documented <!-- raw HTML omitted -->here<!-- raw HTML omitted -->. There is no round-tripping in this example. I’ll also be utilizing <!-- raw HTML omitted -->Twitter Bootstrap<!-- raw HTML omitted --> for layout.</p>
+<p>To start, create the AngularJS application and a controller for recent tracks. Since this is a simple application, there are no routes and views. The controller will be invoked inline on the main page. Routes and views are easily added once you get a handle on the framework.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>The HTML (simplified for brevity).</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <p>The resulting grid will look something like this:</p>
-
-<p><a href="https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2013/03/Capture.png"><img src="https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2013/03/Capture.png?resize=300%2C167" alt="Recent Tracks" class="aligncenter size-medium wp-image-842" srcset="https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2013/03/Capture.png?resize=300%2C167 300w, https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2013/03/Capture.png?resize=624%2C349 624w, https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2013/03/Capture.png?w=631 631w" sizes="(max-width: 300px) 85vw, 300px" data-recalc-dims="1" /></a></p>
+<p><a href="https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2013/03/Capture.png"><!-- raw HTML omitted --></a></p>
 
 </div>
 
-    </div></body>
-<script src="/jquery-3.3.1.slim/jquery.slim.min.js"></script>
-<script src="/bootstrap-4.3.1/js/dist/util.js"></script>
-<script src="/bootstrap-4.3.1/js/dist/dropdown.js"></script>
-<script src="/bootstrap-4.3.1/js/dist/collapse.js"></script>
+        </div>
+    </section><footer class="footer">
+    <div class="content has-text-centered">
+        <p class="is-size-4">
+            
+                
+                    <a style="margin-right: 8px;" href="https://github.com/cleverswine/" aria-label="Github"   >
+                        <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                    </a>
+                
+                    <a style="margin-right: 8px;" href="https://twitter.com/cleverswine/" aria-label="Twitter"   >
+                        <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+                    </a>
+                
+                    <a style="margin-right: 8px;" href="https://www.linkedin.com/in/kevinnoone/" aria-label="LinkedIn"   >
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                
+                    <a style="margin-right: 8px;" href="http://www.flickr.com/photos/cleverswine/" aria-label="Flickr"   >
+                        <i class="fab fa-flickr" aria-hidden="true"></i>
+                    </a>
+                
+                    <a style="margin-right: 8px;" href="https://myhugosite.com/index.xml" aria-label="RSS" rel="alternate"   type="application/rss&#43;xml" >
+                        <i class="fas fa-rss" aria-hidden="true"></i>
+                    </a>
+                
+            
+        </p>
+        <p> © 2020 Kevin Noone · Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://bulma.io/">Bulma</a></p>
+    </div>
+</footer></body>
+
 </html>

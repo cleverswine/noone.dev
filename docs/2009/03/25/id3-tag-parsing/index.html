@@ -4,63 +4,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="map[]">
-    <meta name="generator" content="Hugo 0.56.3" />
+    <meta name="generator" content="Hugo 0.63.2" />
     <title>noone.dev</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
-    <link rel="stylesheet" href="/fontawesome-free-5.7.2/css/all.min.css">
-    
-    <link rel="stylesheet" href="/scss/main.min.eb5f6698e9eef38a204f38a27f3631ace5720b7526fb244b4d3828ca090437c6.css">
-</head>
-<body><nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="/">$HOME</a>
-    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto">
-            
-            
-            <li class="nav-item">
-                <a class="nav-link" href="/about/">~/about</a>
-            </li>
-            
-            
-            
-            <li class="nav-item">
-                <a class="nav-link" href="/posts/">~/posts</a>
-            </li>
-            
-            
-        </ul>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head><body><nav class="navbar is-light" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+            <img src="/apple-touch-icon.png" width="32" height="32">&nbsp;&nbsp;<strong>noone.dev</strong>
+        </a>
+        
+            <a class="navbar-item" href="/posts/"> posts </a>
+        
     </div>
-</nav><div id="content" class="container">
-<h5>Mar 25  2009 <a href="/2009/03/25/id3-tag-parsing/">ID3 Tag Parsing</a></h5>
+</nav><section class="section">
+        <div class="container">
+<p class="title is-4"><a href="/2009/03/25/id3-tag-parsing/">ID3 Tag Parsing</a></p>
+<p class="subtitle is-6 has-text-grey"><i class="fas fa-calendar-alt" aria-hidden="true"></i> March 25, 2009</p>
 <hr />
-<div class="post-content">
-    <p>I&#8217;ve been working on a project to read and update <a href="http://www.id3.org/Home">ID3 tags</a> on my music collection. An ID3 tag is the meta data embedded in mp3 files that contains artist and other information. My initial goal is to batch update the &#8220;genre&#8221; field in my mp3 files. I&#8217;ve written a simple .Net forms application to do this. I found a really good library created by Novell called <a href="http://developer.novell.com/wiki/index.php/TagLib_Sharp">TagLib Sharp</a>. The library makes it super easy to read and write ID3 tags.</p>
-
-<p><code>&lt;br /&gt;
-                TagLib.File tagFile = TagLib.File.Create(filePath);&lt;br /&gt;
-                Tag tagId3v2 = tagFile.GetTag(TagTypes.Id3v2);&lt;br /&gt;
-                if (tagId3v2 != null) tagId3v2.Genres = genreArray;&lt;br /&gt;
-                Tag tagId3v1 = tagFile.GetTag(TagTypes.Id3v1);&lt;br /&gt;
-                if (tagId3v1 != null) tagId3v1.Genres = genreArray;&lt;br /&gt;
-                tagFile.Save();&lt;br /&gt;
-</code></p>
-
-<p>The UI is pretty lame, but it works&#8230;</p>
-
-<p><a href="http://www.flickr.com/photos/cleverswine/3388496248/sizes/o/"><img src="https://i0.wp.com/farm4.static.flickr.com/3537/3388496248_76046f444e_m_d.jpg?w=840" alt="tagger" data-recalc-dims="1" /></a></p>
-
-<p><a href="http://www.flickr.com/photos/cleverswine/3388496280/sizes/o/"><img src="https://i0.wp.com/farm4.static.flickr.com/3471/3388496280_11c16fdeb1_m_d.jpg?w=840" alt="tagger" data-recalc-dims="1" /></a></p>
+<div class="content">
+    <p>I’ve been working on a project to read and update <a href="http://www.id3.org/Home">ID3 tags</a> on my music collection. An ID3 tag is the meta data embedded in mp3 files that contains artist and other information. My initial goal is to batch update the “genre” field in my mp3 files. I’ve written a simple .Net forms application to do this. I found a really good library created by Novell called <a href="http://developer.novell.com/wiki/index.php/TagLib_Sharp">TagLib Sharp</a>. The library makes it super easy to read and write ID3 tags.</p>
+<p><code>&lt;br /&gt; TagLib.File tagFile = TagLib.File.Create(filePath);&lt;br /&gt; Tag tagId3v2 = tagFile.GetTag(TagTypes.Id3v2);&lt;br /&gt; if (tagId3v2 != null) tagId3v2.Genres = genreArray;&lt;br /&gt; Tag tagId3v1 = tagFile.GetTag(TagTypes.Id3v1);&lt;br /&gt; if (tagId3v1 != null) tagId3v1.Genres = genreArray;&lt;br /&gt; tagFile.Save();&lt;br /&gt;</code></p>
+<p>The UI is pretty lame, but it works…</p>
+<p><a href="http://www.flickr.com/photos/cleverswine/3388496248/sizes/o/"><!-- raw HTML omitted --></a></p>
+<p><a href="http://www.flickr.com/photos/cleverswine/3388496280/sizes/o/"><!-- raw HTML omitted --></a></p>
 
 </div>
 
-    </div></body>
-<script src="/jquery-3.3.1.slim/jquery.slim.min.js"></script>
-<script src="/bootstrap-4.3.1/js/dist/util.js"></script>
-<script src="/bootstrap-4.3.1/js/dist/dropdown.js"></script>
-<script src="/bootstrap-4.3.1/js/dist/collapse.js"></script>
+        </div>
+    </section><footer class="footer">
+    <div class="content has-text-centered">
+        <p class="is-size-4">
+            
+                
+                    <a style="margin-right: 8px;" href="https://github.com/cleverswine/" aria-label="Github"   >
+                        <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                    </a>
+                
+                    <a style="margin-right: 8px;" href="https://twitter.com/cleverswine/" aria-label="Twitter"   >
+                        <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+                    </a>
+                
+                    <a style="margin-right: 8px;" href="https://www.linkedin.com/in/kevinnoone/" aria-label="LinkedIn"   >
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                
+                    <a style="margin-right: 8px;" href="http://www.flickr.com/photos/cleverswine/" aria-label="Flickr"   >
+                        <i class="fab fa-flickr" aria-hidden="true"></i>
+                    </a>
+                
+                    <a style="margin-right: 8px;" href="https://myhugosite.com/index.xml" aria-label="RSS" rel="alternate"   type="application/rss&#43;xml" >
+                        <i class="fas fa-rss" aria-hidden="true"></i>
+                    </a>
+                
+            
+        </p>
+        <p> © 2020 Kevin Noone · Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://bulma.io/">Bulma</a></p>
+    </div>
+</footer></body>
+
 </html>

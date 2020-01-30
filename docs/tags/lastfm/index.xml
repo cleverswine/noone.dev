@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>lastfm on noone.dev</title>
@@ -6,7 +6,6 @@
     <description>Recent content in lastfm on noone.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright © 2019, Kevin Noone; all rights reserved.</copyright>
     <lastBuildDate>Wed, 17 Mar 2010 12:09:56 +0000</lastBuildDate>
     
 	<atom:link href="/tags/lastfm/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +17,8 @@
       <pubDate>Wed, 17 Mar 2010 12:09:56 +0000</pubDate>
       
       <guid>/2010/03/17/my-favorite-albums-right-now/</guid>
-      <description>These are the albums that I&amp;#8217;ve been enjoying the most lately.
- Beautiful Death by Bella Morte Years of Refusal by Morrissey Walking with Strangers by The Birthday Massacre My Winter Storm by Tarja Oceanborn by Nightwish Banned in D.C. by Bad Brains   </description>
+      <description>These are the albums that I’ve been enjoying the most lately.
+ Beautiful Deathby Bella Morte Years of Refusalby Morrissey Walking with Strangersby The Birthday Massacre My Winter Stormby Tarja Oceanbornby Nightwish Banned in D.C.by Bad Brains  </description>
     </item>
     
   </channel>

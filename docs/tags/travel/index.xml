@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Travel on noone.dev</title>
@@ -6,7 +6,6 @@
     <description>Recent content in Travel on noone.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright © 2019, Kevin Noone; all rights reserved.</copyright>
     <lastBuildDate>Thu, 11 Oct 2012 12:51:14 +0000</lastBuildDate>
     
 	<atom:link href="/tags/travel/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +17,7 @@
       <pubDate>Thu, 11 Oct 2012 12:51:14 +0000</pubDate>
       
       <guid>/2012/10/11/paris/</guid>
-      <description>We&amp;#8217;ve just returned from a nice, long visit to Paris. Check out some photos on Flickr.</description>
+      <description>We’ve just returned from a nice, long visit to Paris. Check out some photos on Flickr.</description>
     </item>
     
     <item>
@@ -27,7 +26,7 @@
       <pubDate>Wed, 23 Apr 2008 09:04:08 +0000</pubDate>
       
       <guid>/2008/04/23/home-from-tejas/</guid>
-      <description>We&amp;#8217;ve just returned from our trip to Texas, where we saw all of my family and visited Galveston, Kemah, and Houston. We had a good time, but it&amp;#8217;s nice to be home in Oregon. The heat and humidity down there was a bit much. On flickr, you will find many photos from the trip.</description>
+      <description>We’ve just returned from our trip to Texas, where we saw all of my family and visited Galveston, Kemah, and Houston. We had a good time, but it’s nice to be home in Oregon. The heat and humidity down there was a bit much. On flickr, you will find many photos from the trip.</description>
     </item>
     
   </channel>

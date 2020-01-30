@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WebSite on noone.dev</title>
@@ -6,7 +6,6 @@
     <description>Recent content in WebSite on noone.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright © 2019, Kevin Noone; all rights reserved.</copyright>
     <lastBuildDate>Thu, 13 Jul 2017 13:54:15 -0700</lastBuildDate>
     
 	<atom:link href="/tags/website/index.xml" rel="self" type="application/rss+xml" />
@@ -28,7 +27,7 @@
       <pubDate>Mon, 05 Aug 2013 15:18:45 +0000</pubDate>
       
       <guid>/2013/08/05/trying-out-windows-live-writer/</guid>
-      <description>Scott Hanselman has been trumpeting Windows Live Writer for some time now. I’ve been hesitant to try it out because I’m a control freak and I was convinced that Live Writer wouldn’t do things correctly. Well, he blogged about it again today so I’m giving it a try (with this post). It was the comments on his post that swayed me.
+      <description>Scott Hanselman has been trumpeting Windows Live Writer for some time now. I’ve been hesitant to try it out because I’m a control freak and I was convinced that Live Writer wouldn’t do things correctly. Well, he blogged about it again todayso I’m giving it a try (with this post). It was the comments on his post that swayed me.
 Live Writer has improved quite a bit since last time I tried it.</description>
     </item>
     
@@ -38,7 +37,7 @@ Live Writer has improved quite a bit since last time I tried it.</description>
       <pubDate>Wed, 25 Nov 2009 16:13:26 +0000</pubDate>
       
       <guid>/2009/11/25/cleverswine-net-is-new/</guid>
-      <description>cleverswine.net has been updated. It&amp;#8217;s something I&amp;#8217;m messing around with, along the lines of a &amp;#8220;lifestream&amp;#8221;. I don&amp;#8217;t like to call it that, however, because it&amp;#8217;s not my &amp;#8220;life&amp;#8221;. It&amp;#8217;s really just a summary of my online activity.</description>
+      <description>cleverswine.net has been updated. It’s something I’m messing around with, along the lines of a “lifestream”. I don’t like to call it that, however, because it’s not my “life”. It’s really just a summary of my online activity.</description>
     </item>
     
     <item>
@@ -47,7 +46,7 @@ Live Writer has improved quite a bit since last time I tried it.</description>
       <pubDate>Mon, 23 Nov 2009 13:32:54 +0000</pubDate>
       
       <guid>/2009/11/23/what-im-working-on/</guid>
-      <description>Here&amp;#8217;s what I&amp;#8217;m working on What I worked on. Right now it&amp;#8217;s just a basic display of feeds from some of my social networks. I&amp;#8217;d like to fancy it up a bit at some point, perhaps with some nice jQuery tooltips. I&amp;#8217;m using the SimplePie PHP library to fetch the feeds (each one asynchronously). The design is borrowed from Popurls. I know it&amp;#8217;s not that interesting, but it&amp;#8217;s fun for me.</description>
+      <description>Here’s what I’m working onWhat I worked on. Right now it’s just a basic display of feeds from some of my social networks. I’d like to fancy it up a bit at some point, perhaps with some nice jQuery tooltips. I’m using the SimplePie PHP library to fetch the feeds (each one asynchronously). The design is borrowed from Popurls. I know it’s not that interesting, but it’s fun for me.</description>
     </item>
     
     <item>
@@ -56,7 +55,7 @@ Live Writer has improved quite a bit since last time I tried it.</description>
       <pubDate>Fri, 20 Nov 2009 12:19:16 +0000</pubDate>
       
       <guid>/2009/11/20/welcome-to-blog-cleverswine-net/</guid>
-      <description>This will be the new home of my &amp;#8220;blog&amp;#8221;. I have moved it here for several reasons. Mainly, the novelty of personal blogging has worn out and I&amp;#8217;d really like to try out some cool new stuff on my base domain (www.cleverswine.net). That&amp;#8217;s not to say I&amp;#8217;ll never write anything again. I&amp;#8217;ll continue to update this blog on occasion. It&amp;#8217;s just that I&amp;#8217;ll be shifting focus to some other experimental things, like aggregating my web activity for display, showing photo albums, etc.</description>
+      <description>This will be the new home of my “blog”. I have moved it here for several reasons. Mainly, the novelty of personal blogging has worn out and I’d really like to try out some cool new stuff on my base domain (www.cleverswine.net). That’s not to say I’ll never write anything again. I’ll continue to update this blog on occasion. It’s just that I’ll be shifting focus to some other experimental things, like aggregating my web activity for display, showing photo albums, etc.</description>
     </item>
     
     <item>
@@ -83,8 +82,8 @@ Live Writer has improved quite a bit since last time I tried it.</description>
       <pubDate>Thu, 02 Jul 2009 12:40:26 +0000</pubDate>
       
       <guid>/2009/07/02/i-know/</guid>
-      <description>&amp;#8230;this web site is way out of date. I&amp;#8217;m working on a replacement that is less of a blog and more of an aggregator. It&amp;#8217;s slow going due to my lack of free time lately, but it will be here one day. Meanwhile, try the links in the header for more up to date Kevin data.
-What&amp;#8217;s going on? We&amp;#8217;re attempting to sell our house and move closer in to Portland.</description>
+      <description>…this web site is way out of date. I’m working on a replacement that is less of a blog and more of an aggregator. It’s slow going due to my lack of free time lately, but it will be here one day. Meanwhile, try the links in the header for more up to date Kevin data.
+What’s going on? We’re attempting to sell our house and move closer in to Portland.</description>
     </item>
     
     <item>
@@ -93,8 +92,8 @@ What&amp;#8217;s going on? We&amp;#8217;re attempting to sell our house and move
       <pubDate>Tue, 07 Oct 2008 13:48:25 +0000</pubDate>
       
       <guid>/2008/10/07/new-look/</guid>
-      <description>I found the Aeros wordpress theme, downloaded it, made some modifications, added my photos/movies/music widget, and here it is! I&amp;#8217;ve only tested in Firefox 3 and Internet Explorer 7. The font looks a bit strange in IE7&amp;#8230; Anyway, I&amp;#8217;ll be fiddling with it some more over time. Let me know if something doesn&amp;#8217;t look right in your browser.
-I know the sidebar isn&amp;#8217;t very elegant (especially the photos/movies/music links). I am soooo bad at design.</description>
+      <description>I found the Aeros wordpress theme, downloaded it, made some modifications, added my photos/movies/music widget, and here it is! I’ve only tested in Firefox 3 and Internet Explorer 7. The font looks a bit strange in IE7… Anyway, I’ll be fiddling with it some more over time. Let me know if something doesn’t look right in your browser.
+I know the sidebar isn’t very elegant (especially the photos/movies/music links). I am soooo bad at design.</description>
     </item>
     
     <item>
@@ -103,7 +102,7 @@ I know the sidebar isn&amp;#8217;t very elegant (especially the photos/movies/mu
       <pubDate>Tue, 30 Sep 2008 12:37:07 +0000</pubDate>
       
       <guid>/2008/09/30/bitnami-wordpress-stack/</guid>
-      <description>I&amp;#8217;ve just installed the BitNami WordPress Stack on my laptop and it was so easy, and so cool! After the install, I had a fully functioning WordPress up and running locally &amp;#8211; complete with Apache, MySql, and PHP. After installation, I exported all of the data from cleverswine.net and imported it locally &amp;#8211; again, super easy. As a result, I have a copy of my web site running locally that I can play around with.</description>
+      <description>I’ve just installed the BitNami WordPress Stack on my laptop and it was so easy, and so cool! After the install, I had a fully functioning WordPress up and running locally – complete with Apache, MySql, and PHP. After installation, I exported all of the data from cleverswine.net and imported it locally – again, super easy. As a result, I have a copy of my web site running locally that I can play around with.</description>
     </item>
     
     <item>
@@ -112,7 +111,7 @@ I know the sidebar isn&amp;#8217;t very elegant (especially the photos/movies/mu
       <pubDate>Sun, 24 Aug 2008 12:01:28 +0000</pubDate>
       
       <guid>/2008/08/24/thinking-about-another-redesign/</guid>
-      <description>I&amp;#8217;ve been pretty happy with the current state of cleverswine.net, but I think it&amp;#8217;s time for a redesign. I would like to de-emphasize the blogging portion of the site and instead create something more like a portal. I use quite a few web sites that provide activity feeds (Facebook, Delicious, Amazon, Netflix, Last.fm, and Flickr to name a few). Since I rarely blog anything of interest, I&amp;#8217;m thinking that the main content on cleverswine.</description>
+      <description>I’ve been pretty happy with the current state of cleverswine.net, but I think it’s time for a redesign. I would like to de-emphasize the blogging portion of the site and instead create something more like a portal. I use quite a few web sites that provide activity feeds (Facebook, Delicious, Amazon, Netflix, Last.fm, and Flickr to name a few). Since I rarely blog anything of interest, I’m thinking that the main content on cleverswine.</description>
     </item>
     
     <item>
@@ -121,7 +120,7 @@ I know the sidebar isn&amp;#8217;t very elegant (especially the photos/movies/mu
       <pubDate>Tue, 11 Mar 2008 11:25:34 +0000</pubDate>
       
       <guid>/2008/03/11/contact/</guid>
-      <description>I&amp;#8217;ve added a long overdue feature to cleverswine.net: a Contact form. Now you can actually contact me via email from this web site.
+      <description>I’ve added a long overdue feature to cleverswine.net: a Contact form. Now you can actually contact me via email from this web site.
 You can use the Contact link in the navigation bar at the top, or just click here. The page is sort of ugly at the moment. I might pretty it up at some point.</description>
     </item>
     
@@ -132,7 +131,7 @@ You can use the Contact link in the navigation bar at the top, or just click her
       
       <guid>/2008/01/17/wedding-update/</guid>
       <description>Location
-We&amp;#8217;ll be looking at two potential wedding locations this weekend. Our preference is for an outdoor ceremony, so that&amp;#8217;s where we are starting. First, we&amp;#8217;ll be looking at the Abernathy Center in Oregon City. We like the photos we&amp;#8217;ve seen. There are lots of gardens and gazebos and we would have the reception outdoors under a large tent. Second, we&amp;#8217;ll be looking at Viewpoint Inn in Corbett. This place is really nice and upscale, and has a fabulous view.</description>
+We’ll be looking at two potential wedding locations this weekend. Our preference is for an outdoor ceremony, so that’s where we are starting. First, we’ll be looking at the Abernathy Center in Oregon City. We like the photos we’ve seen. There are lots of gardens and gazebos and we would have the reception outdoors under a large tent. Second, we’ll be looking at Viewpoint Inn in Corbett. This place is really nice and upscale, and has a fabulous view.</description>
     </item>
     
     <item>
@@ -159,7 +158,7 @@ We&amp;#8217;ll be looking at two potential wedding locations this weekend. Our 
       <pubDate>Mon, 09 Jul 2007 09:20:44 +0000</pubDate>
       
       <guid>/2007/07/09/another-new-theme/</guid>
-      <description>I&amp;#8217;ve always wanted to go with a dark theme for my web site, but, as I&amp;#8217;ve said before, I&amp;#8217;m not a designer. Well, I happened upon a giant list of themes that I could use, and so I chose one. What do you think? I personally like it better than the last one.</description>
+      <description>I’ve always wanted to go with a dark theme for my web site, but, as I’ve said before, I’m not a designer. Well, I happened upon a giant list of themes that I could use, and so I chose one. What do you think? I personally like it better than the last one.</description>
     </item>
     
     <item>
@@ -169,7 +168,7 @@ We&amp;#8217;ll be looking at two potential wedding locations this weekend. Our 
       
       <guid>/2007/05/31/problem-with-ie6/</guid>
       <description>It seems that people using Internet Explorer version 6.0 are missing some of the content on my web site. The left and right columns do not appear. There are 2 options to fix this problem:
- I can hack the WordPress theme stylesheets IE6 users can upgrade their web browser  Since option 1 isn&amp;#8217;t really an option, here are links to the latest and greatest web browsers (they are free, so you should get one):</description>
+ I can hack the WordPress theme stylesheets IE6 users can upgrade their web browser  Since option 1 isn’t really an option, here are links to the latest and greatest web browsers (they are free, so you should get one):</description>
     </item>
     
     <item>
@@ -178,7 +177,7 @@ We&amp;#8217;ll be looking at two potential wedding locations this weekend. Our 
       <pubDate>Mon, 05 Mar 2007 15:39:34 +0000</pubDate>
       
       <guid>/2007/03/05/changes/</guid>
-      <description>This web site has changed again! The content is exactly the same, but I&amp;#8217;m messing around with the look and feel. The experience of trying to create my own style sheet from scratch has reinforced the truth about my lack of creativity. In the end, as you can see, I chose the WordPress default theme because it&amp;#8217;s actually better than anything I could come up with! Alas, I am a programmer, not a web designer.</description>
+      <description>This web site has changed again! The content is exactly the same, but I’m messing around with the look and feel. The experience of trying to create my own style sheet from scratch has reinforced the truth about my lack of creativity. In the end, as you can see, I chose the WordPress default theme because it’s actually better than anything I could come up with! Alas, I am a programmer, not a web designer.</description>
     </item>
     
   </channel>

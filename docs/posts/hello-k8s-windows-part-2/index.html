@@ -4,95 +4,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="map[]">
-    <meta name="generator" content="Hugo 0.56.3" />
+    <meta name="generator" content="Hugo 0.63.2" />
     <title>noone.dev</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen+Mono">
-    <link rel="stylesheet" href="/fontawesome-free-5.7.2/css/all.min.css">
-    
-    <link rel="stylesheet" href="/scss/main.min.eb5f6698e9eef38a204f38a27f3631ace5720b7526fb244b4d3828ca090437c6.css">
-</head>
-<body><nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="/">$HOME</a>
-    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto">
-            
-            
-            <li class="nav-item">
-                <a class="nav-link" href="/about/">~/about</a>
-            </li>
-            
-            
-            
-            <li class="nav-item">
-                <a class="nav-link" href="/posts/">~/posts</a>
-            </li>
-            
-            
-        </ul>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head><body><nav class="navbar is-light" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+            <img src="/apple-touch-icon.png" width="32" height="32">&nbsp;&nbsp;<strong>noone.dev</strong>
+        </a>
+        
+            <a class="navbar-item" href="/posts/"> posts </a>
+        
     </div>
-</nav><div id="content" class="container">
-<h5>Apr 30  2019 <a href="/posts/hello-k8s-windows-part-2/">Hello K8s in Windows - Part 2</a></h5>
+</nav><section class="section">
+        <div class="container">
+<p class="title is-4"><a href="/posts/hello-k8s-windows-part-2/">Hello K8s in Windows - Part 2</a></p>
+<p class="subtitle is-6 has-text-grey"><i class="fas fa-calendar-alt" aria-hidden="true"></i> April 30, 2019</p>
 <hr />
-<div class="post-content">
-    
-
-<p>This is the second in a multi-part series that will show how to easily get Kubernetes up and running in Windows and deploy a sample application. Almost everything also applies to Linux, MacOS, etc.</p>
-
+<div class="content">
+    <p>This is the second in a multi-part series that will show how to easily get Kubernetes up and running in Windows and deploy a sample application. Almost everything also applies to Linux, MacOS, etc.</p>
 <p>The source code for this example can be found at <a href="https://github.com/cleverswine/hello-k8s-win">https://github.com/cleverswine/hello-k8s-win</a></p>
-
 <p>These posts are based on an intoductory presentation that I gave to my company.</p>
-
 <h3 id="deploy-to-a-local-kubernetes-k8s-cluster">Deploy to a local Kubernetes (k8s) cluster</h3>
-
 <p><strong>Install the tools</strong></p>
-
 <ul>
 <li>Docker Desktop - enable Kubernetes after installing  (<a href="https://hub.docker.com/editions/community/docker-ce-desktop-windows">https://hub.docker.com/editions/community/docker-ce-desktop-windows</a>)</li>
 <li>kubectl (<a href="https://kubernetes.io/docs/tasks/tools/install-kubectl/">https://kubernetes.io/docs/tasks/tools/install-kubectl/</a>)</li>
 </ul>
-
 <h3 id="verify-connectivity-to-the-k8s-cluster">Verify connectivity to the k8s cluster</h3>
-
 <p>Once your local k8s cluster is up and running, you should be able to interact with it using <code>kubectl</code>.</p>
-
-<pre><code class="language-powershell">PS&gt; kubectl cluster-info
-Kubernetes master is running at https://localhost:6445
-KubeDNS is running at https://localhost:6445/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">PS&gt; kubectl cluster-info
+Kubernetes master is running at https<span style="color:#960050;background-color:#1e0010">:</span>//localhost<span style="color:#960050;background-color:#1e0010">:</span>6445
+KubeDNS is running at https<span style="color:#960050;background-color:#1e0010">:</span>//localhost<span style="color:#960050;background-color:#1e0010">:</span>6445/api/v1/namespaces/kube-system/services/kube-dns<span style="color:#960050;background-color:#1e0010">:</span>dns/proxy
 
 PS&gt; kubectl get nodes
 NAME                 STATUS    ROLES     AGE       VERSION
 docker-for-desktop   Ready     master    2d        v1.10.3
-</code></pre>
-
-<h3 id="clone-the-sample-repository">Clone the sample repository</h3>
-
+</code></pre></div><h3 id="clone-the-sample-repository">Clone the sample repository</h3>
 <pre><code>git clone https://github.com/cleverswine/hello-k8s-win
-</code></pre>
-
-<h3 id="build-docker-images-for-the-applications">Build Docker images for the applications</h3>
-
+</code></pre><h3 id="build-docker-images-for-the-applications">Build Docker images for the applications</h3>
 <p>Since the k8s cluster is running locally, we can just build the images locally and k8s will be able to find them. No need to publish to a remote repository.</p>
-
-<pre><code class="language-powershell">PS&gt; docker build -t calculator:1.0.0 ./src/Calculator/
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">PS&gt; docker build -t calculator<span style="color:#960050;background-color:#1e0010">:</span>1.0.0 ./src/Calculator/
 ...
 Successfully built 6b8146f7fdeb
-Successfully tagged calculator:1.0.0
+Successfully tagged calculator<span style="color:#960050;background-color:#1e0010">:</span>1.0.0
 
-PS&gt; docker build -t webui:1.0.0 ./src/WebUI/
+PS&gt; docker build -t webui<span style="color:#960050;background-color:#1e0010">:</span>1.0.0 ./src/WebUI/
 ...
 Successfully built 6b8146f7fdeb
-Successfully tagged webui:1.0.0
-</code></pre>
-
-<h3 id="install-rabbitmq-and-the-applications">Install rabbitmq and the applications</h3>
-
+Successfully tagged webui<span style="color:#960050;background-color:#1e0010">:</span>1.0.0
+</code></pre></div><h3 id="install-rabbitmq-and-the-applications">Install rabbitmq and the applications</h3>
 <p>Use kubectl to do the installations</p>
-
 <pre><code>PS&gt; kubectl apply -f deploy/rabbitmq.yaml
 ...
 service/rabbitmq-headless created
@@ -108,77 +71,72 @@ PS&gt; kubectl apply -f deploy/webui.yaml
 secret/webui created
 service/webui created
 deployment.apps/webui created
-</code></pre>
-
-<h3 id="verify-the-installation">Verify the installation</h3>
-
+</code></pre><h3 id="verify-the-installation">Verify the installation</h3>
 <p>Use <code>kubectl</code> to explore what was deployed. Try things like: <code>kubectl get all</code>, <code>kubectl get svc</code>, etc.</p>
-
-<pre><code class="language-powershell">PS&gt; kubectl get pods
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">PS&gt; kubectl get pods
 NAME                         READY     STATUS    RESTARTS   AGE
 calculator-87dbdcdff-qh7f7   1/1       Running   0          16m
 rabbitmq-0                   1/1       Running   0          16m
 webui-675bfd674d-nthbz       1/1       Running   0          16m
-</code></pre>
-
-<p>Visit <a href="http://localhost:32500/">http://localhost:32500/</a> in the browser to see the WebUI in action.</p>
-
+</code></pre></div><p>Visit http://localhost:32500/ in the browser to see the WebUI in action.</p>
 <p><strong>Scale out the calculator</strong></p>
-
 <p>Manually scale the calculator service to two instances.</p>
-
-<pre><code class="language-powershell">kubectl scale --replicas=2 deployment/calculator
-</code></pre>
-
-<h3 id="extras">Extras</h3>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">kubectl scale --replicas=2 deployment/calculator
+</code></pre></div><h3 id="extras">Extras</h3>
 <p><strong>Install the Kubernetes Dashboard (UI)</strong></p>
-
-<pre><code class="language-powershell">PS&gt; kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/alternative/kubernetes-dashboard.yaml
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">PS&gt; kubectl apply <span style="color:#f92672">-f</span> https<span style="color:#960050;background-color:#1e0010">:</span>//raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/alternative/kubernetes-dashboard.yaml
 ...
-deployment.apps &quot;kubernetes-dashboard&quot; created
-service &quot;kubernetes-dashboard&quot; created
-</code></pre>
-
-<p>View the Kubernetes Dashboard</p>
-
-<pre><code class="language-powershell">PS&gt; kubectl proxy
-Starting to serve on 127.0.0.1:8001
-</code></pre>
-
-<p>Visit <a href="http://localhost:8001/api/v1/namespaces/kube-system/services/kubernetes-dashboard/proxy">http://localhost:8001/api/v1/namespaces/kube-system/services/kubernetes-dashboard/proxy</a> in the browser.</p>
-
+deployment.apps <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">kubernetes-dashboard</span><span style="color:#e6db74">&#34;</span> created
+service <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">kubernetes-dashboard</span><span style="color:#e6db74">&#34;</span> created
+</code></pre></div><p>View the Kubernetes Dashboard</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">PS&gt; kubectl proxy
+Starting to serve on 127.0.0.1<span style="color:#960050;background-color:#1e0010">:</span>8001
+</code></pre></div><p>Visit http://localhost:8001/api/v1/namespaces/kube-system/services/kubernetes-dashboard/proxy in the browser.</p>
 <h3 id="try-some-things">Try some things</h3>
-
 <p>Scale out the service to increase parallel processing of messages</p>
-
 <pre><code>kubectl scale --replicas=3 deployment/calculator
-</code></pre>
-
-<p>Roll out an upgrade and note that there is 0 downtime</p>
-
+</code></pre><p>Roll out an upgrade and note that there is 0 downtime</p>
 <pre><code>kubectl apply -f deploy/calculator.yaml
-</code></pre>
-
-<p>Kill the service (simulating a crash) and watch it recover</p>
-
+</code></pre><p>Kill the service (simulating a crash) and watch it recover</p>
 <pre><code>kubectl delete po --selector=app=webui
-</code></pre>
-
-<p>View application logs</p>
-
+</code></pre><p>View application logs</p>
 <pre><code>kubectl logs --selector=app=webui
 # stream the logs:
 kubectl logs -f $(kubectl get po --selector=app=webui--output=jsonpath={.items..metadata.name})
-</code></pre>
-
-<p>Next: manage deployments with Helm (to be written)</p>
+</code></pre><p>Next: manage deployments with Helm (to be written)</p>
 
 </div>
 
-    </div></body>
-<script src="/jquery-3.3.1.slim/jquery.slim.min.js"></script>
-<script src="/bootstrap-4.3.1/js/dist/util.js"></script>
-<script src="/bootstrap-4.3.1/js/dist/dropdown.js"></script>
-<script src="/bootstrap-4.3.1/js/dist/collapse.js"></script>
+        </div>
+    </section><footer class="footer">
+    <div class="content has-text-centered">
+        <p class="is-size-4">
+            
+                
+                    <a style="margin-right: 8px;" href="https://github.com/cleverswine/" aria-label="Github"   >
+                        <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                    </a>
+                
+                    <a style="margin-right: 8px;" href="https://twitter.com/cleverswine/" aria-label="Twitter"   >
+                        <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+                    </a>
+                
+                    <a style="margin-right: 8px;" href="https://www.linkedin.com/in/kevinnoone/" aria-label="LinkedIn"   >
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                
+                    <a style="margin-right: 8px;" href="http://www.flickr.com/photos/cleverswine/" aria-label="Flickr"   >
+                        <i class="fab fa-flickr" aria-hidden="true"></i>
+                    </a>
+                
+                    <a style="margin-right: 8px;" href="https://myhugosite.com/index.xml" aria-label="RSS" rel="alternate"   type="application/rss&#43;xml" >
+                        <i class="fas fa-rss" aria-hidden="true"></i>
+                    </a>
+                
+            
+        </p>
+        <p> © 2020 Kevin Noone · Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://bulma.io/">Bulma</a></p>
+    </div>
+</footer></body>
+
 </html>

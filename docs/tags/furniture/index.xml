@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>furniture on noone.dev</title>
@@ -6,7 +6,6 @@
     <description>Recent content in furniture on noone.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright © 2019, Kevin Noone; all rights reserved.</copyright>
     <lastBuildDate>Wed, 27 Jan 2010 21:08:09 +0000</lastBuildDate>
     
 	<atom:link href="/tags/furniture/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +17,7 @@
       <pubDate>Wed, 27 Jan 2010 21:08:09 +0000</pubDate>
       
       <guid>/2010/01/27/new-home-office/</guid>
-      <description>After a few weeks of shopping in and around Portland, we finally landed some nice office furniture at a reasonable price. City Liquidators turns out to be the place for furniture (and other things ranging from tampons to sofas). Next up, we&amp;#8217;ll be painting the room.</description>
+      <description>After a few weeks of shopping in and around Portland, we finally landed some nice office furniture at a reasonable price. City Liquidatorsturns out to be the place for furniture (and other things ranging from tampons to sofas). Next up, we’ll be painting the room.</description>
     </item>
     
   </channel>
