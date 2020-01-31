@@ -1,0 +1,10 @@
+<nav class="navbar is-light" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+            <img src="/apple-touch-icon.png" width="32" height="32">&nbsp;&nbsp;<strong>noone.dev</strong>
+        </a>
+        {{ range .Site.Menus.main }}
+            <a class="navbar-item" href="{{ .URL }}"> {{ .Name }} </a>
+        {{ end }}
+    </div>
+</nav>

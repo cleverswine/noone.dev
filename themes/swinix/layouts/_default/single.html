@@ -1,0 +1,8 @@
+{{ define "main" }}
+<p class="title is-4"><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+<p class="subtitle is-6 has-text-grey"><i class="fas fa-calendar-alt" aria-hidden="true"></i> {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</p>
+<hr />
+<div class="content">
+    {{ .Content }}
+</div>
+{{ end }}

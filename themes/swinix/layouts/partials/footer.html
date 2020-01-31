@@ -1,0 +1,14 @@
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p>
+            {{ with .Site.Params.social }}
+                {{ range sort .}}
+                    <a style="margin-right: 8px;" href="{{ .url }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}" {{ end }} {{ if .target }}target="{{ .target }}" {{ end }} {{ if .type }}type="{{ .type }}" {{ end }}>
+                        <i class="{{ .icon }}" aria-hidden="true"></i>
+                    </a>
+                {{ end }}
+            {{ end }}
+        </p>
+        <p> © 2020 Kevin Noone · Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://bulma.io/">Bulma</a></p>
+    </div>
+</footer>
