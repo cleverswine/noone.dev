@@ -6,10 +6,10 @@ paginate = 20
 publishDir = "docs"
 
 # Menu links
-[[menu.main]]
-    name = "posts"
-    weight = 2
-    url  = "/posts/"
+# [[menu.main]]
+#     name = "posts"
+#     weight = 2
+#     url  = "/posts/"
 
 # Social links
 [[params.social]]

@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="map[]">
-    <meta name="generator" content="Hugo 0.63.2" />
+    <meta name="generator" content="Hugo 0.72.0" />
     <title>noone.dev</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
@@ -13,8 +13,6 @@
         <a class="navbar-item" href="/">
             <img src="/apple-touch-icon.png" width="32" height="32">&nbsp;&nbsp;<strong>noone.dev</strong>
         </a>
-        
-            <a class="navbar-item" href="/posts/"> posts </a>
         
     </div>
 </nav><section class="section">
@@ -42,7 +40,7 @@
 
     <span style="color:#66d9ef">def</span> __init__(self):
         super()<span style="color:#f92672">.</span>__init__()
-        self<span style="color:#f92672">.</span>title <span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">example.parquet</span><span style="color:#e6db74">&#39;</span>
+        self<span style="color:#f92672">.</span>title <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;example.parquet&#39;</span>
         self<span style="color:#f92672">.</span>left <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
         self<span style="color:#f92672">.</span>top <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
         self<span style="color:#f92672">.</span>width <span style="color:#f92672">=</span> <span style="color:#ae81ff">800</span>
@@ -59,7 +57,7 @@
         self<span style="color:#f92672">.</span>show()
 
     <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">createTable</span>(self):
-        parquet_file <span style="color:#f92672">=</span> pq<span style="color:#f92672">.</span>ParquetFile(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">example.parquet</span><span style="color:#e6db74">&#39;</span>)
+        parquet_file <span style="color:#f92672">=</span> pq<span style="color:#f92672">.</span>ParquetFile(<span style="color:#e6db74">&#39;example.parquet&#39;</span>)
         pfmeta <span style="color:#f92672">=</span> parquet_file<span style="color:#f92672">.</span>metadata
         pfdata <span style="color:#f92672">=</span> parquet_file<span style="color:#f92672">.</span>read_row_group(<span style="color:#ae81ff">0</span>)
 
@@ -78,7 +76,7 @@
         self<span style="color:#f92672">.</span>tableWidget<span style="color:#f92672">.</span>move(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>)
 
 
-<span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">__main__</span><span style="color:#e6db74">&#39;</span>:
+<span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;__main__&#39;</span>:
     app <span style="color:#f92672">=</span> QApplication(sys<span style="color:#f92672">.</span>argv)
     ex <span style="color:#f92672">=</span> App()
     sys<span style="color:#f92672">.</span>exit(app<span style="color:#f92672">.</span>exec_())</code></pre></div>
