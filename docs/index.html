@@ -1,89 +1,106 @@
 <!DOCTYPE html>
-<html><head>
+<html>
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="map[]">
     <meta name="generator" content="Hugo 0.72.0" />
     <title>noone.dev</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-</head><body><nav class="navbar is-light" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-        <a class="navbar-item" href="/">
-            <img src="/apple-touch-icon.png" width="32" height="32">&nbsp;&nbsp;<strong>noone.dev</strong>
-        </a>
-        
-    </div>
-</nav><section class="section">
-        <div class="container">
-<h1 class="title"> Kevin Noone </h1>
-<p class="subtitle"> Software Engineer in Portland, Oregon, USA </p>
-<div class="content">
-    <p>I am a full stack senior software engineer with extensive experience in all aspects of enterprise-level software development. I have been a developer since 1998. Most of my programming experience has been with C# on the .NET framework. In recent years, however, I have transitioned to working with <a href="http://golang.org/">Go</a> and <a href="https://www.microsoft.com/net/">.NET Core</a>.</p>
-    <p class="is-size-4 has-text-weight-bold">What I can do</p>
-    <p>I would consider my specialties to be:</p>
-    <ul>
-        <li>RESTful APIs</li>
-        <li>Authentication and Authorization (oauth)</li>
-        <li>General-purpose Services</li>
-        <li>Systems Integration</li>
-        <li>Microservices Infrastructures</li>
-        <li>Continuous Integration and Continuous Deployment</li>
-    </ul>
-    <p>I have worked extensively with the following technologies:</p>
-    <ul>
-        <li><a href="https://kubernetes.io/">Kubernetes</a></li>
-        <li><a href="https://helm.sh/">Helm</a></li>
-        <li><a href="https://www.docker.com/">Docker</a></li>
-        <li><a href="https://cloud.google.com">Google Cloud</a></li>
-        <li><a href="https://azure.microsoft.com">Microsoft Azure</a></li>
-        <li><a href="https://www.microsoft.com/en-us/sql-server/default.aspx">SQL Server</a>, <a href="https://www.postgresql.org/">PostgreSQL</a></li>
-        <li><a href="https://www.rabbitmq.com/">RabbitMQ</a></li>
-        <li><a href="https://identityserver4.readthedocs.io/en/release/">IdentityServer</a></li>
-    </ul>
-    <p>Additionally, I have plenty of experience with frontend technologies such as:</p>
-    <ul>
-        <li>Vue.js</li>
-        <li>AngularJS (1.x)</li>
-        <li>css, less, sass, js, and html</li>
-        <li>frontend tools such as yarn, npm, gulp, and bower</li>
-    </ul>
-    <h2>More</h2>
-    <p>See <a href="https://www.linkedin.com/in/kevinnoone/">LinkedIn</a> for more details about my experience.</p>
-    <p>Thanks for reading!</p>
-</div>
+    <link rel="stylesheet" href="https://www.w3.org/StyleSheets/Core/Chocolate" type="text/css">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css" type="text/css">
+    <style>
+        pre {
+            padding-top: 4px;
+            padding-left: 10px;
+            padding-bottom: 4px;
+        }
 
-        </div>
-    </section><footer class="footer">
-    <div class="content has-text-centered">
-        <p>
-            
-                
-                    <a style="margin-right: 8px;" href="https://github.com/cleverswine/" aria-label="Github"   >
-                        <i class="fab fa-github fa-2x" aria-hidden="true"></i>
-                    </a>
-                
-                    <a style="margin-right: 8px;" href="https://twitter.com/cleverswine/" aria-label="Twitter"   >
-                        <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
-                    </a>
-                
-                    <a style="margin-right: 8px;" href="https://www.linkedin.com/in/kevinnoone/" aria-label="LinkedIn"   >
-                        <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
-                    </a>
-                
-                    <a style="margin-right: 8px;" href="http://www.flickr.com/photos/cleverswine/" aria-label="Flickr"   >
-                        <i class="fab fa-flickr fa-2x" aria-hidden="true"></i>
-                    </a>
-                
-                    <a style="margin-right: 8px;" href="http://noone.dev/index.xml" aria-label="RSS" rel="alternate"   type="application/rss&#43;xml" >
-                        <i class="fas fa-rss fa-2x" aria-hidden="true"></i>
-                    </a>
-                
-            
-        </p>
-        <p> © 2020 Kevin Noone · Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://bulma.io/">Bulma</a></p>
-    </div>
-</footer></body>
+        ul.pagination {
+            margin: 1.5em 0 0;
+            list-style: none;
+            overflow: hidden;
+        }
+
+        ul.pagination li {
+            float: left;
+            margin-left: 0;
+            margin-right: 0.8em;
+        }
+
+        li.active {
+            font-size: 1.2em;
+            border-bottom: 1px solid red;
+        }
+
+        a:link {
+            font-weight: normal;
+            text-decoration: none;
+            color: #F60;
+        }
+
+        a:visited {
+            color: #F60;
+        }
+
+        a:hover {
+            color: #FC0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Kevin Noone</h1>
+    <p style="font-size: 1.5em;">
+        <a href="/"><span class="mdi mdi-home-circle"></span></a>
+        <a href="/posts"><span class="mdi mdi-post"></a>
+        <a href="/posts/index.xml" type="application/rss+xml"><span class="mdi mdi-rss-box"></a> ( <a href="https://www.linkedin.com/in/kevinnoone/"><span class="mdi mdi-linkedin"></a>
+        <a href="https://github.com/cleverswine/"><span class="mdi mdi-github"></a>
+        <a href="https://twitter.com/cleverswine/"><span class="mdi mdi-twitter"></a> )</p>
+<h4>About</h4>
+<p>Software Engineer in Portland, Oregon, USA</p>
+<p>
+    I am a full stack senior software engineer with extensive experience in all aspects of enterprise-level software development. 
+    I have been a developer since 1998.    
+    Most of my programming experience has been with C# on the .NET framework. 
+    In recent years, however, I have transitioned to working with <a href="http://golang.org/">Go</a>, <a href="https://www.microsoft.com/net/">.NET Core</a>, and <a href="https://spark.apache.org/">Spark</a> with <a href="https://www.scala-lang.org/">Scala</a>. 
+</p>
+<h4>Skills</h4>
+<p>I would consider my specialties to be:</p>
+<ul>
+    <li>RESTful APIs</li>
+    <li>Authentication and Authorization (oauth)</li>
+    <li>General-purpose Services</li>
+    <li>Systems Integration</li>
+    <li>Microservices Infrastructures</li>
+    <li>Continuous Integration and Continuous Deployment</li>
+</ul>
+<p>I have worked extensively with the following technologies:</p>
+<ul>
+    <li><a href="https://kubernetes.io/">Kubernetes</a></li>
+    <li><a href="https://helm.sh/">Helm</a></li>
+    <li><a href="https://www.docker.com/">Docker</a></li>
+    <li><a href="https://cloud.google.com">Google Cloud</a></li>
+    <li><a href="https://azure.microsoft.com">Microsoft Azure</a></li>
+    <li><a href="https://www.microsoft.com/en-us/sql-server/default.aspx">SQL Server</a>, <a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.rabbitmq.com/">RabbitMQ</a></li>
+    <li><a href="https://identityserver4.readthedocs.io/en/release/">IdentityServer</a></li>
+    <li><a href="https://hadoop.apache.org/">Hadoop Ecosystem</a> (<a href="https://www.cloudera.com/products/open-source/apache-hadoop.html">Cloudera</a>)</li>
+</ul>
+<p>Additionally, I have plenty of experience with frontend technologies such as:</p>
+<ul>
+    <li>Vue.js</li>
+    <li>AngularJS (1.x)</li>
+    <li>css, less, sass, js, and html</li>
+    <li>frontend tools such as yarn, npm, gulp, and bower</li>
+</ul>
+<p>See <a href="https://www.linkedin.com/in/kevinnoone/">LinkedIn</a> for more details about my experience.</p>
+<h4>Status</h4>
+<p>I am <em>not</em> currently looking for new opportunities.</p>
+<p>Thanks for reading!</p>
+
+    <p class="mtb"> © 2020 Kevin Noone · Powered by <a href="https://gohugo.io/">Hugo</a>, <a href="https://pages.github.com/">GitHub Pages</a>, and <a href="https://www.w3.org/StyleSheets/Core/Overview">W3C Core Styles</a></p>
+</body>
 
 </html>
