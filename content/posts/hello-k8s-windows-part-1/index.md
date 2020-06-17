@@ -14,7 +14,7 @@ These posts are based on an intoductory presentation that I gave to my company.
 
 Consider a simple message processing application, as shown here:
 
-![Example image](/k8swinsample.png)
+![Example image](k8swinsample.png)
 
 Flow:
 
@@ -78,7 +78,7 @@ Deployment: You describe a desired state in a Deployment object, and the Deploym
 
 *credit https://en.wikipedia.org/wiki/Kubernetes*
 
-![Example image](/k8swinsample2.png)
+![Example image](k8swinsample2.png)
 
 **How to get Kubernetes**
 

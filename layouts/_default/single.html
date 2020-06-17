@@ -1,0 +1,8 @@
+{{ define "main" }}
+<h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+<sub>{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</sub>
+<hr />
+<div>
+    {{ .Content }}
+</div>
+{{ end }}

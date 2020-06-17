@@ -12,7 +12,7 @@ I'll look at 3 interesting ways to peek into parquet files.
 
 Using a [Jupyter Notebook](https://jupyter.org/) with [pyarrow](https://arrow.apache.org/docs/python/) and pandas
 
-![Example image](/jupyter.png)
+![Example image](jupyter.png)
 
 #### 2) PyQt5 for a Native GUI
 
@@ -76,7 +76,7 @@ if __name__ == '__main__':
 
 Produces:
 
-![Example image](/pyqt.png)
+![Example image](pyqt.png)
 
 #### 3) parquet-go for Deeper Analysis
 

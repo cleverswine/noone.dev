@@ -1,41 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "noone.dev"
-theme = "swinix"
-paginate = 20
+paginate = 12
 publishDir = "docs"
-
-# Menu links
-# [[menu.main]]
-#     name = "posts"
-#     weight = 2
-#     url  = "/posts/"
-
-# Social links
-[[params.social]]
-    name = "Github"
-    icon = "fab fa-github fa-2x"
-    weight = 1
-    url = "https://github.com/cleverswine/"
-[[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
-    weight = 2
-    url = "https://twitter.com/cleverswine/"
-[[params.social]]
-    name = "LinkedIn"
-    icon = "fab fa-linkedin fa-2x"
-    weight = 3
-    url = "https://www.linkedin.com/in/kevinnoone/"
-[[params.social]]
-    name = "Flickr"
-    icon = "fab fa-flickr fa-2x"
-    weight = 4
-    url = "http://www.flickr.com/photos/cleverswine/"    
-[[params.social]]
-    name = "RSS"
-    icon = "fas fa-rss fa-2x"
-    weight = 5
-    url = "http://noone.dev/index.xml"
-    rel = "alternate"
-    type = "application/rss+xml"
+pygmentscodefences  = true
