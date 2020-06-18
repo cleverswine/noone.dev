@@ -1,7 +1,7 @@
 ---
 title: "CLI Auth to the Spotify API"
 date: 2020-01-30T17:00:27-08:00
-draft: false
+draft: true
 ---
 
 In this post, I will show how write a command-line based application (CLI)

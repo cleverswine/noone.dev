@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="map[]">
+    <meta name="generator" content="Hugo 0.72.0" />
+    <title>noone.dev</title>
+    <link rel="stylesheet" href="https://www.w3.org/StyleSheets/Core/Chocolate" type="text/css">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css" type="text/css">
+    <style>
+        pre {
+            padding-top: 4px;
+            padding-left: 10px;
+            padding-bottom: 4px;
+        }
+
+        ul.pagination {
+            margin: 1.5em 0 0;
+            list-style: none;
+            overflow: hidden;
+        }
+
+        ul.pagination li {
+            float: left;
+            margin-left: 0;
+            margin-right: 0.8em;
+        }
+
+        li.active {
+            font-size: 1.2em;
+            border-bottom: 1px solid red;
+        }
+
+        a:link {
+            font-weight: normal;
+            text-decoration: none;
+            color: #F60;
+        }
+
+        a:visited {
+            color: #F60;
+        }
+
+        a:hover {
+            color: #FC0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Kevin Noone</h1>
+    <p style="font-size: 1.5em;">
+        <a href="/"><span class="mdi mdi-home-circle"></span></a>
+        <a href="/posts"><span class="mdi mdi-post"></a>
+        <a href="/posts/index.xml" type="application/rss+xml"><span class="mdi mdi-rss-box"></a> ( <a href="https://www.linkedin.com/in/kevinnoone/"><span class="mdi mdi-linkedin"></a>
+        <a href="https://github.com/cleverswine/"><span class="mdi mdi-github"></a>
+        <a href="https://twitter.com/cleverswine/"><span class="mdi mdi-twitter"></a> )</p>
+<h3><a href="/posts/authorization-flow-cli/">Authorization Flow with a CLI</a></h3>
+<sub>June 18, 2020</sub>
+<hr />
+<div>
+    <p>When calling a public API on behalf of a user, you&rsquo;ll often need to use the <a href="https://tools.ietf.org/html/rfc6749#section-4.1">Authorization Code Flow</a> to get a token to use on the API calls. This flow invloves redirecting the user to the authorization server where they will sign in and give consent for your application to access the requested resources (scopes).</p>
+<p>From a command-line application, we don&rsquo;t have a web page to do this redirect flow. What we can do is start up a simple web server and present the user with a URL to visit. When the authorization server redirects back to our simple web server, we can handle the authorization code exchange.</p>
+<p>Here&rsquo;s a small library in Go that handles the entire Authorization Code flow and returns an authenticated http client.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+
+<span style="color:#f92672">import</span> (
+    <span style="color:#e6db74">&#34;context&#34;</span>
+    <span style="color:#e6db74">&#34;errors&#34;</span>
+    <span style="color:#e6db74">&#34;log&#34;</span>
+    <span style="color:#e6db74">&#34;math/rand&#34;</span>
+    <span style="color:#e6db74">&#34;net/http&#34;</span>
+    <span style="color:#e6db74">&#34;net/url&#34;</span>
+    <span style="color:#e6db74">&#34;time&#34;</span>
+
+    <span style="color:#e6db74">&#34;golang.org/x/oauth2&#34;</span>
+)
+
+<span style="color:#66d9ef">type</span> <span style="color:#a6e22e">AuthorizationFlowClient</span> <span style="color:#66d9ef">struct</span> {
+    <span style="color:#f92672">*</span><span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">Client</span>
+    <span style="color:#a6e22e">token</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">oauth2</span>.<span style="color:#a6e22e">Token</span>
+}
+
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">NewAuthorizationFlowClient</span>(<span style="color:#a6e22e">ctx</span> <span style="color:#a6e22e">context</span>.<span style="color:#a6e22e">Context</span>,
+    <span style="color:#a6e22e">authorizationURL</span> <span style="color:#66d9ef">string</span>, <span style="color:#a6e22e">tokenURL</span> <span style="color:#66d9ef">string</span>,
+    <span style="color:#a6e22e">clientID</span> <span style="color:#66d9ef">string</span>, <span style="color:#a6e22e">clientSecret</span> <span style="color:#66d9ef">string</span>,
+    <span style="color:#a6e22e">scopes</span> []<span style="color:#66d9ef">string</span>) (<span style="color:#f92672">*</span><span style="color:#a6e22e">AuthorizationFlowClient</span>, <span style="color:#66d9ef">error</span>) {
+
+    <span style="color:#75715e">// use golang&#39;s oauth2 package for some magic
+</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">config</span> <span style="color:#f92672">:=</span> <span style="color:#f92672">&amp;</span><span style="color:#a6e22e">oauth2</span>.<span style="color:#a6e22e">Config</span>{
+        <span style="color:#a6e22e">ClientID</span>:     <span style="color:#a6e22e">clientID</span>,
+        <span style="color:#a6e22e">ClientSecret</span>: <span style="color:#a6e22e">clientSecret</span>,
+        <span style="color:#a6e22e">Endpoint</span>: <span style="color:#a6e22e">oauth2</span>.<span style="color:#a6e22e">Endpoint</span>{
+            <span style="color:#a6e22e">AuthURL</span>:  <span style="color:#a6e22e">authorizationURL</span>,
+            <span style="color:#a6e22e">TokenURL</span>: <span style="color:#a6e22e">tokenURL</span>,
+        },
+        <span style="color:#a6e22e">RedirectURL</span>: <span style="color:#e6db74">&#34;http://localhost:8080/callback&#34;</span>,
+        <span style="color:#a6e22e">Scopes</span>:      <span style="color:#a6e22e">scopes</span>,
+    }
+    <span style="color:#75715e">// try cache
+</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">token</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">tokenFromCache</span>() <span style="color:#75715e">// cache code excluded for brevity
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">token</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+        <span style="color:#66d9ef">return</span> <span style="color:#f92672">&amp;</span><span style="color:#a6e22e">AuthorizationFlowClient</span>{ <span style="color:#a6e22e">Client</span>: <span style="color:#a6e22e">config</span>.<span style="color:#a6e22e">Client</span>(<span style="color:#a6e22e">ctx</span>, <span style="color:#a6e22e">token</span>), <span style="color:#a6e22e">token</span>:  <span style="color:#a6e22e">token</span> }, <span style="color:#66d9ef">nil</span>
+    }
+    <span style="color:#75715e">// get a token via authorization flow
+</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">state</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">randStringBytes</span>(<span style="color:#ae81ff">40</span>)
+    <span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;to continue, please authorize this application at: &#34;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">config</span>.<span style="color:#a6e22e">AuthCodeURL</span>(<span style="color:#a6e22e">state</span>))
+    <span style="color:#75715e">// start an http server and wait for callback
+</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">queryValCh</span> <span style="color:#f92672">:=</span> make(<span style="color:#66d9ef">chan</span> <span style="color:#a6e22e">url</span>.<span style="color:#a6e22e">Values</span>)
+    <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">HandleFunc</span>(<span style="color:#e6db74">&#34;/callback&#34;</span>, <span style="color:#66d9ef">func</span>(<span style="color:#a6e22e">w</span> <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">ResponseWriter</span>, <span style="color:#a6e22e">r</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">Request</span>) {
+        <span style="color:#a6e22e">queryValCh</span> <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">r</span>.<span style="color:#a6e22e">URL</span>.<span style="color:#a6e22e">Query</span>()
+    })
+    <span style="color:#66d9ef">go</span> <span style="color:#a6e22e">http</span>.<span style="color:#a6e22e">ListenAndServe</span>(<span style="color:#e6db74">&#34;:8080&#34;</span>, <span style="color:#66d9ef">nil</span>)
+    <span style="color:#a6e22e">queryVals</span> <span style="color:#f92672">:=</span> <span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">queryValCh</span>
+    <span style="color:#75715e">// verify response and extract auth code
+</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">code</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">queryVals</span>.<span style="color:#a6e22e">Get</span>(<span style="color:#e6db74">&#34;code&#34;</span>)
+    <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">code</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;&#34;</span> {
+        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nil</span>, <span style="color:#a6e22e">errors</span>.<span style="color:#a6e22e">New</span>(<span style="color:#e6db74">&#34;didn&#39;t get access code&#34;</span>)
+    }
+    <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">actualState</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">queryVals</span>.<span style="color:#a6e22e">Get</span>(<span style="color:#e6db74">&#34;state&#34;</span>); <span style="color:#a6e22e">actualState</span> <span style="color:#f92672">!=</span> <span style="color:#a6e22e">state</span> {
+        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nil</span>, <span style="color:#a6e22e">errors</span>.<span style="color:#a6e22e">New</span>(<span style="color:#e6db74">&#34;redirect state parameter doesn&#39;t match&#34;</span>)
+    }
+    <span style="color:#75715e">// exchange auth code for token
+</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">token</span>, <span style="color:#a6e22e">err</span> = <span style="color:#a6e22e">config</span>.<span style="color:#a6e22e">Exchange</span>(<span style="color:#a6e22e">ctx</span>, <span style="color:#a6e22e">code</span>)
+    <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nil</span>, <span style="color:#a6e22e">err</span>
+    }
+    <span style="color:#66d9ef">return</span> <span style="color:#f92672">&amp;</span><span style="color:#a6e22e">AuthorizationFlowClient</span>{
+        <span style="color:#a6e22e">Client</span>: <span style="color:#a6e22e">config</span>.<span style="color:#a6e22e">Client</span>(<span style="color:#a6e22e">ctx</span>, <span style="color:#a6e22e">token</span>),
+        <span style="color:#a6e22e">token</span>:  <span style="color:#a6e22e">token</span>,
+    }, <span style="color:#66d9ef">nil</span>
+}
+
+<span style="color:#66d9ef">func</span> (<span style="color:#a6e22e">a</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">AuthorizationFlowClient</span>) <span style="color:#a6e22e">Close</span>() {
+    <span style="color:#a6e22e">saveTokenToCache</span>(<span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">token</span>) <span style="color:#75715e">// cache code excluded for brevity
+</span><span style="color:#75715e"></span>}
+</code></pre></div><p>Here&rsquo;s how you would use the library to get a user&rsquo;s top tracks from the <a href="https://developer.spotify.com/documentation/web-api/">Spotify API</a>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#75715e">// get an authenticated http client
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">client</span>, <span style="color:#a6e22e">_</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">NewAuthorizationFlowClient</span>(<span style="color:#a6e22e">context</span>.<span style="color:#a6e22e">Background</span>(),
+    <span style="color:#e6db74">&#34;https://accounts.spotify.com/authorize&#34;</span>, <span style="color:#e6db74">&#34;https://accounts.spotify.com/api/token&#34;</span>,
+    <span style="color:#a6e22e">os</span>.<span style="color:#a6e22e">Getenv</span>(<span style="color:#e6db74">&#34;SPOTIFY_ID&#34;</span>), <span style="color:#a6e22e">os</span>.<span style="color:#a6e22e">Getenv</span>(<span style="color:#e6db74">&#34;SPOTIFY_SECRET&#34;</span>), []<span style="color:#66d9ef">string</span>{<span style="color:#e6db74">&#34;user-top-read&#34;</span>})
+<span style="color:#66d9ef">defer</span> <span style="color:#a6e22e">client</span>.<span style="color:#a6e22e">Close</span>()
+
+<span style="color:#75715e">// get user&#39;s top tracks
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">resp</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">client</span>.<span style="color:#a6e22e">Get</span>(<span style="color:#e6db74">&#34;https://api.spotify.com/v1/me/top/tracks&#34;</span>)
+</code></pre></div>
+</div>
+
+    <p class="mtb"> © 2020 Kevin Noone · Powered by <a href="https://gohugo.io/">Hugo</a>, <a href="https://pages.github.com/">GitHub Pages</a>, and <a href="https://www.w3.org/StyleSheets/Core/Overview">W3C Core Styles</a></p>
+</body>
+
+</html>

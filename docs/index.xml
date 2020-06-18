@@ -6,21 +6,19 @@
     <description>Recent content on noone.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Jan 2020 17:00:27 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2020 19:01:22 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>CLI Auth to the Spotify API</title>
-      <link>/posts/cli-auth-to-the-spotify-api/</link>
-      <pubDate>Thu, 30 Jan 2020 17:00:27 -0800</pubDate>
+      <title>Authorization Flow with a CLI</title>
+      <link>/posts/authorization-flow-cli/</link>
+      <pubDate>Thu, 18 Jun 2020 19:01:22 +0000</pubDate>
       
-      <guid>/posts/cli-auth-to-the-spotify-api/</guid>
-      <description>In this post, I will show how write a command-line based application (CLI) that can authenticate to Spotify as a user and then use the Spotify API on behalf of that user.
-I&amp;rsquo;ll be using the Spotify client library from github.com/zmb3/spotify.
-The tricky bit is getting the user&amp;rsquo;s access token after logging in. The Spotify Web API uses OAuth 2.0 for authorization, which requires some browser interactions and redirects.
-To do that from the command-line, we have to get a little bit creative.</description>
+      <guid>/posts/authorization-flow-cli/</guid>
+      <description>When calling a public API on behalf of a user, you&amp;rsquo;ll often need to use the Authorization Code Flow to get a token to use on the API calls. This flow invloves redirecting the user to the authorization server where they will sign in and give consent for your application to access the requested resources (scopes).
+From a command-line application, we don&amp;rsquo;t have a web page to do this redirect flow.</description>
     </item>
     
     <item>
