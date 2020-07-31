@@ -6,10 +6,23 @@
     <description>Recent content on noone.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2020 19:01:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2020 20:44:16 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Impala ODBC, Dotnet Core, and Docker</title>
+      <link>/posts/impala-odbc/</link>
+      <pubDate>Fri, 31 Jul 2020 20:44:16 +0000</pubDate>
+      
+      <guid>/posts/impala-odbc/</guid>
+      <description>This post will show how to query an Impala database from a DotNet Core application running in Docker.
+Prerequisites Knowledge of Apache Hadoop, Docker, and DotNet Core
+Impala Apache Impala is the open source, native analytic database for Apache Hadoop.
+Cloudera provides an ODBC driver for Impala that can be downloaded from their website (requires an account).
+Installing the Impala ODBC driver Assuming you have downloaded the Cloudera Impala ODBC driver (in this case, I have downloaded it to: clouderaimpalaodbc_2.</description>
+    </item>
     
     <item>
       <title>Authorization Flow with a CLI</title>

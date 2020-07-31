@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="map[]">
+    <meta name="generator" content="Hugo 0.72.0" />
+    <title>noone.dev</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.css'>
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css" type="text/css">
+    <style>
+        ul.pagination {
+            margin: 1.5em 0 0;
+            padding-left: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+
+        ul.pagination li {
+            float: left;
+            margin-left: 0;
+            margin-right: 0.8em;
+        }
+
+        li.active {
+            border-bottom: 1px solid yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Kevin Noone</h1>
+    <p>
+        <span style="font-size: 1.5em;">
+            <a href="/"><span class="mdi mdi-home-circle"></span></a>
+            <a href="/posts"><span class="mdi mdi-post"></a>
+            <a href="/posts/index.xml" type="application/rss+xml"><span class="mdi mdi-rss-box"></a> ( <a href="https://www.linkedin.com/in/kevinnoone/"><span class="mdi mdi-linkedin"></a>
+            <a href="https://github.com/cleverswine/"><span class="mdi mdi-github"></a>
+            <a href="https://twitter.com/cleverswine/"><span class="mdi mdi-twitter"></a> ) </span>
+    </p>
+<h3><a href="/posts/impala-odbc/">Impala ODBC, Dotnet Core, and Docker</a></h3>
+<sub>July 31, 2020</sub>
+<hr />
+<div>
+    <p>This post will show how to query an Impala database from a DotNet Core application running in Docker.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>Knowledge of Apache Hadoop, Docker, and DotNet Core</p>
+<h2 id="impala">Impala</h2>
+<p><a href="https://impala.apache.org/index.html">Apache Impala</a> is the open source, native analytic database for Apache Hadoop.</p>
+<p><a href="https://www.cloudera.com/">Cloudera</a> provides an ODBC driver for Impala that can be <a href="https://www.cloudera.com/downloads.html">downloaded from their website</a> (requires an account).</p>
+<h2 id="installing-the-impala-odbc-driver">Installing the Impala ODBC driver</h2>
+<p>Assuming you have downloaded the Cloudera Impala ODBC driver (in this case, I have downloaded it to: <code>clouderaimpalaodbc_2.6.10.1010-2_amd64.deb</code>), here is a script to install and configure it on a Linux system (for example, on a Docker image as shown below).</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/usr/bin/env bash
+</span><span style="color:#75715e"></span>
+apt-get update <span style="color:#f92672">&amp;&amp;</span> apt-get install -y unixodbc krb5-user
+
+dpkg -i clouderaimpalaodbc_2.6.10.1010-2_amd64.deb
+
+echo <span style="color:#e6db74">&#34;[ODBC Drivers]&#34;</span> &gt; /etc/odbcinst.ini <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    <span style="color:#f92672">&amp;&amp;</span> echo <span style="color:#e6db74">&#34;Cloudera ODBC Driver for Impala=Installed&#34;</span> &gt;&gt; /etc/odbcinst.ini <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    <span style="color:#f92672">&amp;&amp;</span> echo <span style="color:#e6db74">&#34;[Cloudera ODBC Driver for Impala]&#34;</span> &gt;&gt; /etc/odbcinst.ini <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    <span style="color:#f92672">&amp;&amp;</span> echo <span style="color:#e6db74">&#34;Driver=/opt/cloudera/impalaodbc/lib/64/libclouderaimpalaodbc64.so&#34;</span> &gt;&gt; /etc/odbcinst.ini
+
+echo <span style="color:#e6db74">&#34;[Driver]&#34;</span> &gt; /opt/cloudera/impalaodbc/lib/64/cloudera.impalaodbc.ini <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    <span style="color:#f92672">&amp;&amp;</span> echo <span style="color:#e6db74">&#34;DriverManagerEncoding=UTF-16&#34;</span> &gt;&gt; /opt/cloudera/impalaodbc/lib/64/cloudera.impalaodbc.ini <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    <span style="color:#f92672">&amp;&amp;</span> echo <span style="color:#e6db74">&#34;ErrorMessagesPath=/opt/cloudera/impalaodbc/ErrorMessages/&#34;</span> &gt;&gt; /opt/cloudera/impalaodbc/lib/64/cloudera.impalaodbc.ini <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    <span style="color:#f92672">&amp;&amp;</span> echo <span style="color:#e6db74">&#34;LogLevel=0&#34;</span> &gt;&gt; /opt/cloudera/impalaodbc/lib/64/cloudera.impalaodbc.ini <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    <span style="color:#f92672">&amp;&amp;</span> echo <span style="color:#e6db74">&#34;LogPath=/app/odbc_logs&#34;</span> &gt;&gt; /opt/cloudera/impalaodbc/lib/64/cloudera.impalaodbc.ini <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    <span style="color:#f92672">&amp;&amp;</span> echo <span style="color:#e6db74">&#34;SwapFilePath=/tmp&#34;</span> &gt;&gt; /opt/cloudera/impalaodbc/lib/64/cloudera.impalaodbc.ini
+
+export ODBCSYSINI<span style="color:#f92672">=</span>/etc
+export ODBCINI<span style="color:#f92672">=</span>/etc/odbc.ini
+export CLOUDERAIMPALAODBCINI<span style="color:#f92672">=</span>/opt/cloudera/impalaodbc/lib/64/cloudera.impalaodbc.ini
+export LD_LIBRARY_PATH<span style="color:#f92672">=</span>/opt/cloudera/impalaodbc/lib/64
+</code></pre></div><h2 id="using-the-impala-odbc-driver">Using the Impala ODBC driver</h2>
+<p>Add the odbc package</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">&gt; dotnet add package System.Data.Odbc
+</code></pre></div><p>Use it just like any other ODBC connection</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#75715e">// notice that the Driver name matches the /etc/odbcinst.ini file
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">var</span> connectionString = <span style="color:#e6db74">$&#34;Driver=Cloudera ODBC Driver for Impala;Host={Host};Port=21050;UID={UserId};&#34;</span>;
+<span style="color:#75715e">// we can either a kerberos keytab file or a password for auth
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">if</span> (!<span style="color:#66d9ef">string</span>.IsNullOrWhiteSpace(KeyFile)) 
+    connectionString += <span style="color:#e6db74">$&#34;AuthMech=1;UseKeytab=1;DefaultKeytabFile={KeyFile};&#34;</span>;
+<span style="color:#66d9ef">else</span> 
+    connectionString += <span style="color:#e6db74">$&#34;AuthMech=3;UseSASL=1;PWD={Password};&#34;</span>;
+
+<span style="color:#66d9ef">var</span> sql = <span style="color:#e6db74">&#34;select first_name from names;&#34;</span>;
+
+<span style="color:#66d9ef">using</span> (<span style="color:#66d9ef">var</span> connection = <span style="color:#66d9ef">new</span> OdbcConnection(connectionString))
+{
+    connection.Open();
+    <span style="color:#66d9ef">using</span> (<span style="color:#66d9ef">var</span> command = <span style="color:#66d9ef">new</span> OdbcCommand(sql, connection))
+    {
+        <span style="color:#66d9ef">using</span> (<span style="color:#66d9ef">var</span> reader = command.ExecuteReader())
+        {
+            <span style="color:#66d9ef">while</span>(reader.Read()) 
+                Console.WriteLine(<span style="color:#e6db74">$&#34;first name: {reader.GetString(0)}&#34;</span>);
+        }
+    }
+}
+</code></pre></div><h2 id="building-a-docker-image">Building a docker image</h2>
+<p>Next, we&rsquo;ll build a docker image for our application with the Impala ODBC driver installed.</p>
+<p>Contents of <code>Dockerfile</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dockerfile" data-lang="dockerfile"><span style="color:#66d9ef">FROM</span><span style="color:#e6db74"> mcr.microsoft.com/dotnet/core/sdk:3.1 AS build</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">WORKDIR</span><span style="color:#e6db74"> /app</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e"># copy csproj and restore as distinct layers</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">COPY</span> MyApi.csproj ./<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> dotnet restore<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e"># copy everything else and build app</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">COPY</span> /. ./<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">WORKDIR</span><span style="color:#e6db74"> /app</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> dotnet publish -c Release -o out<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">FROM</span><span style="color:#e6db74"> mcr.microsoft.com/dotnet/core/aspnet:3.1 AS runtime</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">WORKDIR</span><span style="color:#e6db74"> /app</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">COPY</span> --from<span style="color:#f92672">=</span>build /app/out ./<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e"># install the ODBC driver using the script from above</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">COPY</span> clouderaimpalaodbc_2.6.10.1010-2_amd64.deb ./<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">COPY</span> install_odbc.sh ./<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e"># Configure apt</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">ENV</span> DEBIAN_FRONTEND<span style="color:#f92672">=</span>noninteractive
+<span style="color:#66d9ef">RUN</span> apt-get update <span style="color:#f92672">&amp;&amp;</span> apt-get -y upgrade <span style="color:#f92672">&amp;&amp;</span> apt-get -y install --no-install-recommends apt-utils 2&gt;&amp;<span style="color:#ae81ff">1</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e"># set up odbc</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> ./install_odbc.sh<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#75715e"># Clean up</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> apt-get autoremove -y <span style="color:#f92672">&amp;&amp;</span> apt-get clean -y <span style="color:#f92672">&amp;&amp;</span> rm -rf /var/lib/apt/lists/*<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">ENV</span> DEBIAN_FRONTEND<span style="color:#f92672">=</span>dialog
+
+<span style="color:#66d9ef">ENTRYPOINT</span> [<span style="color:#e6db74">&#34;dotnet&#34;</span>, <span style="color:#e6db74">&#34;MyApi.dll&#34;</span>]<span style="color:#960050;background-color:#1e0010">
+</span></code></pre></div><p>Build the image:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker build --rm -t myapi .
+</code></pre></div><h2 id="running-the-docker-container">Running the docker container</h2>
+<p>Running the application is simple</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker run <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    --name myapi <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    --rm -d -p 5000:80 myapi
+</code></pre></div>
+</div>
+
+    <p style="margin-top: 1.8em;">
+        <hr /> © 2020 Kevin Noone · Powered by <a href="https://gohugo.io/">Hugo</a>, 
+        <a href="https://pages.github.com/">GitHub Pages</a>, 
+        and <a href="https://www.cssbed.com/">CSS Bed</a>
+    </p>
+</body>
+
+</html>

@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts/authorization-flow-cli/</loc>
-    <lastmod>2020-06-18T19:01:22+00:00</lastmod>
+    <loc>/posts/</loc>
+    <lastmod>2020-07-31T20:44:16+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/</loc>
-    <lastmod>2020-06-18T19:01:22+00:00</lastmod>
+    <loc>/posts/impala-odbc/</loc>
+    <lastmod>2020-07-31T20:44:16+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-07-31T20:44:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/authorization-flow-cli/</loc>
     <lastmod>2020-06-18T19:01:22+00:00</lastmod>
   </url>
   
