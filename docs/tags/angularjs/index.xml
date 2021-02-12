@@ -6,11 +6,7 @@
     <description>Recent content in angularjs on noone.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Mar 2013 20:51:55 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/angularjs/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 20 Mar 2013 20:51:55 +0000</lastBuildDate><atom:link href="/tags/angularjs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Last.fm Recent Tracks with AngularJS</title>
       <link>/2013/03/20/last-fm-recent-tracks-with-angularjs/</link>

@@ -6,10 +6,16 @@
     <description>Recent content in Blog Posts on noone.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2020 20:44:16 +0000</lastBuildDate>
-    
-	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Fri, 12 Feb 2021 14:55:58 -0500</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spotify Top Tracks - Feb 2021</title>
+      <link>/posts/hugo-top-tracks/</link>
+      <pubDate>Fri, 12 Feb 2021 14:55:58 -0500</pubDate>
+      
+      <guid>/posts/hugo-top-tracks/</guid>
+      <description> Here are some of the things I&#39;ve been listening to lately.
+    We Drink Your Blood - Powerwolf&amp;nbsp;  Blood of the Saints (2011)  listen on spotify      82nd All the Way - Amaranthe&amp;nbsp;  82nd All the Way (2020)  listen on spotify      Marching on Versailles - Ad Infinitum&amp;nbsp;  Chapter I: Monarchy (2020)  listen on spotify      Die Hörner Hoch - Feuerschwanz&amp;nbsp;  Methämmer (2018)  listen on spotify      Burning Bridges - Delain&amp;nbsp;  Burning Bridges (2019)  listen on spotify      Schubsetanz - Feuerschwanz&amp;nbsp;  Methämmer (2018)  listen on spotify      Primo Victoria - Sabaton&amp;nbsp;  Primo Victoria (Re-Armed) (2010)  listen on spotify      A Secret Door - Avatar&amp;nbsp;  Hunter Gatherer (2020)  listen on spotify      Drop Dead Cynical - Amaranthe&amp;nbsp;  MASSIVE ADDICTIVE (2014)  listen on spotify      Die by the Blade - Beast In Black&amp;nbsp;  From Hell with Love (2019)  listen on spotify    </description>
+    </item>
     
     <item>
       <title>Impala ODBC, Dotnet Core, and Docker</title>
@@ -112,7 +118,7 @@ using Microsoft.AspNetCore; using Microsoft.AspNetCore.Hosting; using Microsoft.
       
       <guid>/posts/hello-web-go/</guid>
       <description>This is the most basic web server written in Go.
-package main import ( &amp;#34;fmt&amp;#34; &amp;#34;net/http&amp;#34; ) func main() { http.HandleFunc(&amp;#34;/&amp;#34;, func(w http.ResponseWriter, r *http.Request) { fmt.Fprintf(w, &amp;#34;Hello World!&amp;#34;) }) http.ListenAndServe(&amp;#34;:80&amp;#34;, nil) } </description>
+package main import ( &amp;#34;fmt&amp;#34; &amp;#34;net/http&amp;#34; ) func main() { http.HandleFunc(&amp;#34;/&amp;#34;, func(w http.ResponseWriter, r *http.Request) { fmt.Fprintf(w, &amp;#34;Hello World!&amp;#34;) }) http.ListenAndServe(&amp;#34;:80&amp;#34;, nil) }  </description>
     </item>
     
   </channel>

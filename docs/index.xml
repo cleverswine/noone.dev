@@ -6,10 +6,16 @@
     <description>Recent content on noone.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2020 20:44:16 +0000</lastBuildDate>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Fri, 12 Feb 2021 14:55:58 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spotify Top Tracks - Feb 2021</title>
+      <link>/posts/hugo-top-tracks/</link>
+      <pubDate>Fri, 12 Feb 2021 14:55:58 -0500</pubDate>
+      
+      <guid>/posts/hugo-top-tracks/</guid>
+      <description> Here are some of the things I&#39;ve been listening to lately.
+    We Drink Your Blood - Powerwolf&amp;nbsp;  Blood of the Saints (2011)  listen on spotify      82nd All the Way - Amaranthe&amp;nbsp;  82nd All the Way (2020)  listen on spotify      Marching on Versailles - Ad Infinitum&amp;nbsp;  Chapter I: Monarchy (2020)  listen on spotify      Die Hörner Hoch - Feuerschwanz&amp;nbsp;  Methämmer (2018)  listen on spotify      Burning Bridges - Delain&amp;nbsp;  Burning Bridges (2019)  listen on spotify      Schubsetanz - Feuerschwanz&amp;nbsp;  Methämmer (2018)  listen on spotify      Primo Victoria - Sabaton&amp;nbsp;  Primo Victoria (Re-Armed) (2010)  listen on spotify      A Secret Door - Avatar&amp;nbsp;  Hunter Gatherer (2020)  listen on spotify      Drop Dead Cynical - Amaranthe&amp;nbsp;  MASSIVE ADDICTIVE (2014)  listen on spotify      Die by the Blade - Beast In Black&amp;nbsp;  From Hell with Love (2019)  listen on spotify    </description>
+    </item>
     
     <item>
       <title>Impala ODBC, Dotnet Core, and Docker</title>
@@ -112,7 +118,7 @@ using Microsoft.AspNetCore; using Microsoft.AspNetCore.Hosting; using Microsoft.
       
       <guid>/posts/hello-web-go/</guid>
       <description>This is the most basic web server written in Go.
-package main import ( &amp;#34;fmt&amp;#34; &amp;#34;net/http&amp;#34; ) func main() { http.HandleFunc(&amp;#34;/&amp;#34;, func(w http.ResponseWriter, r *http.Request) { fmt.Fprintf(w, &amp;#34;Hello World!&amp;#34;) }) http.ListenAndServe(&amp;#34;:80&amp;#34;, nil) } </description>
+package main import ( &amp;#34;fmt&amp;#34; &amp;#34;net/http&amp;#34; ) func main() { http.HandleFunc(&amp;#34;/&amp;#34;, func(w http.ResponseWriter, r *http.Request) { fmt.Fprintf(w, &amp;#34;Hello World!&amp;#34;) }) http.ListenAndServe(&amp;#34;:80&amp;#34;, nil) }  </description>
     </item>
     
     <item>
@@ -654,7 +660,7 @@ I’ve actually found the most promising job opportunities on Craigslist.</descr
       <pubDate>Sun, 01 Feb 2009 13:58:14 +0000</pubDate>
       
       <guid>/2009/02/01/sports/</guid>
-      <description>&amp;lt;img src=&amp;quot;https://i2.wp.com/farm4.static.flickr.com/3248/3132886718_c5757e8f15_t_d.jpg?w=840&amp;rdquo; alt=&amp;quot;rudy&amp;rdquo; / align=&amp;quot;left&amp;rdquo; style=&amp;quot;padding-right:4px; padding bottom: 4px;&amp;rdquo; data-recalc-dims=&amp;quot;1&amp;quot;&amp;gt;It’s Superbowl Sunday, and I haven’t written anything for a while. As it turns out, however, I have little interest in this year’s Superbowl. I’m rooting for the Cardinals because they are the underdog. I was also just made aware that 3 teams share the record for the most championships, and the Steelers are one of those. The Cowboys are another, so I’d hate to see the Steelers pull ahead in that statistic.</description>
+      <description>&amp;lt;img src=&amp;ldquo;https://i2.wp.com/farm4.static.flickr.com/3248/3132886718_c5757e8f15_t_d.jpg?w=840&amp;rdquo; alt=&amp;ldquo;rudy&amp;rdquo; / align=&amp;ldquo;left&amp;rdquo; style=&amp;ldquo;padding-right:4px; padding bottom: 4px;&amp;rdquo; data-recalc-dims=&amp;ldquo;1&amp;rdquo;&amp;gt;It’s Superbowl Sunday, and I haven’t written anything for a while. As it turns out, however, I have little interest in this year’s Superbowl. I’m rooting for the Cardinals because they are the underdog. I was also just made aware that 3 teams share the record for the most championships, and the Steelers are one of those. The Cowboys are another, so I’d hate to see the Steelers pull ahead in that statistic.</description>
     </item>
     
     <item>
