@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="map[]">
+    <meta name="generator" content="Hugo 0.80.0" />
+    <title>noone.dev</title>
+    <link rel='stylesheet' href='/styles/main.css'>
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css" type="text/css">
+    <style>
+        ul.pagination {
+            margin: 1.5em 0 0;
+            padding-left: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+
+        ul.pagination li {
+            float: left;
+            margin-left: 0;
+            margin-right: 0.8em;
+        }
+
+        li.active {
+            border-bottom: 1px solid yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Kevin Noone</h1>
+    <a href="/">home</a> // <a href="/posts">posts</a> // <a href="/posts/index.xml">rss</a>
+    <hr/>
+<h3><a href="/posts/spockify-part-1/">Spockify - Part 1</a></h3>
+<sub>May 26, 2021</sub>
+<hr />
+<div>
+    <p>I&rsquo;ve decided to start a simple new &ldquo;hobby project&rdquo; that I&rsquo;m calling <strong>Spockify</strong>. The idea is that I&rsquo;ll present a relatively simple web-based UI that will allow a Spotify user to log in and build new playlists based on track features like &ldquo;danceability&rdquo;, &ldquo;tempo&rdquo;, &ldquo;genre&rdquo;, and whatever else makes sense. I&rsquo;m thinking that the base set of tracks will be the user&rsquo;s saved (or liked) tracks. From there, I can use the Spotify API to get various bits of metadata for each track and then allow filtering on that metadata to build a list of songs that can be saved as a playlist.</p>
+<h2 id="spotify-api">Spotify API</h2>
+<p>To begin, I&rsquo;ve discovered which Spotify endpoints to use for the functionality that I need.</p>
+<h3 id="build-a-list-of-filterable-tracks">Build a list of filterable tracks</h3>
+<p>requires the <em>user-library-read</em> scope</p>
+<ul>
+<li><code>/me/tracks</code> - get the user&rsquo;s saved tracks</li>
+<li><code>/audio-features</code> - get track features, like &ldquo;danceability&rdquo;</li>
+<li><code>/audio-analysis</code> - get track audio analysys, like &ldquo;tempo&rdquo;</li>
+</ul>
+<h3 id="create-a-playlist">Create a playlist</h3>
+<p>requires the <em>playlist-modify-public</em> and <em>playlist-modify-private</em> scopes</p>
+<ul>
+<li><code>/users/{user_id}/playlists</code> - create a playlist</li>
+<li><code>/playlists/{playlist_id}/tracks</code> - add/replace tracks of the playlist</li>
+</ul>
+<h2 id="the-plan">The plan</h2>
+<p>As is the nature of hobby projects, who knows how much of this I&rsquo;ll actually do. I do have a full-time job and a life.</p>
+<p>What I&rsquo;d like to do is implement this project in medium sized steps and blog as I go. For example, step 1 might be building in the Spotify authentication.</p>
+<h2 id="why">Why?</h2>
+<p>Because it&rsquo;s fun.</p>
+
+</div>
+
+    <p style="margin-top: 1.8em;">
+        <hr /> 
+        © 2020 Kevin Noone · Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://pages.github.com/">GitHub Pages</a>
+        <br/>
+        <span style="font-size: 1.5em;">
+            <a href="https://www.linkedin.com/in/kevinnoone/"><span class="mdi mdi-linkedin"></a>
+            <a href="https://github.com/cleverswine/"><span class="mdi mdi-github"></a>
+            <a href="https://twitter.com/cleverswine/"><span class="mdi mdi-twitter"></a>
+        </span>
+    </p>
+</body>
+
+</html>
