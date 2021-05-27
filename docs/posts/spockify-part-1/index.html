@@ -39,7 +39,9 @@
 <hr />
 <div>
     <p>I&rsquo;ve decided to start a simple new &ldquo;hobby project&rdquo; that I&rsquo;m calling <strong>Spockify</strong>. The idea is that I&rsquo;ll present a relatively simple web-based UI that will allow a Spotify user to log in and build new playlists based on track features like &ldquo;danceability&rdquo;, &ldquo;tempo&rdquo;, &ldquo;genre&rdquo;, and whatever else makes sense. I&rsquo;m thinking that the base set of tracks will be the user&rsquo;s saved (or liked) tracks. From there, I can use the Spotify API to get various bits of metadata for each track and then allow filtering on that metadata to build a list of songs that can be saved as a playlist.</p>
-<h2 id="spotify-api">Spotify API</h2>
+<p>What I&rsquo;d like to do is implement this project in small steps and create some &ldquo;how-to&rdquo; blog posts as I go.</p>
+<p>Why? Because it&rsquo;s fun.</p>
+<h2 id="planning">Planning</h2>
 <p>To begin, I&rsquo;ve discovered which Spotify endpoints to use for the functionality that I need.</p>
 <h3 id="build-a-list-of-filterable-tracks">Build a list of filterable tracks</h3>
 <p>requires the <em>user-library-read</em> scope</p>
@@ -54,11 +56,8 @@
 <li><code>/users/{user_id}/playlists</code> - create a playlist</li>
 <li><code>/playlists/{playlist_id}/tracks</code> - add/replace tracks of the playlist</li>
 </ul>
-<h2 id="the-plan">The plan</h2>
-<p>As is the nature of hobby projects, who knows how much of this I&rsquo;ll actually do. I do have a full-time job and a life.</p>
-<p>What I&rsquo;d like to do is implement this project in medium sized steps and blog as I go. For example, step 1 might be building in the Spotify authentication.</p>
-<h2 id="why">Why?</h2>
-<p>Because it&rsquo;s fun.</p>
+<h2 id="next">Next</h2>
+<p>In part 2 I&rsquo;ll bootstrap a minimal application skeleton.</p>
 
 </div>
 
