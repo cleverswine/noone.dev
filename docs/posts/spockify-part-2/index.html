@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="map[]">
+    <meta name="generator" content="Hugo 0.72.0" />
+    <title>noone.dev</title>
+    <link rel='stylesheet' href='/styles/main.css'>
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css" type="text/css">
+    <style>
+        ul.pagination {
+            margin: 1.5em 0 0;
+            padding-left: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+
+        ul.pagination li {
+            float: left;
+            margin-left: 0;
+            margin-right: 0.8em;
+        }
+
+        li.active {
+            border-bottom: 1px solid yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Kevin Noone</h1>
+    <hr/>
+<h3><a href="/posts/spockify-part-2/">Spockify - Part 2 - dotnet core serving vue.js</a></h3>
+<sub>May 26, 2021</sub>
+<hr />
+<div>
+    <p>In this post, I will get started writing code for a hobby project called <strong>Spockify</strong>, which I describe in <a href="/posts/spockify-part-1/" title="Spockify - Part 1">Spockify - Part 1</a></p>
+<h2 id="goal">Goal</h2>
+<p>Create the simplest skeleton project that has a server and a UI.</p>
+<h2 id="technology">Technology</h2>
+<p>I have chosen to use <a href="https://dotnet.microsoft.com/learn/aspnet/what-is-aspnet-core">dotnet core</a> as the backend because that&rsquo;s what I&rsquo;m comfortable with. This application is simple enough that almost any technology could have been used (nodejs, python, go, etc.).</p>
+<p>For the front end, I have chosen <a href="https://vuejs.org/">vue.js</a> because I find it quite a bit more intuitive than some of the other front end frameworks. I&rsquo;m not a front end developer by trade, so what do I know?</p>
+<h2 id="bootstrapping-the-project">Bootstrapping the project</h2>
+<p>Prerequisites: <a href="https://dotnet.microsoft.com/download">dotnet core</a>, <a href="https://v3.vuejs.org/guide/installation.html">vue.js</a></p>
+<p>These commands will generate a skeleton dotnet server and a UI for the project.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir spockify
+cd spockify
+dotnet new web -o server -n Spockify
+vue create ui
+</code></pre></div><h2 id="configure-the-vuejs-ui">Configure the vue.js ui</h2>
+<p>In the vue.js project, we want to change the output of the build to go to a location in the server directory. By default, builds will go to <code>./ui/dist</code>.</p>
+<p>In the <code>./ui</code> directory, add a file called <code>vue.config.js</code> with the following content</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// ./ui/vue.config.js
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">module</span>.<span style="color:#a6e22e">exports</span> <span style="color:#f92672">=</span> {
+    <span style="color:#a6e22e">outputDir</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;../server/wwwroot&#39;</span>
+}
+</code></pre></div><h2 id="update-the-dotnet-server">Update the dotnet server</h2>
+<p>The <code>dotnet new</code> command created a simple web project. We&rsquo;re going to strip it down even further so that it&rsquo;s single purpose is to serve our vue.js application.</p>
+<p>Microsoft provides a nice middleware component called <code>UseProxyToSpaDevelopmentServer</code> that will allow us to proxy requests to the vue.js server (runningon port 8080) during development. To use it, we need to install the <code>Microsoft.AspNetCore.SpaServices.Extensions</code> package. From the <code>./server</code> directory, run:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">dotnet add package Microsoft.AspNetCore.SpaServices.Extensions
+</code></pre></div><p>Modify <code>./server/Startup.cs</code> to serve static files and use the SPA proxy in development mode.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#75715e">// ./server/Startup.cs
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> Microsoft.AspNetCore.Builder;
+<span style="color:#66d9ef">using</span> Microsoft.AspNetCore.Hosting;
+<span style="color:#66d9ef">using</span> Microsoft.Extensions.DependencyInjection;
+<span style="color:#66d9ef">using</span> Microsoft.Extensions.Hosting;
+
+<span style="color:#66d9ef">namespace</span> Spockify
+{
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Startup</span>
+    {
+        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> ConfigureServices(IServiceCollection services)
+        {
+            <span style="color:#75715e">// for production builds, the optimized vue.js application will be served from wwwroot
+</span><span style="color:#75715e"></span>            services.AddSpaStaticFiles(configuration: options =&gt; { options.RootPath = <span style="color:#e6db74">&#34;wwwroot&#34;</span>; });
+        }
+
+        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        {
+            app.UseSpaStaticFiles();
+            app.UseSpa(configuration: builder =&gt;
+            {
+                <span style="color:#66d9ef">if</span> (env.IsDevelopment())
+                {
+                    <span style="color:#75715e">// here we are proxying requests to the vue.js development server so we get hot reloading
+</span><span style="color:#75715e"></span>                    builder.UseProxyToSpaDevelopmentServer(<span style="color:#e6db74">&#34;http://localhost:8080&#34;</span>);
+                }
+            });
+        }
+    }
+}
+</code></pre></div><h2 id="try-it-out">Try it out</h2>
+<p>For this simplest version, We&rsquo;ll need to start the vue.js development server and then start the dotnet server. There are ways to combine this into a single step, but I&rsquo;d rather run 2 things and keep everything else simple.</p>
+<p>From <code>./ui</code>, run the vue.js server. It will start on localhost:8080.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">yarn serve
+</code></pre></div><p>From <code>./server</code>, run the dotnet application</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">dotnet run
+</code></pre></div><p>Navigate to http://localhost:5000 and you should see a basic vue.js application.</p>
+<p><em>If you are using an IDE, you can use it&rsquo;s debugging features to run the server code</em></p>
+<h2 id="extra">Extra</h2>
+<p>I&rsquo;ll want a <code>.gitignore</code> file. There&rsquo;s a <a href="https://www.toptal.com/developers/gitignore">cool service</a> that will build a file for you. From the project root, run</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -o .gitignore https://www.toptal.com/developers/gitignore/api/vuejs,dotnetcore,visualstudiocode
+</code></pre></div><h2 id="summary">Summary</h2>
+<p>I can serve up a vue.js SPA from a dotnet core server!</p>
+<h2 id="next">Next</h2>
+<p>Add Spotify authentication.</p>
+<p>Also, I&rsquo;d like to get this code into my github repo and tag it for each blog post.</p>
+
+</div>
+
+    <p style="margin-top: 1.8em;">
+        <hr /> 
+        © 2020 Kevin Noone · Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://pages.github.com/">GitHub Pages</a>
+        <br/>
+        <span style="font-size: 1.5em;">
+            <a href="https://www.linkedin.com/in/kevinnoone/"><span class="mdi mdi-linkedin"></a>
+            <a href="https://github.com/cleverswine/"><span class="mdi mdi-github"></a>
+            <a href="https://twitter.com/cleverswine/"><span class="mdi mdi-twitter"></a>
+        </span>
+    </p>
+</body>
+
+</html>
