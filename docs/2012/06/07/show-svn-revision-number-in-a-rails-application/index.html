@@ -27,15 +27,22 @@
         li.active {
             border-bottom: 1px solid yellow;
         }
+
+        nav a {
+            margin-right: 1em;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Kevin Noone</h1>
+    <h1><a href="/">Kevin Noone</a></h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/archives/">Archives</a>
+    </nav>
     <hr/>
-<h3><a href="/2012/06/07/show-svn-revision-number-in-a-rails-application/">Show SVN revision number in a Rails application</a></h3>
-<sub>June 7, 2012</sub>
-<hr />
+<h3>Show SVN revision number in a Rails application</h3>
 <div>
     <p>This is a hack to display the Subversion revision in a Rails application using <a href="http://capify.org" title="Capistrano" target="_blank">Capistrano</a> to insert the current revision number on each deploy.</p>
 <p>Create a partial that will contain the revision number. For example, _~/app/views/layouts/<em>revision.html.erb</em>. You can put anything in that file, as it will be overwritten by Capistrano on each deploy. The word “Development” or “Current” seems a good choice.</p>

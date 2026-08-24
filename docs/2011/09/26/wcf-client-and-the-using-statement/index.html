@@ -27,15 +27,22 @@
         li.active {
             border-bottom: 1px solid yellow;
         }
+
+        nav a {
+            margin-right: 1em;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Kevin Noone</h1>
+    <h1><a href="/">Kevin Noone</a></h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/archives/">Archives</a>
+    </nav>
     <hr/>
-<h3><a href="/2011/09/26/wcf-client-and-the-using-statement/">WCF Client and the &amp;#8220;using&amp;#8221; Statement</a></h3>
-<sub>September 26, 2011</sub>
-<hr />
+<h3>WCF Client and the &amp;#8220;using&amp;#8221; Statement</h3>
 <div>
     <p>As I was researching patterns and practices for a WCF client implementation, I came across a bug in the .Net implementation of ClientBase<T> (whether it’s actually a bug is arguable). It’s well documented on the web, but it could cause major headaches if you happened to miss it.</p>
 <p>The core of the issue is that ClientBase<T> implements IDisposable. With this knowledge, just about any programmer would naturally wrap its usage in a using{} block. Digging deeper, you’ll find that the ClientBase<T> Dispose() method simply calls Close() on the underlying connection. This is problematic because in certain connection states (such as “Faulted”), the Close() will fail. As I said, this is well documented elsewhere, for example: <a title="Avoiding Problems with the Using Statement" href="http://msdn.microsoft.com/en-us/library/aa355056.aspx" target="_blank">on MSDN</a>, <a href="http://stackoverflow.com/questions/573872/what-is-the-best-workaround-for-the-wcf-client-using-block-issue" title="What is the best workaround for the WCF client `using` block issue?" target="_blank">Stack Overflow</a>, and <a href="http://blogs.msdn.com/b/jjameson/archive/2010/03/18/avoiding-problems-with-the-using-statement-and-wcf-service-proxies.aspx" title="Avoiding Problems with the Using Statement and WCF Service Proxies" target="_blank">here</a>.</p>

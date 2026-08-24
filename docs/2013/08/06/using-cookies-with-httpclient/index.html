@@ -27,15 +27,22 @@
         li.active {
             border-bottom: 1px solid yellow;
         }
+
+        nav a {
+            margin-right: 1em;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Kevin Noone</h1>
+    <h1><a href="/">Kevin Noone</a></h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/archives/">Archives</a>
+    </nav>
     <hr/>
-<h3><a href="/2013/08/06/using-cookies-with-httpclient/">Using cookies with HttpClient</a></h3>
-<sub>August 6, 2013</sub>
-<hr />
+<h3>Using cookies with HttpClient</h3>
 <div>
     <p>This simple code snippet shows how to store and use cookies from a web request using the .Net <a href="http://msdn.microsoft.com/en-us/library/system.net.http.httpclient.aspx" target="_blank">HttpClient</a>. For example, if an API or site sends a token or authentication cookie, you may need to store it and send it on all subsequent requests to show that you are authenticated. This would be for a session-based service. The key is to create a single <a href="http://msdn.microsoft.com/en-us/library/system.net.cookiecontainer.aspx" target="_blank">CookieContainer</a> instance and a single <a href="http://msdn.microsoft.com/en-us/library/system.net.http.httpclienthandler.aspx" target="_blank">HttpClientHandler</a> instance to hold it. Assume the following class is registered as a singleton.</p>
 <pre lang="csharp">public class WebClient

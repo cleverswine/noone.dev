@@ -27,15 +27,22 @@
         li.active {
             border-bottom: 1px solid yellow;
         }
+
+        nav a {
+            margin-right: 1em;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Kevin Noone</h1>
+    <h1><a href="/">Kevin Noone</a></h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/archives/">Archives</a>
+    </nav>
     <hr/>
-<h3><a href="/posts/hello-web-go/">Hello Web Go</a></h3>
-<sub>March 14, 2019</sub>
-<hr />
+<h3>Hello Web Go</h3>
 <div>
     <p>This is the most basic web server written in Go.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>

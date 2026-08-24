@@ -2666,5 +2666,12 @@
 				<guid>/2006/01/30/new-web-site-new-web-host/</guid>
 				<description>&lt;p&gt;It’s all new. I’m giving WordPress a test run. So far, it’s nice, but I’m guessing that I’ll eventually ditch it and create my own. It’s too complex for my needs, and I’d like to have full control of the application. My new hosting service, &lt;a href=&#34;http://www.a2hosting.com/&#34;&gt;a2 hosting&lt;/a&gt;, supports Ruby/Rails.&lt;/p&gt;</description>
 			</item>
+			<item>
+				<title>About Me</title>
+				<link>/about/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/about/</guid>
+				<description>&lt;p&gt;Software Engineer in Portland, Oregon, USA&lt;/p&gt;&#xA;&lt;p&gt;I am a full stack senior software engineer with extensive experience in all aspects of enterprise-level software development. Most of my programming experience has been with C# on the .NET framework. In recent years, however, I have experience working with &lt;a href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt;, &lt;a href=&#34;https://www.microsoft.com/net/&#34;&gt;.NET Core&lt;/a&gt;, and &lt;a href=&#34;https://spark.apache.org/&#34;&gt;Spark&lt;/a&gt; with &lt;a href=&#34;https://www.scala-lang.org/&#34;&gt;Scala&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;&#xA;&lt;p&gt;I would consider my specialties to be:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;RESTful APIs&lt;/li&gt;&#xA;&lt;li&gt;Authentication and Authorization (oauth)&lt;/li&gt;&#xA;&lt;li&gt;General-purpose Services&lt;/li&gt;&#xA;&lt;li&gt;Systems Integration&lt;/li&gt;&#xA;&lt;li&gt;Microservices Infrastructures&lt;/li&gt;&#xA;&lt;li&gt;Continuous Integration and Continuous Deployment&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I have worked extensively with the following technologies:&lt;/p&gt;</description>
+			</item>
 	</channel>
 </rss>

@@ -27,15 +27,22 @@
         li.active {
             border-bottom: 1px solid yellow;
         }
+
+        nav a {
+            margin-right: 1em;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Kevin Noone</h1>
+    <h1><a href="/">Kevin Noone</a></h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/archives/">Archives</a>
+    </nav>
     <hr/>
-<h3><a href="/2008/01/22/fun-with-the-google-chart-api/">Fun with the Google Chart API</a></h3>
-<sub>January 22, 2008</sub>
-<hr />
+<h3>Fun with the Google Chart API</h3>
 <div>
     <p>I just finish developing another weight loss application with Ruby on Rails. For the most part, it’s nothing noteworthy – just your standard Rails MVC project with simple views. The one tiny noteworthy thing is that I made use of the <a href="http://code.google.com/apis/chart/">Google Chart API</a> for charting the progress of one’s diet. I wouldn’t call it an API… it’s more like a URL query string specification. Anyway, I created a model attribute to mine one’s weigh-in history and produce a query string for the Google Chart API URL. It’s quite cool. I would post source code here, but I really just threw the program together in two days, and it’s ugly. The important thing is that it works and I’ll be the only one using it. Yes, I’m on a diet.</p>
 <p><a href="http://code.google.com/"><img src='https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2008/01/code_sm.png?w=840' alt='google code' data-recalc-dims="1" /></a></p>

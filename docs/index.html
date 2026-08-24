@@ -27,51 +27,350 @@
         li.active {
             border-bottom: 1px solid yellow;
         }
+
+        nav a {
+            margin-right: 1em;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Kevin Noone</h1>
+    <h1><a href="/">Kevin Noone</a></h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/archives/">Archives</a>
+    </nav>
     <hr/>
-<h3>About Me</h3>
-<p>Software Engineer in Portland, Oregon, USA</p>
-<p>
-    I am a full stack senior software engineer with extensive experience in all aspects of enterprise-level software development. 
-    Most of my programming experience has been with C# on the .NET framework. 
-    In recent years, however, I have experience working with <a href="http://golang.org/">Go</a>, <a href="https://www.microsoft.com/net/">.NET Core</a>, and <a href="https://spark.apache.org/">Spark</a> with <a href="https://www.scala-lang.org/">Scala</a>. 
-</p>
-<h3>Skills</h3>
-<p>I would consider my specialties to be:</p>
+<h3>Posts</h3>
+
+
+
+<article style="margin-bottom: 2em;">
+    <h4><a href="/posts/spockify-part-1/">Spockify - Part 1</a></h4>
+    <sub>May 26, 2021</sub>
+    <p>I&rsquo;ve decided to start a simple new &ldquo;hobby project&rdquo; that I&rsquo;m calling <strong>Spockify</strong>. The idea is that I&rsquo;ll present a relatively simple web-based UI that will allow a Spotify user to log in and build new playlists based on track features like &ldquo;danceability&rdquo;, &ldquo;tempo&rdquo;, &ldquo;genre&rdquo;, and whatever else makes sense. I&rsquo;m thinking that the base set of tracks will be the user&rsquo;s saved (or liked) tracks. From there, I can use the Spotify API to get various bits of metadata for each track and then allow filtering on that metadata to build a list of songs that can be saved as a playlist.</p>
+</article>
+
+<article style="margin-bottom: 2em;">
+    <h4><a href="/posts/hugo-top-tracks/">Spotify Top Tracks - Feb 2021</a></h4>
+    <sub>February 12, 2021</sub>
+    <p>Here are some of the things I've been listening to lately.</p>
+<table>
+	<tr>
+		<td width="96px">
+            <img src="https://i.scdn.co/image/ab67616d00001e0246c550081a2f5674e2cf608d" alt="Blood of the Saints" width="96" height="96" />
+        </td>
+        <td>
+            <strong>We Drink Your Blood</strong> - Powerwolf&nbsp;
+            <br/>
+            Blood of the Saints (2011)
+            <br/>
+            <em><a href="https://open.spotify.com/track/3pWvRhml43vlUrGYlIzLM6">listen on spotify</a></em>
+        </td>
+	</tr>
+	<tr>
+		<td width="96px">
+            <img src="https://i.scdn.co/image/ab67616d00001e025b1ccd1a5ba9fce6ca4910e6" alt="82nd All the Way" width="96" height="96" />
+        </td>
+        <td>
+            <strong>82nd All the Way</strong> - Amaranthe&nbsp;
+            <br/>
+            82nd All the Way (2020)
+            <br/>
+            <em><a href="https://open.spotify.com/track/1GK39qL3zPowvvb0UpWGyQ">listen on spotify</a></em>
+        </td>
+	</tr>
+	<tr>
+		<td width="96px">
+            <img src="https://i.scdn.co/image/ab67616d00001e02f45994dd763858ae697ce7e0" alt="Chapter I: Monarchy" width="96" height="96" />
+        </td>
+        <td>
+            <strong>Marching on Versailles</strong> - Ad Infinitum&nbsp;
+            <br/>
+            Chapter I: Monarchy (2020)
+            <br/>
+            <em><a href="https://open.spotify.com/track/3iIXx4f6C8XEJXS0GapFx7">listen on spotify</a></em>
+        </td>
+	</tr>
+	<tr>
+		<td width="96px">
+            <img src="https://i.scdn.co/image/ab67616d00001e02129141162a7698f7e56d92df" alt="Methämmer" width="96" height="96" />
+        </td>
+        <td>
+            <strong>Die Hörner Hoch</strong> - Feuerschwanz&nbsp;
+            <br/>
+            Methämmer (2018)
+            <br/>
+            <em><a href="https://open.spotify.com/track/4c5evEWIhLXzlHQsmm6K78">listen on spotify</a></em>
+        </td>
+	</tr>
+	<tr>
+		<td width="96px">
+            <img src="https://i.scdn.co/image/ab67616d00001e02b1403782c7a224b92416a0bf" alt="Burning Bridges" width="96" height="96" />
+        </td>
+        <td>
+            <strong>Burning Bridges</strong> - Delain&nbsp;
+            <br/>
+            Burning Bridges (2019)
+            <br/>
+            <em><a href="https://open.spotify.com/track/5sAEhwro4ihb4moS3Yrukt">listen on spotify</a></em>
+        </td>
+	</tr>
+	<tr>
+		<td width="96px">
+            <img src="https://i.scdn.co/image/ab67616d00001e02129141162a7698f7e56d92df" alt="Methämmer" width="96" height="96" />
+        </td>
+        <td>
+            <strong>Schubsetanz</strong> - Feuerschwanz&nbsp;
+            <br/>
+            Methämmer (2018)
+            <br/>
+            <em><a href="https://open.spotify.com/track/0lA1c6MmTzpNsRMxq6SvTV">listen on spotify</a></em>
+        </td>
+	</tr>
+	<tr>
+		<td width="96px">
+            <img src="https://i.scdn.co/image/ab67616d00001e02237ef5077981604a3a4b71eb" alt="Primo Victoria (Re-Armed)" width="96" height="96" />
+        </td>
+        <td>
+            <strong>Primo Victoria</strong> - Sabaton&nbsp;
+            <br/>
+            Primo Victoria (Re-Armed) (2010)
+            <br/>
+            <em><a href="https://open.spotify.com/track/5DbAOJ5dYW5A9xBhkeb33t">listen on spotify</a></em>
+        </td>
+	</tr>
+	<tr>
+		<td width="96px">
+            <img src="https://i.scdn.co/image/ab67616d00001e023c3392cf722ac4ee43a45c42" alt="Hunter Gatherer" width="96" height="96" />
+        </td>
+        <td>
+            <strong>A Secret Door</strong> - Avatar&nbsp;
+            <br/>
+            Hunter Gatherer (2020)
+            <br/>
+            <em><a href="https://open.spotify.com/track/7lrajkVWoVh57d2UcQTysM">listen on spotify</a></em>
+        </td>
+	</tr>
+	<tr>
+		<td width="96px">
+            <img src="https://i.scdn.co/image/ab67616d00001e027e1fea351d3673f4f94f5c8c" alt="MASSIVE ADDICTIVE" width="96" height="96" />
+        </td>
+        <td>
+            <strong>Drop Dead Cynical</strong> - Amaranthe&nbsp;
+            <br/>
+            MASSIVE ADDICTIVE (2014)
+            <br/>
+            <em><a href="https://open.spotify.com/track/5VToMJACRoeT0YZNs5CYyp">listen on spotify</a></em>
+        </td>
+	</tr>
+	<tr>
+		<td width="96px">
+            <img src="https://i.scdn.co/image/ab67616d00001e024959170cc823eeaba14d1430" alt="From Hell with Love" width="96" height="96" />
+        </td>
+        <td>
+            <strong>Die by the Blade</strong> - Beast In Black&nbsp;
+            <br/>
+            From Hell with Love (2019)
+            <br/>
+            <em><a href="https://open.spotify.com/track/53h1ZSLWi8hVWF9DWKNXVh">listen on spotify</a></em>
+        </td>
+	</tr>
+</table>
+</article>
+
+<article style="margin-bottom: 2em;">
+    <h4><a href="/posts/impala-odbc/">Impala ODBC, Dotnet Core, and Docker</a></h4>
+    <sub>July 31, 2020</sub>
+    <p>This post will show how to query an Impala database from a DotNet Core application running in Docker.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>Knowledge of Apache Hadoop, Docker, and DotNet Core</p>
+<h2 id="impala">Impala</h2>
+<p><a href="https://impala.apache.org/index.html">Apache Impala</a> is the open source, native analytic database for Apache Hadoop.</p>
+<p><a href="https://www.cloudera.com/">Cloudera</a> provides an ODBC driver for Impala that can be <a href="https://www.cloudera.com/downloads.html">downloaded from their website</a> (requires an account).</p>
+<h2 id="installing-the-impala-odbc-driver">Installing the Impala ODBC driver</h2>
+<p>Assuming you have downloaded the Cloudera Impala ODBC driver (in this case, I have downloaded it to: <code>clouderaimpalaodbc_2.6.10.1010-2_amd64.deb</code>), here is a script to install and configure it on a Linux system (for example, on a Docker image as shown below).</p>
+</article>
+
+<article style="margin-bottom: 2em;">
+    <h4><a href="/posts/authorization-flow-cli/">Authorization Flow with a CLI</a></h4>
+    <sub>June 18, 2020</sub>
+    <p>When calling a public API on behalf of a user, you&rsquo;ll often need to use the <a href="https://tools.ietf.org/html/rfc6749#section-4.1">Authorization Code Flow</a> to get a token to use on the API calls. This flow invloves redirecting the user to the authorization server where they will sign in and give consent for your application to access the requested resources (scopes).</p>
+<p>From a command-line application, we don&rsquo;t have a web page to do this redirect flow. What we can do is start up a simple web server and present the user with a URL to visit. When the authorization server redirects back to our simple web server, we can handle the authorization code exchange.</p>
+</article>
+
+<article style="margin-bottom: 2em;">
+    <h4><a href="/posts/vuejs-in-docker/">Vue.js in Docker</a></h4>
+    <sub>August 13, 2019</sub>
+    <p>This post will show how to create a simple <a href="https://vuejs.org/">Vue.js</a> single page application and host it in a docker container.</p>
+<h2 id="create-the-application">Create the application</h2>
+<p>Install the Vue command line interface (cli) <a href="https://cli.vuejs.org/guide/#cli">from here</a>. I&rsquo;ll be using yarn for this example..</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>yarn global add @vue/cli</span></span></code></pre></div>
+<p>Create a new hello-world application and change into the application&rsquo;s folder.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># this places the new application in a ./hello-world folder</span>
+</span></span><span style="display:flex;"><span>vue create hello-world
+</span></span><span style="display:flex;"><span>cd hello-world
+</span></span><span style="display:flex;"><span>yarn install</span></span></code></pre></div>
+<h2 id="build-a-docker-image">Build a Docker image</h2>
+<p>Now that we have a working Vue.js application, we can put it in a container and serve it up using <a href="https://www.nginx.com/">nginx</a>.</p>
+</article>
+
+<article style="margin-bottom: 2em;">
+    <h4><a href="/posts/hello-k8s-windows-part-2/">Hello K8s in Windows - Part 2</a></h4>
+    <sub>April 30, 2019</sub>
+    <p>This is the second in a multi-part series that will show how to easily get Kubernetes up and running in Windows and deploy a sample application. Almost everything also applies to Linux, MacOS, etc.</p>
+<p>The source code for this example can be found at <a href="https://github.com/cleverswine/hello-k8s-win">https://github.com/cleverswine/hello-k8s-win</a></p>
+<p>These posts are based on an intoductory presentation that I gave to my company.</p>
+<h3 id="deploy-to-a-local-kubernetes-k8s-cluster">Deploy to a local Kubernetes (k8s) cluster</h3>
+<p><strong>Install the tools</strong></p>
 <ul>
-    <li>RESTful APIs</li>
-    <li>Authentication and Authorization (oauth)</li>
-    <li>General-purpose Services</li>
-    <li>Systems Integration</li>
-    <li>Microservices Infrastructures</li>
-    <li>Continuous Integration and Continuous Deployment</li>
+<li>Docker Desktop - enable Kubernetes after installing  (<a href="https://hub.docker.com/editions/community/docker-ce-desktop-windows">https://hub.docker.com/editions/community/docker-ce-desktop-windows</a>)</li>
+<li>kubectl (<a href="https://kubernetes.io/docs/tasks/tools/install-kubectl/">https://kubernetes.io/docs/tasks/tools/install-kubectl/</a>)</li>
 </ul>
-<p>I have worked extensively with the following technologies:</p>
-<ul>
-    <li><a href="https://www.microsoft.com/net/">.NET Core</a></li>
-    <li><a href="https://kubernetes.io/">Kubernetes</a></li>
-    <li><a href="https://helm.sh/">Helm</a></li>
-    <li><a href="https://www.docker.com/">Docker</a></li>
-    <li><a href="https://cloud.google.com">Google Cloud</a></li>
-    <li><a href="https://azure.microsoft.com">Microsoft Azure</a></li>
-    <li><a href="https://www.microsoft.com/en-us/sql-server/default.aspx">SQL Server</a>, <a href="https://www.postgresql.org/">PostgreSQL</a></li>
-    <li><a href="https://www.rabbitmq.com/">RabbitMQ</a></li>
-    <li><a href="https://identityserver4.readthedocs.io/en/release/">IdentityServer</a></li>
-    <li><a href="https://hadoop.apache.org/">Hadoop Ecosystem</a> (<a href="https://www.cloudera.com/products/open-source/apache-hadoop.html">Cloudera</a>)</li>
-</ul>
-<p>Additionally, I have plenty of experience with frontend technologies such as:</p>
-<ul>
-    <li>Vue.js</li>
-    <li>Angular</li>
-    <li>css, less, sass, js, and html</li>
-    <li>frontend tools such as yarn, npm, gulp, and bower</li>
-</ul>
-<p>See <a href="https://www.linkedin.com/in/kevinnoone/">LinkedIn</a> for more details about my experience.</p>
-<p>Thanks for reading!</p>
+<h3 id="verify-connectivity-to-the-k8s-cluster">Verify connectivity to the k8s cluster</h3>
+<p>Once your local k8s cluster is up and running, you should be able to interact with it using <code>kubectl</code>.</p>
+</article>
+
+<article style="margin-bottom: 2em;">
+    <h4><a href="/posts/hello-k8s-windows-part-1/">Hello K8s in Windows - Part 1</a></h4>
+    <sub>April 30, 2019</sub>
+    <p>This is the first in a multi-part series that will show how to easily get Kubernetes up and running in Windows and deploy a sample application. Almost everything also applies to Linux, MacOS, etc.</p>
+<p>The source code for this example can be found at <a href="https://github.com/cleverswine/hello-k8s-win">https://github.com/cleverswine/hello-k8s-win</a></p>
+<p>These posts are based on an intoductory presentation that I gave to my company.</p>
+<h3 id="sample-application">Sample Application</h3>
+<p>Consider a simple message processing application, as shown here:</p>
+<p><img src="k8swinsample.png" alt="Example image"></p>
+</article>
+
+<article style="margin-bottom: 2em;">
+    <h4><a href="/posts/displaying-parquet-files/">Displaying Parquet Files</a></h4>
+    <sub>April 18, 2019</sub>
+    <p><a href="https://parquet.apache.org/">Apache Parquet</a> is a columnar storage format available to any project in the Hadoop ecosystem, regardless of the choice of data processing framework, data model or programming language.</p>
+<p>I&rsquo;ll look at 3 interesting ways to peek into parquet files.</p>
+<h4 id="1-jupyter-notebooks-as-a-simple-viewer">1) Jupyter Notebooks as a Simple Viewer</h4>
+<p>Using a <a href="https://jupyter.org/">Jupyter Notebook</a> with <a href="https://arrow.apache.org/docs/python/">pyarrow</a> and pandas</p>
+<p><img src="jupyter.png" alt="Example image"></p>
+<h4 id="2-pyqt5-for-a-native-gui">2) PyQt5 for a Native GUI</h4>
+<p>Using Python, <a href="https://arrow.apache.org/docs/python/">pyarrow</a>, and <a href="https://pypi.org/project/PyQt5/">PyQt5</a> to display a simple, cross-platform, native UI table. pyarrow only supports flat (single level) parquet files.</p>
+</article>
+
+<article style="margin-bottom: 2em;">
+    <h4><a href="/posts/parallelization-in-go-and-dotnet/">Parallelization in Go and .NET</a></h4>
+    <sub>March 21, 2019</sub>
+    <p>This is a comparison of bounded parallel processing with error handling and cancellation in Go and .NET.</p>
+<p>The sample code will take an array of strings and print the ASCII code representation of each string in parallel. For example &ldquo;Lorem&rdquo; would evaluate to <code>Lorem/76/111/114/101/109/</code>. If a string is empty, an error occurs and processing is canceled.</p>
+<p>First, the Go code.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> (
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;context&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;fmt&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;strings&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;golang.org/x/sync/errgroup&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">parallelLimit</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">4</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">testData</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">Split</span>(<span style="color:#e6db74">&#34;Lorem ipsum dolor sit amet consectetur adipiscing elit&#34;</span>, <span style="color:#e6db74">&#34; &#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">g</span>, <span style="color:#a6e22e">_</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">errgroup</span>.<span style="color:#a6e22e">WithContext</span>(<span style="color:#a6e22e">context</span>.<span style="color:#a6e22e">Background</span>())
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">dataCh</span> <span style="color:#f92672">:=</span> make(<span style="color:#66d9ef">chan</span> <span style="color:#66d9ef">string</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">go</span> <span style="color:#66d9ef">func</span>() {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">defer</span> close(<span style="color:#a6e22e">dataCh</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">s</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">testData</span> {
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">dataCh</span> <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">s</span>
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>	}()
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> &lt; <span style="color:#a6e22e">parallelLimit</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">g</span>.<span style="color:#a6e22e">Go</span>(<span style="color:#66d9ef">func</span>() <span style="color:#66d9ef">error</span> {
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">s</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">dataCh</span> {
+</span></span><span style="display:flex;"><span>				<span style="color:#a6e22e">ascii</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">toASCII</span>(<span style="color:#a6e22e">s</span>)
+</span></span><span style="display:flex;"><span>				<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>					println(<span style="color:#a6e22e">err</span>.<span style="color:#a6e22e">Error</span>())
+</span></span><span style="display:flex;"><span>					<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">err</span>
+</span></span><span style="display:flex;"><span>				}
+</span></span><span style="display:flex;"><span>				println(<span style="color:#a6e22e">ascii</span>)
+</span></span><span style="display:flex;"><span>			}
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nil</span>
+</span></span><span style="display:flex;"><span>		})
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">g</span>.<span style="color:#a6e22e">Wait</span>()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">toASCII</span>(<span style="color:#a6e22e">data</span> <span style="color:#66d9ef">string</span>) (<span style="color:#66d9ef">string</span>, <span style="color:#66d9ef">error</span>) {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">data</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;&#34;</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;&#34;</span>, <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Errorf</span>(<span style="color:#e6db74">&#34;empty data not allowed&#34;</span>)
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">s</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">data</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;/&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> &lt; len(<span style="color:#a6e22e">data</span>); <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">s</span> <span style="color:#f92672">+=</span> <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Sprintf</span>(<span style="color:#e6db74">&#34;%d/&#34;</span>, <span style="color:#a6e22e">data</span>[<span style="color:#a6e22e">i</span>])
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">s</span>, <span style="color:#66d9ef">nil</span>
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+<p>And now the .NET code.</p>
+</article>
+
+<article style="margin-bottom: 2em;">
+    <h4><a href="/posts/hello-web-dotnet/">Hello Web .NET Core</a></h4>
+    <sub>March 14, 2019</sub>
+    <p>This is a basic web server written in ASP.NET Core.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#66d9ef">using</span> Microsoft.AspNetCore;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">using</span> Microsoft.AspNetCore.Hosting;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">using</span> Microsoft.AspNetCore.Builder;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">using</span> Microsoft.AspNetCore.Http;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">using</span> Microsoft.Extensions.DependencyInjection;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">namespace</span> HelloWeb
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Program</span>
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> Main(<span style="color:#66d9ef">string</span>[] args)
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            CreateWebHostBuilder(args).Build().Run();
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> IWebHostBuilder CreateWebHostBuilder(<span style="color:#66d9ef">string</span>[] args) =&gt;
+</span></span><span style="display:flex;"><span>            WebHost.CreateDefaultBuilder(args)
+</span></span><span style="display:flex;"><span>                .UseStartup&lt;Startup&gt;();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Startup</span>
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> Configure(IApplicationBuilder app)
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            app.Run(<span style="color:#66d9ef">async</span> (context) =&gt;
+</span></span><span style="display:flex;"><span>            {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">await</span> context.Response.WriteAsync(<span style="color:#e6db74">&#34;Hello World!&#34;</span>);
+</span></span><span style="display:flex;"><span>            });
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+</article>
+
+
+
+		<ul class="pagination pagination-default">
+			<li class="page-item disabled">
+				<a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
+			</li>
+		<li class="page-item disabled">
+			<a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
+		</li>
+			<li class="page-item active">
+				<a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
+			</li>
+			<li class="page-item">
+				<a href="/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
+			</li>
+		<li class="page-item">
+			<a href="/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+		</li>
+			<li class="page-item">
+				<a href="/page/2/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+			</li>
+		</ul>
 
     <p style="margin-top: 1.8em;">
         <hr /> 

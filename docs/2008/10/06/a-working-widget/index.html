@@ -27,15 +27,22 @@
         li.active {
             border-bottom: 1px solid yellow;
         }
+
+        nav a {
+            margin-right: 1em;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Kevin Noone</h1>
+    <h1><a href="/">Kevin Noone</a></h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/archives/">Archives</a>
+    </nav>
     <hr/>
-<h3><a href="/2008/10/06/a-working-widget/">A Working Widget</a></h3>
-<sub>October 6, 2008</sub>
-<hr />
+<h3>A Working Widget</h3>
 <div>
     <p>I have a working tabbed (ajax) media widget. The tabs display media from Flickr, Netflix, and Last.fm. It looks crazy simple, but there’s actually a lot of processing and caching code going on. It’s about 250 lines of PHP, with some simple jQuery on the front end. (update) Now it’s in the side bar to the right.</p>
 

@@ -27,15 +27,22 @@
         li.active {
             border-bottom: 1px solid yellow;
         }
+
+        nav a {
+            margin-right: 1em;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Kevin Noone</h1>
+    <h1><a href="/">Kevin Noone</a></h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/archives/">Archives</a>
+    </nav>
     <hr/>
-<h3><a href="/2012/11/01/thumbnail-gallery-with-flickr-bootstrap-and-javascript/">Thumbnail Gallery with Flickr, Bootstrap, and Javascript</a></h3>
-<sub>November 1, 2012</sub>
-<hr />
+<h3>Thumbnail Gallery with Flickr, Bootstrap, and Javascript</h3>
 <div>
     <p>I recently created a thumbnail gallery of my latest Flickr photos using the <a href="http://www.flickr.com/services/feeds/" target="_blank">Flickr feeds</a> API, <a href="http://twitter.github.com/bootstrap/index.html" target="_blank">Twitter Bootstrap</a>, and Javascript/<a href="http://jquery.com/" target="_blank">jQuery</a>.  There is no server side code for this solution, and the client side code is really simple.  To start, create a blank html page (I like to start with the <a href="http://html5boilerplate.com/" target="_blank">HTML5 Boilerplate</a>).  Make sure you include the Bootstrap css and jQuery.  I used the <a href="http://twitter.github.com/bootstrap/components.html#thumbnails" target="_blank">Thumbnails</a> component of Bootstrap for the gallery layout.  Here’s the div to hold the thumbnails:</p>
 <pre lang="html"><div class="row">

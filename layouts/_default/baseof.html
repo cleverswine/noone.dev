@@ -27,11 +27,20 @@
         li.active {
             border-bottom: 1px solid yellow;
         }
+
+        nav a {
+            margin-right: 1em;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Kevin Noone</h1>
+    <h1><a href="{{ "/" | relURL }}">Kevin Noone</a></h1>
+    <nav>
+        <a href="{{ "/" | relURL }}">Home</a>
+        <a href="{{ "/about/" | relURL }}">About</a>
+        <a href="{{ "/archives/" | relURL }}">Archives</a>
+    </nav>
     <hr/>
     {{- block "main" . }}
     {{- end }}

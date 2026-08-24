@@ -1,15 +1,11 @@
 {{ define "main" }}
 <h4>{{ .Title }}</h4>
-<p>
-    {{ .Content }}
-</p>
-<p>
-    <ul style="padding-left: 0; list-style-type: none;">
-        {{ range .Paginator.Pages }}
-        <li>{{ .Date.Format (.Site.Params.dateFormat | default "2006-01-02" ) }} :: <a href="{{ .Params.ExternalLink | default .RelPermalink }}">{{ .Title }}</a> </li>
-        {{ end }}
-    </ul>
-</p>
+{{ .Content }}
+<ul style="padding-left: 0; list-style-type: none;">
+    {{ range .Paginator.Pages }}
+    <li>{{ .Date.Format (.Site.Params.dateFormat | default "2006-01-02" ) }} :: <a href="{{ .Params.ExternalLink | default .RelPermalink }}">{{ .Title }}</a> </li>
+    {{ end }}
+</ul>
 
 {{ template "_internal/pagination.html" . }}
 

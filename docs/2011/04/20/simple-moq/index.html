@@ -27,15 +27,22 @@
         li.active {
             border-bottom: 1px solid yellow;
         }
+
+        nav a {
+            margin-right: 1em;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Kevin Noone</h1>
+    <h1><a href="/">Kevin Noone</a></h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/archives/">Archives</a>
+    </nav>
     <hr/>
-<h3><a href="/2011/04/20/simple-moq/">Simple Moq</a></h3>
-<sub>April 20, 2011</sub>
-<hr />
+<h3>Simple Moq</h3>
 <div>
     <p>I recently worked on a project in which 90% of its tests were integration tests because the core purpose of the project was to interact with external entities. In an effort create more unit tests, I employed <a title="Moq" href="http://code.google.com/p/moq/" target="_blank">Moq</a> (and lots of refactoring).  This is an example of basic Moq usage.</p>
 <p>Let’s say we have a repository that gets documents from a database.  The assumption is that a repository interface, IDocumentRepository, is being implemented.</p>
