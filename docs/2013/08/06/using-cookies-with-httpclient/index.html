@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="map[]">
-    <meta name="generator" content="Hugo 0.72.0" />
+    <meta name="author" content="Kevin Noone">
+    <meta name="generator" content="Hugo 0.165.0" />
     <title>noone.dev</title>
     <link rel='stylesheet' href='/styles/main.css'>
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css" type="text/css">
@@ -37,12 +37,42 @@
 <sub>August 6, 2013</sub>
 <hr />
 <div>
-    <p>This simple code snippet shows how to store and use cookies from a web request using the .Net <!-- raw HTML omitted -->HttpClient<!-- raw HTML omitted -->. For example, if an API or site sends a token or authentication cookie, you may need to store it and send it on all subsequent requests to show that you are authenticated. This would be for a session-based service. The key is to create a single <!-- raw HTML omitted -->CookieContainer<!-- raw HTML omitted --> instance and a single <!-- raw HTML omitted -->HttpClientHandler<!-- raw HTML omitted --> instance to hold it. Assume the following class is registered as a singleton.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<blockquote>
-</blockquote>
+    <p>This simple code snippet shows how to store and use cookies from a web request using the .Net <a href="http://msdn.microsoft.com/en-us/library/system.net.http.httpclient.aspx" target="_blank">HttpClient</a>. For example, if an API or site sends a token or authentication cookie, you may need to store it and send it on all subsequent requests to show that you are authenticated. This would be for a session-based service. The key is to create a single <a href="http://msdn.microsoft.com/en-us/library/system.net.cookiecontainer.aspx" target="_blank">CookieContainer</a> instance and a single <a href="http://msdn.microsoft.com/en-us/library/system.net.http.httpclienthandler.aspx" target="_blank">HttpClientHandler</a> instance to hold it. Assume the following class is registered as a singleton.</p>
+<pre lang="csharp">public class WebClient
+{
+    private CookieContainer _cookieContainer;
+    private HttpClientHandler _handler;
 
+    private HttpClientHandler Handler
+    {
+        get
+        {
+            if (_handler == null)
+            {
+                _cookieContainer = new CookieContainer();
+                _handler = new HttpClientHandler { CookieContainer = _cookieContainer, UseCookies = true, AllowAutoRedirect = false };
+            }
+            return _handler;
+        }
+    }
+
+    private HttpClient GetClient()
+    {
+        // the second param prevents the Handler from being disposed with the client
+        var client = new HttpClient(Handler, false);
+        client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+        return client;
+    }
+
+    public async Task Get&lt;T>(string path) where T : class
+    {
+        using (var client = GetClient())
+        {
+            var content = await client.GetStringAsync(path);
+            return JsonConvert.DeserializeObject&lt;T>(content);
+        }
+    }
+}</pre>
 </div>
 
     <p style="margin-top: 1.8em;">

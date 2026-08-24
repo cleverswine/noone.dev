@@ -1,671 +1,465 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>WebStuff on noone.dev</title>
-    <link>/tags/webstuff/</link>
-    <description>Recent content in WebStuff on noone.dev</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 18 Sep 2013 17:22:38 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/webstuff/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Evolution</title>
-      <link>/2013/09/18/evolution/</link>
-      <pubDate>Wed, 18 Sep 2013 17:22:38 +0000</pubDate>
-      
-      <guid>/2013/09/18/evolution/</guid>
-      <description>I’ve been thinking for a while about moving my simple web site and blog to a different platform. I’m currently paying to host everything on a traditional hosting service. Ten years ago, this was really the only option if you wanted buy a domain and put a web site out there (there was also self hosting with dynamic DNS, but I was never brave enough to open up my home network).</description>
-    </item>
-    
-    <item>
-      <title>card.ly Again</title>
-      <link>/2009/09/18/cardly-again/</link>
-      <pubDate>Fri, 18 Sep 2009 15:03:37 +0000</pubDate>
-      
-      <guid>/2009/09/18/cardly-again/</guid>
-      <description>I updated my card.ly page. See it here.</description>
-    </item>
-    
-    <item>
-      <title>card.ly</title>
-      <link>/2009/07/27/cardly/</link>
-      <pubDate>Mon, 27 Jul 2009 15:03:39 +0000</pubDate>
-      
-      <guid>/2009/07/27/cardly/</guid>
-      <description>This is basically what I wanted to do with my web site. I wonder if I should just relinquish cleverswine.net and call http://card.ly/cleverswine my new home?</description>
-    </item>
-    
-    <item>
-      <title>Felony Flats and Hearses</title>
-      <link>/2008/10/09/felony-flats-and-hearses/</link>
-      <pubDate>Thu, 09 Oct 2008 09:20:54 +0000</pubDate>
-      
-      <guid>/2008/10/09/felony-flats-and-hearses/</guid>
-      <description>This morning I was browsing Weather Underground because there are lots of neat weather related features on that site (almanacs, astrology, maps galore, etc). I was looking through the various Portland weather stations and came across one called “Felony Flats, Portland, OR“. I thought that was pretty funny. What’s funnier is the link to the station’s web site: Coffin Cruisers Hearse Club of Portland. I had no idea there existed a community of people who drive hearses (and have personal weather stations).</description>
-    </item>
-    
-    <item>
-      <title>Bystander Culture</title>
-      <link>/2008/07/29/bystander-culture/</link>
-      <pubDate>Tue, 29 Jul 2008 08:26:01 +0000</pubDate>
-      
-      <guid>/2008/07/29/bystander-culture/</guid>
-      <description>I know it’s lame to duplicate a blog post from someone else, but I must quote what I saw on Jason Kottke’s web site today. I guess I’m one of the 5k at the moment.
- Some days, the web feels like 5 people trying to make something; 5k people turning it into a list; and 500MM people saying, “FAIL.”
- </description>
-    </item>
-    
-    <item>
-      <title>My Thoughts Exactly</title>
-      <link>/2008/07/02/my-thoughts-exactly/</link>
-      <pubDate>Wed, 02 Jul 2008 12:49:09 +0000</pubDate>
-      
-      <guid>/2008/07/02/my-thoughts-exactly/</guid>
-      <description>From Portland Metblogs:
-Why do people feel compelled to take a summer vacation – when everyone else is doing so – prices are higher – it’s hot and sticky and gross outside?
-Read more here</description>
-    </item>
-    
-    <item>
-      <title>Real Interesting Stuff</title>
-      <link>/2008/06/28/real-interesting-stuff/</link>
-      <pubDate>Sat, 28 Jun 2008 13:40:51 +0000</pubDate>
-      
-      <guid>/2008/06/28/real-interesting-stuff/</guid>
-      <description>It’s been a while since I’ve written anything here, but I can’t say that I have anything real interesting to write about…
-It’s 98 degrees in Gresham right now.
-My contracting job is almost up, and we banged out this web site in 6 weeks: http://www.xrankcelebrity5.com/. There’s a good chance that I will stay and work full time for this company (Avenue A | Razorfish).
-Bren is having her wedding dress altered today, or something like that.</description>
-    </item>
-    
-    <item>
-      <title>Purity</title>
-      <link>/2008/06/12/purity/</link>
-      <pubDate>Thu, 12 Jun 2008 17:15:05 +0000</pubDate>
-      
-      <guid>/2008/06/12/purity/</guid>
-      <description>I like this comic, as I believe that everything can be explained via mathematics.
-Purity</description>
-    </item>
-    
-    <item>
-      <title>apt-get install wife</title>
-      <link>/2008/06/08/apt-get-install-wife/</link>
-      <pubDate>Sun, 08 Jun 2008 11:48:02 +0000</pubDate>
-      
-      <guid>/2008/06/08/apt-get-install-wife/</guid>
-      <description>This comic is especially funny since I’m about to get married.
-http://www.lessaid.net/fun/apt-get-wife.png
-Note: apt-get is a Linux (Debian) command to install software, therefore “apt-get install wife” says to add wife to the system.</description>
-    </item>
-    
-    <item>
-      <title>What I Do</title>
-      <link>/2008/06/06/what-i-do/</link>
-      <pubDate>Fri, 06 Jun 2008 17:55:00 +0000</pubDate>
-      
-      <guid>/2008/06/06/what-i-do/</guid>
-      <description>For those who know what I do for a living, but don’t actually know what I do, I submit this link to an article called What Is Programming? If you would like to know what my levels of enthusiasm are, check here.
-These are things that I am not: web designer, tech support, network engineer, and a bunch of other things that I can’t think of right off hand. I’ve not eaten today because I’ve been inspired and wired.</description>
-    </item>
-    
-    <item>
-      <title>FriendFeed</title>
-      <link>/2008/06/02/friendfeed/</link>
-      <pubDate>Mon, 02 Jun 2008 15:38:07 +0000</pubDate>
-      
-      <guid>/2008/06/02/friendfeed/</guid>
-      <description>So I’ve been using FriendFeed for a few months now. It basically aggregates my online activity (mostly via “social” networks like Facebook and Flickr) and then provides a feed for anyone to consume. It’s not a bad idea, but it’s really too bad that we need something like this. I think it’s a sign that the social web is out of control. Anyway, I find it useful to track what my friends are doing on the web, since we have similar interests.</description>
-    </item>
-    
-    <item>
-      <title>A Letter to His Son</title>
-      <link>/2008/05/18/a-letter-to-his-son/</link>
-      <pubDate>Sun, 18 May 2008 11:18:59 +0000</pubDate>
-      
-      <guid>/2008/05/18/a-letter-to-his-son/</guid>
-      <description>Seeing a web nerd speak from the heart, for the whole world to see, is not all that common. I was pleasantly surprised when I came across this post on zenhabits. The author has written a letter to his 3 year old son, giving him advice on being happy in life’s journey. Note all of the positive comments that follow the post. I wouldn’t suggest that web nerds make a habit of this, as it would cease to be special, but it’s a nice break from the mundane “how-to” articles.</description>
-    </item>
-    
-    <item>
-      <title>A Collection</title>
-      <link>/2008/05/15/a-collection/</link>
-      <pubDate>Thu, 15 May 2008 18:31:04 +0000</pubDate>
-      
-      <guid>/2008/05/15/a-collection/</guid>
-      <description>I’ve no time lately to write anything interesting, so I’ll present a list of interesting things that others have produced…
-I’m very tempted to hand over $10 for this…
-SomethingStore is a fun new website that operates simply: We will send you something, an item selected randomly among many things from our inventory, for $10 (free shipping) and you will find out what your something is when you receive it.</description>
-    </item>
-    
-    <item>
-      <title>Overheard in PDX</title>
-      <link>/2008/05/10/overheard-in-pdx/</link>
-      <pubDate>Sat, 10 May 2008 14:39:22 +0000</pubDate>
-      
-      <guid>/2008/05/10/overheard-in-pdx/</guid>
-      <description>What do random people talk about in Portland?
-Part voyeur daydream, part sad commentary on life as we know it, Overheard in PDX is a never-ending stream of the strange things that come out of other people’s mouths, submitted by people who were lucky(?) enough to hear them.
-Example:
- At the main library downtown, waiting for a computer, a guy (mid-to-late 30’s) shamelessly (and embarassingly) attempting to flirt with an 18 year-old PSU freshman (who says her R’s like W’s):</description>
-    </item>
-    
-    <item>
-      <title>When Obama wins</title>
-      <link>/2008/05/10/when-obama-wins/</link>
-      <pubDate>Sat, 10 May 2008 14:26:53 +0000</pubDate>
-      
-      <guid>/2008/05/10/when-obama-wins/</guid>
-      <description>When Obama wins…
-Starbucks will stop referring to their smalls as talls.
-Your recycling will sort itself and magically appear by the curb.
-Charlie Brown will finally kick that football.
-Your cell phone won’t work in your car, at the movies, or while you’re ahead of me in line for coffee.
-People will have more picnics in the park.
-When Obama wins</description>
-    </item>
-    
-    <item>
-      <title>Kids These Days</title>
-      <link>/2008/05/01/kids-these-days/</link>
-      <pubDate>Thu, 01 May 2008 12:30:55 +0000</pubDate>
-      
-      <guid>/2008/05/01/kids-these-days/</guid>
-      <description>Centennial High School has dropped its ban on eyebrow shaving… that’s right, the kids are shaving their eyebrows. I guess there’s a trend in which kids shave designs into their brows. Unfortunately, a well known East Multnomah County gang does the same, which caused a bit of confusion and concern in this particular high school. I remember back when I was in school. It was the eighties, and the more over the top you could be, the better.</description>
-    </item>
-    
-    <item>
-      <title>Infinity</title>
-      <link>/2008/04/27/infinity/</link>
-      <pubDate>Sun, 27 Apr 2008 10:57:10 +0000</pubDate>
-      
-      <guid>/2008/04/27/infinity/</guid>
-      <description>I’ve been reading The Infinite Book: A Short Guide to the Boundless, Timeless and Endless, which so far is a history of theories on infinity. Infinity is something that I’ve always been interested in, but I had never read theories predating Hawking. I came across an article on the web today called A Brain Cell is the Same as the Universe. I’m afraid a brain cell is not like the universe.</description>
-    </item>
-    
-    <item>
-      <title>Portland is Awesome</title>
-      <link>/2008/04/17/portland-is-awesome/</link>
-      <pubDate>Thu, 17 Apr 2008 12:44:42 +0000</pubDate>
-      
-      <guid>/2008/04/17/portland-is-awesome/</guid>
-      <description>Just in case someone doesn’t already know, Portland is awesome. Some of our local techies and bloggers have started a new web site where various citizens of P-town can express why they think our city is cool. I was wondering if they would get enough authors to make it worthwhile, but sure enough the articles keep on coming.
-If you are interested at all in the culture and general environment of Portland, I would recommend reading PortlandIsAwesome.</description>
-    </item>
-    
-    <item>
-      <title>Everything is Stranger in Texas</title>
-      <link>/2008/04/17/everything-is-stranger-in-texas/</link>
-      <pubDate>Thu, 17 Apr 2008 10:10:37 +0000</pubDate>
-      
-      <guid>/2008/04/17/everything-is-stranger-in-texas/</guid>
-      <description>I’m off to Texas tomorrow morning to visit family and see my new niece. I regularly keep up with Texas news, but I casually read it and move on. Today I came across an unusual story… well, unusual to those of us in the North. A man in Brazoria was routinely pulled over for making an illegal u-turn. The police found a 6 foot alligator and a water moccasin in his car, both alive.</description>
-    </item>
-    
-    <item>
-      <title>Beaumont&amp;#8217;s Black Problem</title>
-      <link>/2008/04/10/beaumonts-black-problem/</link>
-      <pubDate>Thu, 10 Apr 2008 12:32:47 +0000</pubDate>
-      
-      <guid>/2008/04/10/beaumonts-black-problem/</guid>
-      <description>From the Beaumont Enterprise (in Texas, where I grew up):
- West Brook High School administrators on Wednesday defended a black-male-only mentoring session that has prompted a recent inquiry by the American Civil Liberties Union.
- So, this high school in Beaumont decides to call an assembly of students to address issues such as education, test scores, crime, family and gangs. Good for them, except… they only invited black males! Now the ACLU is mad, and the school district is puzzled.</description>
-    </item>
-    
-    <item>
-      <title>Google App Engine</title>
-      <link>/2008/04/08/google-app-engine/</link>
-      <pubDate>Tue, 08 Apr 2008 12:05:07 +0000</pubDate>
-      
-      <guid>/2008/04/08/google-app-engine/</guid>
-      <description>Hmmm, the Google App Engine is all over the “blogosphere” today. I first read about Google’s new service yesterday, so I promptly signed up to be a beta tester. Today, I was invited to join 10,0000 other programmers to give the App Engine a trial run.
-The App Engine is being greeted with mixed feelings by the developer community. Personally, after reading the documentation and API, I can’t think of a good reason to use it.</description>
-    </item>
-    
-    <item>
-      <title>April Fool&amp;#8217;s Sucker</title>
-      <link>/2008/04/02/april-fools-sucker/</link>
-      <pubDate>Wed, 02 Apr 2008 08:26:55 +0000</pubDate>
-      
-      <guid>/2008/04/02/april-fools-sucker/</guid>
-      <description>Well, I got fooled left and right yesterday! I guess I am naive…
-My favorite embedded device developer, Marcin Juszkiewicz, claimed that he was moving from Poland to London for work. He said that with his new job, he could spend more time in the office and less time taking care of his child. Sounded reasonable to me. He was kidding.
-I’m still not clear about this one, but seeing as it was tagged on delicious as “aprilfools”, I’m guessing it wasn’t real.</description>
-    </item>
-    
-    <item>
-      <title>More Praise for Last.fm</title>
-      <link>/2008/04/01/more-praise-for-lastfm/</link>
-      <pubDate>Tue, 01 Apr 2008 09:03:27 +0000</pubDate>
-      
-      <guid>/2008/04/01/more-praise-for-lastfm/</guid>
-      <description>I’m generally disappointed with the state of the World Wide Web these days. The WWW used to be a simple communications tool to share information on a globally connected network. I’m not saying that it should have stayed that way, but I wish we had taken a more structured approach to innovation. I’ve written about this before, so I won’t go into it again. My point for today is that Last.</description>
-    </item>
-    
-    <item>
-      <title>The Umbrella Academy</title>
-      <link>/2008/03/20/the-umbrella-academy/</link>
-      <pubDate>Thu, 20 Mar 2008 08:46:41 +0000</pubDate>
-      
-      <guid>/2008/03/20/the-umbrella-academy/</guid>
-      <description>I’ve recently rediscovered the joy of comic books. Joss Whedon was kind enough to continue the Buffy the Vampire Slayer T.V. series via comic book. Reading the Buffy comic has been just as fulfilling as watching the show. Now, in addition to Buffy, I am reading The Umbrella Academy which is written by Gerard way of My Chemical Romance. I admit, I was unsure about reading a comic written by a rock star, but so far it is really good.</description>
-    </item>
-    
-    <item>
-      <title>Check Out</title>
-      <link>/2008/03/20/check-out/</link>
-      <pubDate>Thu, 20 Mar 2008 08:30:52 +0000</pubDate>
-      
-      <guid>/2008/03/20/check-out/</guid>
-      <description>I would not normally advocate Wal-Mart, as they are evil in so many ways, but I’ve been reading the Wal-Mart blog lately. It’s called Check Out. I don’t know exactly who the “associates” are that write on this blog, but it does bring a human side to the company. Obviously, it’s a marketing ploy, but I still enjoy reading it. It is G rated and censored (no foul language allowed), like the store.</description>
-    </item>
-    
-    <item>
-      <title>Obama in 30 Seconds</title>
-      <link>/2008/03/13/obama-in-30-seconds/</link>
-      <pubDate>Thu, 13 Mar 2008 11:34:07 +0000</pubDate>
-      
-      <guid>/2008/03/13/obama-in-30-seconds/</guid>
-      <description>This is a great idea. MoveOn.org is sponsoring a contest where anyone can make a 30 second Obama commercial and enter to win. MoveOn.org will then pay to air the winning video on national television. The list of judges is really impressive!
-Check it out here.</description>
-    </item>
-    
-    <item>
-      <title>Hillary Clinton speaks in Nederland</title>
-      <link>/2008/03/12/hillary-clinton-speaks-in-nederland/</link>
-      <pubDate>Wed, 12 Mar 2008 11:11:33 +0000</pubDate>
-      
-      <guid>/2008/03/12/hillary-clinton-speaks-in-nederland/</guid>
-      <description>My tiny Southeast Texas home of Nederland was recently host to Hillary Clinton, Ted Danson, and Mary Steenburgen. 600 people showed up for Hillary’s campaign propaganda. I’d say she’s being pretty thorough to make a stop in Nederland. Maybe that’s how she won Texas. So strange. Meanwhile, Forest Whitaker was in nearby Beaumont doing his thing for Obama.</description>
-    </item>
-    
-    <item>
-      <title>A Bad Day for Geese</title>
-      <link>/2008/03/10/a-bad-day-for-geese/</link>
-      <pubDate>Mon, 10 Mar 2008 12:55:46 +0000</pubDate>
-      
-      <guid>/2008/03/10/a-bad-day-for-geese/</guid>
-      <description>Today in Oregon, Canadian Geese are wreaking havoc.
- Goose knocks out sewage plant power, causes spill Flying goose shatters Salem officer’s windshield  </description>
-    </item>
-    
-    <item>
-      <title>Mii Wedding Cake Topper</title>
-      <link>/2008/03/10/mii-wedding-cake-topper/</link>
-      <pubDate>Mon, 10 Mar 2008 08:45:07 +0000</pubDate>
-      
-      <guid>/2008/03/10/mii-wedding-cake-topper/</guid>
-      <description>This is so excellent!
-Paul Pape Designs – Mii Cake Topper
-
-I suspect that the girl would never go for it, but I can dream.</description>
-    </item>
-    
-    <item>
-      <title>Most Beautiful Bridges in the World</title>
-      <link>/2008/03/09/most-beautiful-bridges-in-the-world/</link>
-      <pubDate>Sun, 09 Mar 2008 11:39:37 +0000</pubDate>
-      
-      <guid>/2008/03/09/most-beautiful-bridges-in-the-world/</guid>
-      <description>There are some amazing bridges in the world. Someone has posted a list of their 10 favorite bridges here: 10 Most Beautiful Bridges in the World
-I would have liked to have seen a Portland bridge in the list. Perhaps St. John’s Bridge.</description>
-    </item>
-    
-    <item>
-      <title>Hair Mixer</title>
-      <link>/2008/02/02/hair-mixer/</link>
-      <pubDate>Sat, 02 Feb 2008 13:34:04 +0000</pubDate>
-      
-      <guid>/2008/02/02/hair-mixer/</guid>
-      <description>So fun! HairMixer!
-
-See the rest of our celebrity heads here.</description>
-    </item>
-    
-    <item>
-      <title>CardDAV &amp;#8211; WebDAV for vCard</title>
-      <link>/2008/02/02/carddav-webdav-for-vcard/</link>
-      <pubDate>Sat, 02 Feb 2008 11:08:21 +0000</pubDate>
-      
-      <guid>/2008/02/02/carddav-webdav-for-vcard/</guid>
-      <description>While reading my daily dose of the Data Portability mailing list, I uncovered an interesting idea that could solve a problem that I’ve been thinking about for a long time. That problem would be the inability to share personal address books (PAB) across multiple computers. The project is called CardDAV. Think of it as IMAP for email, or WebDAV for files. So far, it’s just an idea. I certainly hope the idea becomes a specification and is adopted by the major address book applications.</description>
-    </item>
-    
-    <item>
-      <title>FriendFeed.  I like.</title>
-      <link>/2008/02/01/friendfeed-i-like/</link>
-      <pubDate>Fri, 01 Feb 2008 16:43:36 +0000</pubDate>
-      
-      <guid>/2008/02/01/friendfeed-i-like/</guid>
-      <description>A friend just told me about FriendFeed, which is sort of a social web aggregater. Rather than try to explain it, here’s what they say about themselves:
- Our goal is to make content on the Web more useful and discoverable by taking advantage of your social connections. FriendFeed is a simple tool that scratches the surface of that goal by making it easier to keep track of the web pages, videos, music, and photos your friends and family interact with around the Internet.</description>
-    </item>
-    
-    <item>
-      <title>Couture: fashion designers or couturiers collectively</title>
-      <link>/2008/02/01/couture-fashion-designers-or-couturiers-collectively/</link>
-      <pubDate>Fri, 01 Feb 2008 16:04:29 +0000</pubDate>
-      
-      <guid>/2008/02/01/couture-fashion-designers-or-couturiers-collectively/</guid>
-      <description>I sort of learned a new word today: couture. As I was browsing the news, I came across a J.Lo article which warranted my attention (because J.Lo is… super cool). The title of the article is “Even J.Lo’s hospital gowns have to be couture.” I had no idea what that meant, so I looked up couture on dictionary.com. I still don’t know what it means. Perhaps she needs designer gowns in the hospital?</description>
-    </item>
-    
-    <item>
-      <title>Good Stuff</title>
-      <link>/2008/02/01/good-stuff-2/</link>
-      <pubDate>Fri, 01 Feb 2008 11:35:52 +0000</pubDate>
-      
-      <guid>/2008/02/01/good-stuff-2/</guid>
-      <description>Today, I’ve come across a handful of websites which are exciting enough to me that they should be shared (with all 2 people that read my web site…).
-Woody Allen’s typography
-An article about another one of my favorite people, combined with the nerdiness of font analysis. It had never occurred to me that Woody uses the same font, Windsor-EF Elongated, for all of his film titles.
-30 Things to Do to Keep From Getting Bored Out of Your Skull at Work</description>
-    </item>
-    
-    <item>
-      <title>Morrissey for Obama</title>
-      <link>/2008/01/30/morrissey-for-obama/</link>
-      <pubDate>Wed, 30 Jan 2008 12:36:12 +0000</pubDate>
-      
-      <guid>/2008/01/30/morrissey-for-obama/</guid>
-      <description>It seems that one of my favorite people in the world, Morrissey, is promoting Barack Obama (and himself). Go Moz!</description>
-    </item>
-    
-    <item>
-      <title>The State of the Social Web</title>
-      <link>/2008/01/23/the-state-of-the-social-web/</link>
-      <pubDate>Wed, 23 Jan 2008 10:12:17 +0000</pubDate>
-      
-      <guid>/2008/01/23/the-state-of-the-social-web/</guid>
-      <description>&lt;p&gt;Today’s “social web” is nothing more than a playground for those desperate to create an identity for themselves in what we like to call “the virtual world.” While it’s a fine, and ambitious, idea, there are quite a few shortcomings in today’s virtual world that we will need to hurdle.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Olan Mills</title>
-      <link>/2007/12/29/olan-mills/</link>
-      <pubDate>Sat, 29 Dec 2007 21:18:47 +0000</pubDate>
-      
-      <guid>/2007/12/29/olan-mills/</guid>
-      <description>Great Olan Mills photos… Total frickin’ awesomeness from Olan Mills, Sears and other fine portrait studios.
-This is a must see for anyone that remembers Olan Mills photos from the 70s and 80s!</description>
-    </item>
-    
-    <item>
-      <title>Minor Threat Sauce</title>
-      <link>/2007/12/23/minor-threat-sauce/</link>
-      <pubDate>Sun, 23 Dec 2007 11:33:27 +0000</pubDate>
-      
-      <guid>/2007/12/23/minor-threat-sauce/</guid>
-      <description>I’ve just discovered a hot sauce named after one of my favorite 80s straight edge punk bands, Minor Threat. Pitchfork says it’s so. It sounds delicious!
- Made from a rare, mild breed of habaneros grown specifically for us, Minor Threat draws its inspiration from the legendary West Indies’ mustard- and mango-based habanero sauces, only it mysteriously priviledges the pepper’s fruitiness over its notoriously overwhelming heat.
- </description>
-    </item>
-    
-    <item>
-      <title>The Bloggers of Kindness</title>
-      <link>/2007/12/20/the-bloggers-of-kindness/</link>
-      <pubDate>Thu, 20 Dec 2007 09:29:28 +0000</pubDate>
-      
-      <guid>/2007/12/20/the-bloggers-of-kindness/</guid>
-      <description>Listed here are some great bloggers who are helping spread kindness throughout the world …
-Faith in Humanity: How to Bring People Closer, and Restore Kindness</description>
-    </item>
-    
-    <item>
-      <title>Knitting Meets Geekiness</title>
-      <link>/2007/12/14/knitting-meets-geekiness/</link>
-      <pubDate>Fri, 14 Dec 2007 12:00:43 +0000</pubDate>
-      
-      <guid>/2007/12/14/knitting-meets-geekiness/</guid>
-      <description>I may have found something geeky that Bren and I can have in common. I’m talking about KnitML. KnitML is a new markup language (like html or xml) used to describe knitting patterns. How geeky is that?
- The KnitML Project’s main goal is to develop and promote adoption of a standard content model for knitting patterns. By developing a community-supported specification (KnitML) and providing basic rendering and transformation tools, the KnitML Project aims to make KnitML easy to use and valuable to the knitter.</description>
-    </item>
-    
-    <item>
-      <title>Breaking News&amp;#8230;</title>
-      <link>/2007/12/11/breaking-news/</link>
-      <pubDate>Tue, 11 Dec 2007 13:04:08 +0000</pubDate>
-      
-      <guid>/2007/12/11/breaking-news/</guid>
-      <description>Apparently there was a major mudslide on the Columbia highway, well East of Portland. My family was concerned, as I drive on roads in the Portland area. Well, have no fear. I do not drive near the location of the mudslide.
-Story on KATU
-In other weather related catastrophe news, the midwest is covered in ice. Bren’s parents are near K.C., Mo., so I’d imagine they are among the frozen. This ice storm appears to be a major incident.</description>
-    </item>
-    
-    <item>
-      <title>Counting Sheep</title>
-      <link>/2007/12/07/counting-sheep/</link>
-      <pubDate>Fri, 07 Dec 2007 12:37:53 +0000</pubDate>
-      
-      <guid>/2007/12/07/counting-sheep/</guid>
-      <description>I’ve always wondered where the term “counting sheep” came from. I’ve tried counting sheep to fall asleep, and it doesn’t work. In my case, the sheep don’t cooperate. Come to find out…
- …counting sheep is actually an inferior means of inducing sleep. Subjects who instead imagined “a beach or a waterfall” were forced to expend more mental energy, and fell asleep faster than those asked to simply count sheep.</description>
-    </item>
-    
-    <item>
-      <title>The Programmer Dress Code</title>
-      <link>/2007/12/07/the-programmer-dress-code/</link>
-      <pubDate>Fri, 07 Dec 2007 09:16:28 +0000</pubDate>
-      
-      <guid>/2007/12/07/the-programmer-dress-code/</guid>
-      <description>This is an funny article about how most visionaries in the programming world have beards and dress like slobs. I have to say, dressing nice and shaving are at the bottom of my list of priorities. I think the same could be said for most of the programmers that I know.</description>
-    </item>
-    
-    <item>
-      <title>Funny Unix Commands</title>
-      <link>/2007/12/06/funny-unix-commands/</link>
-      <pubDate>Thu, 06 Dec 2007 14:00:39 +0000</pubDate>
-      
-      <guid>/2007/12/06/funny-unix-commands/</guid>
-      <description>This is a list of creative and funny Unix commands. There’s one I like which doesn’t seem to be on the list:
-% cd /pub
-% more beer</description>
-    </item>
-    
-    <item>
-      <title>Why Does a Salad Cost More Than a Big Mac?</title>
-      <link>/2007/12/05/why-does-a-salad-cost-more-than-a-big-mac/</link>
-      <pubDate>Wed, 05 Dec 2007 08:56:26 +0000</pubDate>
-      
-      <guid>/2007/12/05/why-does-a-salad-cost-more-than-a-big-mac/</guid>
-      <description>This is sad…</description>
-    </item>
-    
-    <item>
-      <title>Wii Fit</title>
-      <link>/2007/12/04/wii-fit/</link>
-      <pubDate>Tue, 04 Dec 2007 11:46:21 +0000</pubDate>
-      
-      <guid>/2007/12/04/wii-fit/</guid>
-      <description>As soon as this becomes available, I’m going to buy it and get into shape. Apparently, you will be able to hula hoop, do yoga, do push ups, play soccer, and a bunch of other stuff – right in your own living room. You can’t beat that.</description>
-    </item>
-    
-    <item>
-      <title>Morrissey vs. NME</title>
-      <link>/2007/11/28/morrissey-vs-nme/</link>
-      <pubDate>Wed, 28 Nov 2007 09:13:46 +0000</pubDate>
-      
-      <guid>/2007/11/28/morrissey-vs-nme/</guid>
-      <description>In the newest issue of NME (a British magazine about new music), there is a cover story on Morrissey. Morrissey and NME have always been at odds, but it has generally been tame. This time, however, rather than just publishing the Morrissey interview as it was done, NME decided to add commentary that totally trashes the man. I’ve not read the article, titled “Has the World Changed, or Has He Changed?</description>
-    </item>
-    
-    <item>
-      <title>FOX News Porn</title>
-      <link>/2007/11/21/fox-news-porn/</link>
-      <pubDate>Wed, 21 Nov 2007 18:46:18 +0000</pubDate>
-      
-      <guid>/2007/11/21/fox-news-porn/</guid>
-      <description>This web site is pretty funny.
- FOX News uses sex segments to divert outrage from the real obscenity, the war
- See it here</description>
-    </item>
-    
-    <item>
-      <title>The Dollhouse</title>
-      <link>/2007/11/16/the-dollhouse/</link>
-      <pubDate>Fri, 16 Nov 2007 12:55:19 +0000</pubDate>
-      
-      <guid>/2007/11/16/the-dollhouse/</guid>
-      <description>Joss Whedon (Buffy the Vampire Slayer, Angel, Firefly, etc.) is coming back to television! His new show is called “The Dollhouse” and stars Eliza Dushku (Faith, from Buffy the Vampire Slayer)! It will air on Fox sometime next year. Unfortunately, the writer’s strike will postpone it for a while, but Fox has already agreed to 7 episodes.
-Read more about it here
-The official website is here</description>
-    </item>
-    
-    <item>
-      <title>An Annoyingly Efficient Relevancy Engine</title>
-      <link>/2007/11/12/an-annoyingly-efficient-relevancy-engine/</link>
-      <pubDate>Mon, 12 Nov 2007 11:25:36 +0000</pubDate>
-      
-      <guid>/2007/11/12/an-annoyingly-efficient-relevancy-engine/</guid>
-      <description>This article is a must read if you are dating or married to a nerd.
- The Nerd Handbook
-A nerd needs a project because a nerd builds stuff. All the time. Those lulls in the conversation over dinner? That’s the nerd working on his project in his head.
- Read it here</description>
-    </item>
-    
-    <item>
-      <title>Pocket Protector Collection</title>
-      <link>/2007/10/18/pocket-protector-collection/</link>
-      <pubDate>Thu, 18 Oct 2007 12:52:28 +0000</pubDate>
-      
-      <guid>/2007/10/18/pocket-protector-collection/</guid>
-      <description>This is an amazing collection of 523 pocket protectors!</description>
-    </item>
-    
-    <item>
-      <title>They Make a Plan</title>
-      <link>/2007/08/30/they-make-a-plan/</link>
-      <pubDate>Thu, 30 Aug 2007 09:19:17 +0000</pubDate>
-      
-      <guid>/2007/08/30/they-make-a-plan/</guid>
-      <description>Congratulations to Ara and Ted. He asked and she said yes.
-chocolate grits</description>
-    </item>
-    
-    <item>
-      <title>IT Crowd coming to NBC!?</title>
-      <link>/2007/05/14/it-crowd-coming-to-nbc/</link>
-      <pubDate>Mon, 14 May 2007 11:50:21 +0000</pubDate>
-      
-      <guid>/2007/05/14/it-crowd-coming-to-nbc/</guid>
-      <description>According to this article, my favorite geek TV show, The IT Crowd, is coming to NBC. The show is about misunderstood IT workers, and is hilarious. It currently only airs in Britain and can also be watched online.</description>
-    </item>
-    
-    <item>
-      <title>1973 vs. 2007</title>
-      <link>/2007/05/14/1973-vs-2007/</link>
-      <pubDate>Mon, 14 May 2007 11:33:50 +0000</pubDate>
-      
-      <guid>/2007/05/14/1973-vs-2007/</guid>
-      <description>This is a funny list of scenarios with responses from 1973 and 2007. Things have changed…
- Scenario: Jeffrey wonâ€™t be still in class, disrupts other students.
-1973: Jeffrey sent to office and given a good paddling by Principal. Sits still in class.
-2007: Jeffrey given huge doses of Ritalin. Becomes a zombie. School gets extra money from state because Jeffrey has a disability.
- Read more…</description>
-    </item>
-    
-    <item>
-      <title>Very Good, but not Perfect, Beer List</title>
-      <link>/2007/05/10/very-good-but-not-perfect-beer-list/</link>
-      <pubDate>Thu, 10 May 2007 07:38:12 +0000</pubDate>
-      
-      <guid>/2007/05/10/very-good-but-not-perfect-beer-list/</guid>
-      <description>The Bachelor Guy has put together a list called “The Dream Case – 24 Great American Craft Beers You Should Be Drinking“. I’ve tried about half of the beers on the list, and they are all good. Unfortunately, it appears that the list makers have never been to Portland, and there are some better brews missing from the list (Bridgeport, Deschutes, Laurelwood, Roots, etc). The best part of the list is the reader comments (“what ever.</description>
-    </item>
-    
-    <item>
-      <title>My Photo in a Comic</title>
-      <link>/2007/05/03/my-photo-in-a-comic/</link>
-      <pubDate>Thu, 03 May 2007 15:57:48 +0000</pubDate>
-      
-      <guid>/2007/05/03/my-photo-in-a-comic/</guid>
-      <description>I don’t know how popular “MPK Adventures” is, as I had never heard of it until now, but the writer used one of my flickr photos for a backdrop in one of his comic frames. I think that’s pretty cool. Below is my photo, and here is the comic (see bottom left frame).</description>
-    </item>
-    
-    <item>
-      <title>More P-town News: Top 10 Bloggiest Neighborhoods</title>
-      <link>/2007/04/24/more-p-town-news-top-10-bloggiest-neighborhoods/</link>
-      <pubDate>Tue, 24 Apr 2007 08:08:45 +0000</pubDate>
-      
-      <guid>/2007/04/24/more-p-town-news-top-10-bloggiest-neighborhoods/</guid>
-      <description>According to ouside.in, the Pearl District in Portland is the 6th “bloggiest neighborhood” in the U.S. This is not a big surprise given the hipness of that neighborhood.</description>
-    </item>
-    
-    <item>
-      <title>More P-town in the News</title>
-      <link>/2007/04/16/p-town-in-the-news/</link>
-      <pubDate>Mon, 16 Apr 2007 13:11:55 +0000</pubDate>
-      
-      <guid>/2007/04/16/p-town-in-the-news/</guid>
-      <description>I cam across this article on the OregonLive.com website: Portland in 36 hours: Story on City of Roses hits heights on NYTimes.com. After a bit of browsing around, I found some more interesting write-ups on this fine town of ours. See links below…
-From the New York Times:
-36 Hours in Portland, Ore.
-In Oregon, It’s a Brew Pub World
-In Portland, Ore., Where Trees and Imagination Are Evergreen
-Food Network:</description>
-    </item>
-    
-    <item>
-      <title>World&amp;#8217;s Top 100 Most Livable Cities</title>
-      <link>/2007/04/10/worlds-top-100-most-livable-cities/</link>
-      <pubDate>Tue, 10 Apr 2007 14:48:04 +0000</pubDate>
-      
-      <guid>/2007/04/10/worlds-top-100-most-livable-cities/</guid>
-      <description>According to Business Week’s “World’s Top 100 Most Livable Cities”, Portland is the 46th most livable city in the world. I’d say that’s quite impressive considering that there are only 8 U.S. cities in the top 50. It looks like Switzerland is really the place to be.
-[
-](http://www.flickr.com/photos/cleverswine/65694800/in/set-57723)</description>
-    </item>
-    
-    <item>
-      <title>What We Call The News</title>
-      <link>/2007/04/02/what-we-call-the-news/</link>
-      <pubDate>Mon, 02 Apr 2007 11:58:56 +0000</pubDate>
-      
-      <guid>/2007/04/02/what-we-call-the-news/</guid>
-      <description>From JibJab comes a hilarious, and unfortunately accurate, video about the state of today’s news media.
-What We Call The News</description>
-    </item>
-    
-    <item>
-      <title>The Wisdom of Children</title>
-      <link>/2007/03/21/the-wisdom-of-children/</link>
-      <pubDate>Wed, 21 Mar 2007 10:45:22 +0000</pubDate>
-      
-      <guid>/2007/03/21/the-wisdom-of-children/</guid>
-      <description>From an article in the New Yorker:
-A Conversation at the Grownup Table, as Imagined at the Kidsâ€™ Table
-MOM: Pass the wine, please. I want to become crazy.
-DAD: O.K.
-GRANDMOTHER: Did you see the politics? It made me angry.
-DAD: Me, too. When it was over, I had sex.
-UNCLE: Iâ€™m having sex right now.
-DAD: We all are.
-MOM: Letâ€™s talk about which kid I like the best.</description>
-    </item>
-    
-    <item>
-      <title>The Last Page</title>
-      <link>/2007/03/15/the-last-page/</link>
-      <pubDate>Thu, 15 Mar 2007 12:24:34 +0000</pubDate>
-      
-      <guid>/2007/03/15/the-last-page/</guid>
-      <description>It seems like you could “surf” the internet forever and never run out of pages to visit. Well, I found the end today: The End of the Internet.</description>
-    </item>
-    
-    <item>
-      <title>Good Stuff</title>
-      <link>/2007/03/12/good-stuff/</link>
-      <pubDate>Mon, 12 Mar 2007 09:19:54 +0000</pubDate>
-      
-      <guid>/2007/03/12/good-stuff/</guid>
-      <description>Congratulations to Tim and Beatrice. I’ll be an uncle soon!
-Here are a couple of fun web sites:
- where is my mindThis is the coolest piece of ASCII art that I’ve ever seen. If you’re using Firefox, hit “ctrl -” a couple of times to shrink the text. Icon WarEntertaining depiction of what your desktop icons do when you’re not looking.  </description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>WebStuff on noone.dev</title>
+		<link>/tags/webstuff/</link>
+		<description>Recent content in WebStuff on noone.dev</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 18 Sep 2013 17:22:38 +0000</lastBuildDate>
+		
+			<atom:link href="/tags/webstuff/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Evolution</title>
+				<link>/2013/09/18/evolution/</link>
+				<pubDate>Wed, 18 Sep 2013 17:22:38 +0000</pubDate>
+				<guid>/2013/09/18/evolution/</guid>
+				<description>&lt;p&gt;I’ve been thinking for a while about moving my simple web site and blog to a different platform. I’m currently paying to host everything on a traditional hosting service. Ten years ago, this was really the only option if you wanted buy a domain and put a web site out there (there was also self hosting with dynamic DNS, but I was never brave enough to open up my home network). Now, we have so many options that it would be difficult to list them all. We have “cloud” hosts like &lt;a href=&#34;http://www.windowsazure.com/&#34; target=&#34;_blank&#34;&gt;Azure&lt;/a&gt; and &lt;a href=&#34;http://aws.amazon.com/&#34; target=&#34;_blank&#34;&gt;AWS&lt;/a&gt;. We have developer-friendly hosts like &lt;a href=&#34;https://www.heroku.com/&#34; target=&#34;_blank&#34;&gt;Heroku&lt;/a&gt;. &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt; can even host your static pages (more on that later). Most of these cloud-based options can be utilized for free with limited traffic and processing power.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>card.ly Again</title>
+				<link>/2009/09/18/cardly-again/</link>
+				<pubDate>Fri, 18 Sep 2009 15:03:37 +0000</pubDate>
+				<guid>/2009/09/18/cardly-again/</guid>
+				<description>&lt;p&gt;I updated my card.ly page. &lt;a href=&#34;http://card.ly/cleverswine&#34;&gt;See it here.&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>card.ly</title>
+				<link>/2009/07/27/cardly/</link>
+				<pubDate>Mon, 27 Jul 2009 15:03:39 +0000</pubDate>
+				<guid>/2009/07/27/cardly/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://card.ly/cleverswine&#34;&gt;&lt;img src=&#34;https://i2.wp.com/card.ly/images/vcard-blue-big.png?w=840&#34; alt=&#34;card.ly&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is basically what I wanted to do with my web site. I wonder if I should just relinquish cleverswine.net and call &lt;a href=&#34;http://card.ly/cleverswine&#34;&gt;http://card.ly/cleverswine&lt;/a&gt; my new home?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Felony Flats and Hearses</title>
+				<link>/2008/10/09/felony-flats-and-hearses/</link>
+				<pubDate>Thu, 09 Oct 2008 09:20:54 +0000</pubDate>
+				<guid>/2008/10/09/felony-flats-and-hearses/</guid>
+				<description>&lt;p&gt;This morning I was browsing &lt;a href=&#34;http://www.wunderground.com/cgi-bin/findweather/getForecast?query=97080&#34;&gt;Weather Underground&lt;/a&gt; because there are lots of neat weather related features on that site (almanacs, astrology, maps galore, etc). I was looking through the various Portland weather stations and came across one called “&lt;a href=&#34;http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KORPORTL76&#34;&gt;Felony Flats, Portland, OR&lt;/a&gt;“. I thought that was pretty funny. What’s funnier is the link to the station’s web site: &lt;a href=&#34;http://www.coffincruisers.com/&#34;&gt;Coffin Cruisers Hearse Club of Portland&lt;/a&gt;. I had no idea there existed a community of people who drive hearses (and have personal weather stations).&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Bystander Culture</title>
+				<link>/2008/07/29/bystander-culture/</link>
+				<pubDate>Tue, 29 Jul 2008 08:26:01 +0000</pubDate>
+				<guid>/2008/07/29/bystander-culture/</guid>
+				<description>&lt;p&gt;I know it’s lame to duplicate a blog post from someone else, but I must quote what I saw on &lt;a href=&#34;http://www.kottke.org/&#34;&gt;Jason Kottke’s&lt;/a&gt; web site today. I guess I’m one of the 5k at the moment.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Some days, the web feels like 5 people trying to make something; 5k people turning it into a list; and 500MM people saying, “FAIL.”&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+			<item>
+				<title>My Thoughts Exactly</title>
+				<link>/2008/07/02/my-thoughts-exactly/</link>
+				<pubDate>Wed, 02 Jul 2008 12:49:09 +0000</pubDate>
+				<guid>/2008/07/02/my-thoughts-exactly/</guid>
+				<description>&lt;p&gt;From &lt;a href=&#34;http://portland.metblogs.com/&#34;&gt;Portland Metblogs&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;p&gt;Why do people feel compelled to take a summer vacation – when everyone else is doing so – prices are higher – it’s hot and sticky and gross outside?&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://portland.metblogs.com/2008/07/02/why-summer-vacations/&#34;&gt;Read more here&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Real Interesting Stuff</title>
+				<link>/2008/06/28/real-interesting-stuff/</link>
+				<pubDate>Sat, 28 Jun 2008 13:40:51 +0000</pubDate>
+				<guid>/2008/06/28/real-interesting-stuff/</guid>
+				<description>&lt;p&gt;It’s been a while since I’ve written anything here, but I can’t say that I have anything real interesting to write about…&lt;/p&gt;&#xA;&lt;p&gt;It’s 98 degrees in Gresham right now.&lt;/p&gt;&#xA;&lt;p&gt;My contracting job is almost up, and we banged out this web site in 6 weeks: &lt;a href=&#34;http://www.xrankcelebrity5.com/playground/play.aspx&#34;&gt;http://www.xrankcelebrity5.com/&lt;/a&gt;. There’s a good chance that I will stay and work full time for this company (Avenue A | Razorfish).&lt;/p&gt;&#xA;&lt;p&gt;Bren is having her wedding dress altered today, or something like that. I’m staying inside the air-conditioned house.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Purity</title>
+				<link>/2008/06/12/purity/</link>
+				<pubDate>Thu, 12 Jun 2008 17:15:05 +0000</pubDate>
+				<guid>/2008/06/12/purity/</guid>
+				<description>&lt;p&gt;I like this comic, as I believe that everything can be explained via mathematics.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://xkcd.com/435/&#34;&gt;Purity&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>apt-get install wife</title>
+				<link>/2008/06/08/apt-get-install-wife/</link>
+				<pubDate>Sun, 08 Jun 2008 11:48:02 +0000</pubDate>
+				<guid>/2008/06/08/apt-get-install-wife/</guid>
+				<description>&lt;p&gt;This comic is especially funny since I’m about to get married.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.lessaid.net/fun/apt-get-wife.png&#34;&gt;http://www.lessaid.net/fun/apt-get-wife.png&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Note: apt-get is a Linux (Debian) command to install software, therefore “apt-get install wife” says to add wife to the system.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>What I Do</title>
+				<link>/2008/06/06/what-i-do/</link>
+				<pubDate>Fri, 06 Jun 2008 17:55:00 +0000</pubDate>
+				<guid>/2008/06/06/what-i-do/</guid>
+				<description>&lt;p&gt;For those who know what I do for a living, but don’t actually know what I do, I submit this link to an article called &lt;a href=&#34;http://bytes.com/forum/thread641516.html&#34;&gt;What Is Programming?&lt;/a&gt; If you would like to know what my levels of enthusiasm are, &lt;a href=&#34;http://www.west-wind.com/weblog/posts/377676.aspx&#34;&gt;check here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;These are things that I am &lt;em&gt;not&lt;/em&gt;: web designer, tech support, network engineer, and a bunch of other things that I can’t think of right off hand. I’ve not eaten today because I’ve been inspired and wired.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>FriendFeed</title>
+				<link>/2008/06/02/friendfeed/</link>
+				<pubDate>Mon, 02 Jun 2008 15:38:07 +0000</pubDate>
+				<guid>/2008/06/02/friendfeed/</guid>
+				<description>&lt;p&gt;So I’ve been using FriendFeed for a few months now. It basically aggregates my online activity (mostly via “social” networks like Facebook and Flickr) and then provides a feed for anyone to consume. It’s not a bad idea, but it’s really too bad that we need something like this. I think it’s a sign that the social web is out of control. Anyway, I find it useful to track what my friends are doing on the web, since we have similar interests. To see what it looks like, check my feed here: &lt;a href=&#34;http://friendfeed.com/cleverswine&#34;&gt;http://friendfeed.com/cleverswine&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>A Letter to His Son</title>
+				<link>/2008/05/18/a-letter-to-his-son/</link>
+				<pubDate>Sun, 18 May 2008 11:18:59 +0000</pubDate>
+				<guid>/2008/05/18/a-letter-to-his-son/</guid>
+				<description>&lt;p&gt;Seeing a web nerd speak from the heart, for the whole world to see, is not all that common. I was pleasantly surprised when I came across &lt;a href=&#34;http://zenhabits.net/2008/05/a-letter-to-my-son-on-starting-out-in-life/&#34;&gt;this post&lt;/a&gt; on &lt;a href=&#34;http://zenhabits.net/&#34;&gt;zenhabits&lt;/a&gt;. The author has written a letter to his 3 year old son, giving him advice on being happy in life’s journey. Note all of the positive comments that follow the post. I wouldn’t suggest that web nerds make a habit of this, as it would cease to be special, but it’s a nice break from the mundane “how-to” articles.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>A Collection</title>
+				<link>/2008/05/15/a-collection/</link>
+				<pubDate>Thu, 15 May 2008 18:31:04 +0000</pubDate>
+				<guid>/2008/05/15/a-collection/</guid>
+				<description>&lt;p&gt;I’ve no time lately to write anything interesting, so I’ll present a list of interesting things that others have produced…&lt;/p&gt;&#xA;&lt;p&gt;I’m very tempted to hand over $10 for this…&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.somethingstore.com/&#34;&gt;SomethingStore&lt;/a&gt; is a fun new website that operates simply: We will send you something, an item selected randomly among many things from our inventory, for $10 (free shipping) and you will find out what your something is when you receive it.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Overheard in PDX</title>
+				<link>/2008/05/10/overheard-in-pdx/</link>
+				<pubDate>Sat, 10 May 2008 14:39:22 +0000</pubDate>
+				<guid>/2008/05/10/overheard-in-pdx/</guid>
+				<description>&lt;p&gt;What do random people talk about in Portland?&lt;/p&gt;&#xA;&lt;p&gt;Part voyeur daydream, part sad commentary on life as we know it, &lt;a href=&#34;http://overheardinpdx.blogspot.com/&#34;&gt;Overheard in PDX&lt;/a&gt; is a never-ending stream of the strange things that come out of other people’s mouths, submitted by people who were lucky(?) enough to hear them.&lt;/p&gt;&#xA;&lt;p&gt;Example:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;At the main library downtown, waiting for a computer, a guy (mid-to-late 30’s) shamelessly (and embarassingly) attempting to flirt with an 18 year-old PSU freshman (who says her R’s like W’s):&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>When Obama wins</title>
+				<link>/2008/05/10/when-obama-wins/</link>
+				<pubDate>Sat, 10 May 2008 14:26:53 +0000</pubDate>
+				<guid>/2008/05/10/when-obama-wins/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://kottke.org/when-obama-wins/&#34;&gt;When Obama wins&lt;/a&gt;…&lt;/p&gt;&#xA;&lt;p&gt;Starbucks will stop referring to their smalls as talls.&lt;/p&gt;&#xA;&lt;p&gt;Your recycling will sort itself and magically appear by the curb.&lt;/p&gt;&#xA;&lt;p&gt;Charlie Brown will finally kick that football.&lt;/p&gt;&#xA;&lt;p&gt;Your cell phone won’t work in your car, at the movies, or while you’re ahead of me in line for coffee.&lt;/p&gt;&#xA;&lt;p&gt;People will have more picnics in the park.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://kottke.org/when-obama-wins/&#34;&gt;When Obama wins&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Kids These Days</title>
+				<link>/2008/05/01/kids-these-days/</link>
+				<pubDate>Thu, 01 May 2008 12:30:55 +0000</pubDate>
+				<guid>/2008/05/01/kids-these-days/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://blog.oregonlive.com/breakingnews/2008/05/centennial_high_drops_its_ban.html&#34;&gt;Centennial High School has dropped its ban on eyebrow shaving&lt;/a&gt;… that’s right, the kids are shaving their eyebrows. I guess there’s a trend in which kids shave designs into their brows. Unfortunately, a well known East Multnomah County gang does the same, which caused a bit of confusion and concern in this particular high school. I remember back when I was in school. It was the eighties, and the more over the top you could be, the better. My high school banned things like mohawks and certain colors of hair. I thought it was silly at the time and I still do. I think blue hair in high school would have made me a better person.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Infinity</title>
+				<link>/2008/04/27/infinity/</link>
+				<pubDate>Sun, 27 Apr 2008 10:57:10 +0000</pubDate>
+				<guid>/2008/04/27/infinity/</guid>
+				<description>&lt;p&gt;I’ve been reading &lt;a href=&#34;http://www.amazon.com/Infinite-Book-Boundless-Timeless-Endless/dp/1400032245/&#34;&gt;The Infinite Book: A Short Guide to the Boundless, Timeless and Endless&lt;/a&gt;, which so far is a history of theories on infinity. Infinity is something that I’ve always been interested in, but I had never read theories predating Hawking. I came across an article on the web today called &lt;a href=&#34;http://sprott.physics.wisc.edu/pickover/pc/brain-universe.html&#34;&gt;A Brain Cell is the Same as the Universe&lt;/a&gt;. I’m afraid a brain cell is &lt;em&gt;not&lt;/em&gt; like the universe. The &lt;em&gt;universe&lt;/em&gt; is another name for infinite space and time. The web site claims that the universe is billions of light years across, which doesn’t make sense to me. Since when is the universe a finite structure? I just don’t see the comparison.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Portland is Awesome</title>
+				<link>/2008/04/17/portland-is-awesome/</link>
+				<pubDate>Thu, 17 Apr 2008 12:44:42 +0000</pubDate>
+				<guid>/2008/04/17/portland-is-awesome/</guid>
+				<description>&lt;p&gt;Just in case someone doesn’t already know, Portland is awesome. Some of our local &lt;a href=&#34;http://siliconflorist.com/&#34;&gt;techies&lt;/a&gt; and &lt;a href=&#34;http://fastwonderblog.com/&#34;&gt;bloggers&lt;/a&gt; have started a new web site where various citizens of P-town can express why they think our city is cool. I was wondering if they would get enough authors to make it worthwhile, but sure enough the articles keep on coming.&lt;/p&gt;&#xA;&lt;p&gt;If you are interested at all in the culture and general environment of Portland, I would recommend reading &lt;a href=&#34;http://portlandisawesome.com/&#34;&gt;PortlandIsAwesome.com&lt;/a&gt; regularly. Maybe one day I’ll even contribute.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Everything is Stranger in Texas</title>
+				<link>/2008/04/17/everything-is-stranger-in-texas/</link>
+				<pubDate>Thu, 17 Apr 2008 10:10:37 +0000</pubDate>
+				<guid>/2008/04/17/everything-is-stranger-in-texas/</guid>
+				<description>&lt;p&gt;I’m off to Texas tomorrow morning to visit family and see my new niece. I regularly keep up with Texas news, but I casually read it and move on. Today I came across an unusual story… well, unusual to those of us in the North. A man in Brazoria was routinely pulled over for making an illegal u-turn. The police found a 6 foot alligator and a water moccasin in his car, both alive. The snake had already bitten the man, but that didn’t keep him from driving along as if all was normal. And there’s more…&lt;a href=&#34;http://www.chron.com/disp/story.mpl/headline/metro/5703545.html&#34;&gt;Read the full story here&lt;/a&gt;. The funniest part is the comment by the Brazoria Chief of Police, who says, “Just a typical day in Brazoria.”&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Beaumont&amp;#8217;s Black Problem</title>
+				<link>/2008/04/10/beaumonts-black-problem/</link>
+				<pubDate>Thu, 10 Apr 2008 12:32:47 +0000</pubDate>
+				<guid>/2008/04/10/beaumonts-black-problem/</guid>
+				<description>&lt;p&gt;From the &lt;a href=&#34;http://www.beaumontenterprise.com/site/news.cfm?newsid=19470549%EF%BF%BDBRD=2287%EF%BF%BDPAG=461%EF%BF%BDdept_id=512588%EF%BF%BDrfi=6&#34;&gt;Beaumont Enterprise&lt;/a&gt; (in Texas, where I grew up):&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;West Brook High School administrators on Wednesday defended a black-male-only mentoring session that has prompted a recent inquiry by the American Civil Liberties Union.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;So, this high school in Beaumont decides to call an assembly of students to address issues such as education, test scores, crime, family and gangs. Good for them, except… they only invited black males! Now the ACLU is mad, and the school district is puzzled. A lot of people are trying to justify the assembly based on crime statistics, but, as &lt;a href=&#34;http://setxbayou.blogspot.com/2008/04/black-and-white-west-brooks-black-male.html&#34;&gt;The Bayou&lt;/a&gt; pointed out, if school organizers are being surgical with their message, why include ALL black males, some of whom are already model students? I don’t think it can be justified, and I think the ACLU should be all over them. I’m glad they are trying to address a problem, but come on – use a little tact.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Google App Engine</title>
+				<link>/2008/04/08/google-app-engine/</link>
+				<pubDate>Tue, 08 Apr 2008 12:05:07 +0000</pubDate>
+				<guid>/2008/04/08/google-app-engine/</guid>
+				<description>&lt;p&gt;Hmmm, the &lt;a href=&#34;http://code.google.com/appengine/&#34;&gt;Google App Engine&lt;/a&gt; is all over the “blogosphere” today. I first read about Google’s new service yesterday, so I promptly signed up to be a beta tester. Today, I was invited to join 10,0000 other programmers to give the App Engine a trial run.&lt;/p&gt;&#xA;&lt;p&gt;The App Engine is being greeted with mixed feelings by the developer community. Personally, after reading the documentation and API, I can’t think of a good reason to use it. It has some benefits over other application hosting options, but it sacrifices flexibility in return.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>April Fool&amp;#8217;s Sucker</title>
+				<link>/2008/04/02/april-fools-sucker/</link>
+				<pubDate>Wed, 02 Apr 2008 08:26:55 +0000</pubDate>
+				<guid>/2008/04/02/april-fools-sucker/</guid>
+				<description>&lt;p&gt;Well, I got fooled left and right yesterday! I guess I am naive…&lt;/p&gt;&#xA;&lt;p&gt;My favorite embedded device developer, Marcin Juszkiewicz, claimed that he was &lt;a href=&#34;http://blog.haerwu.biz/2008/04/01/moving-to-london/&#34;&gt;moving from Poland to London&lt;/a&gt; for work. He said that with his new job, he could spend more time in the office and less time taking care of his child. Sounded reasonable to me. &lt;a href=&#34;http://blog.haerwu.biz/2008/04/02/no-i-am-not-moving-to-london/&#34;&gt;He was kidding&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I’m still not clear about this one, but seeing as it was tagged on delicious as “aprilfools”, I’m guessing it wasn’t real. Too bad, because I was hyped about it. &lt;a href=&#34;http://movies.ign.com/dor/articles/863515/legend-of-zelda-movie-trailer/videos/legendofzelda_filmtrailer_040108.html&#34;&gt;Legend of Zelda Movie Trailer Debut&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>More Praise for Last.fm</title>
+				<link>/2008/04/01/more-praise-for-lastfm/</link>
+				<pubDate>Tue, 01 Apr 2008 09:03:27 +0000</pubDate>
+				<guid>/2008/04/01/more-praise-for-lastfm/</guid>
+				<description>&lt;p&gt;I’m generally disappointed with the state of the World Wide Web these days. The WWW used to be a simple communications tool to share information on a globally connected network. I’m not saying that it should have stayed that way, but I wish we had taken a more structured approach to innovation. I’ve written about this before, so I won’t go into it again. My point for today is that &lt;a href=&#34;http://www.last.fm&#34;&gt;Last.fm&lt;/a&gt; has done things right. It’s the only modern web service that I use regularly, and it does exactly what it needs to do – nothing more and nothing less. I am sitting at work right now listening to “recommended” music, a lot of which I’ve never heard before. I have to say, there is a lot of good music out there, from the 50s to modern day. I have been “bookmarking” things that I like so I can look into purchasing them after a little more listening (Last.fm is not a free music download service).&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Umbrella Academy</title>
+				<link>/2008/03/20/the-umbrella-academy/</link>
+				<pubDate>Thu, 20 Mar 2008 08:46:41 +0000</pubDate>
+				<guid>/2008/03/20/the-umbrella-academy/</guid>
+				<description>&lt;p&gt;I’ve recently rediscovered the joy of comic books. Joss Whedon was kind enough to continue the &lt;em&gt;Buffy the Vampire Slayer&lt;/em&gt; T.V. series via comic book. Reading the Buffy comic has been just as fulfilling as watching the show. Now, in addition to Buffy, I am reading &lt;a href=&#34;http://en.wikipedia.org/wiki/The_Umbrella_Academy&#34;&gt;The Umbrella Academy&lt;/a&gt; which is written by Gerard way of &lt;a href=&#34;http://www.mychemicalromance.com/&#34;&gt;My Chemical Romance&lt;/a&gt;. I admit, I was unsure about reading a comic written by a rock star, but so far it is really good. Both comics are published by Portland-based &lt;a href=&#34;http://www.darkhorse.com/index.php&#34;&gt;Dark Horse Comics&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Check Out</title>
+				<link>/2008/03/20/check-out/</link>
+				<pubDate>Thu, 20 Mar 2008 08:30:52 +0000</pubDate>
+				<guid>/2008/03/20/check-out/</guid>
+				<description>&lt;p&gt;I would not normally advocate Wal-Mart, as they are evil in so many ways, but I’ve been reading the Wal-Mart blog lately. It’s called &lt;a href=&#34;http://checkoutblog.com/default.aspx&#34;&gt;Check Out&lt;/a&gt;. I don’t know exactly who the “associates” are that write on this blog, but it does bring a human side to the company. Obviously, it’s a marketing ploy, but I still enjoy reading it. It is G rated and censored (no foul language allowed), like the store. I wonder if they will address their unfair business practices that bring other companies to their knees? I doubt it.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Obama in 30 Seconds</title>
+				<link>/2008/03/13/obama-in-30-seconds/</link>
+				<pubDate>Thu, 13 Mar 2008 11:34:07 +0000</pubDate>
+				<guid>/2008/03/13/obama-in-30-seconds/</guid>
+				<description>&lt;p&gt;This is a great idea. MoveOn.org is sponsoring a contest where anyone can make a 30 second Obama commercial and enter to win. MoveOn.org will then pay to air the winning video on national television. The list of judges is really impressive!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.obamain30seconds.org/&#34;&gt;Check it out here.&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Hillary Clinton speaks in Nederland</title>
+				<link>/2008/03/12/hillary-clinton-speaks-in-nederland/</link>
+				<pubDate>Wed, 12 Mar 2008 11:11:33 +0000</pubDate>
+				<guid>/2008/03/12/hillary-clinton-speaks-in-nederland/</guid>
+				<description>&lt;p&gt;My tiny Southeast Texas home of &lt;a href=&#34;http://en.wikipedia.org/wiki/Nederland,_Texas&#34;&gt;Nederland&lt;/a&gt; was recently &lt;a href=&#34;http://midcountychronicle.com/news/2008/0312/community/008.html&#34;&gt;host to Hillary Clinton, Ted Danson, and Mary Steenburgen&lt;/a&gt;. 600 people showed up for Hillary’s campaign propaganda. I’d say she’s being pretty thorough to make a stop in Nederland. Maybe that’s how she won Texas. So strange. Meanwhile, Forest Whitaker was in nearby Beaumont doing his thing for Obama.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>A Bad Day for Geese</title>
+				<link>/2008/03/10/a-bad-day-for-geese/</link>
+				<pubDate>Mon, 10 Mar 2008 12:55:46 +0000</pubDate>
+				<guid>/2008/03/10/a-bad-day-for-geese/</guid>
+				<description>&lt;p&gt;Today in Oregon, Canadian Geese are wreaking havoc.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://blog.oregonlive.com/breakingnews/2008/03/goose_knocks_out_sewage_plant.html&#34;&gt;Goose knocks out sewage plant power, causes spill&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.kgw.com/news-local/stories/kgw_031008_news_goose_police_car.3f0d4d7f.html&#34;&gt;Flying goose shatters Salem officer’s windshield&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Mii Wedding Cake Topper</title>
+				<link>/2008/03/10/mii-wedding-cake-topper/</link>
+				<pubDate>Mon, 10 Mar 2008 08:45:07 +0000</pubDate>
+				<guid>/2008/03/10/mii-wedding-cake-topper/</guid>
+				<description>&lt;p&gt;This is so excellent!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://paulpapedesigns.com/Examples_html/CI_Example_1.html&#34;&gt;Paul Pape Designs – Mii Cake Topper&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://paulpapedesigns.com/&#34; title=&#34;wedding topper&#34;&gt;&lt;img src=&#39;https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2008/03/ci_example_1.jpg?w=840&#39; alt=&#39;wedding topper&#39; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I suspect that the girl would never go for it, but I can dream.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Most Beautiful Bridges in the World</title>
+				<link>/2008/03/09/most-beautiful-bridges-in-the-world/</link>
+				<pubDate>Sun, 09 Mar 2008 11:39:37 +0000</pubDate>
+				<guid>/2008/03/09/most-beautiful-bridges-in-the-world/</guid>
+				<description>&lt;p&gt;There are some amazing bridges in the world. Someone has posted a list of their 10 favorite bridges here: &lt;a href=&#34;http://www.neatorama.com/2008/03/07/10-most-beautiful-bridges-in-the-world/&#34;&gt;10 Most Beautiful Bridges in the World&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I would have liked to have seen a &lt;a href=&#34;http://www.flickr.com/search/?q=portland%20oregon%20bridge%EF%BF%BDw=all&#34;&gt;Portland bridge&lt;/a&gt; in the list. Perhaps St. John’s Bridge.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Hair Mixer</title>
+				<link>/2008/02/02/hair-mixer/</link>
+				<pubDate>Sat, 02 Feb 2008 13:34:04 +0000</pubDate>
+				<guid>/2008/02/02/hair-mixer/</guid>
+				<description>&lt;p&gt;So fun! &lt;a href=&#34;http://www.hairmixer.com/&#34;&gt;HairMixer!&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://flickr.com/photos/cleverswine/sets/72157603840800581/&#34;&gt;&lt;img src=&#34;https://i0.wp.com/farm3.static.flickr.com/2396/2237695498_d0c15b49d8_m_d.jpg?w=840&#34; alt=&#34;Kevin&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://flickr.com/photos/cleverswine/sets/72157603840800581/&#34;&gt;See the rest of our celebrity heads here.&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>CardDAV &amp;#8211; WebDAV for vCard</title>
+				<link>/2008/02/02/carddav-webdav-for-vcard/</link>
+				<pubDate>Sat, 02 Feb 2008 11:08:21 +0000</pubDate>
+				<guid>/2008/02/02/carddav-webdav-for-vcard/</guid>
+				<description>&lt;p&gt;While reading my daily dose of the &lt;a href=&#34;http://dataportability.org/&#34;&gt;Data Portability&lt;/a&gt; mailing list, I uncovered an interesting idea that could solve a problem that I’ve been thinking about for a long time. That problem would be the inability to share personal address books (PAB) across multiple computers. The project is called &lt;a href=&#34;http://tools.ietf.org/html/draft-daboo-carddav-03&#34;&gt;CardDAV&lt;/a&gt;. Think of it as IMAP for email, or WebDAV for files. So far, it’s just an idea. I certainly hope the idea becomes a specification and is adopted by the major address book applications.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>FriendFeed.  I like.</title>
+				<link>/2008/02/01/friendfeed-i-like/</link>
+				<pubDate>Fri, 01 Feb 2008 16:43:36 +0000</pubDate>
+				<guid>/2008/02/01/friendfeed-i-like/</guid>
+				<description>&lt;p&gt;A friend just told me about &lt;a href=&#34;http://friendfeed.com/&#34;&gt;FriendFeed&lt;/a&gt;, which is sort of a social web aggregater. Rather than try to explain it, here’s what they say about themselves:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Our goal is to make content on the Web more useful and discoverable by taking advantage of your social connections. FriendFeed is a simple tool that scratches the surface of that goal by making it easier to keep track of the web pages, videos, music, and photos your friends and family interact with around the Internet.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Couture: fashion designers or couturiers collectively</title>
+				<link>/2008/02/01/couture-fashion-designers-or-couturiers-collectively/</link>
+				<pubDate>Fri, 01 Feb 2008 16:04:29 +0000</pubDate>
+				<guid>/2008/02/01/couture-fashion-designers-or-couturiers-collectively/</guid>
+				<description>&lt;p&gt;I sort of learned a new word today: &lt;a href=&#34;http://dictionary.reference.com/browse/couture&#34;&gt;couture&lt;/a&gt;. As I was browsing the news, I came across a J.Lo article which warranted my attention (because J.Lo is… super cool). The title of the article is “&lt;a href=&#34;http://www.msnbc.msn.com/id/22940662/&#34;&gt;Even J.Lo’s hospital gowns have to be couture&lt;/a&gt;.” I had no idea what that meant, so I looked up &lt;em&gt;couture&lt;/em&gt; on dictionary.com. I still don’t know what it means. Perhaps she needs designer gowns in the hospital??? Anyway, I bet my genius fiance can explain it to me when I see her this evening.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Good Stuff</title>
+				<link>/2008/02/01/good-stuff-2/</link>
+				<pubDate>Fri, 01 Feb 2008 11:35:52 +0000</pubDate>
+				<guid>/2008/02/01/good-stuff-2/</guid>
+				<description>&lt;p&gt;Today, I’ve come across a handful of websites which are exciting enough to me that they should be shared (with all 2 people that read my web site…).&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://kitblog.com/2007/12/woody_allens_typography.html&#34;&gt;Woody Allen’s typography&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;An article about another one of my favorite people, combined with the nerdiness of font analysis. It had never occurred to me that Woody uses the same font, Windsor-EF Elongated, for all of his film titles.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://zenhabits.net/2008/01/30-things-to-do-to-keep-from-getting-bored-out-of-your-skull-at-work/&#34;&gt;30 Things to Do to Keep From Getting Bored Out of Your Skull at Work&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Morrissey for Obama</title>
+				<link>/2008/01/30/morrissey-for-obama/</link>
+				<pubDate>Wed, 30 Jan 2008 12:36:12 +0000</pubDate>
+				<guid>/2008/01/30/morrissey-for-obama/</guid>
+				<description>&lt;p&gt;It seems that one of my favorite people in the world, Morrissey, is promoting Barack Obama (and himself). Go Moz!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.morrissey-solo.com/article.pl?sid=08/01/30/164213%EF%BF%BDfrom=rss&#34; title=&#34;moz&#34;&gt;&lt;img src=&#39;https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2008/01/normal_mozshirt3.jpg?w=840&#39; alt=&#39;moz&#39; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The State of the Social Web</title>
+				<link>/2008/01/23/the-state-of-the-social-web/</link>
+				<pubDate>Wed, 23 Jan 2008 10:12:17 +0000</pubDate>
+				<guid>/2008/01/23/the-state-of-the-social-web/</guid>
+				<description>&lt;p&gt;Today’s “social web” is nothing more than a playground for those desperate to create an identity for themselves in what we like to call “the virtual world.” While it’s a fine, and ambitious, idea, there are quite a few shortcomings in today’s virtual world that we will need to hurdle.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Olan Mills</title>
+				<link>/2007/12/29/olan-mills/</link>
+				<pubDate>Sat, 29 Dec 2007 21:18:47 +0000</pubDate>
+				<guid>/2007/12/29/olan-mills/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://listoftheday.blogspot.com/2007/09/great-olan-mills-photos.html&#34;&gt;Great Olan Mills photos&lt;/a&gt;… Total frickin’ awesomeness from Olan Mills, Sears and other fine portrait studios.&lt;/p&gt;&#xA;&lt;p&gt;This is a must see for anyone that remembers Olan Mills photos from the 70s and 80s!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Minor Threat Sauce</title>
+				<link>/2007/12/23/minor-threat-sauce/</link>
+				<pubDate>Sun, 23 Dec 2007 11:33:27 +0000</pubDate>
+				<guid>/2007/12/23/minor-threat-sauce/</guid>
+				<description>&lt;p&gt;I’ve just discovered a &lt;a href=&#34;http://wheelhousepickles.com/shop/threat&#34;&gt;hot sauce&lt;/a&gt; named after one of my favorite 80s straight edge punk bands, &lt;a href=&#34;http://dischord.com/band/minorthreat&#34;&gt;Minor Threat&lt;/a&gt;. &lt;a href=&#34;http://www.pitchforkmedia.com/article/news/47674-minor-threat-turns-condiment-but-ian-doesnt-mind&#34;&gt;Pitchfork says it’s so.&lt;/a&gt; It sounds delicious!&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Made from a rare, mild breed of habaneros grown specifically for us, Minor Threat draws its inspiration from the legendary West Indies’ mustard- and mango-based habanero sauces, only it mysteriously priviledges the pepper’s fruitiness over its notoriously overwhelming heat.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+			<item>
+				<title>The Bloggers of Kindness</title>
+				<link>/2007/12/20/the-bloggers-of-kindness/</link>
+				<pubDate>Thu, 20 Dec 2007 09:29:28 +0000</pubDate>
+				<guid>/2007/12/20/the-bloggers-of-kindness/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://zenhabits.net/2007/12/the-bloggers-of-kindness/&#34;&gt;Listed here are some great bloggers who are helping spread kindness throughout the world …&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://zenhabits.net/2007/11/faith-in-humanity-how-to-bring-people-closer-and-restore-kindness/&#34;&gt;Faith in Humanity: How to Bring People Closer, and Restore Kindness&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Knitting Meets Geekiness</title>
+				<link>/2007/12/14/knitting-meets-geekiness/</link>
+				<pubDate>Fri, 14 Dec 2007 12:00:43 +0000</pubDate>
+				<guid>/2007/12/14/knitting-meets-geekiness/</guid>
+				<description>&lt;p&gt;I may have found something geeky that Bren and I can have in common. I’m talking about &lt;a href=&#34;http://www.knitml.com/blog/&#34;&gt;KnitML&lt;/a&gt;. KnitML is a new markup language (like html or xml) used to describe knitting patterns. How geeky is that?&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The KnitML Project’s main goal is to develop and promote adoption of a standard content model for knitting patterns. By developing a community-supported specification (KnitML) and providing basic rendering and transformation tools, the KnitML Project aims to make KnitML easy to use and valuable to the knitter.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Breaking News&amp;#8230;</title>
+				<link>/2007/12/11/breaking-news/</link>
+				<pubDate>Tue, 11 Dec 2007 13:04:08 +0000</pubDate>
+				<guid>/2007/12/11/breaking-news/</guid>
+				<description>&lt;p&gt;Apparently there was a major mudslide on the Columbia highway, well East of Portland. My family was concerned, as I drive on roads in the Portland area. Well, have no fear. I do not drive near the location of the mudslide.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.katu.com/news/12364281.html&#34;&gt;Story on KATU&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;In other weather related catastrophe news, the midwest is covered in ice. Bren’s parents are near K.C., Mo., so I’d imagine they are among the frozen. This ice storm appears to be a major incident.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Counting Sheep</title>
+				<link>/2007/12/07/counting-sheep/</link>
+				<pubDate>Fri, 07 Dec 2007 12:37:53 +0000</pubDate>
+				<guid>/2007/12/07/counting-sheep/</guid>
+				<description>&lt;p&gt;I’ve always wondered where the term “counting sheep” came from. I’ve tried counting sheep to fall asleep, and it doesn’t work. In my case, the sheep don’t cooperate. Come to find out…&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;…counting sheep is actually an inferior means of inducing sleep. Subjects who instead imagined “a beach or a waterfall” were forced to expend more mental energy, and fell asleep faster than those asked to simply count sheep.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;[&lt;/p&gt;&#xA;&lt;p&gt;Read more here](&lt;a href=&#34;http://en.wikipedia.org/wiki/Counting_sheep&#34;&gt;http://en.wikipedia.org/wiki/Counting_sheep&lt;/a&gt;)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Programmer Dress Code</title>
+				<link>/2007/12/07/the-programmer-dress-code/</link>
+				<pubDate>Fri, 07 Dec 2007 09:16:28 +0000</pubDate>
+				<guid>/2007/12/07/the-programmer-dress-code/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.codethinked.com/post/2007/12/The-Programmer-Dress-Code.aspx&#34;&gt;This is an funny article&lt;/a&gt; about how most visionaries in the programming world have beards and dress like slobs. I have to say, dressing nice and shaving are at the bottom of my list of priorities. I think the same could be said for most of the programmers that I know.&lt;/p&gt;&#xA;&lt;img src=&#39;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2007/12/imageaxd.jpg?w=840&#39; alt=&#39;Stallman&#39; data-recalc-dims=&#34;1&#34; /&gt;</description>
+			</item>
+			<item>
+				<title>Funny Unix Commands</title>
+				<link>/2007/12/06/funny-unix-commands/</link>
+				<pubDate>Thu, 06 Dec 2007 14:00:39 +0000</pubDate>
+				<guid>/2007/12/06/funny-unix-commands/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.geekoftheday.com/geek-jokes/classic-geek-jokes-funny-unix-commands.html&#34;&gt;This is a list&lt;/a&gt; of creative and funny Unix commands. There’s one I like which doesn’t seem to be on the list:&lt;/p&gt;&#xA;&lt;p&gt;% cd /pub&lt;/p&gt;&#xA;&lt;p&gt;% more beer&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Why Does a Salad Cost More Than a Big Mac?</title>
+				<link>/2007/12/05/why-does-a-salad-cost-more-than-a-big-mac/</link>
+				<pubDate>Wed, 05 Dec 2007 08:56:26 +0000</pubDate>
+				<guid>/2007/12/05/why-does-a-salad-cost-more-than-a-big-mac/</guid>
+				<description>&lt;p&gt;This is sad…&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.pcrm.org.nyud.net:8080/magazine/gm07autumn/health_pork.html&#34;&gt;&lt;img src=&#39;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2007/12/pyramid.jpg?w=840&#39; alt=&#39;salad&#39; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Wii Fit</title>
+				<link>/2007/12/04/wii-fit/</link>
+				<pubDate>Tue, 04 Dec 2007 11:46:21 +0000</pubDate>
+				<guid>/2007/12/04/wii-fit/</guid>
+				<description>&lt;p&gt;As soon as &lt;a href=&#34;http://www.amazon.com/Nintendo-Wii-Fit/dp/B000VJRU44/ref=pd_bbs_sr_1?ie=UTF8%EF%BF%BDs=videogames%EF%BF%BDqid=1196797314%EF%BF%BDsr=8-1&#34;&gt;this&lt;/a&gt; becomes available, I’m going to buy it and get into shape. Apparently, you will be able to hula hoop, do yoga, do push ups, play soccer, and a bunch of other stuff – right in your own living room. You can’t beat that.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Morrissey vs. NME</title>
+				<link>/2007/11/28/morrissey-vs-nme/</link>
+				<pubDate>Wed, 28 Nov 2007 09:13:46 +0000</pubDate>
+				<guid>/2007/11/28/morrissey-vs-nme/</guid>
+				<description>&lt;p&gt;In the newest issue of NME (a British magazine about new music), there is a cover story on &lt;a href=&#34;http://cleverswine.net/?page_id=126&#34;&gt;Morrissey&lt;/a&gt;. Morrissey and NME have always been at odds, but it has generally been tame. This time, however, rather than just publishing the Morrissey interview as it was done, NME decided to add commentary that totally trashes the man. I’ve not read the article, titled “Has the World Changed, or Has He Changed?”, as it’s not readily available to me.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>FOX News Porn</title>
+				<link>/2007/11/21/fox-news-porn/</link>
+				<pubDate>Wed, 21 Nov 2007 18:46:18 +0000</pubDate>
+				<guid>/2007/11/21/fox-news-porn/</guid>
+				<description>&lt;p&gt;This web site is pretty funny.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;FOX News uses sex segments to divert outrage from the real obscenity, the war&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://foxnewsporn.com/&#34;&gt;See it here&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Dollhouse</title>
+				<link>/2007/11/16/the-dollhouse/</link>
+				<pubDate>Fri, 16 Nov 2007 12:55:19 +0000</pubDate>
+				<guid>/2007/11/16/the-dollhouse/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://imdb.com/name/nm0923736/&#34;&gt;Joss Whedon&lt;/a&gt; (Buffy the Vampire Slayer, Angel, Firefly, etc.) is coming back to television! His new show is called “The Dollhouse” and stars &lt;a href=&#34;http://imdb.com/name/nm0244630/&#34;&gt;Eliza Dushku&lt;/a&gt; (&lt;em&gt;Faith&lt;/em&gt;, from Buffy the Vampire Slayer)! It will air on Fox sometime next year. Unfortunately, the writer’s strike will postpone it for a while, but Fox has already agreed to 7 episodes.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.eonline.com/gossip/kristin/detail/index.jsp?uuid=972f7d73-e0a2-43ea-abad-0abf6afba1f3&#34;&gt;Read more about it here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.dollverse.com/&#34;&gt;The official website is here&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>An Annoyingly Efficient Relevancy Engine</title>
+				<link>/2007/11/12/an-annoyingly-efficient-relevancy-engine/</link>
+				<pubDate>Mon, 12 Nov 2007 11:25:36 +0000</pubDate>
+				<guid>/2007/11/12/an-annoyingly-efficient-relevancy-engine/</guid>
+				<description>&lt;p&gt;This article is a must read if you are dating or married to a nerd.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The Nerd Handbook&lt;/p&gt;&#xA;&lt;p&gt;A nerd needs a project because a nerd builds stuff. All the time. Those lulls in the conversation over dinner? That’s the nerd working on his project in his head.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.randsinrepose.com/archives/2007/11/11/the_nerd_handbook.html&#34;&gt;Read it here&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Pocket Protector Collection</title>
+				<link>/2007/10/18/pocket-protector-collection/</link>
+				<pubDate>Thu, 18 Oct 2007 12:52:28 +0000</pubDate>
+				<guid>/2007/10/18/pocket-protector-collection/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.pojman.com/PP/pocket_protectors/pocket_protectors.html&#34;&gt;This is an amazing collection of 523 pocket protectors!&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>They Make a Plan</title>
+				<link>/2007/08/30/they-make-a-plan/</link>
+				<pubDate>Thu, 30 Aug 2007 09:19:17 +0000</pubDate>
+				<guid>/2007/08/30/they-make-a-plan/</guid>
+				<description>&lt;p&gt;Congratulations to Ara and Ted. He asked and she said yes.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://dream.chocolategrits.com/2007/08/i_said_yes.html&#34;&gt;chocolate grits&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>IT Crowd coming to NBC!?</title>
+				<link>/2007/05/14/it-crowd-coming-to-nbc/</link>
+				<pubDate>Mon, 14 May 2007 11:50:21 +0000</pubDate>
+				<guid>/2007/05/14/it-crowd-coming-to-nbc/</guid>
+				<description>&lt;p&gt;According to &lt;a href=&#34;http://news.yahoo.com/s/nm/20070514/media_nm/nbc_dc&#34;&gt;this article&lt;/a&gt;, my favorite geek TV show, The IT Crowd, is coming to NBC. The show is about misunderstood IT workers, and is hilarious. It currently only airs in Britain and can also be &lt;a href=&#34;http://www.channel4.com/entertainment/tv/microsites/I/itcrowd/index.html&#34;&gt;watched online&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>1973 vs. 2007</title>
+				<link>/2007/05/14/1973-vs-2007/</link>
+				<pubDate>Mon, 14 May 2007 11:33:50 +0000</pubDate>
+				<guid>/2007/05/14/1973-vs-2007/</guid>
+				<description>&lt;p&gt;This is a &lt;a href=&#34;http://www.insane.com/jokes-1973-vs-2007/&#34;&gt;funny list of scenarios&lt;/a&gt; with responses from 1973 and 2007. Things have changed…&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Scenario: Jeffrey wonâ€™t be still in class, disrupts other students.&lt;/p&gt;&#xA;&lt;p&gt;1973: Jeffrey sent to office and given a good paddling by Principal. Sits still in class.&lt;/p&gt;&#xA;&lt;p&gt;2007: Jeffrey given huge doses of Ritalin. Becomes a zombie. School gets extra money from state because Jeffrey has a disability.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.insane.com/jokes-1973-vs-2007/&#34;&gt;Read more…&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Very Good, but not Perfect, Beer List</title>
+				<link>/2007/05/10/very-good-but-not-perfect-beer-list/</link>
+				<pubDate>Thu, 10 May 2007 07:38:12 +0000</pubDate>
+				<guid>/2007/05/10/very-good-but-not-perfect-beer-list/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.thebachelorguy.com/?itemid=390&#34;&gt;The Bachelor Guy&lt;/a&gt; has put together a list called “&lt;a href=&#34;http://www.thebachelorguy.com/?itemid=390&#34;&gt;The Dream Case – 24 Great American Craft Beers You Should Be Drinking&lt;/a&gt;“. I’ve tried about half of the beers on the list, and they are all good. Unfortunately, it appears that the list makers have never been to Portland, and there are some better brews missing from the list (Bridgeport, Deschutes, Laurelwood, Roots, etc). The best part of the list is the reader comments (“what ever. come to Portland.”).&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>My Photo in a Comic</title>
+				<link>/2007/05/03/my-photo-in-a-comic/</link>
+				<pubDate>Thu, 03 May 2007 15:57:48 +0000</pubDate>
+				<guid>/2007/05/03/my-photo-in-a-comic/</guid>
+				<description>&lt;p&gt;I don’t know how popular “MPK Adventures” is, as I had never heard of it until now, but the writer used one of my flickr photos for a backdrop in one of his comic frames. I think that’s pretty cool. Below is my photo, and &lt;a href=&#34;http://www.murpheek.com/archive.asp?NewsID=113&#34;&gt;here is the comic&lt;/a&gt; (see bottom left frame).&lt;/p&gt;&#xA;&lt;img src=&#34;https://i2.wp.com/farm1.static.flickr.com/4/6966070_dd04773e9d_m_d.jpg?w=840&#34; alt=&#34;bedroom&#34; data-recalc-dims=&#34;1&#34; /&gt;</description>
+			</item>
+			<item>
+				<title>More P-town News: Top 10 Bloggiest Neighborhoods</title>
+				<link>/2007/04/24/more-p-town-news-top-10-bloggiest-neighborhoods/</link>
+				<pubDate>Tue, 24 Apr 2007 08:08:45 +0000</pubDate>
+				<guid>/2007/04/24/more-p-town-news-top-10-bloggiest-neighborhoods/</guid>
+				<description>&lt;p&gt;According to &lt;a href=&#34;http://outside.in/&#34;&gt;ouside.in&lt;/a&gt;, the Pearl District in Portland is the 6th “bloggiest neighborhood” in the U.S. This is not a big surprise given the hipness of that neighborhood.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>More P-town in the News</title>
+				<link>/2007/04/16/p-town-in-the-news/</link>
+				<pubDate>Mon, 16 Apr 2007 13:11:55 +0000</pubDate>
+				<guid>/2007/04/16/p-town-in-the-news/</guid>
+				<description>&lt;p&gt;I cam across this article on the OregonLive.com website: &lt;a href=&#34;http://blog.oregonlive.com/breakingnews/2007/04/portland_in_36_hours_travel_pi.html&#34;&gt;Portland in 36 hours: Story on City of Roses hits heights on NYTimes.com&lt;/a&gt;. After a bit of browsing around, I found some more interesting write-ups on this fine town of ours. See links below…&lt;/p&gt;&#xA;&lt;p&gt;From the New York Times:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://travel.nytimes.com/2007/04/15/travel/15hours.html?em%EF%BF%BDex=1176696000%EF%BF%BDen=bd2119c7a945840c%EF%BF%BDei=5087%0A&#34;&gt;36 Hours in Portland, Ore.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://travel.nytimes.com/2006/01/13/travel/escapes/13beer.html?fta=y&#34;&gt;In Oregon, It’s a Brew Pub World&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://travel.nytimes.com/2007/03/16/travel/escapes/16KIDS.html?fta=y&#34;&gt;In Portland, Ore., Where Trees and Imagination Are Evergreen&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Food Network:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>World&amp;#8217;s Top 100 Most Livable Cities</title>
+				<link>/2007/04/10/worlds-top-100-most-livable-cities/</link>
+				<pubDate>Tue, 10 Apr 2007 14:48:04 +0000</pubDate>
+				<guid>/2007/04/10/worlds-top-100-most-livable-cities/</guid>
+				<description>&lt;p&gt;According to Business Week’s &lt;a href=&#34;http://bwnt.businessweek.com/interactive_reports/livable_cities_worldwide/&#34;&gt;“World’s Top 100 Most Livable Cities”&lt;/a&gt;, Portland is the 46th most livable city in the world. I’d say that’s quite impressive considering that there are only 8 U.S. cities in the top 50. It looks like Switzerland is really the place to be.&lt;/p&gt;&#xA;&lt;p&gt;[&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://i0.wp.com/farm1.static.flickr.com/33/65694800_f5287ca07e_m_d.jpg?w=840&#34; alt=&#34;pdx&#34; data-recalc-dims=&#34;1&#34; /&gt;](&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/65694800/in/set-57723&#34;&gt;http://www.flickr.com/photos/cleverswine/65694800/in/set-57723&lt;/a&gt;)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>What We Call The News</title>
+				<link>/2007/04/02/what-we-call-the-news/</link>
+				<pubDate>Mon, 02 Apr 2007 11:58:56 +0000</pubDate>
+				<guid>/2007/04/02/what-we-call-the-news/</guid>
+				<description>&lt;p&gt;From JibJab comes a hilarious, and unfortunately accurate, video about the state of today’s news media.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.jibjab.com/what_we_call_the_news&#34;&gt;What We Call The News&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Wisdom of Children</title>
+				<link>/2007/03/21/the-wisdom-of-children/</link>
+				<pubDate>Wed, 21 Mar 2007 10:45:22 +0000</pubDate>
+				<guid>/2007/03/21/the-wisdom-of-children/</guid>
+				<description>&lt;p&gt;From an &lt;a href=&#34;http://www.newyorker.com/humor/2007/03/26/070326sh_shouts_rich&#34;&gt;article in the New Yorker&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;A Conversation at the Grownup Table, as Imagined at the Kidsâ€™ Table&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;MOM: Pass the wine, please. I want to become crazy.&lt;/p&gt;&#xA;&lt;p&gt;DAD: O.K.&lt;/p&gt;&#xA;&lt;p&gt;GRANDMOTHER: Did you see the politics? It made me angry.&lt;/p&gt;&#xA;&lt;p&gt;DAD: Me, too. When it was over, I had sex.&lt;/p&gt;&#xA;&lt;p&gt;UNCLE: Iâ€™m having sex right now.&lt;/p&gt;&#xA;&lt;p&gt;DAD: We all are.&lt;/p&gt;&#xA;&lt;p&gt;MOM: Letâ€™s talk about which kid I like the best.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Last Page</title>
+				<link>/2007/03/15/the-last-page/</link>
+				<pubDate>Thu, 15 Mar 2007 12:24:34 +0000</pubDate>
+				<guid>/2007/03/15/the-last-page/</guid>
+				<description>&lt;p&gt;It seems like you could “surf” the internet forever and never run out of pages to visit. Well, I found the end today: &lt;a href=&#34;http://www.shibumi.org/eoti.htm&#34;&gt;The End of the Internet&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Good Stuff</title>
+				<link>/2007/03/12/good-stuff/</link>
+				<pubDate>Mon, 12 Mar 2007 09:19:54 +0000</pubDate>
+				<guid>/2007/03/12/good-stuff/</guid>
+				<description>&lt;p&gt;Congratulations to Tim and Beatrice. I’ll be an uncle soon!&lt;/p&gt;&#xA;&lt;p&gt;Here are a couple of fun web sites:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.100mb.nl/&#34; target=&#34;_blank&#34;&gt;where is my mind&lt;/a&gt;&lt;br&gt;&#xA;This is the coolest piece of ASCII art that I’ve ever seen. If you’re using Firefox, hit “ctrl -” a couple of times to shrink the text.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.xs4all.nl/~jvdkuyp/flash/see.htm&#34; target=&#34;_blank&#34;&gt;Icon War&lt;/a&gt;&lt;br&gt;&#xA;Entertaining depiction of what your desktop icons do when you’re not looking.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+	</channel>
 </rss>

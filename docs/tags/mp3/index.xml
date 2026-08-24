@@ -1,119 +1,87 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>MP3 on noone.dev</title>
-    <link>/tags/mp3/</link>
-    <description>Recent content in MP3 on noone.dev</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 25 Mar 2009 19:29:26 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/mp3/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>ID3 Tag Parsing</title>
-      <link>/2009/03/25/id3-tag-parsing/</link>
-      <pubDate>Wed, 25 Mar 2009 19:29:26 +0000</pubDate>
-      
-      <guid>/2009/03/25/id3-tag-parsing/</guid>
-      <description>I’ve been working on a project to read and update ID3 tags on my music collection. An ID3 tag is the meta data embedded in mp3 files that contains artist and other information. My initial goal is to batch update the “genre” field in my mp3 files. I’ve written a simple .Net forms application to do this. I found a really good library created by Novell called TagLib Sharp. The library makes it super easy to read and write ID3 tags.</description>
-    </item>
-    
-    <item>
-      <title>Morrissey &amp;#8211; Irish Blood, English Heart</title>
-      <link>/2007/12/11/morrissey-irish-blood-english-heart/</link>
-      <pubDate>Tue, 11 Dec 2007 12:20:12 +0000</pubDate>
-      
-      <guid>/2007/12/11/morrissey-irish-blood-english-heart/</guid>
-      <description>This is one of my favorite new Morrissey songs. It is fitting that part of my dad’s family are Irish immigrants living in England.
-[Morrissey – Irish Blood, English Heart](http://cleverswine.net/kn-music/Morrissey - 02 - Irish Blood, English Heart.mp3)</description>
-    </item>
-    
-    <item>
-      <title>Metal, Old and New</title>
-      <link>/2007/04/28/metal-old-and-new/</link>
-      <pubDate>Sat, 28 Apr 2007 15:27:32 +0000</pubDate>
-      
-      <guid>/2007/04/28/metal-old-and-new/</guid>
-      <description>The Old: an amazing cover of the Queen song “Stone Cold Crazy” by Metallica. This is, of course, when Metallica was still a metal band.
-[Metallica – Stone Cold Crazy](/kn-music/Metallica - 21 - Stone Cold Crazy.mp3)
-The New: Lamb of God has caught my attention lately. You’ll mostly find younger punks (not the good kind) listening to this stuff, but I like it anyway.
-[Lamb of God – Redneck](/kn-music/Lamb of God - 03 - Redneck.</description>
-    </item>
-    
-    <item>
-      <title>Triple the Punk</title>
-      <link>/2007/04/10/triple-the-punk/</link>
-      <pubDate>Tue, 10 Apr 2007 15:52:16 +0000</pubDate>
-      
-      <guid>/2007/04/10/triple-the-punk/</guid>
-      <description>Today I offer up three fine punk songs. These are three well known artists, so I won’t go into a description of each. Use google if you really need to know more about them.
-[NOFX – Bottles To The Ground](/kn-music/NOFX - 01 - Bottles To The Ground.mp3) (party song)
-[Suicidal Tendencies – Institutionalized](/kn-music/Suicidal Tendencies - 06 - Institutionalized.mp3) (80’s rebellious youth)
-[Bad Brains – I Against I](/kn-music/I Against I - Bad Brains.</description>
-    </item>
-    
-    <item>
-      <title>Alison Krauss @ Edgefield</title>
-      <link>/2007/03/31/alison-krauss-edgefield/</link>
-      <pubDate>Sat, 31 Mar 2007 09:31:38 +0000</pubDate>
-      
-      <guid>/2007/03/31/alison-krauss-edgefield/</guid>
-      <description>Alison Krauss will be at Macmenamins Edgefield on July 5, and we got great seats: 8 rows back in the center. I saw her once in San Francisco, but it was a huge outdoor concert under the Golden Gate bridge and I didn’t hear much. This concert at the Edgefield will be more intimate and we’ll be much closer.
-[Alison Krauss – When You Say Nothing At All](Now That I&amp;rsquo;ve Found You - 12 - When You Say Nothing At All.</description>
-    </item>
-    
-    <item>
-      <title>Dag Nasty &amp;#8211; Values Here</title>
-      <link>/2007/03/30/dag-nasty-values-here/</link>
-      <pubDate>Fri, 30 Mar 2007 13:58:59 +0000</pubDate>
-      
-      <guid>/2007/03/30/dag-nasty-values-here/</guid>
-      <description>Dag Nasty was my favorite punk band. They had a mostly positive message and lots of energy. I’m not sure exactly what this song is about… values and confidence?
-“fear of failure; fear of reprimand; two big problems I’ve never had; I never doubted what I had inside… what I have inside”
-Dag Nasty – Values Here</description>
-    </item>
-    
-    <item>
-      <title>Uniform Choice &amp;#8211; Straight And Alert</title>
-      <link>/2007/03/27/uniform-choice-straight-and-alert/</link>
-      <pubDate>Tue, 27 Mar 2007 11:11:26 +0000</pubDate>
-      
-      <guid>/2007/03/27/uniform-choice-straight-and-alert/</guid>
-      <description>A classic straight edge song from one of my favorite 80s punk bands, Uniform Choice. They weren’t hugely popular, but I really like their anger and passion. This song is about how foolish and conformist it is to do drugs and get drunk.
-[Uniform Choice – Straight And Alert](/kn-music/Uniform Choice - 03 - Straight And Alert.mp3)</description>
-    </item>
-    
-    <item>
-      <title>Hungry Lucy &amp;#8211; Could It Be</title>
-      <link>/2007/03/26/hungry-lucy-could-it-be/</link>
-      <pubDate>Mon, 26 Mar 2007 11:57:21 +0000</pubDate>
-      
-      <guid>/2007/03/26/hungry-lucy-could-it-be/</guid>
-      <description>This is one of the first songs that I heard from Hungry Lucy, and it’s still my favorite.
-Hungry Lucy – Could It Be</description>
-    </item>
-    
-    <item>
-      <title>Ministry &amp;#8211; Unsung (Alternate Mix)</title>
-      <link>/2007/03/23/ministry-unsung-alternate-mix/</link>
-      <pubDate>Fri, 23 Mar 2007 10:07:23 +0000</pubDate>
-      
-      <guid>/2007/03/23/ministry-unsung-alternate-mix/</guid>
-      <description>I’m going to start posting songs on occasion. As much as I listen to music, I occasionally come across a song that really moves me and I want to share it. Plus, delicious has this cool inline player script (click on the play arrow).
-[Ministry – Unsung (Alternate Mix)](/kn-music/Ministry - 11 - Unsung (Alternate Mix).mp3)</description>
-    </item>
-    
-    <item>
-      <title>Goat Mix</title>
-      <link>/2007/03/22/goat-mix/</link>
-      <pubDate>Thu, 22 Mar 2007 15:00:26 +0000</pubDate>
-      
-      <guid>/2007/03/22/goat-mix/</guid>
-      <description>This is a song that I wrote years ago. I now have a real keyboard, so I’m hoping to become inspired soon to really learn how to play and write real music. For now this is all I have to offer.
-[Clever Swine – Goat Mix](/kn-music/song2 (goat mix).MP3)</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>MP3 on noone.dev</title>
+		<link>/tags/mp3/</link>
+		<description>Recent content in MP3 on noone.dev</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 25 Mar 2009 19:29:26 +0000</lastBuildDate>
+		
+			<atom:link href="/tags/mp3/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>ID3 Tag Parsing</title>
+				<link>/2009/03/25/id3-tag-parsing/</link>
+				<pubDate>Wed, 25 Mar 2009 19:29:26 +0000</pubDate>
+				<guid>/2009/03/25/id3-tag-parsing/</guid>
+				<description>&lt;p&gt;I’ve been working on a project to read and update &lt;a href=&#34;http://www.id3.org/Home&#34;&gt;ID3 tags&lt;/a&gt; on my music collection. An ID3 tag is the meta data embedded in mp3 files that contains artist and other information. My initial goal is to batch update the “genre” field in my mp3 files. I’ve written a simple .Net forms application to do this. I found a really good library created by Novell called &lt;a href=&#34;http://developer.novell.com/wiki/index.php/TagLib_Sharp&#34;&gt;TagLib Sharp&lt;/a&gt;. The library makes it super easy to read and write ID3 tags.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Morrissey &amp;#8211; Irish Blood, English Heart</title>
+				<link>/2007/12/11/morrissey-irish-blood-english-heart/</link>
+				<pubDate>Tue, 11 Dec 2007 12:20:12 +0000</pubDate>
+				<guid>/2007/12/11/morrissey-irish-blood-english-heart/</guid>
+				<description>&lt;p&gt;This is one of my favorite new Morrissey songs. It is fitting that part of my dad’s family are Irish immigrants living in England.&lt;/p&gt;&#xA;&lt;p&gt;[Morrissey – Irish Blood, English Heart](&lt;a href=&#34;http://cleverswine.net/kn-music/Morrissey&#34;&gt;http://cleverswine.net/kn-music/Morrissey&lt;/a&gt; - 02 - Irish Blood, English Heart.mp3)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Metal, Old and New</title>
+				<link>/2007/04/28/metal-old-and-new/</link>
+				<pubDate>Sat, 28 Apr 2007 15:27:32 +0000</pubDate>
+				<guid>/2007/04/28/metal-old-and-new/</guid>
+				<description>&lt;p&gt;&lt;em&gt;The Old:&lt;/em&gt; an amazing cover of the Queen song “Stone Cold Crazy” by Metallica. This is, of course, when Metallica was still a metal band.&lt;/p&gt;&#xA;&lt;p&gt;[Metallica – Stone Cold Crazy](/kn-music/Metallica - 21 - Stone Cold Crazy.mp3)&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;The New:&lt;/em&gt; Lamb of God has caught my attention lately. You’ll mostly find younger punks (not the good kind) listening to this stuff, but I like it anyway.&lt;/p&gt;&#xA;&lt;p&gt;[Lamb of God – Redneck](/kn-music/Lamb of God - 03 - Redneck.mp3)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Triple the Punk</title>
+				<link>/2007/04/10/triple-the-punk/</link>
+				<pubDate>Tue, 10 Apr 2007 15:52:16 +0000</pubDate>
+				<guid>/2007/04/10/triple-the-punk/</guid>
+				<description>&lt;p&gt;Today I offer up three fine punk songs. These are three well known artists, so I won’t go into a description of each. Use google if you really need to know more about them.&lt;/p&gt;&#xA;&lt;p&gt;[NOFX – Bottles To The Ground](/kn-music/NOFX - 01 - Bottles To The Ground.mp3) (party song)&lt;/p&gt;&#xA;&lt;p&gt;[Suicidal Tendencies – Institutionalized](/kn-music/Suicidal Tendencies - 06 - Institutionalized.mp3) (80’s rebellious youth)&lt;/p&gt;&#xA;&lt;p&gt;[Bad Brains – I Against I](/kn-music/I Against I - Bad Brains.mp3) (a classic)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Alison Krauss @ Edgefield</title>
+				<link>/2007/03/31/alison-krauss-edgefield/</link>
+				<pubDate>Sat, 31 Mar 2007 09:31:38 +0000</pubDate>
+				<guid>/2007/03/31/alison-krauss-edgefield/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.alisonkrauss.com/&#34;&gt;&lt;img id=&#34;image141&#34; src=&#34;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2007/03/thumb_6e6e7c1888b4025a95a1407502ecf011.jpg?w=840&#34; alt=&#34;ak&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Alison Krauss will be at &lt;a href=&#34;http://www.mcmenamins.com/index.php?loc=3%EF%BF%BDid=484%EF%BF%BDeventid=49614&#34;&gt;Macmenamins Edgefield&lt;/a&gt; on July 5, and we got great seats: 8 rows back in the center. I saw her once in San Francisco, but it was a huge outdoor concert under the Golden Gate bridge and I didn’t hear much. This concert at the Edgefield will be more intimate and we’ll be much closer.&lt;/p&gt;&#xA;&lt;p&gt;[Alison Krauss – When You Say Nothing At All](Now That I&amp;rsquo;ve Found You - 12 - When You Say Nothing At All.mp3)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Dag Nasty &amp;#8211; Values Here</title>
+				<link>/2007/03/30/dag-nasty-values-here/</link>
+				<pubDate>Fri, 30 Mar 2007 13:58:59 +0000</pubDate>
+				<guid>/2007/03/30/dag-nasty-values-here/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.daghouse.com/home.html&#34;&gt;&lt;img id=&#34;image140&#34; src=&#34;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2007/03/dag66.jpg?w=840&#34; alt=&#34;dag&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Dag Nasty was my favorite punk band. They had a mostly positive message and lots of energy. I’m not sure exactly what this song is about… values and confidence?&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;“fear of failure; fear of reprimand; two big problems I’ve never had; I never doubted what I had inside… what I have inside”&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;/kn-music/values_here.mp3&#34;&gt;Dag Nasty – Values Here&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Uniform Choice &amp;#8211; Straight And Alert</title>
+				<link>/2007/03/27/uniform-choice-straight-and-alert/</link>
+				<pubDate>Tue, 27 Mar 2007 11:11:26 +0000</pubDate>
+				<guid>/2007/03/27/uniform-choice-straight-and-alert/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/Screaming-Change-Uniform-Choice/dp/B00005YB3P&#34;&gt;&lt;img id=&#34;image134&#34; src=&#34;https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2007/03/b000005fns01_aa130_scmzzzzzzz_.jpg?w=840&#34; alt=&#34;uc&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;A classic &lt;a href=&#34;http://en.wikipedia.org/wiki/Straight_edge&#34;&gt;straight edge&lt;/a&gt; song from one of my favorite 80s punk bands, Uniform Choice. They weren’t hugely popular, but I really like their anger and passion. This song is about how foolish and conformist it is to do drugs and get drunk.&lt;/p&gt;&#xA;&lt;p&gt;[Uniform Choice – Straight And Alert](/kn-music/Uniform Choice - 03 - Straight And Alert.mp3)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Hungry Lucy &amp;#8211; Could It Be</title>
+				<link>/2007/03/26/hungry-lucy-could-it-be/</link>
+				<pubDate>Mon, 26 Mar 2007 11:57:21 +0000</pubDate>
+				<guid>/2007/03/26/hungry-lucy-could-it-be/</guid>
+				<description>&lt;p&gt;This is one of the first songs that I heard from &lt;a href=&#34;http://cleverswine.net/?page_id=124&#34;&gt;Hungry Lucy&lt;/a&gt;, and it’s still my favorite.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://cleverswine.net/kn-music/Hungry%20Lucy%20-%2001%20-%20Could%20It%20Be_.mp3&#34;&gt;Hungry Lucy – Could It Be&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Ministry &amp;#8211; Unsung (Alternate Mix)</title>
+				<link>/2007/03/23/ministry-unsung-alternate-mix/</link>
+				<pubDate>Fri, 23 Mar 2007 10:07:23 +0000</pubDate>
+				<guid>/2007/03/23/ministry-unsung-alternate-mix/</guid>
+				<description>&lt;p&gt;I’m going to start posting songs on occasion. As much as I listen to music, I occasionally come across a song that really moves me and I want to share it. Plus, delicious has this cool inline player script (click on the play arrow).&lt;/p&gt;&#xA;&lt;p&gt;[Ministry – Unsung (Alternate Mix)](/kn-music/Ministry - 11 - Unsung (Alternate Mix).mp3)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Goat Mix</title>
+				<link>/2007/03/22/goat-mix/</link>
+				<pubDate>Thu, 22 Mar 2007 15:00:26 +0000</pubDate>
+				<guid>/2007/03/22/goat-mix/</guid>
+				<description>&lt;p&gt;This is a song that I wrote years ago. I now have a real keyboard, so I’m hoping to become inspired soon to really learn how to play and write real music. For now this is all I have to offer.&lt;/p&gt;&#xA;&lt;p&gt;[Clever Swine – Goat Mix](/kn-music/song2 (goat mix).MP3)&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

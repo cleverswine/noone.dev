@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="map[]">
-    <meta name="generator" content="Hugo 0.72.0" />
+    <meta name="author" content="Kevin Noone">
+    <meta name="generator" content="Hugo 0.165.0" />
     <title>noone.dev</title>
     <link rel='stylesheet' href='/styles/main.css'>
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css" type="text/css">
@@ -37,40 +37,50 @@
 <sub>March 9, 2012</sub>
 <hr />
 <div>
-    <p>This is an example of how I used the <!-- raw HTML omitted -->jQuery Automcomplete Widget<!-- raw HTML omitted --> with Rails 3.2 for a recipe search field. Some of the jQuery stuff mentioned below is included out of the box with a new Rails application.</p>
+    <p>This is an example of how I used the <a href="http://jqueryui.com/demos/autocomplete/" target="_blank">jQuery Automcomplete Widget</a> with Rails 3.2 for a recipe search field. Some of the jQuery stuff mentioned below is included out of the box with a new Rails application.</p>
 <ul>
 <li>Make sure the jQuery gem is referenced in the <em>Gemfile</em></li>
 </ul>
-<!-- raw HTML omitted -->
+<pre lang="ruby">gem 'jquery-rails'</pre>
 <ul>
 <li>Include the jQuery javascripts in <em>app/assets/javascripts/application.js</em></li>
 </ul>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<pre lang="ruby">//= require jquery
+//= require jquery_ujs
+//= require jquery-ui</pre>
 <ul>
 <li>Download one of the jQuery-ui css files, or a custom one, and put it in one of you asset locations. I put mine in vendor/assets/stylesheets/jquery-ui-1.8.18.custom.css. Include the css file in <em>app/assets/stylesheets/application.css</em></li>
 </ul>
-<!-- raw HTML omitted -->
+<pre lang="ruby">*= require jquery-ui-1.8.18.custom.css</pre>
 <ul>
 <li>Create a controller action to search and return values for the autocomplete dropdown menu. In my Recipes controller (you could also create a seperate Search controller), I created an Action to return a list of matching recipe titles as a json array. The search can also be applied to recipes in a single category, hence the category_id parameter.</li>
 </ul>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<pre lang="ruby">def search_on_title
+    # search_on_title is a method on the model to do a wildcard search on keyword
+    recipes = Recipe.search_on_title(params[:term], params[:category_id])
+    render json: recipes.map(&:title)
+  end</pre>
 <ul>
 <li>Add a route for the search_on_title action.</li>
 </ul>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<pre lang="ruby">resources :recipes do
+    get 'search_on_title', :on => :collection
+  end</pre>
 <ul>
 <li>The search form is just a normal form.</li>
 </ul>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<pre lang="ruby">&lt;%= form_tag '', :method => :get do %>
+	&lt;%= search_field_tag :term, params[:term], :class=> "input-large" %>
+	&lt;%= submit_tag "Filter", :name => nil, :class => 'button btn', :id => "search_bn" %>
+  &lt;% end %>         
+</pre>
 <ul>
 <li>The javascript to hook up the autocomplete functionality looks like this. Notice the extra parameter to the source url – that’s how you would pass multiple values to your filter.</li>
 </ul>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<pre lang="javascript">$("input#term").autocomplete({
+    source: '&lt;%=search_on_title_recipes_path%>?category_id=&lt;%=params[:category_id]%>',
+    minLength: 2, delay: 500
+});</pre>
 <p>There’s also a Rails gem to make autocomplete easier, but I found this to be easy enough such that I didn’t have to depend on an additional plugin.</p>
 
 </div>

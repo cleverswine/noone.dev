@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="map[]">
-    <meta name="generator" content="Hugo 0.72.0" />
+    <meta name="author" content="Kevin Noone">
+    <meta name="generator" content="Hugo 0.165.0" />
     <title>noone.dev</title>
     <link rel='stylesheet' href='/styles/main.css'>
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css" type="text/css">
@@ -37,15 +37,21 @@
 <sub>April 20, 2011</sub>
 <hr />
 <div>
-    <p>I recently worked on a project in which 90% of its tests were integration tests because the core purpose of the project was to interact with external entities. In an effort create more unit tests, I employed <!-- raw HTML omitted -->Moq<!-- raw HTML omitted --> (and lots of refactoring).  This is an example of basic Moq usage.</p>
+    <p>I recently worked on a project in which 90% of its tests were integration tests because the core purpose of the project was to interact with external entities. In an effort create more unit tests, I employed <a title="Moq" href="http://code.google.com/p/moq/" target="_blank">Moq</a> (and lots of refactoring).  This is an example of basic Moq usage.</p>
 <p>Let’s say we have a repository that gets documents from a database.  The assumption is that a repository interface, IDocumentRepository, is being implemented.</p>
 <p>In my case, I found it easier to deserialize results from file, rather than building the results by hand for each mocked response.  I used System.Xml.Serialization to serialize real responses to file.</p>
 <p>Let’s Moq it…</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<blockquote>
-</blockquote>
+<pre lang="csharp">var mockRepository = new Mock&lt;IDocumentRepository>();
 
+// if the query is for text/plain documents only, mock a response for that
+mockRepository.Setup(p => p.FindDocuments(
+	It.Is&lt;DocumentQueryParams>(q => q.MimeType == "text/plain")))
+	.Returns(DeSerializeResults&lt;List&lt;Document>>("TextDocuments.xml"));
+	
+// use It.IsAny to return the same result regardless of the parameters
+mockRepository.Setup(p => p.FindDocuments(
+	It.IsAny&lt;DocumentQueryParams>()))
+	.Returns(DeSerializeResults&lt;List&lt;Document>>("AllDocuments.xml"));</pre>
 </div>
 
     <p style="margin-top: 1.8em;">

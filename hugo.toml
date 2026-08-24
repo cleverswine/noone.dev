@@ -1,0 +1,11 @@
+baseURL = "/"
+locale = "en-US"
+title = "noone.dev"
+paginate = 12
+publishDir = "docs"
+
+[params]
+author = "Kevin Noone"
+
+[markup.goldmark.renderer]
+unsafe = true

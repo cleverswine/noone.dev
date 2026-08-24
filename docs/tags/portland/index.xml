@@ -1,121 +1,94 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Portland on noone.dev</title>
-    <link>/tags/portland/</link>
-    <description>Recent content in Portland on noone.dev</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 10 Dec 2009 19:17:05 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/portland/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Rockets at Trailblazers</title>
-      <link>/2009/12/10/rockets-at-trailblazers/</link>
-      <pubDate>Thu, 10 Dec 2009 19:17:05 +0000</pubDate>
-      
-      <guid>/2009/12/10/rockets-at-trailblazers/</guid>
-      <description>On December 5th, we attended the Houston Rockets @ Portland Trailblazers game. We sat way up in the 300 section, but we had mid-court aisle seats which turned out to be quite nice. Portland won the game – and they have won all 3 games we’ve been to (against tough opponents). I think we bring good luck… for wins. Unfortunately, we were witness to the season ending injury of Greg Oden.</description>
-    </item>
-    
-    <item>
-      <title>Birthday and Other Events</title>
-      <link>/2009/12/07/birthday-and-other-events/</link>
-      <pubDate>Mon, 07 Dec 2009 15:36:58 +0000</pubDate>
-      
-      <guid>/2009/12/07/birthday-and-other-events/</guid>
-      <description>For my birthday, I went to Rogue (as I have done for the past 7 years in a row) and got a free beer and t-shirt. Bren and I took the next day off of work and had a delicious meal at Salvador Molly’sand took a hike around Gabriel Park. It was a fantastic birthday. Now that I’m in my “late 30s…”, I may choose to do something different next year.</description>
-    </item>
-    
-    <item>
-      <title>We Sold Our House and Bought Another One</title>
-      <link>/2009/08/04/we-bought-a-house/</link>
-      <pubDate>Tue, 04 Aug 2009 10:39:40 +0000</pubDate>
-      
-      <guid>/2009/08/04/we-bought-a-house/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>I Know&amp;#8230;</title>
-      <link>/2009/07/02/i-know/</link>
-      <pubDate>Thu, 02 Jul 2009 12:40:26 +0000</pubDate>
-      
-      <guid>/2009/07/02/i-know/</guid>
-      <description>…this web site is way out of date. I’m working on a replacement that is less of a blog and more of an aggregator. It’s slow going due to my lack of free time lately, but it will be here one day. Meanwhile, try the links in the header for more up to date Kevin data.
-What’s going on? We’re attempting to sell our house and move closer in to Portland.</description>
-    </item>
-    
-    <item>
-      <title>Spring Beer &amp;#038; Wine Festival</title>
-      <link>/2009/04/11/spring-beer-wine-festival/</link>
-      <pubDate>Sat, 11 Apr 2009 13:47:09 +0000</pubDate>
-      
-      <guid>/2009/04/11/spring-beer-wine-festival/</guid>
-      <description>We’re heading over to the Spring Beer � Wine Festival this afternoon. I prefer the spring event because it’s indoors and much less crowded than the summer or winter ones. Walking Man brewery has a couple of interestingly named beers at the fest: Streetwalker Malt Liquor and Big Black Homo. I may have to try them based on the names alone.</description>
-    </item>
-    
-    <item>
-      <title>The Snow Keeps Coming</title>
-      <link>/2008/12/22/the-snow-keeps-coming/</link>
-      <pubDate>Mon, 22 Dec 2008 08:29:33 +0000</pubDate>
-      
-      <guid>/2008/12/22/the-snow-keeps-coming/</guid>
-      <description>This is our back yard. I have no idea how many inches we have so far, but I’d roughly estimate 12″. It’s still coming down as of Monday morning. After driving to the MAX station this morning, I’m ready for the snow to be gone. Driving through it makes me very nervous.
-Check my flickr set for updated snow photos</description>
-    </item>
-    
-    <item>
-      <title>A Lot Like Christmas</title>
-      <link>/2008/12/16/a-lot-like-christmas/</link>
-      <pubDate>Tue, 16 Dec 2008 13:43:58 +0000</pubDate>
-      
-      <guid>/2008/12/16/a-lot-like-christmas/</guid>
-      <description>Like most of the U.S., we’re getting our fair share of frigid weather in the Northwest. We got some snow on Sunday, and there’s plenty more to come in the next week. I’m excited, but I can definitely see why some people don’t want to live where it snows a lot. For ongoing photos of the Portland area snow storm of 2008, check the flickr pool: Portland Snow Day 2008. Also check mine.</description>
-    </item>
-    
-    <item>
-      <title>Felony Flats and Hearses</title>
-      <link>/2008/10/09/felony-flats-and-hearses/</link>
-      <pubDate>Thu, 09 Oct 2008 09:20:54 +0000</pubDate>
-      
-      <guid>/2008/10/09/felony-flats-and-hearses/</guid>
-      <description>This morning I was browsing Weather Underground because there are lots of neat weather related features on that site (almanacs, astrology, maps galore, etc). I was looking through the various Portland weather stations and came across one called “Felony Flats, Portland, OR“. I thought that was pretty funny. What’s funnier is the link to the station’s web site: Coffin Cruisers Hearse Club of Portland. I had no idea there existed a community of people who drive hearses (and have personal weather stations).</description>
-    </item>
-    
-    <item>
-      <title>My Thoughts Exactly</title>
-      <link>/2008/07/02/my-thoughts-exactly/</link>
-      <pubDate>Wed, 02 Jul 2008 12:49:09 +0000</pubDate>
-      
-      <guid>/2008/07/02/my-thoughts-exactly/</guid>
-      <description>From Portland Metblogs:
-Why do people feel compelled to take a summer vacation – when everyone else is doing so – prices are higher – it’s hot and sticky and gross outside?
-Read more here</description>
-    </item>
-    
-    <item>
-      <title>Uwajimaya</title>
-      <link>/2008/06/08/uwajimaya/</link>
-      <pubDate>Sun, 08 Jun 2008 11:54:22 +0000</pubDate>
-      
-      <guid>/2008/06/08/uwajimaya/</guid>
-      <description>I went out to ???????? ????? ????????Uwajimaya in Beaverton for the first time yesterday. It’s a neat store, having everything Asian. We ate some Japanese food at the adjoined restaurant. Yummy.</description>
-    </item>
-    
-    <item>
-      <title>Overheard in PDX</title>
-      <link>/2008/05/10/overheard-in-pdx/</link>
-      <pubDate>Sat, 10 May 2008 14:39:22 +0000</pubDate>
-      
-      <guid>/2008/05/10/overheard-in-pdx/</guid>
-      <description>What do random people talk about in Portland?
-Part voyeur daydream, part sad commentary on life as we know it, Overheard in PDX is a never-ending stream of the strange things that come out of other people’s mouths, submitted by people who were lucky(?) enough to hear them.
-Example:
- At the main library downtown, waiting for a computer, a guy (mid-to-late 30’s) shamelessly (and embarassingly) attempting to flirt with an 18 year-old PSU freshman (who says her R’s like W’s):</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Portland on noone.dev</title>
+		<link>/tags/portland/</link>
+		<description>Recent content in Portland on noone.dev</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 10 Dec 2009 19:17:05 +0000</lastBuildDate>
+		
+			<atom:link href="/tags/portland/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Rockets at Trailblazers</title>
+				<link>/2009/12/10/rockets-at-trailblazers/</link>
+				<pubDate>Thu, 10 Dec 2009 19:17:05 +0000</pubDate>
+				<guid>/2009/12/10/rockets-at-trailblazers/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/4174408711/&#34;&gt;&lt;img class=&#34;alignleft&#34; style=&#34;margin-left: 6px; margin-right: 6px;&#34; title=&#34;At the game&#34; src=&#34;https://i0.wp.com/farm3.static.flickr.com/2723/4174408711_b4d135b243_t.jpg?resize=75%2C100&#34; alt=&#34;&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;On December 5th, we attended the Houston Rockets @ Portland Trailblazers game.  We sat way up in the 300 section, but we had mid-court aisle seats which turned out to be quite nice.  Portland won the game – and they have won all 3 games we’ve been to (against tough opponents).  I think we bring good luck… for wins.  Unfortunately, we were witness to the season ending injury of Greg Oden.  It was bad.  The entire arena went silent.  The Rockets showed class by giving him a pat on the back and some nice words before they wheeled him out on the stretcher.  The city of Portland is saddened by this, as we have all come to really like Greg as a player and a person.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Birthday and Other Events</title>
+				<link>/2009/12/07/birthday-and-other-events/</link>
+				<pubDate>Mon, 07 Dec 2009 15:36:58 +0000</pubDate>
+				<guid>/2009/12/07/birthday-and-other-events/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/sets/72157622923951762/detail/&#34;&gt;&lt;img class=&#34;alignleft&#34; style=&#34;margin-left: 4px; margin-right: 4px;&#34; title=&#34;Gabriel Park&#34; src=&#34;https://i1.wp.com/farm3.static.flickr.com/2746/4154770782_f947a748b2_m_d.jpg?resize=240%2C161&#34; alt=&#34;&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;For my birthday, I went to &lt;a href=&#34;http://www.rogue.com/&#34;&gt;Rogue&lt;/a&gt; (as I have done for the past 7 years in a row) and got a free beer and t-shirt.  Bren and I took the next day off of work and had a delicious meal at &lt;a href=&#34;http://www.salvadormollys.com/&#34; target=&#34;_blank&#34;&gt;Salvador Molly’s&lt;/a&gt; and took a hike around &lt;a href=&#34;http://en.wikipedia.org/wiki/Gabriel_Park&#34; target=&#34;_blank&#34;&gt;Gabriel Park&lt;/a&gt;.  It was a fantastic birthday.  Now that I’m in my “late 30s…”, I may choose to do something different next year.  We’ll see.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>We Sold Our House and Bought Another One</title>
+				<link>/2009/08/04/we-bought-a-house/</link>
+				<pubDate>Tue, 04 Aug 2009 10:39:40 +0000</pubDate>
+				<guid>/2009/08/04/we-bought-a-house/</guid>
+				<description>&lt;figure id=&#34;attachment_586&#34; style=&#34;width: 300px&#34; class=&#34;wp-caption alignnone&#34;&gt;[&lt;img src=&#34;https://i0.wp.com/cleverswine.net/wp-content/uploads/2009/08/is13detbv3n8c6b-300x225.jpg?resize=300%2C225&#34; alt=&#34;New House&#34; title=&#34;House&#34; class=&#34;size-medium wp-image-586&#34; srcset=&#34;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2009/08/is13detbv3n8c6b.jpg?resize=300%2C225 300w, https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2009/08/is13detbv3n8c6b.jpg?w=400 400w&#34; sizes=&#34;(max-width: 300px) 85vw, 300px&#34; data-recalc-dims=&#34;1&#34; /&gt;](https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2009/08/is13detbv3n8c6b.jpg)&lt;figcaption class=&#34;wp-caption-text&#34;&gt;New House&lt;/figcaption&gt;&lt;/figure&gt;</description>
+			</item>
+			<item>
+				<title>I Know&amp;#8230;</title>
+				<link>/2009/07/02/i-know/</link>
+				<pubDate>Thu, 02 Jul 2009 12:40:26 +0000</pubDate>
+				<guid>/2009/07/02/i-know/</guid>
+				<description>&lt;p&gt;…this web site is way out of date. I’m working on a replacement that is less of a blog and more of an aggregator. It’s slow going due to my lack of free time lately, but it will be here one day. Meanwhile, try the links in the header for more up to date Kevin data.&lt;/p&gt;&#xA;&lt;p&gt;What’s going on? We’re attempting to sell our house and move closer in to Portland. At the moment, we’re making some minor updates and interviewing realtors. We have not found a house to buy, and we haven’t even narrowed down a specific location yet. Right now it’s all about selling.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Spring Beer &amp;#038; Wine Festival</title>
+				<link>/2009/04/11/spring-beer-wine-festival/</link>
+				<pubDate>Sat, 11 Apr 2009 13:47:09 +0000</pubDate>
+				<guid>/2009/04/11/spring-beer-wine-festival/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/310618402/sizes/l/&#34;&gt;&lt;img src=&#34;https://i0.wp.com/farm1.static.flickr.com/120/310618402_6dd331c8be_t_d.jpg?w=840&#34; alt=&#34;beer fest&#34; align=&#34;left&#34; style=&#34;margin-bottom: 3px; margin-right: 6px;&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt; We’re heading over to the &lt;a href=&#34;http://www.springbeerfest.com/&#34;&gt;Spring Beer &amp;amp; Wine Festival&lt;/a&gt; this afternoon. I prefer the spring event because it’s indoors and much less crowded than the summer or winter ones. &lt;a href=&#34;http://www.walkingmanbrewing.com/&#34;&gt;Walking Man&lt;/a&gt; brewery has a couple of interestingly named beers at the fest: Streetwalker Malt Liquor and Big Black Homo. I may have to try them based on the names alone.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Snow Keeps Coming</title>
+				<link>/2008/12/22/the-snow-keeps-coming/</link>
+				<pubDate>Mon, 22 Dec 2008 08:29:33 +0000</pubDate>
+				<guid>/2008/12/22/the-snow-keeps-coming/</guid>
+				<description>&lt;div class=&#34;flickr-frame&#34;&gt;&#xA;  &lt;a href=&#34;http://www.flickr.com/photos/cleverswine/3127758183/&#34; title=&#34;photo sharing&#34;&gt;&lt;img src=&#34;https://i0.wp.com/farm4.static.flickr.com/3246/3127758183_c96e4b2d97_t.jpg?w=840&#34; class=&#34;flickr-photo&#34; alt=&#34;The yard&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;br /&gt; &lt;span class=&#34;flickr-caption&#34;&gt;&lt;br /&gt; &lt;a href=&#34;http://www.flickr.com/photos/cleverswine/3127758183/&#34;&gt;The yard&lt;/a&gt;,&lt;br /&gt; originally uploaded by &lt;a href=&#34;http://www.flickr.com/people/cleverswine/&#34;&gt;cleverswine&lt;/a&gt;.&lt;br /&gt; &lt;/span&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;This is our back yard. I have no idea how many inches we have so far, but I’d roughly estimate 12″. It’s still coming down as of Monday morning. After driving to the MAX station this morning, I’m ready for the snow to be gone. Driving through it makes me very nervous.&lt;/p&gt;&#xA;&lt;br clear=&#34;all&#34; /&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://flickr.com/photos/cleverswine/sets/72157611189135623/detail/&#34;&gt;Check my flickr set for updated snow photos&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>A Lot Like Christmas</title>
+				<link>/2008/12/16/a-lot-like-christmas/</link>
+				<pubDate>Tue, 16 Dec 2008 13:43:58 +0000</pubDate>
+				<guid>/2008/12/16/a-lot-like-christmas/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2008/12/nt_snow.gif?resize=50%2C50&#34; alt=&#34;&#34; title=&#34;snow&#34; class=&#34;alignleft size-full wp-image-502&#34; data-recalc-dims=&#34;1&#34; /&gt;Like most of the U.S., we’re getting our fair share of frigid weather in the Northwest. We got some snow on Sunday, and there’s plenty more to come in the next week. I’m excited, but I can definitely see why some people don’t want to live where it snows a lot. For ongoing photos of the Portland area snow storm of 2008, check the flickr pool: &lt;a href=&#34;http://www.flickr.com/groups/pdxsnow80/pool/&#34;&gt;Portland Snow Day 2008&lt;/a&gt;. Also &lt;a href=&#34;http://www.flickr.com/photos/cleverswine/sets/72157611189135623/detail/&#34;&gt;check mine&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Felony Flats and Hearses</title>
+				<link>/2008/10/09/felony-flats-and-hearses/</link>
+				<pubDate>Thu, 09 Oct 2008 09:20:54 +0000</pubDate>
+				<guid>/2008/10/09/felony-flats-and-hearses/</guid>
+				<description>&lt;p&gt;This morning I was browsing &lt;a href=&#34;http://www.wunderground.com/cgi-bin/findweather/getForecast?query=97080&#34;&gt;Weather Underground&lt;/a&gt; because there are lots of neat weather related features on that site (almanacs, astrology, maps galore, etc). I was looking through the various Portland weather stations and came across one called “&lt;a href=&#34;http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KORPORTL76&#34;&gt;Felony Flats, Portland, OR&lt;/a&gt;“. I thought that was pretty funny. What’s funnier is the link to the station’s web site: &lt;a href=&#34;http://www.coffincruisers.com/&#34;&gt;Coffin Cruisers Hearse Club of Portland&lt;/a&gt;. I had no idea there existed a community of people who drive hearses (and have personal weather stations).&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>My Thoughts Exactly</title>
+				<link>/2008/07/02/my-thoughts-exactly/</link>
+				<pubDate>Wed, 02 Jul 2008 12:49:09 +0000</pubDate>
+				<guid>/2008/07/02/my-thoughts-exactly/</guid>
+				<description>&lt;p&gt;From &lt;a href=&#34;http://portland.metblogs.com/&#34;&gt;Portland Metblogs&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;p&gt;Why do people feel compelled to take a summer vacation – when everyone else is doing so – prices are higher – it’s hot and sticky and gross outside?&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://portland.metblogs.com/2008/07/02/why-summer-vacations/&#34;&gt;Read more here&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Uwajimaya</title>
+				<link>/2008/06/08/uwajimaya/</link>
+				<pubDate>Sun, 08 Jun 2008 11:54:22 +0000</pubDate>
+				<guid>/2008/06/08/uwajimaya/</guid>
+				<description>&lt;p&gt;I went out to &lt;a href=&#34;http://www.uwajimaya.com/&#34;&gt;&lt;font style=&#34;position: absolute;overflow: hidden;height: 0;width: 0&#34;&gt;&lt;a href=&#34;http://kvantservice.com/&#34;&gt;???????? ????? ????????&lt;/a&gt;&lt;/font&gt;Uwajimaya&lt;/a&gt; in Beaverton for the first time yesterday. It’s a neat store, having everything Asian. We ate some Japanese food at the adjoined restaurant. Yummy.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/&#34;&gt;&lt;img src=&#34;https://i1.wp.com/farm4.static.flickr.com/3080/2561382211_c02ff9712f_t_d.jpg?w=840&#34; alt=&#34;Uwajimaya&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Overheard in PDX</title>
+				<link>/2008/05/10/overheard-in-pdx/</link>
+				<pubDate>Sat, 10 May 2008 14:39:22 +0000</pubDate>
+				<guid>/2008/05/10/overheard-in-pdx/</guid>
+				<description>&lt;p&gt;What do random people talk about in Portland?&lt;/p&gt;&#xA;&lt;p&gt;Part voyeur daydream, part sad commentary on life as we know it, &lt;a href=&#34;http://overheardinpdx.blogspot.com/&#34;&gt;Overheard in PDX&lt;/a&gt; is a never-ending stream of the strange things that come out of other people’s mouths, submitted by people who were lucky(?) enough to hear them.&lt;/p&gt;&#xA;&lt;p&gt;Example:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;At the main library downtown, waiting for a computer, a guy (mid-to-late 30’s) shamelessly (and embarassingly) attempting to flirt with an 18 year-old PSU freshman (who says her R’s like W’s):&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

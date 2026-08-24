@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="map[]">
-    <meta name="generator" content="Hugo 0.72.0" />
+    <meta name="author" content="Kevin Noone">
+    <meta name="generator" content="Hugo 0.165.0" />
     <title>noone.dev</title>
     <link rel='stylesheet' href='/styles/main.css'>
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css" type="text/css">
@@ -37,12 +37,12 @@
 <sub>April 27, 2012</sub>
 <hr />
 <div>
-    <p>FizzBuzz: <em>Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”. <!-- raw HTML omitted -->Reference<!-- raw HTML omitted --></em></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<blockquote>
-</blockquote>
-
+    <p>FizzBuzz: <em>Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”. <a href="http://www.codinghorror.com/blog/2007/02/why-cant-programmers-program.html" target="_blank">Reference</a></em></p>
+<pre lang="csharp">Console.WriteLine(String.Join(Environment.NewLine, Enumerable.Range(1, 100)
+    .Select(i => (i % 3 == 0) ? new { n = i, w = "Fizz" } : new { n = i, w = "" })
+    .Select(o => (o.n % 5 == 0) ? new { n = o.n, w = o.w + "Buzz" } : o)
+    .Select(o => o.w == "" ? o.n.ToString() : o.w)));
+</pre>
 </div>
 
     <p style="margin-top: 1.8em;">

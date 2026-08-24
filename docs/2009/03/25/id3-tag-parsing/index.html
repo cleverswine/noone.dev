@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="map[]">
-    <meta name="generator" content="Hugo 0.72.0" />
+    <meta name="author" content="Kevin Noone">
+    <meta name="generator" content="Hugo 0.165.0" />
     <title>noone.dev</title>
     <link rel='stylesheet' href='/styles/main.css'>
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css" type="text/css">
@@ -38,10 +38,10 @@
 <hr />
 <div>
     <p>I’ve been working on a project to read and update <a href="http://www.id3.org/Home">ID3 tags</a> on my music collection. An ID3 tag is the meta data embedded in mp3 files that contains artist and other information. My initial goal is to batch update the “genre” field in my mp3 files. I’ve written a simple .Net forms application to do this. I found a really good library created by Novell called <a href="http://developer.novell.com/wiki/index.php/TagLib_Sharp">TagLib Sharp</a>. The library makes it super easy to read and write ID3 tags.</p>
-<p><code>&lt;br /&gt; TagLib.File tagFile = TagLib.File.Create(filePath);&lt;br /&gt; Tag tagId3v2 = tagFile.GetTag(TagTypes.Id3v2);&lt;br /&gt; if (tagId3v2 != null) tagId3v2.Genres = genreArray;&lt;br /&gt; Tag tagId3v1 = tagFile.GetTag(TagTypes.Id3v1);&lt;br /&gt; if (tagId3v1 != null) tagId3v1.Genres = genreArray;&lt;br /&gt; tagFile.Save();&lt;br /&gt;</code></p>
+<p><code>&lt;br /&gt; TagLib.File tagFile = TagLib.File.Create(filePath);&lt;br /&gt; Tag tagId3v2 = tagFile.GetTag(TagTypes.Id3v2);&lt;br /&gt; if (tagId3v2 != null) tagId3v2.Genres = genreArray;&lt;br /&gt; Tag tagId3v1 = tagFile.GetTag(TagTypes.Id3v1);&lt;br /&gt; if (tagId3v1 != null) tagId3v1.Genres = genreArray;&lt;br /&gt; tagFile.Save();&lt;br /&gt; </code></p>
 <p>The UI is pretty lame, but it works…</p>
-<p><a href="http://www.flickr.com/photos/cleverswine/3388496248/sizes/o/"><!-- raw HTML omitted --></a></p>
-<p><a href="http://www.flickr.com/photos/cleverswine/3388496280/sizes/o/"><!-- raw HTML omitted --></a></p>
+<p><a href="http://www.flickr.com/photos/cleverswine/3388496248/sizes/o/"><img src="https://i0.wp.com/farm4.static.flickr.com/3537/3388496248_76046f444e_m_d.jpg?w=840" alt="tagger" data-recalc-dims="1" /></a></p>
+<p><a href="http://www.flickr.com/photos/cleverswine/3388496280/sizes/o/"><img src="https://i0.wp.com/farm4.static.flickr.com/3471/3388496280_11c16fdeb1_m_d.jpg?w=840" alt="tagger" data-recalc-dims="1" /></a></p>
 
 </div>
 

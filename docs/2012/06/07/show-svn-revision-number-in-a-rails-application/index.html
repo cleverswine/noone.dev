@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="map[]">
-    <meta name="generator" content="Hugo 0.72.0" />
+    <meta name="author" content="Kevin Noone">
+    <meta name="generator" content="Hugo 0.165.0" />
     <title>noone.dev</title>
     <link rel='stylesheet' href='/styles/main.css'>
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css" type="text/css">
@@ -37,16 +37,17 @@
 <sub>June 7, 2012</sub>
 <hr />
 <div>
-    <p>This is a hack to display the Subversion revision in a Rails application using <!-- raw HTML omitted -->Capistrano<!-- raw HTML omitted --> to insert the current revision number on each deploy.</p>
+    <p>This is a hack to display the Subversion revision in a Rails application using <a href="http://capify.org" title="Capistrano" target="_blank">Capistrano</a> to insert the current revision number on each deploy.</p>
 <p>Create a partial that will contain the revision number. For example, _~/app/views/layouts/<em>revision.html.erb</em>. You can put anything in that file, as it will be overwritten by Capistrano on each deploy. The word “Development” or “Current” seems a good choice.</p>
 <p>In the page where you want to display the revision number (probably in the application layout), render the partial. In development mode, you’ll see something like “version 1.0.Development”. In your deployment environment, you’ll see the SVN revision number, like so: “version 1.0.504”.</p>
-<!-- raw HTML omitted -->
+<pre lang="ruby">version 1.0.&lt;%=render :partial => 'layouts/revision'%></pre>
 <p>To set up Capistrano, edit the <em>~/config/deploy.rb</em> file (assuming you are already using Capistrano for deployments). Add a task to get the SVN version and write that to your revision partial. For some reason, pointing to the “/current” directory doesn’t work – probably because of the way Capistrano links directories. Therefore, just point SVN to any subdirectory or file to get the version.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<pre lang="ruby">desc "Write current revision to app/layouts/_revision.rhtml"
+task :publish_revision do
+  run "svnversion #{deploy_to}/current/app > #{deploy_to}/current/app/views/layouts/_revision.html.erb"
+end</pre>
 <p>And tell Capistrano to run this task just before restarting the application:</p>
-<!-- raw HTML omitted -->
-
+<pre lang="ruby">before 'deploy:restart', 'publish_revision'</pre>
 </div>
 
     <p style="margin-top: 1.8em;">

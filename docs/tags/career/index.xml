@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Career on noone.dev</title>
-    <link>/tags/career/</link>
-    <description>Recent content in Career on noone.dev</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 23 Feb 2009 12:04:58 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/career/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Some Notes on Job Searching</title>
-      <link>/2009/02/23/some-notes-on-job-searching/</link>
-      <pubDate>Mon, 23 Feb 2009 12:04:58 +0000</pubDate>
-      
-      <guid>/2009/02/23/some-notes-on-job-searching/</guid>
-      <description>I’ve recently been thinking about how I can improve my job search tactics. There are tons of web sites out there with great advice for job seekers, and some things are just obvious. I’ve decided to jot down some random, and not so random, thoughts of my own about the process (with a focus on the tech industry).
-Resources
-Where to find job openings…
-I’ve actually found the most promising job opportunities on Craigslist.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Career on noone.dev</title>
+		<link>/tags/career/</link>
+		<description>Recent content in Career on noone.dev</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 23 Feb 2009 12:04:58 +0000</lastBuildDate>
+		
+			<atom:link href="/tags/career/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Some Notes on Job Searching</title>
+				<link>/2009/02/23/some-notes-on-job-searching/</link>
+				<pubDate>Mon, 23 Feb 2009 12:04:58 +0000</pubDate>
+				<guid>/2009/02/23/some-notes-on-job-searching/</guid>
+				<description>&lt;p&gt;I’ve recently been thinking about how I can improve my job search tactics. There are &lt;a href=&#34;http://www.google.com/search?q=job+search+advice&#34;&gt;tons of web sites&lt;/a&gt; out there with great advice for job seekers, and some things are just obvious. I’ve decided to jot down some random, and not so random, thoughts of my own about the process (with a focus on the tech industry).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Where to find job openings…&lt;/p&gt;&#xA;&lt;p&gt;I’ve actually found the most promising job opportunities on &lt;a href=&#34;http://portland.craigslist.org/sof/&#34;&gt;Craigslist&lt;/a&gt;. By “most promising,” I mean companies with exciting products, cutting edge technology, and fun work environments. My second go to site is &lt;a href=&#34;http://www.indeed.com/&#34;&gt;Indeed.com&lt;/a&gt;. Indeed is a job aggregater that pulls in job postings from thousands of different sites. I’ve found it to be the most complete listing of jobs out there. &lt;a href=&#34;http://www.simplyhired.com/&#34;&gt;SimplyHired.com&lt;/a&gt; is another aggregater that I use daily. It’s results vary slightly from Indeed, so I use them both.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
