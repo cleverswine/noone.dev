@@ -27,15 +27,22 @@
         li.active {
             border-bottom: 1px solid yellow;
         }
+
+        nav a {
+            margin-right: 1em;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Kevin Noone</h1>
+    <h1><a href="/">Kevin Noone</a></h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/archives/">Archives</a>
+    </nav>
     <hr/>
-<h3><a href="/2012/03/09/jquery-autocomplete-and-rails/">jQuery Autocomplete and Rails</a></h3>
-<sub>March 9, 2012</sub>
-<hr />
+<h3>jQuery Autocomplete and Rails</h3>
 <div>
     <p>This is an example of how I used the <a href="http://jqueryui.com/demos/autocomplete/" target="_blank">jQuery Automcomplete Widget</a> with Rails 3.2 for a recipe search field. Some of the jQuery stuff mentioned below is included out of the box with a new Rails application.</p>
 <ul>

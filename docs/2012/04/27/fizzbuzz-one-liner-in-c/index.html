@@ -27,15 +27,22 @@
         li.active {
             border-bottom: 1px solid yellow;
         }
+
+        nav a {
+            margin-right: 1em;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Kevin Noone</h1>
+    <h1><a href="/">Kevin Noone</a></h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/archives/">Archives</a>
+    </nav>
     <hr/>
-<h3><a href="/2012/04/27/fizzbuzz-one-liner-in-c/">FizzBuzz one-liner in C#</a></h3>
-<sub>April 27, 2012</sub>
-<hr />
+<h3>FizzBuzz one-liner in C#</h3>
 <div>
     <p>FizzBuzz: <em>Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”. <a href="http://www.codinghorror.com/blog/2007/02/why-cant-programmers-program.html" target="_blank">Reference</a></em></p>
 <pre lang="csharp">Console.WriteLine(String.Join(Environment.NewLine, Enumerable.Range(1, 100)

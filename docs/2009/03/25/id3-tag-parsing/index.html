@@ -27,15 +27,22 @@
         li.active {
             border-bottom: 1px solid yellow;
         }
+
+        nav a {
+            margin-right: 1em;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Kevin Noone</h1>
+    <h1><a href="/">Kevin Noone</a></h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/archives/">Archives</a>
+    </nav>
     <hr/>
-<h3><a href="/2009/03/25/id3-tag-parsing/">ID3 Tag Parsing</a></h3>
-<sub>March 25, 2009</sub>
-<hr />
+<h3>ID3 Tag Parsing</h3>
 <div>
     <p>I’ve been working on a project to read and update <a href="http://www.id3.org/Home">ID3 tags</a> on my music collection. An ID3 tag is the meta data embedded in mp3 files that contains artist and other information. My initial goal is to batch update the “genre” field in my mp3 files. I’ve written a simple .Net forms application to do this. I found a really good library created by Novell called <a href="http://developer.novell.com/wiki/index.php/TagLib_Sharp">TagLib Sharp</a>. The library makes it super easy to read and write ID3 tags.</p>
 <p><code>&lt;br /&gt; TagLib.File tagFile = TagLib.File.Create(filePath);&lt;br /&gt; Tag tagId3v2 = tagFile.GetTag(TagTypes.Id3v2);&lt;br /&gt; if (tagId3v2 != null) tagId3v2.Genres = genreArray;&lt;br /&gt; Tag tagId3v1 = tagFile.GetTag(TagTypes.Id3v1);&lt;br /&gt; if (tagId3v1 != null) tagId3v1.Genres = genreArray;&lt;br /&gt; tagFile.Save();&lt;br /&gt; </code></p>

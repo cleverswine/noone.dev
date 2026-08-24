@@ -27,15 +27,22 @@
         li.active {
             border-bottom: 1px solid yellow;
         }
+
+        nav a {
+            margin-right: 1em;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Kevin Noone</h1>
+    <h1><a href="/">Kevin Noone</a></h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/archives/">Archives</a>
+    </nav>
     <hr/>
-<h3><a href="/posts/authorization-flow-cli/">Authorization Flow with a CLI</a></h3>
-<sub>June 18, 2020</sub>
-<hr />
+<h3>Authorization Flow with a CLI</h3>
 <div>
     <p>When calling a public API on behalf of a user, you&rsquo;ll often need to use the <a href="https://tools.ietf.org/html/rfc6749#section-4.1">Authorization Code Flow</a> to get a token to use on the API calls. This flow invloves redirecting the user to the authorization server where they will sign in and give consent for your application to access the requested resources (scopes).</p>
 <p>From a command-line application, we don&rsquo;t have a web page to do this redirect flow. What we can do is start up a simple web server and present the user with a URL to visit. When the authorization server redirects back to our simple web server, we can handle the authorization code exchange.</p>

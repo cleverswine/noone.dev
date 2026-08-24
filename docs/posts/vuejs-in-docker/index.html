@@ -27,15 +27,22 @@
         li.active {
             border-bottom: 1px solid yellow;
         }
+
+        nav a {
+            margin-right: 1em;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Kevin Noone</h1>
+    <h1><a href="/">Kevin Noone</a></h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/archives/">Archives</a>
+    </nav>
     <hr/>
-<h3><a href="/posts/vuejs-in-docker/">Vue.js in Docker</a></h3>
-<sub>August 13, 2019</sub>
-<hr />
+<h3>Vue.js in Docker</h3>
 <div>
     <p>This post will show how to create a simple <a href="https://vuejs.org/">Vue.js</a> single page application and host it in a docker container.</p>
 <h2 id="create-the-application">Create the application</h2>

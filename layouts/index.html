@@ -1,41 +1,14 @@
 {{ define "main" }}
-<h3>About Me</h3>
-<p>Software Engineer in Portland, Oregon, USA</p>
-<p>
-    I am a full stack senior software engineer with extensive experience in all aspects of enterprise-level software development. 
-    Most of my programming experience has been with C# on the .NET framework. 
-    In recent years, however, I have experience working with <a href="http://golang.org/">Go</a>, <a href="https://www.microsoft.com/net/">.NET Core</a>, and <a href="https://spark.apache.org/">Spark</a> with <a href="https://www.scala-lang.org/">Scala</a>. 
-</p>
-<h3>Skills</h3>
-<p>I would consider my specialties to be:</p>
-<ul>
-    <li>RESTful APIs</li>
-    <li>Authentication and Authorization (oauth)</li>
-    <li>General-purpose Services</li>
-    <li>Systems Integration</li>
-    <li>Microservices Infrastructures</li>
-    <li>Continuous Integration and Continuous Deployment</li>
-</ul>
-<p>I have worked extensively with the following technologies:</p>
-<ul>
-    <li><a href="https://www.microsoft.com/net/">.NET Core</a></li>
-    <li><a href="https://kubernetes.io/">Kubernetes</a></li>
-    <li><a href="https://helm.sh/">Helm</a></li>
-    <li><a href="https://www.docker.com/">Docker</a></li>
-    <li><a href="https://cloud.google.com">Google Cloud</a></li>
-    <li><a href="https://azure.microsoft.com">Microsoft Azure</a></li>
-    <li><a href="https://www.microsoft.com/en-us/sql-server/default.aspx">SQL Server</a>, <a href="https://www.postgresql.org/">PostgreSQL</a></li>
-    <li><a href="https://www.rabbitmq.com/">RabbitMQ</a></li>
-    <li><a href="https://identityserver4.readthedocs.io/en/release/">IdentityServer</a></li>
-    <li><a href="https://hadoop.apache.org/">Hadoop Ecosystem</a> (<a href="https://www.cloudera.com/products/open-source/apache-hadoop.html">Cloudera</a>)</li>
-</ul>
-<p>Additionally, I have plenty of experience with frontend technologies such as:</p>
-<ul>
-    <li>Vue.js</li>
-    <li>Angular</li>
-    <li>css, less, sass, js, and html</li>
-    <li>frontend tools such as yarn, npm, gulp, and bower</li>
-</ul>
-<p>See <a href="https://www.linkedin.com/in/kevinnoone/">LinkedIn</a> for more details about my experience.</p>
-<p>Thanks for reading!</p>
+<h3>Posts</h3>
+{{ $posts := where .Site.RegularPages "Section" "posts" }}
+{{ $paginator := .Paginate $posts }}
+{{ range $paginator.Pages }}
+<article style="margin-bottom: 2em;">
+    <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+    <sub>{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</sub>
+    {{ .Summary }}
+</article>
+{{ end }}
+
+{{ template "_internal/pagination.html" . }}
 {{ end }}

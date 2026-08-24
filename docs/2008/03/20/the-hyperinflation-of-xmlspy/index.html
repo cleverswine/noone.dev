@@ -27,15 +27,22 @@
         li.active {
             border-bottom: 1px solid yellow;
         }
+
+        nav a {
+            margin-right: 1em;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Kevin Noone</h1>
+    <h1><a href="/">Kevin Noone</a></h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/archives/">Archives</a>
+    </nav>
     <hr/>
-<h3><a href="/2008/03/20/the-hyperinflation-of-xmlspy/">The Hyperinflation of XMLSpy</a></h3>
-<sub>March 20, 2008</sub>
-<hr />
+<h3>The Hyperinflation of XMLSpy</h3>
 <div>
     <p>Just a couple of days ago, I was using <a href="https://shop.altova.com/category.asp?category_name=XMLSPY">XMLSpy</a> at work to do some test XSLT transformations. Our XSL templates here at work are pretty complex, with a few xsl:include tags to import common code. After trying for nearly a day to get XMLSpy to render my transformations, I gave up. I tried every available rendering engine, I tried inserting all of the included code into one file, I tried simplifying the XML – all to no avail. I finally wrote a small C# program to do the transformation, which worked much better than XMLSpy. I’m writing this because <a href="http://www.yafla.com/dforbes/The_Hyperinflation_Of_XMLSpy/">I just came across a story</a> about the ever-increasing price of XMLSpy. I have wondered myself why it’s so expensive, but large companies seem to be willing to dish out the dollars.</p>
 <blockquote>

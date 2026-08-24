@@ -1,8 +1,10 @@
 baseURL = "/"
 locale = "en-US"
 title = "noone.dev"
-paginate = 12
 publishDir = "docs"
+
+[pagination]
+pagerSize = 12
 
 [params]
 author = "Kevin Noone"

@@ -27,15 +27,22 @@
         li.active {
             border-bottom: 1px solid yellow;
         }
+
+        nav a {
+            margin-right: 1em;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Kevin Noone</h1>
+    <h1><a href="/">Kevin Noone</a></h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/archives/">Archives</a>
+    </nav>
     <hr/>
-<h3><a href="/2011/03/08/mvc3-mongodb-autofac/">MVC3 &#43; MongoDB &#43; Autofac</a></h3>
-<sub>March 8, 2011</sub>
-<hr />
+<h3>MVC3 &#43; MongoDB &#43; Autofac</h3>
 <div>
     <p>I recently posted a <a href="http://blog.cleverswine.net/2011/03/08/a-diet-and-an-application/">brief summary</a> of creating a recipe database.  I decided to expand on that and go into the implementation details of using ASP.NET MVC3 with MongoDB and Autofac.  This code depends on the <a href="https://github.com/atheken/NoRM">NoRM</a> driver for <a href="http://www.mongodb.org/">MongoDB</a>, <a href="http://code.google.com/p/autofac/">Autofac</a>, and <a href="http://www.asp.net/mvc">MVC3</a> (and it’s dependencies). This is by no means the only (or best) way to do things, but this is how I chose to do it.  I’ve simplified the repository to one method for brevity, but you’d obviously want to add all of the required CRUD operations.</p>
 <p>First, we’ll want to create an interface for our database session.  The implementation of this interface can be swapped out depending on the backing store.</p>
