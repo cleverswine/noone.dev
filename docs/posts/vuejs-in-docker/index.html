@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="map[]">
-    <meta name="generator" content="Hugo 0.72.0" />
+    <meta name="author" content="Kevin Noone">
+    <meta name="generator" content="Hugo 0.165.0" />
     <title>noone.dev</title>
     <link rel='stylesheet' href='/styles/main.css'>
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css" type="text/css">
@@ -40,32 +40,32 @@
     <p>This post will show how to create a simple <a href="https://vuejs.org/">Vue.js</a> single page application and host it in a docker container.</p>
 <h2 id="create-the-application">Create the application</h2>
 <p>Install the Vue command line interface (cli) <a href="https://cli.vuejs.org/guide/#cli">from here</a>. I&rsquo;ll be using yarn for this example..</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">yarn global add @vue/cli</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>yarn global add @vue/cli</span></span></code></pre></div>
 <p>Create a new hello-world application and change into the application&rsquo;s folder.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># this places the new application in a ./hello-world folder</span>
-vue create hello-world
-cd hello-world
-yarn install</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># this places the new application in a ./hello-world folder</span>
+</span></span><span style="display:flex;"><span>vue create hello-world
+</span></span><span style="display:flex;"><span>cd hello-world
+</span></span><span style="display:flex;"><span>yarn install</span></span></code></pre></div>
 <h2 id="build-a-docker-image">Build a Docker image</h2>
 <p>Now that we have a working Vue.js application, we can put it in a container and serve it up using <a href="https://www.nginx.com/">nginx</a>.</p>
 <p>We&rsquo;ll use a <a href="https://docs.docker.com/develop/develop-images/multistage-build/">multi-stage</a> docker build to first build the application and the serve it.</p>
 <p>Create a file called &ldquo;Dockerfile&rdquo; in the root directory of your project. It should look like this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">FROM node
-WORKDIR /app
-COPY package.json ./
-COPY yarn.lock ./
-RUN yarn install
-COPY . .
-RUN yarn build
-
-FROM nginx
-COPY --from=0 /app/dist /usr/share/nginx/html
-EXPOSE 80
-CMD [&#34;nginx&#34;, &#34;-g&#34;, &#34;daemon off;&#34;]</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>FROM node
+</span></span><span style="display:flex;"><span>WORKDIR /app
+</span></span><span style="display:flex;"><span>COPY package.json ./
+</span></span><span style="display:flex;"><span>COPY yarn.lock ./
+</span></span><span style="display:flex;"><span>RUN yarn install
+</span></span><span style="display:flex;"><span>COPY . .
+</span></span><span style="display:flex;"><span>RUN yarn build
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>FROM nginx
+</span></span><span style="display:flex;"><span>COPY --from=0 /app/dist /usr/share/nginx/html
+</span></span><span style="display:flex;"><span>EXPOSE 80
+</span></span><span style="display:flex;"><span>CMD [&#34;nginx&#34;, &#34;-g&#34;, &#34;daemon off;&#34;]</span></span></code></pre></div>
 <p>After creating the Dockerfile, build the image.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker build -t hello-world .</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker build -t hello-world .</span></span></code></pre></div>
 <p>Now you can run a container with you application. Notice the exposed port 8080 that allows your application to be reached on that port.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker run -d -p 8080:80 --name hello-world hello-world</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker run -d -p 8080:80 --name hello-world hello-world</span></span></code></pre></div>
 <p>You should be able to access your application at http://localhost:8080</p>
 <h2 id="reference">Reference</h2>
 <p><a href="https://vuejs.org/v2/cookbook/dockerize-vuejs-app.html">Dockerize Vue.js App</a></p>

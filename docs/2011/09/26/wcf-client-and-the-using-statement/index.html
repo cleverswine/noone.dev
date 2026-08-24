@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="map[]">
-    <meta name="generator" content="Hugo 0.72.0" />
+    <meta name="author" content="Kevin Noone">
+    <meta name="generator" content="Hugo 0.165.0" />
     <title>noone.dev</title>
     <link rel='stylesheet' href='/styles/main.css'>
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css" type="text/css">
@@ -37,14 +37,58 @@
 <sub>September 26, 2011</sub>
 <hr />
 <div>
-    <p>As I was researching patterns and practices for a WCF client implementation, I came across a bug in the .Net implementation of ClientBase<!-- raw HTML omitted --> (whether it’s actually a bug is arguable). It’s well documented on the web, but it could cause major headaches if you happened to miss it.</p>
-<p>The core of the issue is that ClientBase<!-- raw HTML omitted --> implements IDisposable. With this knowledge, just about any programmer would naturally wrap its usage in a using{} block. Digging deeper, you’ll find that the ClientBase<!-- raw HTML omitted --> Dispose() method simply calls Close() on the underlying connection. This is problematic because in certain connection states (such as “Faulted”), the Close() will fail. As I said, this is well documented elsewhere, for example: <!-- raw HTML omitted -->on MSDN<!-- raw HTML omitted -->, <!-- raw HTML omitted -->Stack Overflow<!-- raw HTML omitted -->, and <!-- raw HTML omitted -->here<!-- raw HTML omitted -->.</p>
+    <p>As I was researching patterns and practices for a WCF client implementation, I came across a bug in the .Net implementation of ClientBase<T> (whether it’s actually a bug is arguable). It’s well documented on the web, but it could cause major headaches if you happened to miss it.</p>
+<p>The core of the issue is that ClientBase<T> implements IDisposable. With this knowledge, just about any programmer would naturally wrap its usage in a using{} block. Digging deeper, you’ll find that the ClientBase<T> Dispose() method simply calls Close() on the underlying connection. This is problematic because in certain connection states (such as “Faulted”), the Close() will fail. As I said, this is well documented elsewhere, for example: <a title="Avoiding Problems with the Using Statement" href="http://msdn.microsoft.com/en-us/library/aa355056.aspx" target="_blank">on MSDN</a>, <a href="http://stackoverflow.com/questions/573872/what-is-the-best-workaround-for-the-wcf-client-using-block-issue" title="What is the best workaround for the WCF client `using` block issue?" target="_blank">Stack Overflow</a>, and <a href="http://blogs.msdn.com/b/jjameson/archive/2010/03/18/avoiding-problems-with-the-using-statement-and-wcf-service-proxies.aspx" title="Avoiding Problems with the Using Statement and WCF Service Proxies" target="_blank">here</a>.</p>
 <p>There are a few different solutions to this issue. I went with a simple Disposable wrapper…</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<blockquote>
-</blockquote>
+<pre lang="csharp">// Get a disposable MyClientWrapper object
+using(var clientWrapper = ClientFactory.GetMyClientWrapper())
+{
+    clientWrapper.Client.DoSomething();
+}
 
+public class MyClientWrapper : IDisposable
+{
+    private readonly MyClient _client;
+
+    public MyClientWrapper(Binding binding, Uri endpoint)
+    {
+        // creates an instance of MyClient, which is derived from ClientBase&lt;T>
+        _client = new MyClient(binding, new EndpointAddress(endpoint.ToString()));
+    }
+
+    public MyClient Client
+    {
+        get { return _client; }
+    }
+
+    public void Dispose()
+    {
+        // safe dispose with extension method (below)
+        _client.CloseProxy();
+    }
+}
+
+// extension method for safe Close() on ClientBase&lt;T>
+public static void CloseProxy(this ClientBase&lt;T> proxy) where T : class
+{
+    try
+    {
+        if (proxy.State != CommunicationState.Closed 
+                && proxy.State != CommunicationState.Faulted)
+        {
+            proxy.Close(); // may throw exception while closing
+        }
+        else
+        {
+            proxy.Abort();
+        }
+    }
+    catch (CommunicationException)
+    {
+        proxy.Abort();
+        throw;
+    }
+}</pre>
 </div>
 
     <p style="margin-top: 1.8em;">

@@ -1,6 +1,0 @@
-baseURL = "/"
-languageCode = "en-us"
-title = "noone.dev"
-paginate = 12
-publishDir = "docs"
-pygmentscodefences  = true

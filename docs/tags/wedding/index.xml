@@ -1,174 +1,129 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Wedding on noone.dev</title>
-    <link>/tags/wedding/</link>
-    <description>Recent content in Wedding on noone.dev</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 21 Sep 2008 09:07:07 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/wedding/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Wedding Photos</title>
-      <link>/2008/09/21/wedding-photos/</link>
-      <pubDate>Sun, 21 Sep 2008 09:07:07 +0000</pubDate>
-      
-      <guid>/2008/09/21/wedding-photos/</guid>
-      <description>I’ve uploaded a handful of wedding photos. We still have hundreds to go through, so many more will be coming soon.
-[
-](http://flickr.com/photos/cleverswine/collections/72157607331799917/)</description>
-    </item>
-    
-    <item>
-      <title>Wedding Photos Coming Soon</title>
-      <link>/2008/09/16/wedding-photos-coming-soon/</link>
-      <pubDate>Tue, 16 Sep 2008 13:54:54 +0000</pubDate>
-      
-      <guid>/2008/09/16/wedding-photos-coming-soon/</guid>
-      <description>I’m working on getting all of the good wedding photos online for your viewing pleasure. I’m not sure whether I’ll use Flickr or if I’ll install a photo gallery application to the wedding web site. I’m leaning towards Flickr at this point, as I just installed “Gallery”, which is nice, but sort of a pain to set up and it’s a tad slow.</description>
-    </item>
-    
-    <item>
-      <title>I&amp;#8217;m Married</title>
-      <link>/2008/09/08/im-married/</link>
-      <pubDate>Mon, 08 Sep 2008 15:05:43 +0000</pubDate>
-      
-      <guid>/2008/09/08/im-married/</guid>
-      <description>Yay!</description>
-    </item>
-    
-    <item>
-      <title>Rehearsal Dinner</title>
-      <link>/2008/09/05/rehearsal-dinner/</link>
-      <pubDate>Fri, 05 Sep 2008 22:33:18 +0000</pubDate>
-      
-      <guid>/2008/09/05/rehearsal-dinner/</guid>
-      <description>We had a lovely rehearsal dinner last night at Bryant Station in downtown Gresham. We had guests from Texas, Missouri, and Okinawa.</description>
-    </item>
-    
-    <item>
-      <title>Wedding Web Site</title>
-      <link>/2008/08/12/wedding-web-site/</link>
-      <pubDate>Tue, 12 Aug 2008 12:32:23 +0000</pubDate>
-      
-      <guid>/2008/08/12/wedding-web-site/</guid>
-      <description>If anyone is wondering why they can’t find our wedding web site via this page, it’s because I purposely do not link to it from this page. If I were to put a link to that web site from here, the search engines would crawl and index it, which means that anyone in the world could easily find and visit our private wedding site. As a result, spammers would start posting comments, evil people would know all of our personal details, etc.</description>
-    </item>
-    
-    <item>
-      <title>Weight Loss Truths</title>
-      <link>/2008/08/11/weight-loss-truths/</link>
-      <pubDate>Mon, 11 Aug 2008 12:23:43 +0000</pubDate>
-      
-      <guid>/2008/08/11/weight-loss-truths/</guid>
-      <description>The truth hurts. I’ve been trying to lose weight for 8 months now, and I’ve lost nothing. None of these truths are surprising, yet I’ve ignored almost all of them. I will be pleasantly plump for my wedding.
-  You have to exercise more than you think. [I have to do what!?]
-  A half-hour walk doesn’t equal a brownie. [Doh!]
-  See the rest here.</description>
-    </item>
-    
-    <item>
-      <title>Bridal Veil</title>
-      <link>/2008/07/05/bridal-veil/</link>
-      <pubDate>Sat, 05 Jul 2008 17:07:46 +0000</pubDate>
-      
-      <guid>/2008/07/05/bridal-veil/</guid>
-      <description>Went mailed off our wedding invitations from Bridal Veil, Oregon today. They have a tiny post office that has come to cater to the postal needs of wedding parties. After dropping off the invitations, we took a small hike around the Bridal Veil waterfall. Photos on flickr.</description>
-    </item>
-    
-    <item>
-      <title>Real Interesting Stuff</title>
-      <link>/2008/06/28/real-interesting-stuff/</link>
-      <pubDate>Sat, 28 Jun 2008 13:40:51 +0000</pubDate>
-      
-      <guid>/2008/06/28/real-interesting-stuff/</guid>
-      <description>It’s been a while since I’ve written anything here, but I can’t say that I have anything real interesting to write about…
-It’s 98 degrees in Gresham right now.
-My contracting job is almost up, and we banged out this web site in 6 weeks: http://www.xrankcelebrity5.com/. There’s a good chance that I will stay and work full time for this company (Avenue A | Razorfish).
-Bren is having her wedding dress altered today, or something like that.</description>
-    </item>
-    
-    <item>
-      <title>Ninety Minute Presentation</title>
-      <link>/2008/03/11/ninety-minute-presentation/</link>
-      <pubDate>Tue, 11 Mar 2008 13:50:43 +0000</pubDate>
-      
-      <guid>/2008/03/11/ninety-minute-presentation/</guid>
-      <description>We got an exciting call a few days ago. We were told that we had won an all expense paid vacation/honeymoon package to an all inclusive resort in the Bahamas. Our name was entered at the Bridal Show, so we were pretty sure that it was a legitimate prize. The only catch was that we had to sit through a 90 minute presentation about fancy cookware. We went to the presentation last night at the Hayden Island Holiday Inn Express.</description>
-    </item>
-    
-    <item>
-      <title>Mii Wedding Cake Topper</title>
-      <link>/2008/03/10/mii-wedding-cake-topper/</link>
-      <pubDate>Mon, 10 Mar 2008 08:45:07 +0000</pubDate>
-      
-      <guid>/2008/03/10/mii-wedding-cake-topper/</guid>
-      <description>This is so excellent!
-Paul Pape Designs – Mii Cake Topper
-
-I suspect that the girl would never go for it, but I can dream.</description>
-    </item>
-    
-    <item>
-      <title>There Will Be Chickens</title>
-      <link>/2008/02/17/there-will-be-chickens/</link>
-      <pubDate>Sun, 17 Feb 2008 11:23:18 +0000</pubDate>
-      
-      <guid>/2008/02/17/there-will-be-chickens/</guid>
-      <description>Have I mentioned that The Viewpoint Inn (the location of our wedding) has chickens? They have their own chicken house at the back of the Inn. We were assured that these particular chickens, who have names, are not used in the kitchen.
-[
-](http://www.flickr.com/photos/cleverswine/2253373783/)</description>
-    </item>
-    
-    <item>
-      <title>The Dreaded Diet</title>
-      <link>/2008/02/11/the-dreaded-diet/</link>
-      <pubDate>Mon, 11 Feb 2008 15:14:49 +0000</pubDate>
-      
-      <guid>/2008/02/11/the-dreaded-diet/</guid>
-      <description>I’ve been on a diet since January 1st of this year. So far I’ve gained 1.5 pounds (as seen in the graph above). It’s time for a new approach. I’m thinking that a tad bit of exercise might help, but then who has the time or motivation for that? Not I. I will just have to eat less and quit snacking. I wrote a cool Rails app and everything to track my weight loss (which has become weight gain).</description>
-    </item>
-    
-    <item>
-      <title>A Visit to the Viewpoint Inn</title>
-      <link>/2008/02/09/a-visit-to-the-viewpoint-inn/</link>
-      <pubDate>Sat, 09 Feb 2008 19:28:07 +0000</pubDate>
-      
-      <guid>/2008/02/09/a-visit-to-the-viewpoint-inn/</guid>
-      <description>We went back to the Viewpoint Inn today to take care of some wedding business. As luck would have it, today was a beautiful, mostly clear day. As luck would not have it, we didn’t bring a real camera. As luck would have it, my cell phone has a camera on it. I took a handful of photos and added them to flickr.
-This is my favorite photo from today’s trip.</description>
-    </item>
-    
-    <item>
-      <title>Wedding Update</title>
-      <link>/2008/01/25/wedding-update-2/</link>
-      <pubDate>Fri, 25 Jan 2008 13:00:50 +0000</pubDate>
-      
-      <guid>/2008/01/25/wedding-update-2/</guid>
-      <description>There’s not a whole lot to report since my last update, but here goes. Bren (and her friends) has started looking at wedding dresses. Apparently she has found at least a couple that she really likes. I have no idea what they look like, as I’m following the traditional superstition rules. Meanwhile, I’m still working away on the reception music play list. The location (Viewpoint Inn) has changed what I had in mind for the music.</description>
-    </item>
-    
-    <item>
-      <title>Save the Date&amp;#8230;</title>
-      <link>/2008/01/19/save-the-date/</link>
-      <pubDate>Sat, 19 Jan 2008 17:57:23 +0000</pubDate>
-      
-      <guid>/2008/01/19/save-the-date/</guid>
-      <description>We were seriously considering the Abernathy Center after our visit today. But, we had also scheduled an appointment at the Viewpoint Inn, located in the Columbia River Gorge, near the Vista House. As we wound our way up the road, the rain changed into snow. As many of you know, I get very excited about snow. I jokingly quipped to Bren that this was a sign that we had found our wedding site.</description>
-    </item>
-    
-    <item>
-      <title>Wedding Update</title>
-      <link>/2008/01/17/wedding-update/</link>
-      <pubDate>Thu, 17 Jan 2008 09:38:47 +0000</pubDate>
-      
-      <guid>/2008/01/17/wedding-update/</guid>
-      <description>Location
-We’ll be looking at two potential wedding locations this weekend. Our preference is for an outdoor ceremony, so that’s where we are starting. First, we’ll be looking at the Abernathy Center in Oregon City. We like the photos we’ve seen. There are lots of gardens and gazebos and we would have the reception outdoors under a large tent. Second, we’ll be looking at Viewpoint Inn in Corbett. This place is really nice and upscale, and has a fabulous view.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Wedding on noone.dev</title>
+		<link>/tags/wedding/</link>
+		<description>Recent content in Wedding on noone.dev</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 21 Sep 2008 09:07:07 +0000</lastBuildDate>
+		
+			<atom:link href="/tags/wedding/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Wedding Photos</title>
+				<link>/2008/09/21/wedding-photos/</link>
+				<pubDate>Sun, 21 Sep 2008 09:07:07 +0000</pubDate>
+				<guid>/2008/09/21/wedding-photos/</guid>
+				<description>&lt;p&gt;I’ve uploaded a handful of wedding photos. We still have hundreds to go through, so many more will be coming soon.&lt;/p&gt;&#xA;&lt;p&gt;[&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://i2.wp.com/farm4.static.flickr.com/3199/cols/72157607331799917_2d5a7d9c1a_l.jpg?w=840&#34; alt=&#34;Wedding&#34; data-recalc-dims=&#34;1&#34; /&gt;](&lt;a href=&#34;http://flickr.com/photos/cleverswine/collections/72157607331799917/&#34;&gt;http://flickr.com/photos/cleverswine/collections/72157607331799917/&lt;/a&gt;)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Wedding Photos Coming Soon</title>
+				<link>/2008/09/16/wedding-photos-coming-soon/</link>
+				<pubDate>Tue, 16 Sep 2008 13:54:54 +0000</pubDate>
+				<guid>/2008/09/16/wedding-photos-coming-soon/</guid>
+				<description>&lt;p&gt;I’m working on getting all of the good wedding photos online for your viewing pleasure. I’m not sure whether I’ll use Flickr or if I’ll install a photo gallery application to the wedding web site. I’m leaning towards Flickr at this point, as I just installed “Gallery”, which is nice, but sort of a pain to set up and it’s a tad slow.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>I&amp;#8217;m Married</title>
+				<link>/2008/09/08/im-married/</link>
+				<pubDate>Mon, 08 Sep 2008 15:05:43 +0000</pubDate>
+				<guid>/2008/09/08/im-married/</guid>
+				<description>&lt;p&gt;Yay!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Rehearsal Dinner</title>
+				<link>/2008/09/05/rehearsal-dinner/</link>
+				<pubDate>Fri, 05 Sep 2008 22:33:18 +0000</pubDate>
+				<guid>/2008/09/05/rehearsal-dinner/</guid>
+				<description>&lt;p&gt;We had a lovely rehearsal dinner last night at &lt;a href=&#34;http://bryantstation.com/default.aspx&#34;&gt;Bryant Station&lt;/a&gt; in downtown Gresham. We had guests from Texas, Missouri, and Okinawa.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://flickr.com/photos/cleverswine/&#34;&gt;&lt;img src=&#34;https://i1.wp.com/farm4.static.flickr.com/3230/2831797769_d4f6810ca0_m_d.jpg?w=840&#34; alt=&#34;dinner&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Wedding Web Site</title>
+				<link>/2008/08/12/wedding-web-site/</link>
+				<pubDate>Tue, 12 Aug 2008 12:32:23 +0000</pubDate>
+				<guid>/2008/08/12/wedding-web-site/</guid>
+				<description>&lt;p&gt;If anyone is wondering why they can’t find our wedding web site via this page, it’s because I purposely do not link to it from this page. If I were to put a link to that web site from here, the search engines would crawl and index it, which means that anyone in the world could easily find and visit our private wedding site. As a result, spammers would start posting comments, evil people would know all of our personal details, etc.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Weight Loss Truths</title>
+				<link>/2008/08/11/weight-loss-truths/</link>
+				<pubDate>Mon, 11 Aug 2008 12:23:43 +0000</pubDate>
+				<guid>/2008/08/11/weight-loss-truths/</guid>
+				<description>&lt;p&gt;The truth hurts. I’ve been trying to lose weight for 8 months now, and I’ve lost nothing. None of these truths are surprising, yet I’ve ignored almost all of them. I will be pleasantly plump for my wedding.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;You have to exercise more than you think. [I have to do what!?]&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;A half-hour walk doesn’t equal a brownie. [Doh!]&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.divinecaroline.com/article/22178/53765-nine-cold--hard-weight-loss&#34;&gt;See the rest here&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Bridal Veil</title>
+				<link>/2008/07/05/bridal-veil/</link>
+				<pubDate>Sat, 05 Jul 2008 17:07:46 +0000</pubDate>
+				<guid>/2008/07/05/bridal-veil/</guid>
+				<description>&lt;p&gt;Went mailed off our wedding invitations from Bridal Veil, Oregon today. They have a tiny post office that has come to cater to the postal needs of wedding parties. After dropping off the invitations, we took a small hike around the Bridal Veil waterfall. &lt;a href=&#34;http://flickr.com/photos/cleverswine/&#34;&gt;Photos on flickr&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://flickr.com/photos/cleverswine/&#34;&gt;&lt;img src=&#34;https://i2.wp.com/farm4.static.flickr.com/3193/2640710838_d21ce70835_m_d.jpg?w=840&#34; alt=&#34;post office&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Real Interesting Stuff</title>
+				<link>/2008/06/28/real-interesting-stuff/</link>
+				<pubDate>Sat, 28 Jun 2008 13:40:51 +0000</pubDate>
+				<guid>/2008/06/28/real-interesting-stuff/</guid>
+				<description>&lt;p&gt;It’s been a while since I’ve written anything here, but I can’t say that I have anything real interesting to write about…&lt;/p&gt;&#xA;&lt;p&gt;It’s 98 degrees in Gresham right now.&lt;/p&gt;&#xA;&lt;p&gt;My contracting job is almost up, and we banged out this web site in 6 weeks: &lt;a href=&#34;http://www.xrankcelebrity5.com/playground/play.aspx&#34;&gt;http://www.xrankcelebrity5.com/&lt;/a&gt;. There’s a good chance that I will stay and work full time for this company (Avenue A | Razorfish).&lt;/p&gt;&#xA;&lt;p&gt;Bren is having her wedding dress altered today, or something like that. I’m staying inside the air-conditioned house.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Ninety Minute Presentation</title>
+				<link>/2008/03/11/ninety-minute-presentation/</link>
+				<pubDate>Tue, 11 Mar 2008 13:50:43 +0000</pubDate>
+				<guid>/2008/03/11/ninety-minute-presentation/</guid>
+				<description>&lt;p&gt;We got an exciting call a few days ago. We were told that we had won an all expense paid vacation/honeymoon package to an all inclusive resort in the Bahamas. Our name was entered at the Bridal Show, so we were pretty sure that it was a legitimate prize. The only catch was that we had to sit through a 90 minute presentation about fancy cookware. We went to the presentation last night at the Hayden Island Holiday Inn Express. To their credit, the cookware was actually quite nice (&lt;a href=&#34;http://www.simplicitygourmet.com/&#34;&gt;Simplicity Gourmet&lt;/a&gt;). We resisted the urge to spend thousands of dollars on nice pots and pans, and left with our free vacation package. The vacation package isn’t so nice. It only covers 2 nights at the resort, and does not cover airfare. In addition, we would have to pay $200 ($50/person/night) up front for gratuity and taxes. I wouldn’t exactly say it’s a scam, even though we &lt;em&gt;were&lt;/em&gt; mislead by the phone call. We’re not going to take the trip, as I’d rather pay a little more and go somewhere that we really want to go to.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Mii Wedding Cake Topper</title>
+				<link>/2008/03/10/mii-wedding-cake-topper/</link>
+				<pubDate>Mon, 10 Mar 2008 08:45:07 +0000</pubDate>
+				<guid>/2008/03/10/mii-wedding-cake-topper/</guid>
+				<description>&lt;p&gt;This is so excellent!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://paulpapedesigns.com/Examples_html/CI_Example_1.html&#34;&gt;Paul Pape Designs – Mii Cake Topper&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://paulpapedesigns.com/&#34; title=&#34;wedding topper&#34;&gt;&lt;img src=&#39;https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2008/03/ci_example_1.jpg?w=840&#39; alt=&#39;wedding topper&#39; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I suspect that the girl would never go for it, but I can dream.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>There Will Be Chickens</title>
+				<link>/2008/02/17/there-will-be-chickens/</link>
+				<pubDate>Sun, 17 Feb 2008 11:23:18 +0000</pubDate>
+				<guid>/2008/02/17/there-will-be-chickens/</guid>
+				<description>&lt;p&gt;Have I mentioned that The Viewpoint Inn (the location of our wedding) has chickens? They have their own chicken house at the back of the Inn. We were assured that these particular chickens, who have names, are not used in the kitchen.&lt;/p&gt;&#xA;&lt;p&gt;[&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://i0.wp.com/farm3.static.flickr.com/2267/2253373783_c21bfa65ac_m_d.jpg?w=840&#34; alt=&#34;Inn Chickens&#34; data-recalc-dims=&#34;1&#34; /&gt;](&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/2253373783/&#34;&gt;http://www.flickr.com/photos/cleverswine/2253373783/&lt;/a&gt;)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Dreaded Diet</title>
+				<link>/2008/02/11/the-dreaded-diet/</link>
+				<pubDate>Mon, 11 Feb 2008 15:14:49 +0000</pubDate>
+				<guid>/2008/02/11/the-dreaded-diet/</guid>
+				<description>&lt;img src=&#39;https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2008/02/chart.gif?w=840&#39; alt=&#39;graph&#39; data-recalc-dims=&#34;1&#34; /&gt;&#xA;&lt;p&gt;I’ve been on a diet since January 1st of this year. So far I’ve gained 1.5 pounds (as seen in the graph above). It’s time for a new approach. I’m thinking that a tad bit of exercise might help, but then who has the time or motivation for that? Not I. I will just have to eat less and quit snacking. I wrote a cool Rails app and everything to track my weight loss (which has become weight gain). My new approach starts today.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>A Visit to the Viewpoint Inn</title>
+				<link>/2008/02/09/a-visit-to-the-viewpoint-inn/</link>
+				<pubDate>Sat, 09 Feb 2008 19:28:07 +0000</pubDate>
+				<guid>/2008/02/09/a-visit-to-the-viewpoint-inn/</guid>
+				<description>&lt;p&gt;We went back to the Viewpoint Inn today to take care of some wedding business. As luck would have it, today was a beautiful, mostly clear day. As luck would not have it, we didn’t bring a real camera. As luck would have it, my cell phone has a camera on it. I took a handful of photos and added them to &lt;a href=&#34;http://flickr.com/photos/cleverswine/&#34;&gt;flickr&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This is my favorite photo from today’s trip. It’s their &lt;strong&gt;chicken coop&lt;/strong&gt;!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Wedding Update</title>
+				<link>/2008/01/25/wedding-update-2/</link>
+				<pubDate>Fri, 25 Jan 2008 13:00:50 +0000</pubDate>
+				<guid>/2008/01/25/wedding-update-2/</guid>
+				<description>&lt;p&gt;There’s not a whole lot to report since my last update, but here goes. Bren (and her friends) has started looking at wedding dresses. Apparently she has found at least a couple that she really likes. I have no idea what they look like, as I’m following the traditional superstition rules. Meanwhile, I’m still working away on the reception music play list. The location (Viewpoint Inn) has changed what I had in mind for the music. I’m readjusting to fit the mood of the Inn. This weekend, we plan to put together a detailed task list and timeline in order to keep us on track. It’s amazing how many magazines and online publications offer up free wedding task lists. We’ll be consolidating all of those into one list that matches our needs.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Save the Date&amp;#8230;</title>
+				<link>/2008/01/19/save-the-date/</link>
+				<pubDate>Sat, 19 Jan 2008 17:57:23 +0000</pubDate>
+				<guid>/2008/01/19/save-the-date/</guid>
+				<description>&lt;p&gt;We were seriously considering the Abernathy Center after our visit today. But, we had also scheduled an appointment at the Viewpoint Inn, located in the Columbia River Gorge, near the Vista House. As we wound our way up the road, the rain changed into snow. As many of you know, I get very excited about snow. I jokingly quipped to Bren that this was a sign that we had found our wedding site. Well, within a few minutes of touring the Inn, we were both awestruck. The place is amazing! It’s a reflection of both our tastes. After touring The Viewpoint Inn, the Abernathy Center was clearly the wrong choice for our wedding. We booked it immediately. So, our wedding date is set – Sunday, September 7th. That’s 09/07/08. Be there or be square. I will be updating the wedding website with googles of information in the next day or two. We are excited!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Wedding Update</title>
+				<link>/2008/01/17/wedding-update/</link>
+				<pubDate>Thu, 17 Jan 2008 09:38:47 +0000</pubDate>
+				<guid>/2008/01/17/wedding-update/</guid>
+				<description>&lt;p&gt;&lt;em&gt;Location&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;We’ll be looking at two potential wedding locations this weekend. Our preference is for an outdoor ceremony, so that’s where we are starting. First, we’ll be looking at the &lt;a href=&#34;http://www.abernethycenter.com/&#34;&gt;Abernathy Center&lt;/a&gt; in Oregon City. We like the photos we’ve seen. There are lots of gardens and gazebos and we would have the reception outdoors under a large tent. Second, we’ll be looking at &lt;a href=&#34;http://www.theviewpointinn.com/&#34;&gt;Viewpoint Inn&lt;/a&gt; in Corbett. This place is really nice and upscale, and has a fabulous view. I feel pretty good about both of these places. It may be hard to choose in the long run.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

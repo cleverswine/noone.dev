@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>cat on noone.dev</title>
-    <link>/tags/cat/</link>
-    <description>Recent content in cat on noone.dev</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 19 Apr 2013 19:23:35 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/cat/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Cat</title>
-      <link>/2013/04/19/cat/</link>
-      <pubDate>Fri, 19 Apr 2013 19:23:35 +0000</pubDate>
-      
-      <guid>/2013/04/19/cat/</guid>
-      <description>We are getting a cat today! Sly and Cordy have been gone for 2-3 years now, and we’ve been talking about getting more cats for a while. Brenda found a good one at the Troutdale humane society yesterday. She’s 6 months old and had just arrived at the shelter. Lots of photos coming soon…
-
-[Edit] Her name is Olivia.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Cat on noone.dev</title>
+		<link>/tags/cat/</link>
+		<description>Recent content in Cat on noone.dev</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 19 Apr 2013 19:23:35 +0000</lastBuildDate>
+		
+			<atom:link href="/tags/cat/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Cat</title>
+				<link>/2013/04/19/cat/</link>
+				<pubDate>Fri, 19 Apr 2013 19:23:35 +0000</pubDate>
+				<guid>/2013/04/19/cat/</guid>
+				<description>&lt;p&gt;We are getting a cat today! Sly and Cordy have been gone for 2-3 years now, and we’ve been talking about getting more cats for a while. Brenda found a good one at the Troutdale humane society yesterday. She’s 6 months old and had just arrived at the shelter. Lots of photos coming soon…&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2013/04/V__8B55-1.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-858&#34; alt=&#34;V__8B55 (1)&#34; src=&#34;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2013/04/V__8B55-1.jpg?resize=300%2C168&#34; srcset=&#34;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2013/04/V__8B55-1.jpg?resize=300%2C168 300w, https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2013/04/V__8B55-1.jpg?resize=1024%2C575 1024w, https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2013/04/V__8B55-1.jpg?resize=624%2C350 624w, https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2013/04/V__8B55-1.jpg?w=1680 1680w, https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2013/04/V__8B55-1.jpg?w=2520 2520w&#34; sizes=&#34;(max-width: 300px) 85vw, 300px&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2013/04/WP_20130419_001.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-medium wp-image-857&#34; alt=&#34;Prep&#34; src=&#34;https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2013/04/WP_20130419_001.jpg?resize=300%2C225&#34; srcset=&#34;https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2013/04/WP_20130419_001.jpg?resize=300%2C225 300w, https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2013/04/WP_20130419_001.jpg?resize=1024%2C768 1024w, https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2013/04/WP_20130419_001.jpg?resize=624%2C467 624w, https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2013/04/WP_20130419_001.jpg?w=1680 1680w, https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2013/04/WP_20130419_001.jpg?w=2520 2520w&#34; sizes=&#34;(max-width: 300px) 85vw, 300px&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

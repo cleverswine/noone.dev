@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="map[]">
-    <meta name="generator" content="Hugo 0.72.0" />
+    <meta name="author" content="Kevin Noone">
+    <meta name="generator" content="Hugo 0.165.0" />
     <title>noone.dev</title>
     <link rel='stylesheet' href='/styles/main.css'>
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css" type="text/css">
@@ -39,17 +39,53 @@
 <div>
     <p>I was recently tasked with validating XML files against a very complex set of XSD schema files.  This is easily accomplished if your XSD files live on the filesystem, because the .Net xml resolver can find referenced schemas via a relative or absolute Uri.  In my case, the schema files were compiled as embedded resources in my project.  As expected, the XML schema loader didn’t know how to find referenced schemas – it was likely searching for them  in the path of the running application.  To solve this, I had to help out the schema loader by implementing a custom resolver that knew how to pull schema from the embedded resources.  The code…</p>
 <p>Implement a custom XmlUrlResolver to find schema references as embedded resources.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<pre lang="csharp">public class ManifestResourceResolver : XmlUrlResolver
+{
+    private readonly Assembly _resourceAssembly;
+    private readonly string _baseNamespaceForReferences;
+
+    public ManifestResourceResolver(Assembly resourceAssembly, string baseNamespaceForReferences)
+    {
+        _resourceAssembly = resourceAssembly;
+        _baseNamespaceForReferences = baseNamespaceForReferences.EndsWith(".") ? baseNamespaceForReferences : baseNamespaceForReferences + ".";
+    }
+
+    override public object GetEntity(Uri absoluteUri, string role, Type ofObjectToReturn)
+    {
+        if (absoluteUri.IsFile)
+        {
+            var file = Path.GetFileName(absoluteUri.AbsolutePath);
+            var stream = _resourceAssembly.GetManifestResourceStream(_baseNamespaceForReferences + file);
+            return stream;
+        }
+        return null;
+    }
+}
+</pre>
 <p>Create a XmlSchemaSet, and set the XmlResolver property to the custom resolver implemented above. Then, load up the main XSD schema.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<pre lang="csharp">var xmlSchemaSet = new XmlSchemaSet();
+xmlSchemaSet.XmlResolver = new ManifestResourceResolver(Assembly.GetExecutingAssembly(), "MyApp.Schemas");
+using (var stream = Assembly.GetCallingAssembly().GetManifestResourceStream("MyApp.Schemas.MainSchema.xsd"))
+{
+    var xmlSchema = XmlSchema.Read(stream, null);
+    xmlSchemaSet.Add(xmlSchema);
+}
+</pre>
 <p>Create a XmlReaderSettings object and set the Schemas property to the schema set loaded above. Lastly, load up an XML file with an XmlReader and read it.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<pre lang="csharp">XmlReaderSettings settings = new XmlReaderSettings();
+settings.ValidationType = ValidationType.Schema;
+settings.Schemas = xmlSchemaSet;
+settings.ValidationEventHandler += new ValidationEventHandler (ValidationCallBack);
+
+XmlReader reader = XmlReader.Create("SomeXml.xml", settings);
+while (reader.Read());
+</pre>
 <p>The validation callback function will be invoked on each validation error while reading the file with the XmlReader.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<pre lang="csharp">private static void ValidationCallBack(object sender, ValidationEventArgs e)
+{
+    Console.WriteLine("Validation Error: {0}", e.Message);
+}
+</pre>
 <p>References:</p>
 <ul>
 <li><a href="http://msdn.microsoft.com/en-us/library/as3tta56%28v=VS.90%29.aspx">Validation Using the XmlSchemaSet</a></li>

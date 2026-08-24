@@ -1,62 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Television on noone.dev</title>
-    <link>/tags/television/</link>
-    <description>Recent content in Television on noone.dev</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2009 13:50:59 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/television/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>True Blood</title>
-      <link>/2009/05/15/true-blood/</link>
-      <pubDate>Fri, 15 May 2009 13:50:59 +0000</pubDate>
-      
-      <guid>/2009/05/15/true-blood/</guid>
-      <description>True Blood is coming back soon!
-
-BloodCopy.</description>
-    </item>
-    
-    <item>
-      <title>Free HD With DVR Capability</title>
-      <link>/2009/02/02/free-hd-with-dvr-capability/</link>
-      <pubDate>Mon, 02 Feb 2009 16:51:01 +0000</pubDate>
-      
-      <guid>/2009/02/02/free-hd-with-dvr-capability/</guid>
-      <description>I bought a PCTV 800e HD TV tuner card from Woot! some time ago, but never really used it. While watching The Office last night in high definition (using a cheap HD antenna, not a cable or satellite subscription), we were wishing that we could pause the show as we do with our DirecTV service. That’s when I remembered my tuner card purchase and decided to get that set up with our media PC today.</description>
-    </item>
-    
-    <item>
-      <title>The Heroes Season Premiere Was Lame</title>
-      <link>/2008/09/24/the-heroes-premier-was-lame/</link>
-      <pubDate>Wed, 24 Sep 2008 15:25:03 +0000</pubDate>
-      
-      <guid>/2008/09/24/the-heroes-premier-was-lame/</guid>
-      <description>We watched the season premiere of Heroes last night. We were warned by various sources that it would be bad, and they were not wrong. The story line seems desperate so far, as if the writers are more concerned about the hype than they are quality. The characters seem more shallow, and the dialog was just horrible (which can work in shows like “Buffy”, where dry humor and spoof are part of the game).</description>
-    </item>
-    
-    <item>
-      <title>Multitasking Television</title>
-      <link>/2008/04/12/multitasking-television/</link>
-      <pubDate>Sat, 12 Apr 2008 16:59:25 +0000</pubDate>
-      
-      <guid>/2008/04/12/multitasking-television/</guid>
-      <description>Now that I’ve had enough of the Perfect Day (sun is bad), I’ve migrated to the great indoors. There are at least 4 things I’d like to be doing while indoors: listening to music, looking at photos, browsing the web, and watching baseball. As it turns out, I’m doing all 4 at once! Check it out.</description>
-    </item>
-    
-    <item>
-      <title>Six Feet Under</title>
-      <link>/2008/01/12/six-feet-under/</link>
-      <pubDate>Sat, 12 Jan 2008 14:44:35 +0000</pubDate>
-      
-      <guid>/2008/01/12/six-feet-under/</guid>
-      <description>We just finished watching the Six Feet Under complete series box set. What a great show that was! I was a little unsure about the ending, but now that I’ve had time to absorb it, I think it’s brilliant. For those who don’t know, the show was an HBO series about a family that runs and lives in a funeral home. The character development is wonderful, and the shooting style is similar to that of American Beauty (same writer/director).</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Television on noone.dev</title>
+		<link>/tags/television/</link>
+		<description>Recent content in Television on noone.dev</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 15 May 2009 13:50:59 +0000</lastBuildDate>
+		
+			<atom:link href="/tags/television/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>True Blood</title>
+				<link>/2009/05/15/true-blood/</link>
+				<pubDate>Fri, 15 May 2009 13:50:59 +0000</pubDate>
+				<guid>/2009/05/15/true-blood/</guid>
+				<description>&lt;p&gt;True Blood is coming back soon!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://bloodcopy.com/&#34;&gt;&lt;img src=&#34;https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2009/05/p5936334reg.jpg?resize=220%2C220&#34; alt=&#34;&#34; title=&#34;p5936334reg&#34; class=&#34;aligncenter size-full wp-image-573&#34; srcset=&#34;https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2009/05/p5936334reg.jpg?w=220 220w, https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2009/05/p5936334reg.jpg?resize=150%2C150 150w&#34; sizes=&#34;(max-width: 220px) 85vw, 220px&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://bloodcopy.com/&#34;&gt;BloodCopy&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Free HD With DVR Capability</title>
+				<link>/2009/02/02/free-hd-with-dvr-capability/</link>
+				<pubDate>Mon, 02 Feb 2009 16:51:01 +0000</pubDate>
+				<guid>/2009/02/02/free-hd-with-dvr-capability/</guid>
+				<description>&lt;p&gt;I bought a PCTV 800e HD TV tuner card from &lt;a href=&#34;http://www.woot.com/&#34;&gt;Woot!&lt;/a&gt; some time ago, but never really used it. While watching &lt;em&gt;The Office&lt;/em&gt; last night in high definition (using a cheap HD antenna, not a cable or satellite subscription), we were wishing that we could pause the show as we do with our DirecTV service. That’s when I remembered my tuner card purchase and decided to get that set up with our media PC today. The plan was to hook it up to the media PC that is connected to our LCD television and then use Windows Media Center as a DVR. It was amazingly simple! I plugged in the USB tuner, installed the driver, started up WMC and ran through the TV setup wizard. We can now DVR HD television, and we get better sound because the media PC has an optical audio connect to our high end receiver. We also get program listings, which we didn’t get with just an antenna and TV. Yummy screenshots…&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Heroes Season Premiere Was Lame</title>
+				<link>/2008/09/24/the-heroes-premier-was-lame/</link>
+				<pubDate>Wed, 24 Sep 2008 15:25:03 +0000</pubDate>
+				<guid>/2008/09/24/the-heroes-premier-was-lame/</guid>
+				<description>&lt;p&gt;We watched the season premiere of &lt;a href=&#34;http://www.nbc.com/Heroes/&#34;&gt;Heroes&lt;/a&gt; last night. We were warned by various sources that it would be bad, and they were not wrong. The story line seems desperate so far, as if the writers are more concerned about the hype than they are quality. The characters seem more shallow, and the dialog was just horrible (which can work in shows like “Buffy”, where dry humor and spoof are part of the game). “Are you going to eat my brain?” Some of the special effects were ripped straight from “Saw” and they so didn’t work in the context of Matt being lost in the desert. The whole episode was cheesy and infuriating, and was made 100 times worse by the lame one hour countdown show that preceded it. Alas, we’ll continue to watch, as will most people, and the Heroes team knows that. It can only get better.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Multitasking Television</title>
+				<link>/2008/04/12/multitasking-television/</link>
+				<pubDate>Sat, 12 Apr 2008 16:59:25 +0000</pubDate>
+				<guid>/2008/04/12/multitasking-television/</guid>
+				<description>&lt;p&gt;Now that I’ve had enough of the Perfect Day (sun is bad), I’ve migrated to the great indoors. There are at least 4 things I’d like to be doing while indoors: listening to music, looking at photos, browsing the web, and watching baseball. As it turns out, I’m doing all 4 at once! &lt;a href=&#34;http://www.flickr.com/photos/cleverswine/2409044570/&#34;&gt;Check it out.&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Six Feet Under</title>
+				<link>/2008/01/12/six-feet-under/</link>
+				<pubDate>Sat, 12 Jan 2008 14:44:35 +0000</pubDate>
+				<guid>/2008/01/12/six-feet-under/</guid>
+				<description>&lt;p&gt;&lt;img src=&#39;https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2008/01/21g4hc0t7bl_aa115_.jpg?w=840&#39; alt=&#39;sfu&#39;  align=&#39;left&#39; style=&#39;margin-right: 8px;&#39; data-recalc-dims=&#34;1&#34; /&gt;We just finished watching the &lt;a href=&#34;http://www.hbo.com/sixfeetunder/&#34;&gt;Six Feet Under&lt;/a&gt; complete series box set. What a great show that was! I was a little unsure about the ending, but now that I’ve had time to absorb it, I think it’s brilliant. For those who don’t know, the show was an HBO series about a family that runs and lives in a funeral home. The character development is wonderful, and the shooting style is similar to that of American Beauty (same writer/director). There is a lot of death in the show, but it achieves it’s goal of making us face death and realize that it’s a part of life.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

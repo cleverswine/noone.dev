@@ -1,122 +1,94 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Weather on noone.dev</title>
-    <link>/tags/weather/</link>
-    <description>Recent content in Weather on noone.dev</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 18 Jul 2011 18:15:54 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/weather/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Slow Gardening</title>
-      <link>/2011/07/18/slow-gardening/</link>
-      <pubDate>Mon, 18 Jul 2011 18:15:54 +0000</pubDate>
-      
-      <guid>/2011/07/18/slow-gardening/</guid>
-      <description>BellpepperOriginally uploaded by cleverswineThis summer is getting off to a slow start, as are our vegetables. We planted tomatoes, cucumbers, zucchini, various peppers, and carrots. So far we haven’t picked a thing. We’ve barely reached the 80s in temperature, and we’ve had more rain than usual. However, despite the lack of veggies, I’m personally enjoying the cool summer.</description>
-    </item>
-    
-    <item>
-      <title>Fall is (almost) here</title>
-      <link>/2010/10/07/fall-is-almost-here/</link>
-      <pubDate>Thu, 07 Oct 2010 16:07:02 +0000</pubDate>
-      
-      <guid>/2010/10/07/fall-is-almost-here/</guid>
-      <description>Summer came and went. It was a mild summer, but I’m happy to feel cooler weather.</description>
-    </item>
-    
-    <item>
-      <title>Spring is (almost) here</title>
-      <link>/2010/05/17/spring-is-almost-here/</link>
-      <pubDate>Mon, 17 May 2010 17:06:30 +0000</pubDate>
-      
-      <guid>/2010/05/17/spring-is-almost-here/</guid>
-      <description>Spring was here for a few days, but the cool, wet weather is returning this week. We planted some veggies in the few spots where we get sunlight. Hopefully we’ll get something out of them.</description>
-    </item>
-    
-    <item>
-      <title>The Snow Keeps Coming</title>
-      <link>/2008/12/22/the-snow-keeps-coming/</link>
-      <pubDate>Mon, 22 Dec 2008 08:29:33 +0000</pubDate>
-      
-      <guid>/2008/12/22/the-snow-keeps-coming/</guid>
-      <description>This is our back yard. I have no idea how many inches we have so far, but I’d roughly estimate 12″. It’s still coming down as of Monday morning. After driving to the MAX station this morning, I’m ready for the snow to be gone. Driving through it makes me very nervous.
-Check my flickr set for updated snow photos</description>
-    </item>
-    
-    <item>
-      <title>A Lot Like Christmas</title>
-      <link>/2008/12/16/a-lot-like-christmas/</link>
-      <pubDate>Tue, 16 Dec 2008 13:43:58 +0000</pubDate>
-      
-      <guid>/2008/12/16/a-lot-like-christmas/</guid>
-      <description>Like most of the U.S., we’re getting our fair share of frigid weather in the Northwest. We got some snow on Sunday, and there’s plenty more to come in the next week. I’m excited, but I can definitely see why some people don’t want to live where it snows a lot. For ongoing photos of the Portland area snow storm of 2008, check the flickr pool: Portland Snow Day 2008. Also check mine.</description>
-    </item>
-    
-    <item>
-      <title>Felony Flats and Hearses</title>
-      <link>/2008/10/09/felony-flats-and-hearses/</link>
-      <pubDate>Thu, 09 Oct 2008 09:20:54 +0000</pubDate>
-      
-      <guid>/2008/10/09/felony-flats-and-hearses/</guid>
-      <description>This morning I was browsing Weather Underground because there are lots of neat weather related features on that site (almanacs, astrology, maps galore, etc). I was looking through the various Portland weather stations and came across one called “Felony Flats, Portland, OR“. I thought that was pretty funny. What’s funnier is the link to the station’s web site: Coffin Cruisers Hearse Club of Portland. I had no idea there existed a community of people who drive hearses (and have personal weather stations).</description>
-    </item>
-    
-    <item>
-      <title>Ike Messes Things Up</title>
-      <link>/2008/09/16/ike-messes-things-up/</link>
-      <pubDate>Tue, 16 Sep 2008 14:12:16 +0000</pubDate>
-      
-      <guid>/2008/09/16/ike-messes-things-up/</guid>
-      <description>My family in Texas recently sat through yet another hurricane. This time it was Ike, and it was a direct hit to Galveston and Houston. Luckily, my Houston (Katy) peeps went unscathed and those in Nederland/Port Neches had only minor damage to their houses. They were lucky because if the storm surge had been much higher, they would have had flood damage in addition to the wind damage.
-On a related note, the streaking Astros were forced to play two “home” games against the Cubs just 90 miles from Chicago in Milwaukee.</description>
-    </item>
-    
-    <item>
-      <title>My Thoughts Exactly</title>
-      <link>/2008/07/02/my-thoughts-exactly/</link>
-      <pubDate>Wed, 02 Jul 2008 12:49:09 +0000</pubDate>
-      
-      <guid>/2008/07/02/my-thoughts-exactly/</guid>
-      <description>From Portland Metblogs:
-Why do people feel compelled to take a summer vacation – when everyone else is doing so – prices are higher – it’s hot and sticky and gross outside?
-Read more here</description>
-    </item>
-    
-    <item>
-      <title>More on Weather</title>
-      <link>/2008/04/17/more-on-weather/</link>
-      <pubDate>Thu, 17 Apr 2008 09:03:04 +0000</pubDate>
-      
-      <guid>/2008/04/17/more-on-weather/</guid>
-      <description>Weather is generally a boring topic, but 2008 has proven to be much less than boring. Northwest Oregon has seen late snow, followed by the expected sunny and warm days. Now, the snow is returning! Forecasts predict that the snow level will lower to 500 feet again this weekend. What’s going on? I bet Al Gore is confused…
-
-photo by ArielAmanda</description>
-    </item>
-    
-    <item>
-      <title>Perfect Day</title>
-      <link>/2008/04/12/perfect-day/</link>
-      <pubDate>Sat, 12 Apr 2008 11:30:17 +0000</pubDate>
-      
-      <guid>/2008/04/12/perfect-day/</guid>
-      <description>Today is the first perfect day of the year! It’s sunny and 70 degrees outside. Bren is working on her gardens, and I’m geeking out on the laptop. On flickr, you will find some photos of our first Spring outdoor session (taken from my laptop camera).</description>
-    </item>
-    
-    <item>
-      <title>I Think Spring Is Really Here</title>
-      <link>/2008/04/02/i-think-spring-is-really-here/</link>
-      <pubDate>Wed, 02 Apr 2008 12:25:12 +0000</pubDate>
-      
-      <guid>/2008/04/02/i-think-spring-is-really-here/</guid>
-      <description>After a week of snow, rain, ice, and hail, I think Spring has finally arrived. Today is a beautiful sunny day in Portland.
-
-photo by orb9220</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Weather on noone.dev</title>
+		<link>/tags/weather/</link>
+		<description>Recent content in Weather on noone.dev</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 18 Jul 2011 18:15:54 +0000</lastBuildDate>
+		
+			<atom:link href="/tags/weather/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Slow Gardening</title>
+				<link>/2011/07/18/slow-gardening/</link>
+				<pubDate>Mon, 18 Jul 2011 18:15:54 +0000</pubDate>
+				<guid>/2011/07/18/slow-gardening/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/5943862099/&#34; title=&#34;photo sharing&#34;&gt;&lt;img src=&#34;https://i0.wp.com/farm7.static.flickr.com/6141/5943862099_ab977a0817_m.jpg?w=840&#34; alt=&#34;&#34; style=&#34;border: solid 2px #000000;&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-size: 0.9em; margin-top: 0px;&#34;&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/5943862099/&#34;&gt;Bellpepper&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; Originally uploaded by &lt;a href=&#34;http://www.flickr.com/photos/cleverswine/&#34;&gt;cleverswine&lt;/a&gt;&lt;br /&gt; &lt;/span&gt;&lt;/p&gt;&#xA;&lt;br clear=&#34;all&#34; /&gt;&#xA;&lt;p&gt;This summer is getting off to a slow start, as are our vegetables. We planted tomatoes, cucumbers, zucchini, various peppers, and carrots. So far we haven’t picked a thing. We’ve barely reached the 80s in temperature, and we’ve had more rain than usual. However, despite the lack of veggies, I’m personally enjoying the cool summer.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Fall is (almost) here</title>
+				<link>/2010/10/07/fall-is-almost-here/</link>
+				<pubDate>Thu, 07 Oct 2010 16:07:02 +0000</pubDate>
+				<guid>/2010/10/07/fall-is-almost-here/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/4096314903/&#34;&gt;&lt;img class=&#34;alignnone&#34; title=&#34;Fall 2009&#34; src=&#34;https://i0.wp.com/farm3.static.flickr.com/2724/4096314903_1d0620f6d4_m_d.jpg?resize=240%2C161&#34; alt=&#34;Fall 2009&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Summer came and went.  It was a mild summer, but I’m happy to feel cooler weather.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Spring is (almost) here</title>
+				<link>/2010/05/17/spring-is-almost-here/</link>
+				<pubDate>Mon, 17 May 2010 17:06:30 +0000</pubDate>
+				<guid>/2010/05/17/spring-is-almost-here/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/4610283460/&#34; title=&#34;photo sharing&#34;&gt;&lt;img style=&#34;border: solid 2px #000000;&#34; src=&#34;https://i1.wp.com/farm4.static.flickr.com/3407/4610283460_c09f2d3ef5_m.jpg?w=840&#34; alt=&#34;&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Spring was here for a few days, but the cool, wet weather is returning this week. We planted some veggies in the few spots where we get sunlight. Hopefully we’ll get something out of them.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Snow Keeps Coming</title>
+				<link>/2008/12/22/the-snow-keeps-coming/</link>
+				<pubDate>Mon, 22 Dec 2008 08:29:33 +0000</pubDate>
+				<guid>/2008/12/22/the-snow-keeps-coming/</guid>
+				<description>&lt;div class=&#34;flickr-frame&#34;&gt;&#xA;  &lt;a href=&#34;http://www.flickr.com/photos/cleverswine/3127758183/&#34; title=&#34;photo sharing&#34;&gt;&lt;img src=&#34;https://i0.wp.com/farm4.static.flickr.com/3246/3127758183_c96e4b2d97_t.jpg?w=840&#34; class=&#34;flickr-photo&#34; alt=&#34;The yard&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;br /&gt; &lt;span class=&#34;flickr-caption&#34;&gt;&lt;br /&gt; &lt;a href=&#34;http://www.flickr.com/photos/cleverswine/3127758183/&#34;&gt;The yard&lt;/a&gt;,&lt;br /&gt; originally uploaded by &lt;a href=&#34;http://www.flickr.com/people/cleverswine/&#34;&gt;cleverswine&lt;/a&gt;.&lt;br /&gt; &lt;/span&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;This is our back yard. I have no idea how many inches we have so far, but I’d roughly estimate 12″. It’s still coming down as of Monday morning. After driving to the MAX station this morning, I’m ready for the snow to be gone. Driving through it makes me very nervous.&lt;/p&gt;&#xA;&lt;br clear=&#34;all&#34; /&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://flickr.com/photos/cleverswine/sets/72157611189135623/detail/&#34;&gt;Check my flickr set for updated snow photos&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>A Lot Like Christmas</title>
+				<link>/2008/12/16/a-lot-like-christmas/</link>
+				<pubDate>Tue, 16 Dec 2008 13:43:58 +0000</pubDate>
+				<guid>/2008/12/16/a-lot-like-christmas/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2008/12/nt_snow.gif?resize=50%2C50&#34; alt=&#34;&#34; title=&#34;snow&#34; class=&#34;alignleft size-full wp-image-502&#34; data-recalc-dims=&#34;1&#34; /&gt;Like most of the U.S., we’re getting our fair share of frigid weather in the Northwest. We got some snow on Sunday, and there’s plenty more to come in the next week. I’m excited, but I can definitely see why some people don’t want to live where it snows a lot. For ongoing photos of the Portland area snow storm of 2008, check the flickr pool: &lt;a href=&#34;http://www.flickr.com/groups/pdxsnow80/pool/&#34;&gt;Portland Snow Day 2008&lt;/a&gt;. Also &lt;a href=&#34;http://www.flickr.com/photos/cleverswine/sets/72157611189135623/detail/&#34;&gt;check mine&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Felony Flats and Hearses</title>
+				<link>/2008/10/09/felony-flats-and-hearses/</link>
+				<pubDate>Thu, 09 Oct 2008 09:20:54 +0000</pubDate>
+				<guid>/2008/10/09/felony-flats-and-hearses/</guid>
+				<description>&lt;p&gt;This morning I was browsing &lt;a href=&#34;http://www.wunderground.com/cgi-bin/findweather/getForecast?query=97080&#34;&gt;Weather Underground&lt;/a&gt; because there are lots of neat weather related features on that site (almanacs, astrology, maps galore, etc). I was looking through the various Portland weather stations and came across one called “&lt;a href=&#34;http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KORPORTL76&#34;&gt;Felony Flats, Portland, OR&lt;/a&gt;“. I thought that was pretty funny. What’s funnier is the link to the station’s web site: &lt;a href=&#34;http://www.coffincruisers.com/&#34;&gt;Coffin Cruisers Hearse Club of Portland&lt;/a&gt;. I had no idea there existed a community of people who drive hearses (and have personal weather stations).&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Ike Messes Things Up</title>
+				<link>/2008/09/16/ike-messes-things-up/</link>
+				<pubDate>Tue, 16 Sep 2008 14:12:16 +0000</pubDate>
+				<guid>/2008/09/16/ike-messes-things-up/</guid>
+				<description>&lt;p&gt;My family in Texas recently sat through yet another hurricane. This time it was Ike, and it was a direct hit to Galveston and Houston. Luckily, my Houston (Katy) peeps went unscathed and those in Nederland/Port Neches had only minor damage to their houses. They were lucky because if the storm surge had been much higher, they would have had flood damage in addition to the wind damage.&lt;/p&gt;&#xA;&lt;p&gt;On a related note, the streaking Astros were forced to play two “home” games against the Cubs just 90 miles from Chicago in Milwaukee. From what I hear, the Cubs fans that showed up were quite rude and obnoxious. The Astros fans, and players, were understandably angered over the whole ordeal. Given the amazing pitching from the Cubs, we wouldn’t have won anyway, but still it would have been good sportsmanship to treat a team in turmoil with a little respect. Most of the Astros players have families that were directly affected by the storm and they had to make a last minute flight to Milwaukee to play a home game in front of their rival’s fan base. Not to mention, they are now on the road for an entire week while Houston recovers without them. Oh well, it’s just baseball, I reckon.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>My Thoughts Exactly</title>
+				<link>/2008/07/02/my-thoughts-exactly/</link>
+				<pubDate>Wed, 02 Jul 2008 12:49:09 +0000</pubDate>
+				<guid>/2008/07/02/my-thoughts-exactly/</guid>
+				<description>&lt;p&gt;From &lt;a href=&#34;http://portland.metblogs.com/&#34;&gt;Portland Metblogs&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;p&gt;Why do people feel compelled to take a summer vacation – when everyone else is doing so – prices are higher – it’s hot and sticky and gross outside?&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://portland.metblogs.com/2008/07/02/why-summer-vacations/&#34;&gt;Read more here&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>More on Weather</title>
+				<link>/2008/04/17/more-on-weather/</link>
+				<pubDate>Thu, 17 Apr 2008 09:03:04 +0000</pubDate>
+				<guid>/2008/04/17/more-on-weather/</guid>
+				<description>&lt;p&gt;Weather is generally a boring topic, but 2008 has proven to be much less than boring. Northwest Oregon has seen late snow, followed by the expected sunny and warm days. Now, the snow is returning! &lt;a href=&#34;http://blog.oregonlive.com/breakingnews/2008/04/wintry_weekend_on_tap_on_the_h.html&#34;&gt;Forecasts&lt;/a&gt; predict that the snow level will lower to 500 feet again this weekend. What’s going on? I bet Al Gore is confused…&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/arielarielariel/360856128/&#34;&gt;&lt;img src=&#34;https://i2.wp.com/farm1.static.flickr.com/125/360856128_0fc859b946_m_d.jpg?w=840&#34; alt=&#34;snow&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;photo by &lt;a href=&#34;http://www.flickr.com/photos/arielarielariel/&#34;&gt;ArielAmanda&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Perfect Day</title>
+				<link>/2008/04/12/perfect-day/</link>
+				<pubDate>Sat, 12 Apr 2008 11:30:17 +0000</pubDate>
+				<guid>/2008/04/12/perfect-day/</guid>
+				<description>&lt;p&gt;Today is the first perfect day of the year! It’s sunny and 70 degrees outside. Bren is working on her gardens, and I’m geeking out on the laptop. On flickr, you will find some photos of our first Spring outdoor session (taken from my laptop camera).&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://flickr.com/photos/cleverswine/&#34;&gt;&lt;img src=&#34;https://i0.wp.com/farm4.static.flickr.com/3284/2408509162_6b2d3fcdeb_m_d.jpg?w=840&#34; alt=&#34;me&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>I Think Spring Is Really Here</title>
+				<link>/2008/04/02/i-think-spring-is-really-here/</link>
+				<pubDate>Wed, 02 Apr 2008 12:25:12 +0000</pubDate>
+				<guid>/2008/04/02/i-think-spring-is-really-here/</guid>
+				<description>&lt;p&gt;After a week of snow, rain, ice, and hail, I think Spring has finally arrived. Today is a beautiful sunny day in Portland.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/groups/pdx/pool/&#34;&gt;&lt;img src=&#34;https://i0.wp.com/farm3.static.flickr.com/2227/2380135265_4e1890e1ec_m_d.jpg?w=840&#34; alt=&#34;spring&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/orb9220/&#34;&gt;photo by orb9220&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,523 +1,353 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>humor on noone.dev</title>
-    <link>/tags/humor/</link>
-    <description>Recent content in humor on noone.dev</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 11 Oct 2008 12:11:54 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/humor/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Super Us</title>
-      <link>/2008/10/11/super-us/</link>
-      <pubDate>Sat, 11 Oct 2008 12:11:54 +0000</pubDate>
-      
-      <guid>/2008/10/11/super-us/</guid>
-      <description>This is very cool:
-Super Brenda
-Super Kevin</description>
-    </item>
-    
-    <item>
-      <title>Felony Flats and Hearses</title>
-      <link>/2008/10/09/felony-flats-and-hearses/</link>
-      <pubDate>Thu, 09 Oct 2008 09:20:54 +0000</pubDate>
-      
-      <guid>/2008/10/09/felony-flats-and-hearses/</guid>
-      <description>This morning I was browsing Weather Underground because there are lots of neat weather related features on that site (almanacs, astrology, maps galore, etc). I was looking through the various Portland weather stations and came across one called “Felony Flats, Portland, OR“. I thought that was pretty funny. What’s funnier is the link to the station’s web site: Coffin Cruisers Hearse Club of Portland. I had no idea there existed a community of people who drive hearses (and have personal weather stations).</description>
-    </item>
-    
-    <item>
-      <title>Batting Stance Guy</title>
-      <link>/2008/08/12/batting-stance-guy/</link>
-      <pubDate>Tue, 12 Aug 2008 12:44:47 +0000</pubDate>
-      
-      <guid>/2008/08/12/batting-stance-guy/</guid>
-      <description>Being a web developer and active browser of the web for many years now, I see a lot of wasted web space (including this web site). I would venture to say that 90% of web sites out there are useless and/or uninteresting, or just a rehash of other web sites that are slightly more interesting.
-And then there’s Batting Stance Guy, which is the best use of the web that I’ve seen lately.</description>
-    </item>
-    
-    <item>
-      <title>Weight Loss Truths</title>
-      <link>/2008/08/11/weight-loss-truths/</link>
-      <pubDate>Mon, 11 Aug 2008 12:23:43 +0000</pubDate>
-      
-      <guid>/2008/08/11/weight-loss-truths/</guid>
-      <description>The truth hurts. I’ve been trying to lose weight for 8 months now, and I’ve lost nothing. None of these truths are surprising, yet I’ve ignored almost all of them. I will be pleasantly plump for my wedding.
-  You have to exercise more than you think. [I have to do what!?]
-  A half-hour walk doesn’t equal a brownie. [Doh!]
-  See the rest here.</description>
-    </item>
-    
-    <item>
-      <title>2 Million People Like Me!</title>
-      <link>/2008/08/11/2-million-people-like-me/</link>
-      <pubDate>Mon, 11 Aug 2008 12:11:37 +0000</pubDate>
-      
-      <guid>/2008/08/11/2-million-people-like-me/</guid>
-      <description>Good to know…</description>
-    </item>
-    
-    <item>
-      <title>Real Interesting Stuff</title>
-      <link>/2008/06/28/real-interesting-stuff/</link>
-      <pubDate>Sat, 28 Jun 2008 13:40:51 +0000</pubDate>
-      
-      <guid>/2008/06/28/real-interesting-stuff/</guid>
-      <description>It’s been a while since I’ve written anything here, but I can’t say that I have anything real interesting to write about…
-It’s 98 degrees in Gresham right now.
-My contracting job is almost up, and we banged out this web site in 6 weeks: http://www.xrankcelebrity5.com/. There’s a good chance that I will stay and work full time for this company (Avenue A | Razorfish).
-Bren is having her wedding dress altered today, or something like that.</description>
-    </item>
-    
-    <item>
-      <title>Purity</title>
-      <link>/2008/06/12/purity/</link>
-      <pubDate>Thu, 12 Jun 2008 17:15:05 +0000</pubDate>
-      
-      <guid>/2008/06/12/purity/</guid>
-      <description>I like this comic, as I believe that everything can be explained via mathematics.
-Purity</description>
-    </item>
-    
-    <item>
-      <title>apt-get install wife</title>
-      <link>/2008/06/08/apt-get-install-wife/</link>
-      <pubDate>Sun, 08 Jun 2008 11:48:02 +0000</pubDate>
-      
-      <guid>/2008/06/08/apt-get-install-wife/</guid>
-      <description>This comic is especially funny since I’m about to get married.
-http://www.lessaid.net/fun/apt-get-wife.png
-Note: apt-get is a Linux (Debian) command to install software, therefore “apt-get install wife” says to add wife to the system.</description>
-    </item>
-    
-    <item>
-      <title>When Obama wins</title>
-      <link>/2008/05/10/when-obama-wins/</link>
-      <pubDate>Sat, 10 May 2008 14:26:53 +0000</pubDate>
-      
-      <guid>/2008/05/10/when-obama-wins/</guid>
-      <description>When Obama wins…
-Starbucks will stop referring to their smalls as talls.
-Your recycling will sort itself and magically appear by the curb.
-Charlie Brown will finally kick that football.
-Your cell phone won’t work in your car, at the movies, or while you’re ahead of me in line for coffee.
-People will have more picnics in the park.
-When Obama wins</description>
-    </item>
-    
-    <item>
-      <title>Funny Jokes</title>
-      <link>/2008/05/08/funny-jokes/</link>
-      <pubDate>Thu, 08 May 2008 12:46:02 +0000</pubDate>
-      
-      <guid>/2008/05/08/funny-jokes/</guid>
-      <description>Ripped from http://www.devtopics.com/best-programming-jokes/
-Q. How did the programmer die in the shower?
-A. He read the shampoo bottle instructions: Lather. Rinse. Repeat.
- Programming is like sex: One mistake and you have to support it for the rest of your life. All programmers are playwrights, and all computers are lousy actors.
- A computer science student is studying under a tree and another pulls up on a flashy new bike. The first student asks, &amp;amp;#8220;Where&amp;amp;#8217;d you get that?</description>
-    </item>
-    
-    <item>
-      <title>Kids These Days</title>
-      <link>/2008/05/01/kids-these-days/</link>
-      <pubDate>Thu, 01 May 2008 12:30:55 +0000</pubDate>
-      
-      <guid>/2008/05/01/kids-these-days/</guid>
-      <description>Centennial High School has dropped its ban on eyebrow shaving… that’s right, the kids are shaving their eyebrows. I guess there’s a trend in which kids shave designs into their brows. Unfortunately, a well known East Multnomah County gang does the same, which caused a bit of confusion and concern in this particular high school. I remember back when I was in school. It was the eighties, and the more over the top you could be, the better.</description>
-    </item>
-    
-    <item>
-      <title>Everything is Stranger in Texas</title>
-      <link>/2008/04/17/everything-is-stranger-in-texas/</link>
-      <pubDate>Thu, 17 Apr 2008 10:10:37 +0000</pubDate>
-      
-      <guid>/2008/04/17/everything-is-stranger-in-texas/</guid>
-      <description>I’m off to Texas tomorrow morning to visit family and see my new niece. I regularly keep up with Texas news, but I casually read it and move on. Today I came across an unusual story… well, unusual to those of us in the North. A man in Brazoria was routinely pulled over for making an illegal u-turn. The police found a 6 foot alligator and a water moccasin in his car, both alive.</description>
-    </item>
-    
-    <item>
-      <title>Software As a Mullet</title>
-      <link>/2008/04/10/software-as-a-mullet/</link>
-      <pubDate>Thu, 10 Apr 2008 15:38:11 +0000</pubDate>
-      
-      <guid>/2008/04/10/software-as-a-mullet/</guid>
-      <description>While considering the fun of programming today, I came up with a new mantra: “Software development should be like a mullet – business in the front, party in the back.”
-Today’s biggest buzzword in the industry is “software as a service”. I propose that we toss that idea, and instead standardize on “software as a mullet”. The new approach will focus on having fun during the software lifecycle, while producing business approved results.</description>
-    </item>
-    
-    <item>
-      <title>Am I A Rockstar Software Engineer?</title>
-      <link>/2008/04/08/am-i-a-rockstar-software-engineer/</link>
-      <pubDate>Tue, 08 Apr 2008 11:53:29 +0000</pubDate>
-      
-      <guid>/2008/04/08/am-i-a-rockstar-software-engineer/</guid>
-      <description>According to the article, Top 10 Traits of a Rockstar Software Engineer, I might be a Rockstar Software Engineer. Yay. Here’s the list, with comments about myself.
-  Loves To Code (I do)
-  Gets Things Done (I mostly do)
-  Continuously Refactors Code (I do)
-  Uses Design Patterns (I sometimes do)
-  Writes Tests (I rarely do…)
-  Leverages Existing Code (I do)</description>
-    </item>
-    
-    <item>
-      <title>April Fool&amp;#8217;s Sucker</title>
-      <link>/2008/04/02/april-fools-sucker/</link>
-      <pubDate>Wed, 02 Apr 2008 08:26:55 +0000</pubDate>
-      
-      <guid>/2008/04/02/april-fools-sucker/</guid>
-      <description>Well, I got fooled left and right yesterday! I guess I am naive…
-My favorite embedded device developer, Marcin Juszkiewicz, claimed that he was moving from Poland to London for work. He said that with his new job, he could spend more time in the office and less time taking care of his child. Sounded reasonable to me. He was kidding.
-I’m still not clear about this one, but seeing as it was tagged on delicious as “aprilfools”, I’m guessing it wasn’t real.</description>
-    </item>
-    
-    <item>
-      <title>Happy PI Day (3/14)</title>
-      <link>/2008/03/14/happy-pi-day-314/</link>
-      <pubDate>Fri, 14 Mar 2008 10:14:41 +0000</pubDate>
-      
-      <guid>/2008/03/14/happy-pi-day-314/</guid>
-      <description>PI = 3.14159 26535 89793 23846 26433 83279 50288 41971 69399 37510 58209 74944 59230 78164 06286 20899 86280 34825 34211 70679 82148 08651 32823 06647 09384 46095 50582 23172 53594 08128 48111 74502 84102 70193 85211 05559 64462 29489 54930 38196 44288 10975 66593 34461 28475 64823 37867 83165 27120 19091 45648 56692 34603 48610 45432 66482 13393 60726 02491 41273 72458 70066 06315 58817 48815 20920 96282 92540 91715 36436 78925 90360 01133 05305 48820 46652 13841 46951 94151 16094 33057 27036 57595 91953 09218 61173 81932 61179 31051 18548 07446 23799 62749 56735 18857 52724 89122 79381 83011 94912 98336 73362 44065 66430 …</description>
-    </item>
-    
-    <item>
-      <title>A Bad Day for Geese</title>
-      <link>/2008/03/10/a-bad-day-for-geese/</link>
-      <pubDate>Mon, 10 Mar 2008 12:55:46 +0000</pubDate>
-      
-      <guid>/2008/03/10/a-bad-day-for-geese/</guid>
-      <description>Today in Oregon, Canadian Geese are wreaking havoc.
- Goose knocks out sewage plant power, causes spill Flying goose shatters Salem officer’s windshield  </description>
-    </item>
-    
-    <item>
-      <title>Mii Wedding Cake Topper</title>
-      <link>/2008/03/10/mii-wedding-cake-topper/</link>
-      <pubDate>Mon, 10 Mar 2008 08:45:07 +0000</pubDate>
-      
-      <guid>/2008/03/10/mii-wedding-cake-topper/</guid>
-      <description>This is so excellent!
-Paul Pape Designs – Mii Cake Topper
-
-I suspect that the girl would never go for it, but I can dream.</description>
-    </item>
-    
-    <item>
-      <title>Stop Helping the Shy</title>
-      <link>/2008/03/07/stop-helping-the-shy/</link>
-      <pubDate>Fri, 07 Mar 2008 11:47:14 +0000</pubDate>
-      
-      <guid>/2008/03/07/stop-helping-the-shy/</guid>
-      <description>Why is it that everyone is so motivated to help out shy people? I can guarantee you that if you aren’t severely shy, then you have no idea what it’s like. I came across this article today: The Shy Person’s Guide to Talking to Strangers.
-Okay, first of all, I barely talk to my friends, family, or the person I’m going to marry, so why would I seek out lessons on talking to strangers?</description>
-    </item>
-    
-    <item>
-      <title>Crashing Las Vegas</title>
-      <link>/2008/02/26/crashing-las-vegas/</link>
-      <pubDate>Tue, 26 Feb 2008 16:28:56 +0000</pubDate>
-      
-      <guid>/2008/02/26/crashing-las-vegas/</guid>
-      <description>This is classic! It seems that the Paris hotel and casino in Las Vegas had a small technical problem with their giant display screen. Microsoft Windows. BSOD.
-[
-Crashing Las Vegas](http://thedailywtf.com/Articles/Crashing-Las-Vegas.aspx)</description>
-    </item>
-    
-    <item>
-      <title>Obsolete Skills</title>
-      <link>/2008/02/22/obsolete-skills/</link>
-      <pubDate>Fri, 22 Feb 2008 10:39:32 +0000</pubDate>
-      
-      <guid>/2008/02/22/obsolete-skills/</guid>
-      <description>I’ve come to realize that I have many obsolete skills. Check out this gigantic list of skills considered to be obsolete: Obsolete Skills. I must be old, because as I scan through the list, I keep saying “oh yeah, I’ve done that.” Here are some examples of how old I am… Rabbit ears. PASCAL. Dialing a rotary phone. Formatting a floppy. Putting a needle on a vinyl record. Rewinding VCR tapes.</description>
-    </item>
-    
-    <item>
-      <title>There Will Be Chickens</title>
-      <link>/2008/02/17/there-will-be-chickens/</link>
-      <pubDate>Sun, 17 Feb 2008 11:23:18 +0000</pubDate>
-      
-      <guid>/2008/02/17/there-will-be-chickens/</guid>
-      <description>Have I mentioned that The Viewpoint Inn (the location of our wedding) has chickens? They have their own chicken house at the back of the Inn. We were assured that these particular chickens, who have names, are not used in the kitchen.
-[
-](http://www.flickr.com/photos/cleverswine/2253373783/)</description>
-    </item>
-    
-    <item>
-      <title>Hair Albums</title>
-      <link>/2008/02/12/hair-albums/</link>
-      <pubDate>Tue, 12 Feb 2008 09:05:07 +0000</pubDate>
-      
-      <guid>/2008/02/12/hair-albums/</guid>
-      <description>When I was a teenager, I collected locks of hair from all of my female friends and girlfriends. I must have had 30 clumps of hair, each tied neatly with a piece of ribbon. At the time, I thought there was nothing strange about it. In retrospect, however, it seems a bit psycho. I mention this because I just read an article about this year’s President’s Day.
- For the first time, The Academy of Natural Sciences is displaying a scrapbook that has locks of hair from the first 12 U.</description>
-    </item>
-    
-    <item>
-      <title>Hair Mixer</title>
-      <link>/2008/02/02/hair-mixer/</link>
-      <pubDate>Sat, 02 Feb 2008 13:34:04 +0000</pubDate>
-      
-      <guid>/2008/02/02/hair-mixer/</guid>
-      <description>So fun! HairMixer!
-
-See the rest of our celebrity heads here.</description>
-    </item>
-    
-    <item>
-      <title>Couture: fashion designers or couturiers collectively</title>
-      <link>/2008/02/01/couture-fashion-designers-or-couturiers-collectively/</link>
-      <pubDate>Fri, 01 Feb 2008 16:04:29 +0000</pubDate>
-      
-      <guid>/2008/02/01/couture-fashion-designers-or-couturiers-collectively/</guid>
-      <description>I sort of learned a new word today: couture. As I was browsing the news, I came across a J.Lo article which warranted my attention (because J.Lo is… super cool). The title of the article is “Even J.Lo’s hospital gowns have to be couture.” I had no idea what that meant, so I looked up couture on dictionary.com. I still don’t know what it means. Perhaps she needs designer gowns in the hospital?</description>
-    </item>
-    
-    <item>
-      <title>101 Great Computer Programming Quotes</title>
-      <link>/2008/01/14/101-great-computer-programming-quotes/</link>
-      <pubDate>Mon, 14 Jan 2008 19:30:07 +0000</pubDate>
-      
-      <guid>/2008/01/14/101-great-computer-programming-quotes/</guid>
-      <description>My geek side finds this list to be very amusing!
-101 Great Computer Programming Quotes
-“Good code is its own best documentation.”
-(Steve McConnell)</description>
-    </item>
-    
-    <item>
-      <title>Olan Mills</title>
-      <link>/2007/12/29/olan-mills/</link>
-      <pubDate>Sat, 29 Dec 2007 21:18:47 +0000</pubDate>
-      
-      <guid>/2007/12/29/olan-mills/</guid>
-      <description>Great Olan Mills photos… Total frickin’ awesomeness from Olan Mills, Sears and other fine portrait studios.
-This is a must see for anyone that remembers Olan Mills photos from the 70s and 80s!</description>
-    </item>
-    
-    <item>
-      <title>Seniors Love the WII</title>
-      <link>/2007/12/26/seniors-love-the-wii/</link>
-      <pubDate>Wed, 26 Dec 2007 11:39:41 +0000</pubDate>
-      
-      <guid>/2007/12/26/seniors-love-the-wii/</guid>
-      <description>I bet Nintendo had no idea that their WII gaming console would make such a splash in nursing homes. Apprently, the WII is all the rage in the elderly world. Some homes have regular tournaments with the sports games. For example, here is an article about a recent bowling tournament.
- When asked to comment on the 202 to 182 stunner, the few other residents who were both awake at the time and able to remember the action agreed that the match was surely one for the record books.</description>
-    </item>
-    
-    <item>
-      <title>Attack of the Carolers</title>
-      <link>/2007/12/19/attack-of-the-carolers/</link>
-      <pubDate>Wed, 19 Dec 2007 14:52:33 +0000</pubDate>
-      
-      <guid>/2007/12/19/attack-of-the-carolers/</guid>
-      <description>Last night, while hanging out and watching TV, we heard a chorus of children’s voices coming from our front yard. Naturally, our initial reaction was one of terror. We slouched down on the couch to hide from the little singing monsters. Then, the doorbell rang. We, of course, did not answer it. After about an hour, when we knew that the monsters were gone, we opened the front door. On the doorstep, we found a Mormon DVD about Jesus Christ.</description>
-    </item>
-    
-    <item>
-      <title>The Programmer Dress Code</title>
-      <link>/2007/12/07/the-programmer-dress-code/</link>
-      <pubDate>Fri, 07 Dec 2007 09:16:28 +0000</pubDate>
-      
-      <guid>/2007/12/07/the-programmer-dress-code/</guid>
-      <description>This is an funny article about how most visionaries in the programming world have beards and dress like slobs. I have to say, dressing nice and shaving are at the bottom of my list of priorities. I think the same could be said for most of the programmers that I know.</description>
-    </item>
-    
-    <item>
-      <title>Funny Unix Commands</title>
-      <link>/2007/12/06/funny-unix-commands/</link>
-      <pubDate>Thu, 06 Dec 2007 14:00:39 +0000</pubDate>
-      
-      <guid>/2007/12/06/funny-unix-commands/</guid>
-      <description>This is a list of creative and funny Unix commands. There’s one I like which doesn’t seem to be on the list:
-% cd /pub
-% more beer</description>
-    </item>
-    
-    <item>
-      <title>Happy birthday&amp;#8230;</title>
-      <link>/2007/12/01/happy-birthday/</link>
-      <pubDate>Sat, 01 Dec 2007 10:58:12 +0000</pubDate>
-      
-      <guid>/2007/12/01/happy-birthday/</guid>
-      <description>… to me. I’m getting old. I take naps and watch the weather channel.</description>
-    </item>
-    
-    <item>
-      <title>FOX News Porn</title>
-      <link>/2007/11/21/fox-news-porn/</link>
-      <pubDate>Wed, 21 Nov 2007 18:46:18 +0000</pubDate>
-      
-      <guid>/2007/11/21/fox-news-porn/</guid>
-      <description>This web site is pretty funny.
- FOX News uses sex segments to divert outrage from the real obscenity, the war
- See it here</description>
-    </item>
-    
-    <item>
-      <title>An Annoyingly Efficient Relevancy Engine</title>
-      <link>/2007/11/12/an-annoyingly-efficient-relevancy-engine/</link>
-      <pubDate>Mon, 12 Nov 2007 11:25:36 +0000</pubDate>
-      
-      <guid>/2007/11/12/an-annoyingly-efficient-relevancy-engine/</guid>
-      <description>This article is a must read if you are dating or married to a nerd.
- The Nerd Handbook
-A nerd needs a project because a nerd builds stuff. All the time. Those lulls in the conversation over dinner? That’s the nerd working on his project in his head.
- Read it here</description>
-    </item>
-    
-    <item>
-      <title>Pocket Protector Collection</title>
-      <link>/2007/10/18/pocket-protector-collection/</link>
-      <pubDate>Thu, 18 Oct 2007 12:52:28 +0000</pubDate>
-      
-      <guid>/2007/10/18/pocket-protector-collection/</guid>
-      <description>This is an amazing collection of 523 pocket protectors!</description>
-    </item>
-    
-    <item>
-      <title>Twenty-five Signs You Have Grown Up</title>
-      <link>/2007/10/08/twenty-five-signs-you-have-grown-up/</link>
-      <pubDate>Mon, 08 Oct 2007 11:50:06 +0000</pubDate>
-      
-      <guid>/2007/10/08/twenty-five-signs-you-have-grown-up/</guid>
-      <description>I found this amusing, and true.
-Twenty-five Signs You Have Grown Up</description>
-    </item>
-    
-    <item>
-      <title>International Talk Like a Pirate Day</title>
-      <link>/2007/09/19/international-talk-like-a-pirate-day/</link>
-      <pubDate>Wed, 19 Sep 2007 10:38:45 +0000</pubDate>
-      
-      <guid>/2007/09/19/international-talk-like-a-pirate-day/</guid>
-      <description>Arrrr, today, September 19, is International Talk Like a Pirate Day! Don’t forget to talk like a pirate all day today.
-You can find more pirate goodness here at the International Talk Like A Pirate Day’s photos.</description>
-    </item>
-    
-    <item>
-      <title>Caring for Your Introvert</title>
-      <link>/2007/09/10/caring-for-your-introvert/</link>
-      <pubDate>Mon, 10 Sep 2007 14:24:40 +0000</pubDate>
-      
-      <guid>/2007/09/10/caring-for-your-introvert/</guid>
-      <description>Caring for Your Introvert
-This is an interesting article about introverts and how to deal with them. I wonder why I’d post about such a subject? My favorite part is:
- How can I let the introvert in my life know that I support him and respect his choice?
-First, recognize that it’s not a choice. It’s not a lifestyle. It’s an orientation.
-Second, when you see an introvert lost in thought, don’t say “What’s the matter?</description>
-    </item>
-    
-    <item>
-      <title>Musicals Galore</title>
-      <link>/2007/07/29/musicals-galore/</link>
-      <pubDate>Sun, 29 Jul 2007 07:04:06 +0000</pubDate>
-      
-      <guid>/2007/07/29/musicals-galore/</guid>
-      <description>We saw Hairspray last night, which is the movie version of the Broadway musical which is based on a movie by John Waters. I was pleased to see a cameo by John Waters at the beginning, as I am a fan of his. The movie was pretty good, and does the original justice. If you can tolerate a musical I’d recommend it.
-Tonight we are going to see Mama Mia, which is a musical play featuring music from Abba.</description>
-    </item>
-    
-    <item>
-      <title>Another Person</title>
-      <link>/2007/07/20/another-person/</link>
-      <pubDate>Fri, 20 Jul 2007 08:22:42 +0000</pubDate>
-      
-      <guid>/2007/07/20/another-person/</guid>
-      <description>This was the best South Park impression of me that I could come up with given the resources. I forgot where the web site is to create these, but you can search and find.</description>
-    </item>
-    
-    <item>
-      <title>A Person</title>
-      <link>/2007/07/19/a-person/</link>
-      <pubDate>Thu, 19 Jul 2007 17:50:07 +0000</pubDate>
-      
-      <guid>/2007/07/19/a-person/</guid>
-      <description>I’ve been posting lots of non-people photos (flowers, etc.) on flickr, so here is a really bad one of me.</description>
-    </item>
-    
-    <item>
-      <title>Real Men Love the Fifth Element</title>
-      <link>/2007/07/18/real-men-love-the-fifth-element/</link>
-      <pubDate>Wed, 18 Jul 2007 15:49:34 +0000</pubDate>
-      
-      <guid>/2007/07/18/real-men-love-the-fifth-element/</guid>
-      <description>Another installment of our “Real Men Love” movie series…</description>
-    </item>
-    
-    <item>
-      <title>Giant Slug!</title>
-      <link>/2007/07/04/giant-slug/</link>
-      <pubDate>Wed, 04 Jul 2007 09:12:21 +0000</pubDate>
-      
-      <guid>/2007/07/04/giant-slug/</guid>
-      <description>Bren came across a giant banana slug while enjoying some coffee:</description>
-    </item>
-    
-    <item>
-      <title>IT Crowd coming to NBC!?</title>
-      <link>/2007/05/14/it-crowd-coming-to-nbc/</link>
-      <pubDate>Mon, 14 May 2007 11:50:21 +0000</pubDate>
-      
-      <guid>/2007/05/14/it-crowd-coming-to-nbc/</guid>
-      <description>According to this article, my favorite geek TV show, The IT Crowd, is coming to NBC. The show is about misunderstood IT workers, and is hilarious. It currently only airs in Britain and can also be watched online.</description>
-    </item>
-    
-    <item>
-      <title>1973 vs. 2007</title>
-      <link>/2007/05/14/1973-vs-2007/</link>
-      <pubDate>Mon, 14 May 2007 11:33:50 +0000</pubDate>
-      
-      <guid>/2007/05/14/1973-vs-2007/</guid>
-      <description>This is a funny list of scenarios with responses from 1973 and 2007. Things have changed…
- Scenario: Jeffrey wonâ€™t be still in class, disrupts other students.
-1973: Jeffrey sent to office and given a good paddling by Principal. Sits still in class.
-2007: Jeffrey given huge doses of Ritalin. Becomes a zombie. School gets extra money from state because Jeffrey has a disability.
- Read more…</description>
-    </item>
-    
-    <item>
-      <title>What We Call The News</title>
-      <link>/2007/04/02/what-we-call-the-news/</link>
-      <pubDate>Mon, 02 Apr 2007 11:58:56 +0000</pubDate>
-      
-      <guid>/2007/04/02/what-we-call-the-news/</guid>
-      <description>From JibJab comes a hilarious, and unfortunately accurate, video about the state of today’s news media.
-What We Call The News</description>
-    </item>
-    
-    <item>
-      <title>The Wisdom of Children</title>
-      <link>/2007/03/21/the-wisdom-of-children/</link>
-      <pubDate>Wed, 21 Mar 2007 10:45:22 +0000</pubDate>
-      
-      <guid>/2007/03/21/the-wisdom-of-children/</guid>
-      <description>From an article in the New Yorker:
-A Conversation at the Grownup Table, as Imagined at the Kidsâ€™ Table
-MOM: Pass the wine, please. I want to become crazy.
-DAD: O.K.
-GRANDMOTHER: Did you see the politics? It made me angry.
-DAD: Me, too. When it was over, I had sex.
-UNCLE: Iâ€™m having sex right now.
-DAD: We all are.
-MOM: Letâ€™s talk about which kid I like the best.</description>
-    </item>
-    
-    <item>
-      <title>I like WordPress</title>
-      <link>/2006/02/01/i-like-wordpress/</link>
-      <pubDate>Wed, 01 Feb 2006 17:10:11 +0000</pubDate>
-      
-      <guid>/2006/02/01/i-like-wordpress/</guid>
-      <description>The longer I use WordPress, the more I like it. It has quite a few features, but they don’t get in the way of simplicity. I’m finding it easy to add content, pages, and links, all “willy-nilly”. Customizing the appearance isn’t that difficult if you’re familiar with CSS and/or PHP. There are also “plugins” galore, such as these. A good experience so far.
-I might also mention thatÂ a2web hosting has been phenomenal so far.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Humor on noone.dev</title>
+		<link>/tags/humor/</link>
+		<description>Recent content in Humor on noone.dev</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 11 Oct 2008 12:11:54 +0000</lastBuildDate>
+		
+			<atom:link href="/tags/humor/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Super Us</title>
+				<link>/2008/10/11/super-us/</link>
+				<pubDate>Sat, 11 Oct 2008 12:11:54 +0000</pubDate>
+				<guid>/2008/10/11/super-us/</guid>
+				<description>&lt;p&gt;This is very cool:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.makemesuper.com/r.php?i=2_0ada1-130829-f-Brenda&#34;&gt;Super Brenda&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.makemesuper.com/r.php?i=6_551ad-105906-m-Kevin&#34;&gt;Super Kevin&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Felony Flats and Hearses</title>
+				<link>/2008/10/09/felony-flats-and-hearses/</link>
+				<pubDate>Thu, 09 Oct 2008 09:20:54 +0000</pubDate>
+				<guid>/2008/10/09/felony-flats-and-hearses/</guid>
+				<description>&lt;p&gt;This morning I was browsing &lt;a href=&#34;http://www.wunderground.com/cgi-bin/findweather/getForecast?query=97080&#34;&gt;Weather Underground&lt;/a&gt; because there are lots of neat weather related features on that site (almanacs, astrology, maps galore, etc). I was looking through the various Portland weather stations and came across one called “&lt;a href=&#34;http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KORPORTL76&#34;&gt;Felony Flats, Portland, OR&lt;/a&gt;“. I thought that was pretty funny. What’s funnier is the link to the station’s web site: &lt;a href=&#34;http://www.coffincruisers.com/&#34;&gt;Coffin Cruisers Hearse Club of Portland&lt;/a&gt;. I had no idea there existed a community of people who drive hearses (and have personal weather stations).&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Batting Stance Guy</title>
+				<link>/2008/08/12/batting-stance-guy/</link>
+				<pubDate>Tue, 12 Aug 2008 12:44:47 +0000</pubDate>
+				<guid>/2008/08/12/batting-stance-guy/</guid>
+				<description>&lt;p&gt;Being a web developer and active browser of the web for many years now, I see a lot of wasted web space (including this web site). I would venture to say that 90% of web sites out there are useless and/or uninteresting, or just a rehash of other web sites that are slightly more interesting.&lt;/p&gt;&#xA;&lt;p&gt;And then there’s &lt;a href=&#34;http://www.battingstanceguy.com/&#34;&gt;Batting Stance Guy&lt;/a&gt;, which is the best use of the web that I’ve seen lately. This guy posts videos of himself imitating the batting stances of MLB players. He is right on with all of them, and it’s sometimes hilarious. I’m also really impressed with design of his web site. It’s simple, eye pleasing, and user friendly.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Weight Loss Truths</title>
+				<link>/2008/08/11/weight-loss-truths/</link>
+				<pubDate>Mon, 11 Aug 2008 12:23:43 +0000</pubDate>
+				<guid>/2008/08/11/weight-loss-truths/</guid>
+				<description>&lt;p&gt;The truth hurts. I’ve been trying to lose weight for 8 months now, and I’ve lost nothing. None of these truths are surprising, yet I’ve ignored almost all of them. I will be pleasantly plump for my wedding.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;You have to exercise more than you think. [I have to do what!?]&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;A half-hour walk doesn’t equal a brownie. [Doh!]&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.divinecaroline.com/article/22178/53765-nine-cold--hard-weight-loss&#34;&gt;See the rest here&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>2 Million People Like Me!</title>
+				<link>/2008/08/11/2-million-people-like-me/</link>
+				<pubDate>Mon, 11 Aug 2008 12:11:37 +0000</pubDate>
+				<guid>/2008/08/11/2-million-people-like-me/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/2754651210/sizes/o/&#34;&gt;&lt;img src=&#34;https://i0.wp.com/farm4.static.flickr.com/3274/2754651210_f6a6320e08_d.jpg?w=840&#34; alt=&#34;Like Me&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Good to know…&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Real Interesting Stuff</title>
+				<link>/2008/06/28/real-interesting-stuff/</link>
+				<pubDate>Sat, 28 Jun 2008 13:40:51 +0000</pubDate>
+				<guid>/2008/06/28/real-interesting-stuff/</guid>
+				<description>&lt;p&gt;It’s been a while since I’ve written anything here, but I can’t say that I have anything real interesting to write about…&lt;/p&gt;&#xA;&lt;p&gt;It’s 98 degrees in Gresham right now.&lt;/p&gt;&#xA;&lt;p&gt;My contracting job is almost up, and we banged out this web site in 6 weeks: &lt;a href=&#34;http://www.xrankcelebrity5.com/playground/play.aspx&#34;&gt;http://www.xrankcelebrity5.com/&lt;/a&gt;. There’s a good chance that I will stay and work full time for this company (Avenue A | Razorfish).&lt;/p&gt;&#xA;&lt;p&gt;Bren is having her wedding dress altered today, or something like that. I’m staying inside the air-conditioned house.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Purity</title>
+				<link>/2008/06/12/purity/</link>
+				<pubDate>Thu, 12 Jun 2008 17:15:05 +0000</pubDate>
+				<guid>/2008/06/12/purity/</guid>
+				<description>&lt;p&gt;I like this comic, as I believe that everything can be explained via mathematics.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://xkcd.com/435/&#34;&gt;Purity&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>apt-get install wife</title>
+				<link>/2008/06/08/apt-get-install-wife/</link>
+				<pubDate>Sun, 08 Jun 2008 11:48:02 +0000</pubDate>
+				<guid>/2008/06/08/apt-get-install-wife/</guid>
+				<description>&lt;p&gt;This comic is especially funny since I’m about to get married.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.lessaid.net/fun/apt-get-wife.png&#34;&gt;http://www.lessaid.net/fun/apt-get-wife.png&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Note: apt-get is a Linux (Debian) command to install software, therefore “apt-get install wife” says to add wife to the system.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>When Obama wins</title>
+				<link>/2008/05/10/when-obama-wins/</link>
+				<pubDate>Sat, 10 May 2008 14:26:53 +0000</pubDate>
+				<guid>/2008/05/10/when-obama-wins/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://kottke.org/when-obama-wins/&#34;&gt;When Obama wins&lt;/a&gt;…&lt;/p&gt;&#xA;&lt;p&gt;Starbucks will stop referring to their smalls as talls.&lt;/p&gt;&#xA;&lt;p&gt;Your recycling will sort itself and magically appear by the curb.&lt;/p&gt;&#xA;&lt;p&gt;Charlie Brown will finally kick that football.&lt;/p&gt;&#xA;&lt;p&gt;Your cell phone won’t work in your car, at the movies, or while you’re ahead of me in line for coffee.&lt;/p&gt;&#xA;&lt;p&gt;People will have more picnics in the park.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://kottke.org/when-obama-wins/&#34;&gt;When Obama wins&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Funny Jokes</title>
+				<link>/2008/05/08/funny-jokes/</link>
+				<pubDate>Thu, 08 May 2008 12:46:02 +0000</pubDate>
+				<guid>/2008/05/08/funny-jokes/</guid>
+				<description>&lt;p&gt;Ripped from &lt;a href=&#34;http://www.devtopics.com/best-programming-jokes/&#34;&gt;http://www.devtopics.com/best-programming-jokes/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Q. How did the programmer die in the shower?&lt;/p&gt;&#xA;&lt;p&gt;A. He read the shampoo bottle instructions: Lather. Rinse. Repeat.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;  &#xA;Programming is like sex:&#xA;  &#xA;One mistake and you have to support it for the rest of your life.&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;All programmers are playwrights, and all computers are lousy actors.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;  &#xA;A computer science student is studying under a tree and another pulls up on a flashy new bike. The first student asks, &amp;amp;#8220;Where&amp;amp;#8217;d you get that?&amp;amp;#8221;&#xA;&#xA;The student on the bike replies, &amp;amp;#8220;While I was studying outside, a beautiful girl pulled up on her bike. She took off all her clothes and said, &amp;amp;#8216;You can have anything you want&amp;amp;#8217;.&amp;amp;#8221;&#xA;&#xA;The first student responds, &amp;amp;#8220;Good choice! Her clothes probably wouldn&amp;amp;#8217;t have fit you.&amp;amp;#8221;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+			</item>
+			<item>
+				<title>Kids These Days</title>
+				<link>/2008/05/01/kids-these-days/</link>
+				<pubDate>Thu, 01 May 2008 12:30:55 +0000</pubDate>
+				<guid>/2008/05/01/kids-these-days/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://blog.oregonlive.com/breakingnews/2008/05/centennial_high_drops_its_ban.html&#34;&gt;Centennial High School has dropped its ban on eyebrow shaving&lt;/a&gt;… that’s right, the kids are shaving their eyebrows. I guess there’s a trend in which kids shave designs into their brows. Unfortunately, a well known East Multnomah County gang does the same, which caused a bit of confusion and concern in this particular high school. I remember back when I was in school. It was the eighties, and the more over the top you could be, the better. My high school banned things like mohawks and certain colors of hair. I thought it was silly at the time and I still do. I think blue hair in high school would have made me a better person.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Everything is Stranger in Texas</title>
+				<link>/2008/04/17/everything-is-stranger-in-texas/</link>
+				<pubDate>Thu, 17 Apr 2008 10:10:37 +0000</pubDate>
+				<guid>/2008/04/17/everything-is-stranger-in-texas/</guid>
+				<description>&lt;p&gt;I’m off to Texas tomorrow morning to visit family and see my new niece. I regularly keep up with Texas news, but I casually read it and move on. Today I came across an unusual story… well, unusual to those of us in the North. A man in Brazoria was routinely pulled over for making an illegal u-turn. The police found a 6 foot alligator and a water moccasin in his car, both alive. The snake had already bitten the man, but that didn’t keep him from driving along as if all was normal. And there’s more…&lt;a href=&#34;http://www.chron.com/disp/story.mpl/headline/metro/5703545.html&#34;&gt;Read the full story here&lt;/a&gt;. The funniest part is the comment by the Brazoria Chief of Police, who says, “Just a typical day in Brazoria.”&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Software As a Mullet</title>
+				<link>/2008/04/10/software-as-a-mullet/</link>
+				<pubDate>Thu, 10 Apr 2008 15:38:11 +0000</pubDate>
+				<guid>/2008/04/10/software-as-a-mullet/</guid>
+				<description>&lt;p&gt;While considering the fun of programming today, I came up with a new mantra: “Software development should be like a mullet – business in the front, party in the back.”&lt;/p&gt;&#xA;&lt;p&gt;Today’s biggest buzzword in the industry is “software as a service”. I propose that we toss that idea, and instead standardize on “software as a mullet”. The new approach will focus on having fun during the software lifecycle, while producing business approved results. This will be followed by books such as:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Am I A Rockstar Software Engineer?</title>
+				<link>/2008/04/08/am-i-a-rockstar-software-engineer/</link>
+				<pubDate>Tue, 08 Apr 2008 11:53:29 +0000</pubDate>
+				<guid>/2008/04/08/am-i-a-rockstar-software-engineer/</guid>
+				<description>&lt;p&gt;According to the article, &lt;a href=&#34;http://www.readwriteweb.com/archives/top_10_software_engineer_traits.php&#34;&gt;Top 10 Traits of a Rockstar Software Engineer&lt;/a&gt;, I might be a Rockstar Software Engineer. Yay. Here’s the list, with comments about myself.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Loves To Code (I do)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Gets Things Done (I mostly do)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Continuously Refactors Code (I do)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Uses Design Patterns (I sometimes do)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Writes Tests (I rarely do…)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Leverages Existing Code (I do)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Focuses on Usability (I do)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Writes Maintainable Code (I do)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Can Code in Any Language (I can)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>April Fool&amp;#8217;s Sucker</title>
+				<link>/2008/04/02/april-fools-sucker/</link>
+				<pubDate>Wed, 02 Apr 2008 08:26:55 +0000</pubDate>
+				<guid>/2008/04/02/april-fools-sucker/</guid>
+				<description>&lt;p&gt;Well, I got fooled left and right yesterday! I guess I am naive…&lt;/p&gt;&#xA;&lt;p&gt;My favorite embedded device developer, Marcin Juszkiewicz, claimed that he was &lt;a href=&#34;http://blog.haerwu.biz/2008/04/01/moving-to-london/&#34;&gt;moving from Poland to London&lt;/a&gt; for work. He said that with his new job, he could spend more time in the office and less time taking care of his child. Sounded reasonable to me. &lt;a href=&#34;http://blog.haerwu.biz/2008/04/02/no-i-am-not-moving-to-london/&#34;&gt;He was kidding&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I’m still not clear about this one, but seeing as it was tagged on delicious as “aprilfools”, I’m guessing it wasn’t real. Too bad, because I was hyped about it. &lt;a href=&#34;http://movies.ign.com/dor/articles/863515/legend-of-zelda-movie-trailer/videos/legendofzelda_filmtrailer_040108.html&#34;&gt;Legend of Zelda Movie Trailer Debut&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Happy PI Day (3/14)</title>
+				<link>/2008/03/14/happy-pi-day-314/</link>
+				<pubDate>Fri, 14 Mar 2008 10:14:41 +0000</pubDate>
+				<guid>/2008/03/14/happy-pi-day-314/</guid>
+				<description>&lt;p&gt;PI = 3.14159 26535 89793 23846 26433 83279 50288 41971 69399 37510 58209 74944 59230 78164 06286 20899 86280 34825 34211 70679 82148 08651 32823 06647 09384 46095 50582 23172 53594 08128 48111 74502 84102 70193 85211 05559 64462 29489 54930 38196 44288 10975 66593 34461 28475 64823 37867 83165 27120 19091 45648 56692 34603 48610 45432 66482 13393 60726 02491 41273 72458 70066 06315 58817 48815 20920 96282 92540 91715 36436 78925 90360 01133 05305 48820 46652 13841 46951 94151 16094 33057 27036 57595 91953 09218 61173 81932 61179 31051 18548 07446 23799 62749 56735 18857 52724 89122 79381 83011 94912 98336 73362 44065 66430 &lt;a href=&#34;http://mapage.noos.fr/echolalie/l127.htm&#34;&gt;…&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>A Bad Day for Geese</title>
+				<link>/2008/03/10/a-bad-day-for-geese/</link>
+				<pubDate>Mon, 10 Mar 2008 12:55:46 +0000</pubDate>
+				<guid>/2008/03/10/a-bad-day-for-geese/</guid>
+				<description>&lt;p&gt;Today in Oregon, Canadian Geese are wreaking havoc.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://blog.oregonlive.com/breakingnews/2008/03/goose_knocks_out_sewage_plant.html&#34;&gt;Goose knocks out sewage plant power, causes spill&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.kgw.com/news-local/stories/kgw_031008_news_goose_police_car.3f0d4d7f.html&#34;&gt;Flying goose shatters Salem officer’s windshield&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Mii Wedding Cake Topper</title>
+				<link>/2008/03/10/mii-wedding-cake-topper/</link>
+				<pubDate>Mon, 10 Mar 2008 08:45:07 +0000</pubDate>
+				<guid>/2008/03/10/mii-wedding-cake-topper/</guid>
+				<description>&lt;p&gt;This is so excellent!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://paulpapedesigns.com/Examples_html/CI_Example_1.html&#34;&gt;Paul Pape Designs – Mii Cake Topper&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://paulpapedesigns.com/&#34; title=&#34;wedding topper&#34;&gt;&lt;img src=&#39;https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2008/03/ci_example_1.jpg?w=840&#39; alt=&#39;wedding topper&#39; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I suspect that the girl would never go for it, but I can dream.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Stop Helping the Shy</title>
+				<link>/2008/03/07/stop-helping-the-shy/</link>
+				<pubDate>Fri, 07 Mar 2008 11:47:14 +0000</pubDate>
+				<guid>/2008/03/07/stop-helping-the-shy/</guid>
+				<description>&lt;p&gt;Why is it that everyone is so motivated to help out shy people? I can guarantee you that if you aren’t severely shy, then you have no idea what it’s like. I came across this article today: &lt;a href=&#34;http://www.pickthebrain.com/blog/the-shy-persons-guide-to-talking-to-strangers/&#34;&gt;The Shy Person’s Guide to Talking to Strangers&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Okay, first of all, I barely talk to my friends, family, or the person I’m going to marry, so why would I seek out lessons on talking to strangers? Oh, there are beneficial relationships that can be formed, according to the article. Allow me to debunk them.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Crashing Las Vegas</title>
+				<link>/2008/02/26/crashing-las-vegas/</link>
+				<pubDate>Tue, 26 Feb 2008 16:28:56 +0000</pubDate>
+				<guid>/2008/02/26/crashing-las-vegas/</guid>
+				<description>&lt;p&gt;This is classic! It seems that the Paris hotel and casino in Las Vegas had a small technical problem with their giant display screen. Microsoft Windows. BSOD.&lt;/p&gt;&#xA;&lt;p&gt;[&lt;/p&gt;&#xA;&lt;p&gt;Crashing Las Vegas](&lt;a href=&#34;http://thedailywtf.com/Articles/Crashing-Las-Vegas.aspx&#34;&gt;http://thedailywtf.com/Articles/Crashing-Las-Vegas.aspx&lt;/a&gt;)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Obsolete Skills</title>
+				<link>/2008/02/22/obsolete-skills/</link>
+				<pubDate>Fri, 22 Feb 2008 10:39:32 +0000</pubDate>
+				<guid>/2008/02/22/obsolete-skills/</guid>
+				<description>&lt;p&gt;I’ve come to realize that I have &lt;strong&gt;many&lt;/strong&gt; obsolete skills. Check out this gigantic list of skills considered to be obsolete: &lt;a href=&#34;http://obsoleteskills.com/Skills/Skills&#34;&gt;Obsolete Skills&lt;/a&gt;. I must be old, because as I scan through the list, I keep saying “oh yeah, I’ve done that.” Here are some examples of how old I am… Rabbit ears. PASCAL. Dialing a rotary phone. Formatting a floppy. Putting a needle on a vinyl record. Rewinding VCR tapes. Rewinding an audio cassette using a Bic pen. Setting a baud rate, parity and stop-bits. AT commands for dial-up modems. Using a microfiche. Archie.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>There Will Be Chickens</title>
+				<link>/2008/02/17/there-will-be-chickens/</link>
+				<pubDate>Sun, 17 Feb 2008 11:23:18 +0000</pubDate>
+				<guid>/2008/02/17/there-will-be-chickens/</guid>
+				<description>&lt;p&gt;Have I mentioned that The Viewpoint Inn (the location of our wedding) has chickens? They have their own chicken house at the back of the Inn. We were assured that these particular chickens, who have names, are not used in the kitchen.&lt;/p&gt;&#xA;&lt;p&gt;[&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://i0.wp.com/farm3.static.flickr.com/2267/2253373783_c21bfa65ac_m_d.jpg?w=840&#34; alt=&#34;Inn Chickens&#34; data-recalc-dims=&#34;1&#34; /&gt;](&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/2253373783/&#34;&gt;http://www.flickr.com/photos/cleverswine/2253373783/&lt;/a&gt;)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Hair Albums</title>
+				<link>/2008/02/12/hair-albums/</link>
+				<pubDate>Tue, 12 Feb 2008 09:05:07 +0000</pubDate>
+				<guid>/2008/02/12/hair-albums/</guid>
+				<description>&lt;p&gt;When I was a teenager, I collected locks of hair from all of my female friends and girlfriends. I must have had 30 clumps of hair, each tied neatly with a piece of ribbon. At the time, I thought there was nothing strange about it. In retrospect, however, it seems a bit psycho. I mention this because I just read an &lt;a href=&#34;http://www.msnbc.msn.com/id/23103392/&#34;&gt;article about this year’s President’s Day&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;For the first time, The Academy of Natural Sciences is displaying a scrapbook that has locks of hair from the first 12 U.S. presidents.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Hair Mixer</title>
+				<link>/2008/02/02/hair-mixer/</link>
+				<pubDate>Sat, 02 Feb 2008 13:34:04 +0000</pubDate>
+				<guid>/2008/02/02/hair-mixer/</guid>
+				<description>&lt;p&gt;So fun! &lt;a href=&#34;http://www.hairmixer.com/&#34;&gt;HairMixer!&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://flickr.com/photos/cleverswine/sets/72157603840800581/&#34;&gt;&lt;img src=&#34;https://i0.wp.com/farm3.static.flickr.com/2396/2237695498_d0c15b49d8_m_d.jpg?w=840&#34; alt=&#34;Kevin&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://flickr.com/photos/cleverswine/sets/72157603840800581/&#34;&gt;See the rest of our celebrity heads here.&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Couture: fashion designers or couturiers collectively</title>
+				<link>/2008/02/01/couture-fashion-designers-or-couturiers-collectively/</link>
+				<pubDate>Fri, 01 Feb 2008 16:04:29 +0000</pubDate>
+				<guid>/2008/02/01/couture-fashion-designers-or-couturiers-collectively/</guid>
+				<description>&lt;p&gt;I sort of learned a new word today: &lt;a href=&#34;http://dictionary.reference.com/browse/couture&#34;&gt;couture&lt;/a&gt;. As I was browsing the news, I came across a J.Lo article which warranted my attention (because J.Lo is… super cool). The title of the article is “&lt;a href=&#34;http://www.msnbc.msn.com/id/22940662/&#34;&gt;Even J.Lo’s hospital gowns have to be couture&lt;/a&gt;.” I had no idea what that meant, so I looked up &lt;em&gt;couture&lt;/em&gt; on dictionary.com. I still don’t know what it means. Perhaps she needs designer gowns in the hospital??? Anyway, I bet my genius fiance can explain it to me when I see her this evening.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>101 Great Computer Programming Quotes</title>
+				<link>/2008/01/14/101-great-computer-programming-quotes/</link>
+				<pubDate>Mon, 14 Jan 2008 19:30:07 +0000</pubDate>
+				<guid>/2008/01/14/101-great-computer-programming-quotes/</guid>
+				<description>&lt;p&gt;My geek side finds this list to be very amusing!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.devtopics.com/101-great-computer-programming-quotes/&#34;&gt;101 Great Computer Programming Quotes&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;“Good code is its own best documentation.”&lt;/p&gt;&#xA;&lt;p&gt;(Steve McConnell)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Olan Mills</title>
+				<link>/2007/12/29/olan-mills/</link>
+				<pubDate>Sat, 29 Dec 2007 21:18:47 +0000</pubDate>
+				<guid>/2007/12/29/olan-mills/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://listoftheday.blogspot.com/2007/09/great-olan-mills-photos.html&#34;&gt;Great Olan Mills photos&lt;/a&gt;… Total frickin’ awesomeness from Olan Mills, Sears and other fine portrait studios.&lt;/p&gt;&#xA;&lt;p&gt;This is a must see for anyone that remembers Olan Mills photos from the 70s and 80s!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Seniors Love the WII</title>
+				<link>/2007/12/26/seniors-love-the-wii/</link>
+				<pubDate>Wed, 26 Dec 2007 11:39:41 +0000</pubDate>
+				<guid>/2007/12/26/seniors-love-the-wii/</guid>
+				<description>&lt;p&gt;I bet Nintendo had no idea that their WII gaming console would make such a splash in nursing homes. Apprently, the WII is all the rage in the elderly world. Some homes have regular tournaments with the sports games. For example, &lt;a href=&#34;http://www.engadget.com/2007/12/26/wii-bowler-beats-real-bowler-in-senior-videogame-tourney/&#34;&gt;here is an article about a recent bowling tournament&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;When asked to comment on the 202 to 182 stunner, the few other residents who were both awake at the time and able to remember the action agreed that the match was surely one for the record books.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Attack of the Carolers</title>
+				<link>/2007/12/19/attack-of-the-carolers/</link>
+				<pubDate>Wed, 19 Dec 2007 14:52:33 +0000</pubDate>
+				<guid>/2007/12/19/attack-of-the-carolers/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2007/12/fficsmall.gif?w=840&#34; alt=&#34;JC&#34; style=&#34;margin-right: 3px;&#34; align=&#34;left&#34; data-recalc-dims=&#34;1&#34; /&gt;Last night, while hanging out and watching TV, we heard a chorus of children’s voices coming from our front yard. Naturally, our initial reaction was one of terror. We slouched down on the couch to hide from the little singing monsters. Then, the doorbell rang. We, of course, did not answer it. After about an hour, when we knew that the monsters were gone, we opened the front door. On the doorstep, we found a Mormon DVD about Jesus Christ. It was a gaggle of Mormon children that came to terrify us with their Christmas Carols. The horror! The DVD went in the trash. We went back to the couch to enjoy the rest of the evening.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Programmer Dress Code</title>
+				<link>/2007/12/07/the-programmer-dress-code/</link>
+				<pubDate>Fri, 07 Dec 2007 09:16:28 +0000</pubDate>
+				<guid>/2007/12/07/the-programmer-dress-code/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.codethinked.com/post/2007/12/The-Programmer-Dress-Code.aspx&#34;&gt;This is an funny article&lt;/a&gt; about how most visionaries in the programming world have beards and dress like slobs. I have to say, dressing nice and shaving are at the bottom of my list of priorities. I think the same could be said for most of the programmers that I know.&lt;/p&gt;&#xA;&lt;img src=&#39;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2007/12/imageaxd.jpg?w=840&#39; alt=&#39;Stallman&#39; data-recalc-dims=&#34;1&#34; /&gt;</description>
+			</item>
+			<item>
+				<title>Funny Unix Commands</title>
+				<link>/2007/12/06/funny-unix-commands/</link>
+				<pubDate>Thu, 06 Dec 2007 14:00:39 +0000</pubDate>
+				<guid>/2007/12/06/funny-unix-commands/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.geekoftheday.com/geek-jokes/classic-geek-jokes-funny-unix-commands.html&#34;&gt;This is a list&lt;/a&gt; of creative and funny Unix commands. There’s one I like which doesn’t seem to be on the list:&lt;/p&gt;&#xA;&lt;p&gt;% cd /pub&lt;/p&gt;&#xA;&lt;p&gt;% more beer&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Happy birthday&amp;#8230;</title>
+				<link>/2007/12/01/happy-birthday/</link>
+				<pubDate>Sat, 01 Dec 2007 10:58:12 +0000</pubDate>
+				<guid>/2007/12/01/happy-birthday/</guid>
+				<description>&lt;p&gt;… to me. I’m getting old. I take naps and watch the weather channel.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/2078108105/&#34;&gt;&lt;img src=&#34;https://i1.wp.com/farm3.static.flickr.com/2124/2078108105_db5fb61587_m_d.jpg?w=840&#34; alt=&#34;snow&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>FOX News Porn</title>
+				<link>/2007/11/21/fox-news-porn/</link>
+				<pubDate>Wed, 21 Nov 2007 18:46:18 +0000</pubDate>
+				<guid>/2007/11/21/fox-news-porn/</guid>
+				<description>&lt;p&gt;This web site is pretty funny.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;FOX News uses sex segments to divert outrage from the real obscenity, the war&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://foxnewsporn.com/&#34;&gt;See it here&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>An Annoyingly Efficient Relevancy Engine</title>
+				<link>/2007/11/12/an-annoyingly-efficient-relevancy-engine/</link>
+				<pubDate>Mon, 12 Nov 2007 11:25:36 +0000</pubDate>
+				<guid>/2007/11/12/an-annoyingly-efficient-relevancy-engine/</guid>
+				<description>&lt;p&gt;This article is a must read if you are dating or married to a nerd.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The Nerd Handbook&lt;/p&gt;&#xA;&lt;p&gt;A nerd needs a project because a nerd builds stuff. All the time. Those lulls in the conversation over dinner? That’s the nerd working on his project in his head.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.randsinrepose.com/archives/2007/11/11/the_nerd_handbook.html&#34;&gt;Read it here&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Pocket Protector Collection</title>
+				<link>/2007/10/18/pocket-protector-collection/</link>
+				<pubDate>Thu, 18 Oct 2007 12:52:28 +0000</pubDate>
+				<guid>/2007/10/18/pocket-protector-collection/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.pojman.com/PP/pocket_protectors/pocket_protectors.html&#34;&gt;This is an amazing collection of 523 pocket protectors!&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Twenty-five Signs You Have Grown Up</title>
+				<link>/2007/10/08/twenty-five-signs-you-have-grown-up/</link>
+				<pubDate>Mon, 08 Oct 2007 11:50:06 +0000</pubDate>
+				<guid>/2007/10/08/twenty-five-signs-you-have-grown-up/</guid>
+				<description>&lt;p&gt;I found this amusing, and true.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.divinecaroline.com/article/31/35339&#34;&gt;Twenty-five Signs You Have Grown Up&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>International Talk Like a Pirate Day</title>
+				<link>/2007/09/19/international-talk-like-a-pirate-day/</link>
+				<pubDate>Wed, 19 Sep 2007 10:38:45 +0000</pubDate>
+				<guid>/2007/09/19/international-talk-like-a-pirate-day/</guid>
+				<description>&lt;p&gt;Arrrr, today, September 19, is International Talk Like a Pirate Day! Don’t forget to talk like a pirate all day today.&lt;/p&gt;&#xA;&lt;p&gt;You can find more pirate goodness here at the &lt;a href=&#34;http://www.flickr.com/photos/talklikeapirateday/&#34;&gt;International Talk Like A Pirate Day’s photos&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Caring for Your Introvert</title>
+				<link>/2007/09/10/caring-for-your-introvert/</link>
+				<pubDate>Mon, 10 Sep 2007 14:24:40 +0000</pubDate>
+				<guid>/2007/09/10/caring-for-your-introvert/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.theatlantic.com/doc/200303/rauch?r&#34;&gt;Caring for Your Introvert&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is an interesting article about introverts and how to deal with them. I wonder why I’d post about such a subject? My favorite part is:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;How can I let the introvert in my life know that I support him and respect his choice?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;First, recognize that it’s not a choice. It’s not a lifestyle. It’s an orientation.&lt;/p&gt;&#xA;&lt;p&gt;Second, when you see an introvert lost in thought, don’t say “What’s the matter?” or “Are you all right?”&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Musicals Galore</title>
+				<link>/2007/07/29/musicals-galore/</link>
+				<pubDate>Sun, 29 Jul 2007 07:04:06 +0000</pubDate>
+				<guid>/2007/07/29/musicals-galore/</guid>
+				<description>&lt;p&gt;We saw &lt;a href=&#34;http://www.hairspraymovie.com/&#34;&gt;Hairspray&lt;/a&gt; last night, which is the movie version of the Broadway musical which is based on a movie by &lt;a href=&#34;http://en.wikipedia.org/wiki/John_Waters_(filmmaker)&#34;&gt;John Waters&lt;/a&gt;. I was pleased to see a cameo by John Waters at the beginning, as I am a fan of his. The movie was pretty good, and does the original justice. If you can tolerate a musical I’d recommend it.&lt;/p&gt;&#xA;&lt;p&gt;Tonight we are going to see &lt;a href=&#34;http://www.mamma-mia.com/&#34;&gt;Mama Mia&lt;/a&gt;, which is a musical play featuring music from Abba. I happen to like Abba, otherwise I’d be hesitant to see something of this sort.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Another Person</title>
+				<link>/2007/07/20/another-person/</link>
+				<pubDate>Fri, 20 Jul 2007 08:22:42 +0000</pubDate>
+				<guid>/2007/07/20/another-person/</guid>
+				<description>&lt;p&gt;This was the best South Park impression of me that I could come up with given the resources. I forgot where the web site is to create these, but you can search and find.&lt;/p&gt;&#xA;&lt;img src=&#39;https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2007/07/mesp.gif?w=840&#39; alt=&#39;mesp.gif&#39; data-recalc-dims=&#34;1&#34; /&gt;</description>
+			</item>
+			<item>
+				<title>A Person</title>
+				<link>/2007/07/19/a-person/</link>
+				<pubDate>Thu, 19 Jul 2007 17:50:07 +0000</pubDate>
+				<guid>/2007/07/19/a-person/</guid>
+				<description>&lt;p&gt;I’ve been posting lots of non-people photos (flowers, etc.) on &lt;a href=&#34;http://www.flickr.com/photos/cleverswine/&#34;&gt;flickr&lt;/a&gt;, so here is a really bad one of me.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/855941012/&#34;&gt;&lt;img src=&#34;https://i1.wp.com/farm2.static.flickr.com/1424/855941012_b0f6483f1c_m_d.jpg?w=840&#34; alt=&#34;me&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Real Men Love the Fifth Element</title>
+				<link>/2007/07/18/real-men-love-the-fifth-element/</link>
+				<pubDate>Wed, 18 Jul 2007 15:49:34 +0000</pubDate>
+				<guid>/2007/07/18/real-men-love-the-fifth-element/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.doubleviking.com/real-men-love-the-fifth-element-6198-p.html&#34;&gt;Another installment of our “Real Men Love” movie series…&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2007/07/specialeffects.jpg&#34; title=&#34;specialeffects.jpg&#34;&gt;&lt;img src=&#39;https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2007/07/specialeffects.jpg?resize=150%2C150&#39; alt=&#39;specialeffects.jpg&#39; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Giant Slug!</title>
+				<link>/2007/07/04/giant-slug/</link>
+				<pubDate>Wed, 04 Jul 2007 09:12:21 +0000</pubDate>
+				<guid>/2007/07/04/giant-slug/</guid>
+				<description>&lt;p&gt;Bren came across a giant banana slug while enjoying some coffee:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/716637239/&#34;&gt;&lt;img src=&#39;https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2007/07/cimg2587.JPG?w=840&#39; alt=&#39;sluggg&#39; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>IT Crowd coming to NBC!?</title>
+				<link>/2007/05/14/it-crowd-coming-to-nbc/</link>
+				<pubDate>Mon, 14 May 2007 11:50:21 +0000</pubDate>
+				<guid>/2007/05/14/it-crowd-coming-to-nbc/</guid>
+				<description>&lt;p&gt;According to &lt;a href=&#34;http://news.yahoo.com/s/nm/20070514/media_nm/nbc_dc&#34;&gt;this article&lt;/a&gt;, my favorite geek TV show, The IT Crowd, is coming to NBC. The show is about misunderstood IT workers, and is hilarious. It currently only airs in Britain and can also be &lt;a href=&#34;http://www.channel4.com/entertainment/tv/microsites/I/itcrowd/index.html&#34;&gt;watched online&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>1973 vs. 2007</title>
+				<link>/2007/05/14/1973-vs-2007/</link>
+				<pubDate>Mon, 14 May 2007 11:33:50 +0000</pubDate>
+				<guid>/2007/05/14/1973-vs-2007/</guid>
+				<description>&lt;p&gt;This is a &lt;a href=&#34;http://www.insane.com/jokes-1973-vs-2007/&#34;&gt;funny list of scenarios&lt;/a&gt; with responses from 1973 and 2007. Things have changed…&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Scenario: Jeffrey wonâ€™t be still in class, disrupts other students.&lt;/p&gt;&#xA;&lt;p&gt;1973: Jeffrey sent to office and given a good paddling by Principal. Sits still in class.&lt;/p&gt;&#xA;&lt;p&gt;2007: Jeffrey given huge doses of Ritalin. Becomes a zombie. School gets extra money from state because Jeffrey has a disability.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.insane.com/jokes-1973-vs-2007/&#34;&gt;Read more…&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>What We Call The News</title>
+				<link>/2007/04/02/what-we-call-the-news/</link>
+				<pubDate>Mon, 02 Apr 2007 11:58:56 +0000</pubDate>
+				<guid>/2007/04/02/what-we-call-the-news/</guid>
+				<description>&lt;p&gt;From JibJab comes a hilarious, and unfortunately accurate, video about the state of today’s news media.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.jibjab.com/what_we_call_the_news&#34;&gt;What We Call The News&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Wisdom of Children</title>
+				<link>/2007/03/21/the-wisdom-of-children/</link>
+				<pubDate>Wed, 21 Mar 2007 10:45:22 +0000</pubDate>
+				<guid>/2007/03/21/the-wisdom-of-children/</guid>
+				<description>&lt;p&gt;From an &lt;a href=&#34;http://www.newyorker.com/humor/2007/03/26/070326sh_shouts_rich&#34;&gt;article in the New Yorker&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;A Conversation at the Grownup Table, as Imagined at the Kidsâ€™ Table&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;MOM: Pass the wine, please. I want to become crazy.&lt;/p&gt;&#xA;&lt;p&gt;DAD: O.K.&lt;/p&gt;&#xA;&lt;p&gt;GRANDMOTHER: Did you see the politics? It made me angry.&lt;/p&gt;&#xA;&lt;p&gt;DAD: Me, too. When it was over, I had sex.&lt;/p&gt;&#xA;&lt;p&gt;UNCLE: Iâ€™m having sex right now.&lt;/p&gt;&#xA;&lt;p&gt;DAD: We all are.&lt;/p&gt;&#xA;&lt;p&gt;MOM: Letâ€™s talk about which kid I like the best.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>I like WordPress</title>
+				<link>/2006/02/01/i-like-wordpress/</link>
+				<pubDate>Wed, 01 Feb 2006 17:10:11 +0000</pubDate>
+				<guid>/2006/02/01/i-like-wordpress/</guid>
+				<description>&lt;p&gt;The longer I use WordPress, the more I like it. It has quite a few features, but they don’t get in the way of simplicity. I’m finding it easy to add content, pages, and links, all “willy-nilly”. Customizing the appearance isn’t that difficult if you’re familiar with CSS and/or PHP. There are also “plugins” galore, such as &lt;a href=&#34;http://dev.wp-plugins.org/wiki/PluginDirectory&#34;&gt;these&lt;/a&gt;. A good experience so far.&lt;/p&gt;&#xA;&lt;p&gt;I might also mention thatÂ  &lt;a target=&#34;_blank&#34; href=&#34;http://www.a2hosting.com/ruby_on_rails_hosting.php&#34;&gt;a2&lt;/a&gt; web hosting has been phenomenal so far.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

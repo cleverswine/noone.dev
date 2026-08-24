@@ -32,9 +32,9 @@ RUN apt-get -y install --no-install-recommends curl vim git
 
 # Hugo
 # https://github.com/gohugoio/hugo/releases
-RUN curl -O -L -C - https://github.com/gohugoio/hugo/releases/download/v0.72.0/hugo_0.72.0_Linux-64bit.deb \
-    && dpkg -i hugo_0.72.0_Linux-64bit.deb \
-    && rm hugo_0.72.0_Linux-64bit.deb
+RUN curl -O -L -C - https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_extended_0.165.0_linux-amd64.deb \
+    && dpkg -i hugo_extended_0.165.0_linux-amd64.deb \
+    && rm hugo_extended_0.165.0_linux-amd64.deb
 # Cleanup
 RUN apt-get autoremove -y
 ENV DEBIAN_FRONTEND=dialog

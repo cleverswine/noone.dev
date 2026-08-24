@@ -1,42 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Gardening on noone.dev</title>
-    <link>/tags/gardening/</link>
-    <description>Recent content in Gardening on noone.dev</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 25 Jun 2012 11:55:19 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/gardening/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Vegetable Garden</title>
-      <link>/2012/06/25/vegetable-garden/</link>
-      <pubDate>Mon, 25 Jun 2012 11:55:19 +0000</pubDate>
-      
-      <guid>/2012/06/25/vegetable-garden/</guid>
-      <description>We built a small raised vegetable garden this year in one of the only spots in our yard that gets more than 4 hours of sunshine. It happens to be next to the driveway, but that’s okay.</description>
-    </item>
-    
-    <item>
-      <title>Canning Fever</title>
-      <link>/2011/08/31/canning-fever/</link>
-      <pubDate>Wed, 31 Aug 2011 18:01:24 +0000</pubDate>
-      
-      <guid>/2011/08/31/canning-fever/</guid>
-      <description>Pasta Sauce and Blueberry JamOriginally uploaded by cleverswineBren has canning fever. It all started with a canning book that she received as a Christmas present. Now, she has canned (or jarred as I like to call it) Salsa, Pasta Sauce, Blueberry Jam, and Sweet Pickles. The nice thing is that we’ll be well stocked with food that we know is locally grown and chemical free.</description>
-    </item>
-    
-    <item>
-      <title>Slow Gardening</title>
-      <link>/2011/07/18/slow-gardening/</link>
-      <pubDate>Mon, 18 Jul 2011 18:15:54 +0000</pubDate>
-      
-      <guid>/2011/07/18/slow-gardening/</guid>
-      <description>BellpepperOriginally uploaded by cleverswineThis summer is getting off to a slow start, as are our vegetables. We planted tomatoes, cucumbers, zucchini, various peppers, and carrots. So far we haven’t picked a thing. We’ve barely reached the 80s in temperature, and we’ve had more rain than usual. However, despite the lack of veggies, I’m personally enjoying the cool summer.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Gardening on noone.dev</title>
+		<link>/tags/gardening/</link>
+		<description>Recent content in Gardening on noone.dev</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 25 Jun 2012 11:55:19 +0000</lastBuildDate>
+		
+			<atom:link href="/tags/gardening/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Vegetable Garden</title>
+				<link>/2012/06/25/vegetable-garden/</link>
+				<pubDate>Mon, 25 Jun 2012 11:55:19 +0000</pubDate>
+				<guid>/2012/06/25/vegetable-garden/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/7398293004/&#34; title=&#34;photo sharing&#34;&gt;&lt;img style=&#34;border: solid 2px #000000;&#34; src=&#34;https://i1.wp.com/farm6.staticflickr.com/5463/7398293004_46ec170580_m.jpg?w=840&#34; alt=&#34;&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;We built a small raised vegetable garden this year in one of the only spots in our yard that gets more than 4 hours of sunshine. It happens to be next to the driveway, but that’s okay.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Canning Fever</title>
+				<link>/2011/08/31/canning-fever/</link>
+				<pubDate>Wed, 31 Aug 2011 18:01:24 +0000</pubDate>
+				<guid>/2011/08/31/canning-fever/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/6087280290/&#34; title=&#34;photo sharing&#34;&gt;&lt;img src=&#34;https://i2.wp.com/farm7.static.flickr.com/6089/6087280290_71f4107933_m.jpg?w=840&#34; alt=&#34;&#34; style=&#34;border: solid 2px #000000;&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-size: 0.9em; margin-top: 0px;&#34;&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/6087280290/&#34;&gt;Pasta Sauce and Blueberry Jam&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; Originally uploaded by &lt;a href=&#34;http://www.flickr.com/photos/cleverswine/&#34;&gt;cleverswine&lt;/a&gt;&lt;br /&gt; &lt;/span&gt;&lt;/p&gt;&#xA;&lt;br clear=&#34;all&#34; /&gt;&#xA;&lt;p&gt;Bren has canning fever. It all started with a canning book that she received as a Christmas present. Now, she has canned (or jarred as I like to call it) Salsa, Pasta Sauce, Blueberry Jam, and Sweet Pickles. The nice thing is that we’ll be well stocked with food that we know is locally grown and chemical free.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Slow Gardening</title>
+				<link>/2011/07/18/slow-gardening/</link>
+				<pubDate>Mon, 18 Jul 2011 18:15:54 +0000</pubDate>
+				<guid>/2011/07/18/slow-gardening/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/5943862099/&#34; title=&#34;photo sharing&#34;&gt;&lt;img src=&#34;https://i0.wp.com/farm7.static.flickr.com/6141/5943862099_ab977a0817_m.jpg?w=840&#34; alt=&#34;&#34; style=&#34;border: solid 2px #000000;&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;span style=&#34;font-size: 0.9em; margin-top: 0px;&#34;&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/5943862099/&#34;&gt;Bellpepper&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; Originally uploaded by &lt;a href=&#34;http://www.flickr.com/photos/cleverswine/&#34;&gt;cleverswine&lt;/a&gt;&lt;br /&gt; &lt;/span&gt;&lt;/p&gt;&#xA;&lt;br clear=&#34;all&#34; /&gt;&#xA;&lt;p&gt;This summer is getting off to a slow start, as are our vegetables. We planted tomatoes, cucumbers, zucchini, various peppers, and carrots. So far we haven’t picked a thing. We’ve barely reached the 80s in temperature, and we’ve had more rain than usual. However, despite the lack of veggies, I’m personally enjoying the cool summer.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

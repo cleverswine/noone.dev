@@ -1,184 +1,143 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>WebSite on noone.dev</title>
-    <link>/tags/website/</link>
-    <description>Recent content in WebSite on noone.dev</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jul 2017 13:54:15 -0700</lastBuildDate>
-    
-	<atom:link href="/tags/website/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>New Website</title>
-      <link>/archives/new-website/</link>
-      <pubDate>Thu, 13 Jul 2017 13:54:15 -0700</pubDate>
-      
-      <guid>/archives/new-website/</guid>
-      <description>It&amp;rsquo;s been almost 4 years since I last posted to a blog. I&amp;rsquo;ve been learning quite a bit over the past couple of years, so I thought I might give it another shot. Some of the things that I&amp;rsquo;d like to write about:
- Go (golang) Docker Kubernetes Dotnet Core IdentityServer OAuth and OpenID Connect  Also, I&amp;rsquo;m ditching Wordpress in favor of a static site generator. Specifically, I&amp;rsquo;m using Hugo.</description>
-    </item>
-    
-    <item>
-      <title>Trying out Windows Live Writer</title>
-      <link>/2013/08/05/trying-out-windows-live-writer/</link>
-      <pubDate>Mon, 05 Aug 2013 15:18:45 +0000</pubDate>
-      
-      <guid>/2013/08/05/trying-out-windows-live-writer/</guid>
-      <description>Scott Hanselman has been trumpeting Windows Live Writer for some time now. I’ve been hesitant to try it out because I’m a control freak and I was convinced that Live Writer wouldn’t do things correctly. Well, he blogged about it again todayso I’m giving it a try (with this post). It was the comments on his post that swayed me.
-Live Writer has improved quite a bit since last time I tried it.</description>
-    </item>
-    
-    <item>
-      <title>cleverswine.net is new</title>
-      <link>/2009/11/25/cleverswine-net-is-new/</link>
-      <pubDate>Wed, 25 Nov 2009 16:13:26 +0000</pubDate>
-      
-      <guid>/2009/11/25/cleverswine-net-is-new/</guid>
-      <description>cleverswine.net has been updated. It’s something I’m messing around with, along the lines of a “lifestream”. I don’t like to call it that, however, because it’s not my “life”. It’s really just a summary of my online activity.</description>
-    </item>
-    
-    <item>
-      <title>What I&amp;#8217;m Working On</title>
-      <link>/2009/11/23/what-im-working-on/</link>
-      <pubDate>Mon, 23 Nov 2009 13:32:54 +0000</pubDate>
-      
-      <guid>/2009/11/23/what-im-working-on/</guid>
-      <description>Here’s what I’m working onWhat I worked on. Right now it’s just a basic display of feeds from some of my social networks. I’d like to fancy it up a bit at some point, perhaps with some nice jQuery tooltips. I’m using the SimplePie PHP library to fetch the feeds (each one asynchronously). The design is borrowed from Popurls. I know it’s not that interesting, but it’s fun for me.</description>
-    </item>
-    
-    <item>
-      <title>Welcome to blog.cleverswine.net</title>
-      <link>/2009/11/20/welcome-to-blog-cleverswine-net/</link>
-      <pubDate>Fri, 20 Nov 2009 12:19:16 +0000</pubDate>
-      
-      <guid>/2009/11/20/welcome-to-blog-cleverswine-net/</guid>
-      <description>This will be the new home of my “blog”. I have moved it here for several reasons. Mainly, the novelty of personal blogging has worn out and I’d really like to try out some cool new stuff on my base domain (www.cleverswine.net). That’s not to say I’ll never write anything again. I’ll continue to update this blog on occasion. It’s just that I’ll be shifting focus to some other experimental things, like aggregating my web activity for display, showing photo albums, etc.</description>
-    </item>
-    
-    <item>
-      <title>card.ly Again</title>
-      <link>/2009/09/18/cardly-again/</link>
-      <pubDate>Fri, 18 Sep 2009 15:03:37 +0000</pubDate>
-      
-      <guid>/2009/09/18/cardly-again/</guid>
-      <description>I updated my card.ly page. See it here.</description>
-    </item>
-    
-    <item>
-      <title>card.ly</title>
-      <link>/2009/07/27/cardly/</link>
-      <pubDate>Mon, 27 Jul 2009 15:03:39 +0000</pubDate>
-      
-      <guid>/2009/07/27/cardly/</guid>
-      <description>This is basically what I wanted to do with my web site. I wonder if I should just relinquish cleverswine.net and call http://card.ly/cleverswine my new home?</description>
-    </item>
-    
-    <item>
-      <title>I Know&amp;#8230;</title>
-      <link>/2009/07/02/i-know/</link>
-      <pubDate>Thu, 02 Jul 2009 12:40:26 +0000</pubDate>
-      
-      <guid>/2009/07/02/i-know/</guid>
-      <description>…this web site is way out of date. I’m working on a replacement that is less of a blog and more of an aggregator. It’s slow going due to my lack of free time lately, but it will be here one day. Meanwhile, try the links in the header for more up to date Kevin data.
-What’s going on? We’re attempting to sell our house and move closer in to Portland.</description>
-    </item>
-    
-    <item>
-      <title>New Look</title>
-      <link>/2008/10/07/new-look/</link>
-      <pubDate>Tue, 07 Oct 2008 13:48:25 +0000</pubDate>
-      
-      <guid>/2008/10/07/new-look/</guid>
-      <description>I found the Aeros wordpress theme, downloaded it, made some modifications, added my photos/movies/music widget, and here it is! I’ve only tested in Firefox 3 and Internet Explorer 7. The font looks a bit strange in IE7… Anyway, I’ll be fiddling with it some more over time. Let me know if something doesn’t look right in your browser.
-I know the sidebar isn’t very elegant (especially the photos/movies/music links). I am soooo bad at design.</description>
-    </item>
-    
-    <item>
-      <title>BitNami WordPress Stack</title>
-      <link>/2008/09/30/bitnami-wordpress-stack/</link>
-      <pubDate>Tue, 30 Sep 2008 12:37:07 +0000</pubDate>
-      
-      <guid>/2008/09/30/bitnami-wordpress-stack/</guid>
-      <description>I’ve just installed the BitNami WordPress Stack on my laptop and it was so easy, and so cool! After the install, I had a fully functioning WordPress up and running locally – complete with Apache, MySql, and PHP. After installation, I exported all of the data from cleverswine.net and imported it locally – again, super easy. As a result, I have a copy of my web site running locally that I can play around with.</description>
-    </item>
-    
-    <item>
-      <title>Thinking About Another Redesign</title>
-      <link>/2008/08/24/thinking-about-another-redesign/</link>
-      <pubDate>Sun, 24 Aug 2008 12:01:28 +0000</pubDate>
-      
-      <guid>/2008/08/24/thinking-about-another-redesign/</guid>
-      <description>I’ve been pretty happy with the current state of cleverswine.net, but I think it’s time for a redesign. I would like to de-emphasize the blogging portion of the site and instead create something more like a portal. I use quite a few web sites that provide activity feeds (Facebook, Delicious, Amazon, Netflix, Last.fm, and Flickr to name a few). Since I rarely blog anything of interest, I’m thinking that the main content on cleverswine.</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>/2008/03/11/contact/</link>
-      <pubDate>Tue, 11 Mar 2008 11:25:34 +0000</pubDate>
-      
-      <guid>/2008/03/11/contact/</guid>
-      <description>I’ve added a long overdue feature to cleverswine.net: a Contact form. Now you can actually contact me via email from this web site.
-You can use the Contact link in the navigation bar at the top, or just click here. The page is sort of ugly at the moment. I might pretty it up at some point.</description>
-    </item>
-    
-    <item>
-      <title>Wedding Update</title>
-      <link>/2008/01/17/wedding-update/</link>
-      <pubDate>Thu, 17 Jan 2008 09:38:47 +0000</pubDate>
-      
-      <guid>/2008/01/17/wedding-update/</guid>
-      <description>Location
-We’ll be looking at two potential wedding locations this weekend. Our preference is for an outdoor ceremony, so that’s where we are starting. First, we’ll be looking at the Abernathy Center in Oregon City. We like the photos we’ve seen. There are lots of gardens and gazebos and we would have the reception outdoors under a large tent. Second, we’ll be looking at Viewpoint Inn in Corbett. This place is really nice and upscale, and has a fabulous view.</description>
-    </item>
-    
-    <item>
-      <title>last.fm</title>
-      <link>/2007/08/06/lastfm/</link>
-      <pubDate>Mon, 06 Aug 2007 14:08:50 +0000</pubDate>
-      
-      <guid>/2007/08/06/lastfm/</guid>
-      <description>I finally joined the last.fm revolution. You can see all of the music that I listen to on right side of my page. I realize that the page loads much slower, but the cool factor is worth the wait. My last.fm name is dolcex if you want to be my friend.</description>
-    </item>
-    
-    <item>
-      <title>You Can Text Message Me</title>
-      <link>/2007/08/05/you-can-text-message-me/</link>
-      <pubDate>Sun, 05 Aug 2007 09:25:47 +0000</pubDate>
-      
-      <guid>/2007/08/05/you-can-text-message-me/</guid>
-      <description>I added a tool to the side bar on the right from which you can send a text message to my cell phone. Pretty cool, eh?</description>
-    </item>
-    
-    <item>
-      <title>Another New Theme</title>
-      <link>/2007/07/09/another-new-theme/</link>
-      <pubDate>Mon, 09 Jul 2007 09:20:44 +0000</pubDate>
-      
-      <guid>/2007/07/09/another-new-theme/</guid>
-      <description>I’ve always wanted to go with a dark theme for my web site, but, as I’ve said before, I’m not a designer. Well, I happened upon a giant list of themes that I could use, and so I chose one. What do you think? I personally like it better than the last one.</description>
-    </item>
-    
-    <item>
-      <title>Problem with IE6?</title>
-      <link>/2007/05/31/problem-with-ie6/</link>
-      <pubDate>Thu, 31 May 2007 11:08:39 +0000</pubDate>
-      
-      <guid>/2007/05/31/problem-with-ie6/</guid>
-      <description>It seems that people using Internet Explorer version 6.0 are missing some of the content on my web site. The left and right columns do not appear. There are 2 options to fix this problem:
- I can hack the WordPress theme stylesheets IE6 users can upgrade their web browser  Since option 1 isn’t really an option, here are links to the latest and greatest web browsers (they are free, so you should get one):</description>
-    </item>
-    
-    <item>
-      <title>Changes</title>
-      <link>/2007/03/05/changes/</link>
-      <pubDate>Mon, 05 Mar 2007 15:39:34 +0000</pubDate>
-      
-      <guid>/2007/03/05/changes/</guid>
-      <description>This web site has changed again! The content is exactly the same, but I’m messing around with the look and feel. The experience of trying to create my own style sheet from scratch has reinforced the truth about my lack of creativity. In the end, as you can see, I chose the WordPress default theme because it’s actually better than anything I could come up with! Alas, I am a programmer, not a web designer.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Website on noone.dev</title>
+		<link>/tags/website/</link>
+		<description>Recent content in Website on noone.dev</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 13 Jul 2017 13:54:15 -0700</lastBuildDate>
+		
+			<atom:link href="/tags/website/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>New Website</title>
+				<link>/archives/new-website/</link>
+				<pubDate>Thu, 13 Jul 2017 13:54:15 -0700</pubDate>
+				<guid>/archives/new-website/</guid>
+				<description>&lt;p&gt;It&amp;rsquo;s been almost 4 years since I last posted to a blog. I&amp;rsquo;ve been learning quite a bit over the past couple of years, so I thought I might give it another shot.&#xA;Some of the things that I&amp;rsquo;d like to write about:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Go (golang)&lt;/li&gt;&#xA;&lt;li&gt;Docker&lt;/li&gt;&#xA;&lt;li&gt;Kubernetes&lt;/li&gt;&#xA;&lt;li&gt;Dotnet Core&lt;/li&gt;&#xA;&lt;li&gt;IdentityServer&lt;/li&gt;&#xA;&lt;li&gt;OAuth and OpenID Connect&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Also, I&amp;rsquo;m ditching Wordpress in favor of a static site generator. Specifically, I&amp;rsquo;m using &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&#xA;Hugo is a bit geared toward the developer-type, which suits me. It&amp;rsquo;s even written in Go!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Trying out Windows Live Writer</title>
+				<link>/2013/08/05/trying-out-windows-live-writer/</link>
+				<pubDate>Mon, 05 Aug 2013 15:18:45 +0000</pubDate>
+				<guid>/2013/08/05/trying-out-windows-live-writer/</guid>
+				<description>&lt;p&gt;Scott Hanselman has been trumpeting Windows Live Writer for some time now.  I’ve been hesitant to try it out because I’m a control freak and I was convinced that Live Writer wouldn’t do things correctly.  Well, he &lt;a href=&#34;http://www.hanselman.com/blog/DownloadWindowsLiveWriter2012.aspx&#34; target=&#34;_blank&#34;&gt;blogged about it again today&lt;/a&gt; so I’m giving it a try (with this post).  It was the comments on his post that swayed me.&lt;/p&gt;&#xA;&lt;p&gt;Live Writer has improved quite a bit since last time I tried it.  It actually pulled down my WordPress theme in order to provide a themed preview, which isn’t perfect, but it’s good enough to get an idea.  Adding categories and tags is really simple, with type-ahead suggestions from previous posts.  It looks like it has some powerful picture, video and map embedding tools, which I will try eventually.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>cleverswine.net is new</title>
+				<link>/2009/11/25/cleverswine-net-is-new/</link>
+				<pubDate>Wed, 25 Nov 2009 16:13:26 +0000</pubDate>
+				<guid>/2009/11/25/cleverswine-net-is-new/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.cleverswine.net/&#34;&gt;cleverswine.net&lt;/a&gt; has been updated.  It’s something I’m messing around with, along the lines of a “lifestream”.  I don’t like to call it that, however, because it’s not my “life”.  It’s really just a summary of my online activity.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>What I&amp;#8217;m Working On</title>
+				<link>/2009/11/23/what-im-working-on/</link>
+				<pubDate>Mon, 23 Nov 2009 13:32:54 +0000</pubDate>
+				<guid>/2009/11/23/what-im-working-on/</guid>
+				<description>&lt;p&gt;&lt;del datetime=&#34;2011-03-18T00:50:48+00:00&#34;&gt;Here’s what I’m working on&lt;/del&gt; &lt;a title=&#34;Test Site&#34; href=&#34;http://cleverswine.net/&#34; target=&#34;_blank&#34;&gt;What I worked on&lt;/a&gt;.  Right now it’s just a basic display of feeds from some of my social networks.  I’d like to fancy it up a bit at some point, perhaps with some nice jQuery tooltips.  I’m using the SimplePie PHP library to fetch the feeds (each one asynchronously).  The design is borrowed from &lt;a title=&#34;Popurls&#34; href=&#34;http://popurls.com/&#34; target=&#34;_blank&#34;&gt;Popurls&lt;/a&gt;.  I know it’s not that interesting, but it’s fun for me.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Welcome to blog.cleverswine.net</title>
+				<link>/2009/11/20/welcome-to-blog-cleverswine-net/</link>
+				<pubDate>Fri, 20 Nov 2009 12:19:16 +0000</pubDate>
+				<guid>/2009/11/20/welcome-to-blog-cleverswine-net/</guid>
+				<description>&lt;p&gt;This will be the new home of my “blog”.  I have moved it here for several reasons.  Mainly, the novelty of personal blogging has worn out and I’d really like to try out some cool new stuff on my base domain (&lt;a href=&#34;https://www.cleverswine.net&#34;&gt;www.cleverswine.net&lt;/a&gt;).  That’s not to say I’ll never write anything again.  I’ll continue to update this blog on occasion.  It’s just that I’ll be shifting focus to some other experimental things, like aggregating my web activity for display, showing photo albums, etc.  For the next couple of weeks, my base domain will be more of a development sandbox while I create random things and throw them on there.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>card.ly Again</title>
+				<link>/2009/09/18/cardly-again/</link>
+				<pubDate>Fri, 18 Sep 2009 15:03:37 +0000</pubDate>
+				<guid>/2009/09/18/cardly-again/</guid>
+				<description>&lt;p&gt;I updated my card.ly page. &lt;a href=&#34;http://card.ly/cleverswine&#34;&gt;See it here.&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>card.ly</title>
+				<link>/2009/07/27/cardly/</link>
+				<pubDate>Mon, 27 Jul 2009 15:03:39 +0000</pubDate>
+				<guid>/2009/07/27/cardly/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://card.ly/cleverswine&#34;&gt;&lt;img src=&#34;https://i2.wp.com/card.ly/images/vcard-blue-big.png?w=840&#34; alt=&#34;card.ly&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is basically what I wanted to do with my web site. I wonder if I should just relinquish cleverswine.net and call &lt;a href=&#34;http://card.ly/cleverswine&#34;&gt;http://card.ly/cleverswine&lt;/a&gt; my new home?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>I Know&amp;#8230;</title>
+				<link>/2009/07/02/i-know/</link>
+				<pubDate>Thu, 02 Jul 2009 12:40:26 +0000</pubDate>
+				<guid>/2009/07/02/i-know/</guid>
+				<description>&lt;p&gt;…this web site is way out of date. I’m working on a replacement that is less of a blog and more of an aggregator. It’s slow going due to my lack of free time lately, but it will be here one day. Meanwhile, try the links in the header for more up to date Kevin data.&lt;/p&gt;&#xA;&lt;p&gt;What’s going on? We’re attempting to sell our house and move closer in to Portland. At the moment, we’re making some minor updates and interviewing realtors. We have not found a house to buy, and we haven’t even narrowed down a specific location yet. Right now it’s all about selling.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>New Look</title>
+				<link>/2008/10/07/new-look/</link>
+				<pubDate>Tue, 07 Oct 2008 13:48:25 +0000</pubDate>
+				<guid>/2008/10/07/new-look/</guid>
+				<description>&lt;p&gt;I found the &lt;a href=&#34;http://thebuckmaker.com/aeros&#34;&gt;Aeros&lt;/a&gt; wordpress theme, downloaded it, made some modifications, added my photos/movies/music widget, and here it is! I’ve only tested in Firefox 3 and Internet Explorer 7. The font looks a bit strange in IE7… Anyway, I’ll be fiddling with it some more over time. Let me know if something doesn’t look right in your browser.&lt;/p&gt;&#xA;&lt;p&gt;I know the sidebar isn’t very elegant (especially the photos/movies/music links). I am soooo bad at design. Fooling around with those 3 links took longer than anything else I’ve done with this update. Every time I tried to get fancy, the layout would go to hell. I have grand ideas – really.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>BitNami WordPress Stack</title>
+				<link>/2008/09/30/bitnami-wordpress-stack/</link>
+				<pubDate>Tue, 30 Sep 2008 12:37:07 +0000</pubDate>
+				<guid>/2008/09/30/bitnami-wordpress-stack/</guid>
+				<description>&lt;p&gt;I’ve just installed the &lt;a href=&#34;http://bitnami.org/stack/wordpress&#34;&gt;BitNami WordPress Stack&lt;/a&gt; on my laptop and it was so easy, and so cool! After the install, I had a fully functioning WordPress up and running locally – complete with Apache, MySql, and PHP. After installation, I exported all of the data from cleverswine.net and imported it locally – again, super easy. As a result, I have a copy of my web site running locally that I can play around with. Sure, I could have installed Linux and set up everything that way, but I’ve had a hell of a time getting Linux to work on my laptop (I tried bleeding edge Ubuntu, Fedora, and Mint). Anyway, I happen to be very pleased with Vista.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Thinking About Another Redesign</title>
+				<link>/2008/08/24/thinking-about-another-redesign/</link>
+				<pubDate>Sun, 24 Aug 2008 12:01:28 +0000</pubDate>
+				<guid>/2008/08/24/thinking-about-another-redesign/</guid>
+				<description>&lt;p&gt;I’ve been pretty happy with the current state of cleverswine.net, but I think it’s time for a redesign. I would like to de-emphasize the blogging portion of the site and instead create something more like a portal. I use quite a few web sites that provide activity feeds (&lt;a href=&#34;http://www.new.facebook.com/home.php&#34;&gt;Facebook&lt;/a&gt;, &lt;a href=&#34;http://delicious.com/dolcex&#34;&gt;Delicious&lt;/a&gt;, &lt;a href=&#34;http://www.amazon.com/gp/registry/wishlist/3JHXWI5OX7HGS&#34;&gt;Amazon&lt;/a&gt;, &lt;a href=&#34;http://www.netflix.com/&#34;&gt;Netflix&lt;/a&gt;, &lt;a href=&#34;http://www.last.fm/user/dolcex&#34;&gt;Last.fm&lt;/a&gt;, and &lt;a href=&#34;http://www.flickr.com/photos/cleverswine/&#34;&gt;Flickr&lt;/a&gt; to name a few). Since I rarely blog anything of interest, I’m thinking that the main content on cleverswine.net should be a summary of my online activity (a la &lt;a href=&#34;http://friendfeed.com/cleverswine&#34;&gt;FriendFeed&lt;/a&gt;). That way, it’s constantly being updated and it gives more insight into me than my shallow blog entries. To take it even further, I’d like to be able to annotate my activity (I may be able to utilize FriendFeed for that). I still want to have a traditional blog, it just wouldn’t be the main focus.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Contact</title>
+				<link>/2008/03/11/contact/</link>
+				<pubDate>Tue, 11 Mar 2008 11:25:34 +0000</pubDate>
+				<guid>/2008/03/11/contact/</guid>
+				<description>&lt;p&gt;I’ve added a long overdue feature to cleverswine.net: a Contact form. Now you can actually contact me via email from this web site.&lt;/p&gt;&#xA;&lt;p&gt;You can use the &lt;em&gt;Contact&lt;/em&gt; link in the navigation bar at the top, or just &lt;a href=&#34;http://cleverswine.net/?page_id=340&#34;&gt;click here&lt;/a&gt;. The page is sort of ugly at the moment. I might pretty it up at some point.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Wedding Update</title>
+				<link>/2008/01/17/wedding-update/</link>
+				<pubDate>Thu, 17 Jan 2008 09:38:47 +0000</pubDate>
+				<guid>/2008/01/17/wedding-update/</guid>
+				<description>&lt;p&gt;&lt;em&gt;Location&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;We’ll be looking at two potential wedding locations this weekend. Our preference is for an outdoor ceremony, so that’s where we are starting. First, we’ll be looking at the &lt;a href=&#34;http://www.abernethycenter.com/&#34;&gt;Abernathy Center&lt;/a&gt; in Oregon City. We like the photos we’ve seen. There are lots of gardens and gazebos and we would have the reception outdoors under a large tent. Second, we’ll be looking at &lt;a href=&#34;http://www.theviewpointinn.com/&#34;&gt;Viewpoint Inn&lt;/a&gt; in Corbett. This place is really nice and upscale, and has a fabulous view. I feel pretty good about both of these places. It may be hard to choose in the long run.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>last.fm</title>
+				<link>/2007/08/06/lastfm/</link>
+				<pubDate>Mon, 06 Aug 2007 14:08:50 +0000</pubDate>
+				<guid>/2007/08/06/lastfm/</guid>
+				<description>&lt;p&gt;I finally joined the last.fm revolution. You can see all of the music that I listen to on right side of my page. I realize that the page loads much slower, but the cool factor is worth the wait. My last.fm name is dolcex if you want to be my friend.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.last.fm/&#34;&gt;&lt;img src=&#39;https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2007/08/red_logo.jpg?w=840&#39; alt=&#39;red_logo.jpg&#39; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>You Can Text Message Me</title>
+				<link>/2007/08/05/you-can-text-message-me/</link>
+				<pubDate>Sun, 05 Aug 2007 09:25:47 +0000</pubDate>
+				<guid>/2007/08/05/you-can-text-message-me/</guid>
+				<description>&lt;p&gt;I added a tool to the side bar on the right from which you can send a text message to my cell phone. Pretty cool, eh?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Another New Theme</title>
+				<link>/2007/07/09/another-new-theme/</link>
+				<pubDate>Mon, 09 Jul 2007 09:20:44 +0000</pubDate>
+				<guid>/2007/07/09/another-new-theme/</guid>
+				<description>&lt;p&gt;I’ve always wanted to go with a dark theme for my web site, but, as I’ve said before, I’m not a designer. Well, I happened upon a &lt;a href=&#34;http://www.smashingmagazine.com/2007/02/09/83-beautiful-wordpress-themes-you-probably-havent-seen/&#34;&gt;giant list of themes&lt;/a&gt; that I could use, and so I chose one. What do you think? I personally like it better than the last one.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Problem with IE6?</title>
+				<link>/2007/05/31/problem-with-ie6/</link>
+				<pubDate>Thu, 31 May 2007 11:08:39 +0000</pubDate>
+				<guid>/2007/05/31/problem-with-ie6/</guid>
+				<description>&lt;p&gt;It seems that people using Internet Explorer version 6.0 are missing some of the content on my web site. The left and right columns do not appear. There are 2 options to fix this problem:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;I can hack the WordPress theme stylesheets&lt;/li&gt;&#xA;&lt;li&gt;IE6 users can upgrade their web browser&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Since option 1 isn’t really an option, here are links to the latest and greatest web browsers (they are free, so you should get one):&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Changes</title>
+				<link>/2007/03/05/changes/</link>
+				<pubDate>Mon, 05 Mar 2007 15:39:34 +0000</pubDate>
+				<guid>/2007/03/05/changes/</guid>
+				<description>&lt;p&gt;This web site has changed again! The content is exactly the same, but I’m messing around with the look and feel. The experience of trying to create my own &lt;a href=&#34;http://www.w3.org/Style/CSS/&#34;&gt;style sheet&lt;/a&gt; from scratch has reinforced the truth about my lack of creativity. In the end, as you can see, I chose the &lt;a href=&#34;http://wordpress.org/&#34;&gt;WordPress&lt;/a&gt; default theme because it’s actually better than anything I could come up with! Alas, I am a &lt;a href=&#34;http://en.wikipedia.org/wiki/Programmer&#34;&gt;programmer&lt;/a&gt;, not a &lt;a href=&#34;http://en.wikipedia.org/wiki/Web_designer&#34;&gt;web designer&lt;/a&gt;. There’s a difference.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
