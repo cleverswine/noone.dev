@@ -16,7 +16,7 @@
         {{ $lastYear = $year }}
         {{ end }}
         <a href="{{ .RelPermalink }}"
-            class="group flex items-baseline justify-between gap-6 rounded-sm border-b border-slate-100 py-2.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 dark:border-slate-900 dark:focus-visible:ring-offset-slate-950">
+            class="group flex items-baseline justify-between gap-6 rounded-sm border-b border-slate-100 py-2.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 dark:border-slate-900 focus-visible:ring-offset-canvas dark:focus-visible:ring-offset-canvas-dark">
             <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">{{ .Title }}</span>
             <time class="shrink-0 font-mono text-xs tabular-nums text-slate-400 dark:text-slate-600">{{ .Date.Format "Jan 2" }}</time>
         </a>

@@ -12,6 +12,8 @@
         sans-serif;
     --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco,
         Consolas, "Liberation Mono", "Courier New", monospace;
+    --color-canvas: #fdfdfc;
+    --color-canvas-dark: #1a1a1a;
 }
 
 @layer base {
