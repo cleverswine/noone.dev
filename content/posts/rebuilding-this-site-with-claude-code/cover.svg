@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="A friendly robot">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4d7c0f"/>
+      <stop offset="100%" stop-color="#14210a"/>
+    </linearGradient>
+    <pattern id="dots" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="2" fill="#ffffff" fill-opacity="0.14"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect width="1200" height="900" fill="url(#dots)"/>
+  <polygon points="1200,900 1200,480 700,900" fill="#ffffff" fill-opacity="0.05"/>
+  <polygon points="0,0 480,0 0,320" fill="#ffffff" fill-opacity="0.05"/>
+
+  <g transform="translate(600 460)" fill="none">
+    <line x1="0" y1="-215" x2="0" y2="-165" stroke="#ecfccb" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="0" cy="-235" r="20" fill="#ecfccb"/>
+
+    <rect x="-165" y="-165" width="330" height="270" rx="42" fill="#0b1a05" stroke="#ecfccb" stroke-width="10"/>
+
+    <rect x="-205" y="-70" width="36" height="90" rx="16" fill="#ecfccb"/>
+    <rect x="169" y="-70" width="36" height="90" rx="16" fill="#ecfccb"/>
+
+    <circle cx="-72" cy="-30" r="26" fill="#ecfccb"/>
+    <circle cx="72" cy="-30" r="26" fill="#ecfccb"/>
+    <circle cx="-72" cy="-30" r="9" fill="#14210a"/>
+    <circle cx="72" cy="-30" r="9" fill="#14210a"/>
+
+    <path d="M -60 68 Q 0 108 60 68" stroke="#ecfccb" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>
