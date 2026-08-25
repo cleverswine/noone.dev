@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article class="mx-auto max-w-2xl">
+<article class="max-w-2xl">
     {{ $image := "" }}
     {{ with .Resources.GetMatch "cover.*" }}{{ $image = .RelPermalink }}{{ end }}
     {{ with $image }}

@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article class="mx-auto max-w-2xl">
+<article class="max-w-2xl">
     <div class="flex items-center gap-5">
         {{ with .Resources.GetMatch "profile.*" }}
         <img src="{{ .RelPermalink }}" alt="Photo of {{ $.Site.Params.author }}"
