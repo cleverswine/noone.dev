@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Mon, 24 Aug 2026 22:38:25 +0000</lastBuildDate>
+			<lastBuildDate>Mon, 24 Aug 2026 18:00:00 -0700</lastBuildDate>
 		
 			<atom:link href="https://noone.dev/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Rebuilding This Site with Claude Code</title>
+				<link>https://noone.dev/posts/rebuilding-this-site-with-claude-code/</link>
+				<pubDate>Mon, 24 Aug 2026 18:00:00 -0700</pubDate>
+				<guid>https://noone.dev/posts/rebuilding-this-site-with-claude-code/</guid>
+				<description>&lt;p&gt;This whole site just went through a pretty major overhaul, and almost none of it was typed by hand. I described what I wanted, in plain sentences, over the course of a long back-and-forth with Claude Code, and it did the actual editing — Hugo templates, Tailwind classes, content, the works.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-changed&#34;&gt;What changed&lt;/h2&gt;&#xA;&lt;p&gt;The homepage used to be a plain paginated list of posts. Now it&amp;rsquo;s a card grid: the eight most recent posts, each with a cover image up top and a solid-color panel underneath for the title, date, and description. First pass had the text laid directly over the image with a gradient scrim — readable, but not readable enough — so it got reworked into image-on-top, color-panel-below, which was a real improvement.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>HN Express</title>
 				<link>https://noone.dev/posts/hn-express/</link>
