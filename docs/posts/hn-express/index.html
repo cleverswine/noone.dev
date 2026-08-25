@@ -86,63 +86,11 @@
 <li><code>worker/</code> — background process: polls the HN API into the database, then summarizes articles (fetch → extract text/image, falling back to a headless browser when needed → Ollama).</li>
 <li><code>web/</code> — Express server that renders the front page from the database.</li>
 </ul>
-<h2 id="prerequisites">Prerequisites</h2>
-<ul>
-<li>Node.js 22.5+ (uses the built-in <code>node:sqlite</code>; developed on Node 26).</li>
-<li><a href="https://ollama.com">Ollama</a> installed and running locally, with a model pulled:
-<pre tabindex="0"><code>ollama pull llama3.2
-</code></pre>(or set <code>OLLAMA_MODEL</code> to whatever model you&rsquo;ve pulled — see Configuration below).</li>
-</ul>
-<h2 id="setup">Setup</h2>
-<pre tabindex="0"><code>npm install
-npx playwright install chromium
-</code></pre><p>Optionally copy <code>.env.example</code> to <code>.env</code> and adjust values (all settings have working defaults):</p>
-<pre tabindex="0"><code>cp .env.example .env
-</code></pre><h2 id="running-everything-together">Running everything together</h2>
-<pre tabindex="0"><code>npm run dev
-</code></pre><p>Runs the web server and worker side by side (via <code>concurrently</code>). Then open <code>http://localhost:3000</code>.</p>
-<p>The first load will be empty until the worker&rsquo;s first HN fetch completes; summaries fill in gradually as the worker processes them, and the page auto-refreshes every 20s while any are still pending.</p>
-<h2 id="running-the-worker-standalone">Running the worker standalone</h2>
-<p>From the repo root:</p>
-<pre tabindex="0"><code>npm start -w worker
-</code></pre><p>Or from inside <code>worker/</code>:</p>
-<pre tabindex="0"><code>cd worker
-npm start
-</code></pre><p>This runs all three worker loops continuously: refetching the HN front page every <code>FETCH_INTERVAL_MS</code> (default 15 min), continuously draining any stories that don&rsquo;t have a summary yet, and purging stories (no longer on the front page) first seen more than <code>CLEANUP_MAX_AGE_DAYS</code> ago (default 14 days) every <code>CLEANUP_INTERVAL_MS</code> (default 24h).</p>
-<p>For a one-off manual run instead of the continuous loop:</p>
-<pre tabindex="0"><code>npm run fetch:once -w worker       # fetch the current HN front page once
-npm run summarize:once -w worker   # summarize all currently-pending stories once, then exit
-npm run cleanup:once -w worker     # purge stories older than CLEANUP_MAX_AGE_DAYS once, then exit
-</code></pre><h3 id="retrying-failed-summaries">Retrying failed summaries</h3>
-<p>Stories whose summary failed (extraction or Ollama error) are marked <code>failed</code> and are <strong>not</strong> retried automatically — this avoids hammering a broken endpoint indefinitely. Once whatever caused the failures is fixed (e.g. Ollama wasn&rsquo;t reachable yet), requeue and reprocess them:</p>
-<pre tabindex="0"><code>npm run retry-failed -w worker
-</code></pre><p>This resets every <code>failed</code> story back to <code>pending</code> and immediately drains the whole pending queue (same as <code>summarize:once</code>).</p>
-<p>If you&rsquo;re running the continuous worker instead, pass <code>--retry-failed</code> (or set <code>RETRY_FAILED=true</code>) to requeue everything once at startup, then continue as normal:</p>
-<pre tabindex="0"><code>npm start -w worker -- --retry-failed
-</code></pre><h2 id="running-the-web-server-standalone">Running the web server standalone</h2>
-<p>From the repo root:</p>
-<pre tabindex="0"><code>npm start -w web
-</code></pre><p>Or from inside <code>web/</code>:</p>
-<pre tabindex="0"><code>cd web
-npm start
-</code></pre><p>Serves the UI at <code>http://localhost:3000</code> (or <code>$PORT</code>) purely from whatever is already in the SQLite database — it never fetches from HN or calls Ollama itself, so run the worker (at least once) separately to populate data.</p>
 <h2 id="running-with-docker">Running with Docker</h2>
 <p>Each workspace has its own <code>Dockerfile</code> (<code>web/Dockerfile</code>, <code>worker/Dockerfile</code>); both are built from the <strong>repo root</strong> as the build context, since they need the sibling <code>db/</code> package. <code>docker-compose.yml</code> runs both together, bind-mounting <code>$HOME/.config/hn/data</code> from the host into both containers so they share the same SQLite database — the same path the app uses by default outside Docker (see <a href="#data">Data</a>).</p>
 <p>Ollama itself is expected to keep running on the host, not in a container — the worker reaches it at <code>http://host.docker.internal:11434</code> by default (wired up via <code>extra_hosts</code> in the compose file, works on Docker 20.10+ on Linux/Mac/Windows).</p>
-<h3 id="both-together-compose">Both together (compose)</h3>
 <pre tabindex="0"><code>docker compose up --build
 </code></pre><p>Then open <code>http://localhost:3000</code>. Optionally copy <code>.env.example</code> to <code>.env</code> first — compose reads it automatically for the defaults shown in <code>docker-compose.yml</code> (<code>HN_FRONTPAGE_SIZE</code>, <code>OLLAMA_MODEL</code>, <code>PORT</code>, etc.); everything works without one.</p>
-<h3 id="worker-standalone-docker">Worker standalone (Docker)</h3>
-<pre tabindex="0"><code>docker build -f worker/Dockerfile -t hn-express-worker .
-docker run --rm \
-  --add-host=host.docker.internal:host-gateway \
-  -e OLLAMA_MODEL=llama3.2 \
-  -v &#34;$HOME/.config/hn/data:/root/.config/hn/data&#34; \
-  hn-express-worker
-</code></pre><h3 id="web-standalone-docker">Web standalone (Docker)</h3>
-<pre tabindex="0"><code>docker build -f web/Dockerfile -t hn-express-web .
-docker run --rm -p 3000:3000 -v &#34;$HOME/.config/hn/data:/root/.config/hn/data&#34; hn-express-web
-</code></pre><p>Uses the same host bind mount as the worker above so both containers see the same database.</p>
 <h2 id="configuration">Configuration</h2>
 <p>All configuration is via environment variables (see <code>.env.example</code> for the full list and defaults), including <code>PORT</code>, <code>HN_FRONTPAGE_SIZE</code>, <code>FETCH_INTERVAL_MS</code>, <code>SUMMARY_CONCURRENCY</code>, <code>OLLAMA_HOST</code>, and <code>OLLAMA_MODEL</code>.</p>
 <h2 id="data">Data</h2>
