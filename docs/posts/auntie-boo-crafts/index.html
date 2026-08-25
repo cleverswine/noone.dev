@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Kevin Noone">
+    <meta name="generator" content="Hugo 0.162.1" />
+    <title>noone.dev</title>
+    <link rel='stylesheet' href='/styles/main.css'>
+    <script>
+        (function () {
+            var stored = localStorage.getItem('theme');
+            var dark = stored ? stored === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+            document.documentElement.classList.toggle('dark', dark);
+        })();
+    </script>
+</head>
+
+<body class="mx-auto min-h-screen max-w-5xl bg-white px-4 py-8 font-sans text-slate-700 antialiased sm:py-12 dark:bg-slate-950 dark:text-slate-300">
+    <header class="mb-8 flex items-start justify-between gap-4">
+        <div>
+            <h1 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">
+                <a href="/">Kevin Noone</a>
+            </h1>
+            <nav class="mt-3 flex gap-5 text-sm">
+                <a class="text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400" href="/">Home</a>
+                <a class="text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400" href="/about/">About</a>
+                <a class="text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400" href="/posts/">Posts</a>
+            </nav>
+        </div>
+        <button id="theme-toggle" type="button" aria-label="Toggle dark mode"
+            class="mt-1 flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-slate-500 hover:bg-slate-100 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-white">
+            <svg id="icon-sun" class="hidden h-5 w-5 dark:block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1.5m0 15V21m9-9h-1.5m-15 0H3m15.364-6.364-1.06 1.06M6.696 17.304l-1.06 1.06m0-12.728 1.06 1.06M17.304 17.304l1.06 1.06M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Z" />
+            </svg>
+            <svg id="icon-moon" class="block h-5 w-5 dark:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+            </svg>
+        </button>
+    </header>
+
+    <main>
+<article class="mx-auto max-w-2xl">
+    
+    
+    
+    <img src="/posts/auntie-boo-crafts/cover.png" alt="" class="mb-6 aspect-video w-full rounded-xl object-cover">
+    
+    <h2 class="mb-1 text-xl font-bold text-slate-900 dark:text-white">Auntie Boo Crafts</h2>
+    
+    <time class="text-xs text-slate-500 dark:text-slate-500">August 1, 2026</time>
+    
+    <div class="prose prose-slate mt-6 max-w-none dark:prose-invert prose-a:text-teal-600 dark:prose-a:text-teal-400 prose-code:before:content-none prose-code:after:content-none">
+        <p>My wife makes and sells handmade, personalized crafts — keychains, badge reels, bookmarks, hair clips, and more — through her shop, <a href="https://www.auntieboocrafts.com">Auntie Boo Crafts</a>. Everything is actually listed and sold on Etsy; Etsy handles the checkout. But it&rsquo;s not a great home base: it&rsquo;s crowded with other sellers, the branding isn&rsquo;t hers, and it&rsquo;s a clunky place to point someone who just wants to browse. She needed an actual website — one with her own name on it, that shows off the full catalog the way she wants it shown, with every item still linking straight through to its Etsy listing to actually buy it.</p>
+<p>Keeping it in sync with Etsy is the other half of the problem. Rather than maintaining a separate catalog by hand, a script scrapes her Etsy shop directly — pulling the current titles, photos, and listing links section by section. So when she adds or changes something on Etsy, I rerun the script and push the result to git, and the site rebuilds with the updated catalog.</p>
+<p>Etsy isn&rsquo;t thrilled about being scraped, and at some point it started blocking the script outright. The fix for now is pulling a cookie from a real browser session on the site and feeding it into the request headers, which works but is a bit fragile — it&rsquo;ll probably need the same fix again eventually. The more durable answer is to stop pretending to be a browser with a handful of headers and just use one: drive an actual headless Chrome instance to load the page for real.</p>
+<p>Under the hood it&rsquo;s a static site, deployed on <a href="https://www.netlify.com">Netlify&rsquo;s</a> free plan — costs nothing to host, and there&rsquo;s no server to keep running. It just gets rebuilt and redeployed whenever the catalog changes.</p>
+<h2 id="screenshots">Screenshots</h2>
+<div class="not-prose relative mt-6 overflow-hidden rounded-xl bg-slate-900 shadow-sm ring-1 ring-slate-900/5 dark:ring-white/10" id="abc-slideshow">
+  <div class="relative aspect-video">
+    <img src="cover.png" alt="Auntie Boo Crafts — homepage" class="absolute inset-0 size-full object-cover transition-opacity duration-300 opacity-100">
+    <img src="img_1.png" alt="Auntie Boo Crafts — keychain listings" class="absolute inset-0 size-full object-cover transition-opacity duration-300 opacity-0">
+    <img src="img_2.png" alt="Auntie Boo Crafts — magnets and badge reels" class="absolute inset-0 size-full object-cover transition-opacity duration-300 opacity-0">
+    <img src="img_3.png" alt="Auntie Boo Crafts — stickers and digital patterns" class="absolute inset-0 size-full object-cover transition-opacity duration-300 opacity-0">
+    <button type="button" aria-label="Previous screenshot" data-abc-prev class="absolute left-3 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/50 text-white hover:bg-black/70">‹</button>
+    <button type="button" aria-label="Next screenshot" data-abc-next class="absolute right-3 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/50 text-white hover:bg-black/70">›</button>
+  </div>
+  <div class="flex justify-center gap-2 bg-slate-950 py-3" data-abc-dots>
+    <button type="button" aria-label="Go to screenshot 1" class="h-2 w-2 rounded-full bg-white"></button>
+    <button type="button" aria-label="Go to screenshot 2" class="h-2 w-2 rounded-full bg-white/40"></button>
+    <button type="button" aria-label="Go to screenshot 3" class="h-2 w-2 rounded-full bg-white/40"></button>
+    <button type="button" aria-label="Go to screenshot 4" class="h-2 w-2 rounded-full bg-white/40"></button>
+  </div>
+</div>
+<script>
+(function () {
+  var root = document.getElementById('abc-slideshow');
+  var slides = root.querySelectorAll('img');
+  var dots = root.querySelectorAll('[data-abc-dots] button');
+  var index = 0;
+  function show(i) {
+    index = (i + slides.length) % slides.length;
+    slides.forEach(function (img, n) {
+      img.className = 'absolute inset-0 size-full object-cover transition-opacity duration-300 ' + (n === index ? 'opacity-100' : 'opacity-0');
+    });
+    dots.forEach(function (dot, n) {
+      dot.className = 'h-2 w-2 rounded-full ' + (n === index ? 'bg-white' : 'bg-white/40');
+    });
+  }
+  root.querySelector('[data-abc-prev]').addEventListener('click', function () { show(index - 1); });
+  root.querySelector('[data-abc-next]').addEventListener('click', function () { show(index + 1); });
+  dots.forEach(function (dot, n) { dot.addEventListener('click', function () { show(n); }); });
+})();
+</script>
+<p>Shop: <a href="https://www.auntieboocrafts.com">auntieboocrafts.com</a> · Source: <a href="https://github.com/cleverswine/abc11ty">github.com/cleverswine/abc11ty</a></p>
+
+    </div>
+</article>
+
+    </main>
+
+    <footer class="mt-16 border-t border-slate-200 pt-6 text-sm text-slate-500 dark:border-slate-800 dark:text-slate-500">
+        © 2026 Kevin Noone · Powered by <a class="hover:text-teal-600 dark:hover:text-teal-400" href="https://gohugo.io/">Hugo</a> and <a class="hover:text-teal-600 dark:hover:text-teal-400" href="https://pages.github.com/">GitHub Pages</a>
+    </footer>
+
+    <script>
+        document.getElementById('theme-toggle').addEventListener('click', function () {
+            var dark = document.documentElement.classList.toggle('dark');
+            localStorage.setItem('theme', dark ? 'dark' : 'light');
+        });
+    </script>
+</body>
+
+</html>

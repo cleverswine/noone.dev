@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Kevin Noone">
+    <meta name="generator" content="Hugo 0.162.1" />
+    <title>noone.dev</title>
+    <link rel='stylesheet' href='/styles/main.css'>
+    <script>
+        (function () {
+            var stored = localStorage.getItem('theme');
+            var dark = stored ? stored === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+            document.documentElement.classList.toggle('dark', dark);
+        })();
+    </script>
+</head>
+
+<body class="mx-auto min-h-screen max-w-5xl bg-white px-4 py-8 font-sans text-slate-700 antialiased sm:py-12 dark:bg-slate-950 dark:text-slate-300">
+    <header class="mb-8 flex items-start justify-between gap-4">
+        <div>
+            <h1 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">
+                <a href="/">Kevin Noone</a>
+            </h1>
+            <nav class="mt-3 flex gap-5 text-sm">
+                <a class="text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400" href="/">Home</a>
+                <a class="text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400" href="/about/">About</a>
+                <a class="text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400" href="/posts/">Posts</a>
+            </nav>
+        </div>
+        <button id="theme-toggle" type="button" aria-label="Toggle dark mode"
+            class="mt-1 flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-slate-500 hover:bg-slate-100 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-white">
+            <svg id="icon-sun" class="hidden h-5 w-5 dark:block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1.5m0 15V21m9-9h-1.5m-15 0H3m15.364-6.364-1.06 1.06M6.696 17.304l-1.06 1.06m0-12.728 1.06 1.06M17.304 17.304l1.06 1.06M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Z" />
+            </svg>
+            <svg id="icon-moon" class="block h-5 w-5 dark:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+            </svg>
+        </button>
+    </header>
+
+    <main>
+<article class="mx-auto max-w-2xl">
+    
+    
+    
+    <img src="/posts/exif-date-organizer/cover.svg" alt="" class="mb-6 aspect-video w-full rounded-xl object-cover">
+    
+    <h2 class="mb-1 text-xl font-bold text-slate-900 dark:text-white">Exif Date Organizer</h2>
+    
+    <time class="text-xs text-slate-500 dark:text-slate-500">July 2, 2026</time>
+    
+    <div class="prose prose-slate mt-6 max-w-none dark:prose-invert prose-a:text-teal-600 dark:prose-a:text-teal-400 prose-code:before:content-none prose-code:after:content-none">
+        <p>Years of photos and videos end up scattered across old phone backups, camera SD card dumps, and random download folders, with no consistent naming or structure. <code>exif_date_organizer.py</code> is a single-file Python CLI that fixes that: it recursively scans a source folder, figures out the real date each file was taken, and copies it into a clean <code>DEST/YYYY/MM/</code> tree — leaving the original source untouched.</p>
+<h2 id="where-the-date-comes-from">Where the date comes from</h2>
+<p>Embedded EXIF is the source of truth when it&rsquo;s available. The tool shells out to <a href="https://exiftool.org/"><code>exiftool</code></a>, batching reads across many files at once for speed, and checks fields in order of trust: <code>DateTimeOriginal</code>, then <code>CreateDate</code>, then <code>ModifyDate</code>.</p>
+<p>A lot of real-world files don&rsquo;t have any of those — old scanned photos, screenshots, files that have been copied around enough times to lose their metadata. For those, it falls back to parsing a date out of the filename or the folder path, trying patterns from most to least specific:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>DATE_PATTERNS <span style="color:#f92672">=</span> [
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Full dates with separators: YYYY-MM-DD, YYYY_MM_DD, YYYY.MM.DD, YYYY MM DD</span>
+</span></span><span style="display:flex;"><span>    re<span style="color:#f92672">.</span>compile(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;(?P&lt;year&gt;19\d</span><span style="color:#e6db74">{2}</span><span style="color:#e6db74">|20\d</span><span style="color:#e6db74">{2}</span><span style="color:#e6db74">)[-_\. ](?P&lt;month&gt;0?[1-9]|1[0-2])[-_\. ](?P&lt;day&gt;0?[1-9]|[12][0-9]|3[01])&#34;</span>),
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Compact full dates: YYYYMMDD</span>
+</span></span><span style="display:flex;"><span>    re<span style="color:#f92672">.</span>compile(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;(?P&lt;year&gt;19\d</span><span style="color:#e6db74">{2}</span><span style="color:#e6db74">|20\d</span><span style="color:#e6db74">{2}</span><span style="color:#e6db74">)(?P&lt;month&gt;0[1-9]|1[0-2])(?P&lt;day&gt;0[1-9]|[12][0-9]|3[01])&#34;</span>),
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># MM-DD-YYYY / MM.DD.YYYY / MM_DD_YYYY</span>
+</span></span><span style="display:flex;"><span>    re<span style="color:#f92672">.</span>compile(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;(?P&lt;month&gt;0?[1-9]|1[0-2])[-_\. ](?P&lt;day&gt;0?[1-9]|[12][0-9]|3[01])[-_\. ](?P&lt;year&gt;19\d</span><span style="color:#e6db74">{2}</span><span style="color:#e6db74">|20\d</span><span style="color:#e6db74">{2}</span><span style="color:#e6db74">)&#34;</span>),
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># YYYY-MM / YYYY_MM / YYYY.MM / YYYY MM</span>
+</span></span><span style="display:flex;"><span>    re<span style="color:#f92672">.</span>compile(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;(?P&lt;year&gt;19\d</span><span style="color:#e6db74">{2}</span><span style="color:#e6db74">|20\d</span><span style="color:#e6db74">{2}</span><span style="color:#e6db74">)[-_\. ](?P&lt;month&gt;0?[1-9]|1[0-2])&#34;</span>),
+</span></span><span style="display:flex;"><span>]</span></span></code></pre></div>
+<p>If a file has both an embedded date and a derived one and they land in different year/month buckets, the embedded one wins — the filename is just a fallback, not a second vote.</p>
+<h2 id="collisions-and-duplicates">Collisions and duplicates</h2>
+<p>Since files get copied (never moved) and re-runs are expected — you&rsquo;ll point it at the same messy source folder more than once as you find new drives to pull from — the destination path can already have something sitting there. Before overwriting anything, it compares the two files by MD5 hash:</p>
+<ul>
+<li>Identical content → skip, logged as <code>skipped</code>.</li>
+<li>Different content, same name → the incoming file gets <code>_1</code>, <code>_2</code>, etc. appended until it lands somewhere new.</li>
+</ul>
+<p>Anything ExifTool can&rsquo;t read and anything with no usable date at all still gets accounted for rather than silently dropped: unreadable files go to <code>unsupported_ext/</code> (only if you pass <code>--copy-unsupported</code>; otherwise they&rsquo;re just logged and skipped), and supported files with no derivable date land in <code>unknown_date/</code>, prefixed with their original relative path so you can still tell where they came from — <code>Archive/2020/photo.jpg</code> becomes <code>unknown_date/Archive_2020_photo.jpg</code>.</p>
+<h2 id="usage">Usage</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># see what it would do first — nothing is copied</span>
+</span></span><span style="display:flex;"><span>python3 exif_date_organizer.py --source ~/Pictures --dest ~/Pictures_Organized --dry-run --verbose
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># the real run, with a log to review afterward</span>
+</span></span><span style="display:flex;"><span>python3 exif_date_organizer.py --source ~/Pictures --dest ~/Pictures_Organized --log ~/Pictures_Organized/exif_date_organizer.log
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># also sweep unrecognized extensions into their own folder instead of skipping them</span>
+</span></span><span style="display:flex;"><span>python3 exif_date_organizer.py --source ~/Pictures --dest ~/Pictures_Organized --copy-unsupported</span></span></code></pre></div>
+<p>Every run — dry or real — writes a tab-separated log with the source path, the raw EXIF values, the derived timestamp, the destination, and a status (<code>copied</code>, <code>dry-run</code>, <code>skipped</code>, <code>unsupported</code>, or <code>error</code>), so a run through tens of thousands of files is still auditable afterward instead of a black box.</p>
+<p>The only real dependency is <code>exiftool</code> itself being installed and on <code>PATH</code> — everything else is Python standard library (<code>argparse</code>, <code>pathlib</code>, <code>subprocess</code>, <code>shutil</code>, <code>hashlib</code>).</p>
+<p>Built mostly by describing what I wanted to Claude Code and Copilot and iterating on the output rather than writing it by hand — vibe coded, as the README puts it.</p>
+<p>Source: <a href="https://github.com/cleverswine/exif-tool">github.com/cleverswine/exif-tool</a></p>
+
+    </div>
+</article>
+
+    </main>
+
+    <footer class="mt-16 border-t border-slate-200 pt-6 text-sm text-slate-500 dark:border-slate-800 dark:text-slate-500">
+        © 2026 Kevin Noone · Powered by <a class="hover:text-teal-600 dark:hover:text-teal-400" href="https://gohugo.io/">Hugo</a> and <a class="hover:text-teal-600 dark:hover:text-teal-400" href="https://pages.github.com/">GitHub Pages</a>
+    </footer>
+
+    <script>
+        document.getElementById('theme-toggle').addEventListener('click', function () {
+            var dark = document.documentElement.classList.toggle('dark');
+            localStorage.setItem('theme', dark ? 'dark' : 'light');
+        });
+    </script>
+</body>
+
+</html>

@@ -1,78 +1,159 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Kevin Noone">
-    <meta name="generator" content="Hugo 0.165.0" />
+    <meta name="generator" content="Hugo 0.162.1" />
     <title>noone.dev</title>
     <link rel='stylesheet' href='/styles/main.css'>
-    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css" type="text/css">
-    <style>
-        ul.pagination {
-            margin: 1.5em 0 0;
-            padding-left: 0;
-            list-style: none;
-            overflow: hidden;
-        }
-
-        ul.pagination li {
-            float: left;
-            margin-left: 0;
-            margin-right: 0.8em;
-        }
-
-        li.active {
-            border-bottom: 1px solid yellow;
-        }
-
-        nav a {
-            margin-right: 1em;
-        }
-    </style>
+    <script>
+        (function () {
+            var stored = localStorage.getItem('theme');
+            var dark = stored ? stored === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+            document.documentElement.classList.toggle('dark', dark);
+        })();
+    </script>
 </head>
 
-<body>
-    <h1><a href="/">Kevin Noone</a></h1>
-    <nav>
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
-        <a href="/archives/">Archives</a>
-    </nav>
-    <hr/>
-<h4>WebStuff</h4>
+<body class="mx-auto min-h-screen max-w-5xl bg-white px-4 py-8 font-sans text-slate-700 antialiased sm:py-12 dark:bg-slate-950 dark:text-slate-300">
+    <header class="mb-8 flex items-start justify-between gap-4">
+        <div>
+            <h1 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">
+                <a href="/">Kevin Noone</a>
+            </h1>
+            <nav class="mt-3 flex gap-5 text-sm">
+                <a class="text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400" href="/">Home</a>
+                <a class="text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400" href="/about/">About</a>
+                <a class="text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400" href="/posts/">Posts</a>
+            </nav>
+        </div>
+        <button id="theme-toggle" type="button" aria-label="Toggle dark mode"
+            class="mt-1 flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-slate-500 hover:bg-slate-100 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-white">
+            <svg id="icon-sun" class="hidden h-5 w-5 dark:block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1.5m0 15V21m9-9h-1.5m-15 0H3m15.364-6.364-1.06 1.06M6.696 17.304l-1.06 1.06m0-12.728 1.06 1.06M17.304 17.304l1.06 1.06M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Z" />
+            </svg>
+            <svg id="icon-moon" class="block h-5 w-5 dark:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+            </svg>
+        </button>
+    </header>
 
-<ul style="padding-left: 0; list-style-type: none;">
+    <main>
+<div class="mx-auto max-w-2xl">
+    <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">WebStuff</h2>
     
-    <li>2008-01-23 :: <a href="/2008/01/23/the-state-of-the-social-web/">The State of the Social Web</a> </li>
-    
-    <li>2007-12-29 :: <a href="/2007/12/29/olan-mills/">Olan Mills</a> </li>
-    
-    <li>2007-12-23 :: <a href="/2007/12/23/minor-threat-sauce/">Minor Threat Sauce</a> </li>
-    
-    <li>2007-12-20 :: <a href="/2007/12/20/the-bloggers-of-kindness/">The Bloggers of Kindness</a> </li>
-    
-    <li>2007-12-14 :: <a href="/2007/12/14/knitting-meets-geekiness/">Knitting Meets Geekiness</a> </li>
-    
-    <li>2007-12-11 :: <a href="/2007/12/11/breaking-news/">Breaking News&amp;#8230;</a> </li>
-    
-    <li>2007-12-07 :: <a href="/2007/12/07/counting-sheep/">Counting Sheep</a> </li>
-    
-    <li>2007-12-07 :: <a href="/2007/12/07/the-programmer-dress-code/">The Programmer Dress Code</a> </li>
-    
-    <li>2007-12-06 :: <a href="/2007/12/06/funny-unix-commands/">Funny Unix Commands</a> </li>
-    
-    <li>2007-12-05 :: <a href="/2007/12/05/why-does-a-salad-cost-more-than-a-big-mac/">Why Does a Salad Cost More Than a Big Mac?</a> </li>
-    
-    <li>2007-12-04 :: <a href="/2007/12/04/wii-fit/">Wii Fit</a> </li>
-    
-    <li>2007-11-28 :: <a href="/2007/11/28/morrissey-vs-nme/">Morrissey vs. NME</a> </li>
-    
-</ul>
 
+    <div class="mt-8">
+        
+        
+        
+        
+        <h3 class="mt-10 mb-1 text-sm font-semibold tracking-wide text-teal-700 first:mt-0 dark:text-teal-400">2008</h3>
+        
+        
+        <a href="/2008/01/23/the-state-of-the-social-web/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">The State of the Social Web</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Jan 23</time>
+        </a>
+        
+        
+        
+        <h3 class="mt-10 mb-1 text-sm font-semibold tracking-wide text-teal-700 first:mt-0 dark:text-teal-400">2007</h3>
+        
+        
+        <a href="/2007/12/29/olan-mills/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Olan Mills</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Dec 29</time>
+        </a>
+        
+        
+        
+        <a href="/2007/12/23/minor-threat-sauce/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Minor Threat Sauce</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Dec 23</time>
+        </a>
+        
+        
+        
+        <a href="/2007/12/20/the-bloggers-of-kindness/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">The Bloggers of Kindness</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Dec 20</time>
+        </a>
+        
+        
+        
+        <a href="/2007/12/14/knitting-meets-geekiness/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Knitting Meets Geekiness</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Dec 14</time>
+        </a>
+        
+        
+        
+        <a href="/2007/12/11/breaking-news/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Breaking News&amp;#8230;</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Dec 11</time>
+        </a>
+        
+        
+        
+        <a href="/2007/12/07/counting-sheep/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Counting Sheep</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Dec 7</time>
+        </a>
+        
+        
+        
+        <a href="/2007/12/07/the-programmer-dress-code/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">The Programmer Dress Code</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Dec 7</time>
+        </a>
+        
+        
+        
+        <a href="/2007/12/06/funny-unix-commands/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Funny Unix Commands</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Dec 6</time>
+        </a>
+        
+        
+        
+        <a href="/2007/12/05/why-does-a-salad-cost-more-than-a-big-mac/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Why Does a Salad Cost More Than a Big Mac?</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Dec 5</time>
+        </a>
+        
+        
+        
+        <a href="/2007/12/04/wii-fit/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Wii Fit</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Dec 4</time>
+        </a>
+        
+        
+        
+        <a href="/2007/11/28/morrissey-vs-nme/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Morrissey vs. NME</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Nov 28</time>
+        </a>
+        
+    </div>
 
+    
 		<ul class="pagination pagination-default">
 			<li class="page-item">
 				<a href="/tags/webstuff/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
@@ -102,13 +183,20 @@
 				<a href="/tags/webstuff/page/6/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
 			</li>
 		</ul>
+</div>
 
+    </main>
 
-    <p style="margin-top: 1.8em;">
-        <hr /> 
-        © 2021 Kevin Noone · Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://pages.github.com/">GitHub Pages</a>
-        <br/>
-    </p>
+    <footer class="mt-16 border-t border-slate-200 pt-6 text-sm text-slate-500 dark:border-slate-800 dark:text-slate-500">
+        © 2026 Kevin Noone · Powered by <a class="hover:text-teal-600 dark:hover:text-teal-400" href="https://gohugo.io/">Hugo</a> and <a class="hover:text-teal-600 dark:hover:text-teal-400" href="https://pages.github.com/">GitHub Pages</a>
+    </footer>
+
+    <script>
+        document.getElementById('theme-toggle').addEventListener('click', function () {
+            var dark = document.documentElement.classList.toggle('dark');
+            localStorage.setItem('theme', dark ? 'dark' : 'light');
+        });
+    </script>
 </body>
 
 </html>

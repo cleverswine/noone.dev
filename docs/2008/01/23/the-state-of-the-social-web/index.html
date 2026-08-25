@@ -1,61 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Kevin Noone">
-    <meta name="generator" content="Hugo 0.165.0" />
+    <meta name="generator" content="Hugo 0.162.1" />
     <title>noone.dev</title>
     <link rel='stylesheet' href='/styles/main.css'>
-    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css" type="text/css">
-    <style>
-        ul.pagination {
-            margin: 1.5em 0 0;
-            padding-left: 0;
-            list-style: none;
-            overflow: hidden;
-        }
-
-        ul.pagination li {
-            float: left;
-            margin-left: 0;
-            margin-right: 0.8em;
-        }
-
-        li.active {
-            border-bottom: 1px solid yellow;
-        }
-
-        nav a {
-            margin-right: 1em;
-        }
-    </style>
+    <script>
+        (function () {
+            var stored = localStorage.getItem('theme');
+            var dark = stored ? stored === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+            document.documentElement.classList.toggle('dark', dark);
+        })();
+    </script>
 </head>
 
-<body>
-    <h1><a href="/">Kevin Noone</a></h1>
-    <nav>
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
-        <a href="/archives/">Archives</a>
-    </nav>
-    <hr/>
-<h3>The State of the Social Web</h3>
-<div>
-    <p>Today’s “social web” is nothing more than a playground for those desperate to create an identity for themselves in what we like to call “the virtual world.” While it’s a fine, and ambitious, idea, there are quite a few shortcomings in today’s virtual world that we will need to hurdle.</p>
+<body class="mx-auto min-h-screen max-w-5xl bg-white px-4 py-8 font-sans text-slate-700 antialiased sm:py-12 dark:bg-slate-950 dark:text-slate-300">
+    <header class="mb-8 flex items-start justify-between gap-4">
+        <div>
+            <h1 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">
+                <a href="/">Kevin Noone</a>
+            </h1>
+            <nav class="mt-3 flex gap-5 text-sm">
+                <a class="text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400" href="/">Home</a>
+                <a class="text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400" href="/about/">About</a>
+                <a class="text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400" href="/posts/">Posts</a>
+            </nav>
+        </div>
+        <button id="theme-toggle" type="button" aria-label="Toggle dark mode"
+            class="mt-1 flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-slate-500 hover:bg-slate-100 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-white">
+            <svg id="icon-sun" class="hidden h-5 w-5 dark:block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1.5m0 15V21m9-9h-1.5m-15 0H3m15.364-6.364-1.06 1.06M6.696 17.304l-1.06 1.06m0-12.728 1.06 1.06M17.304 17.304l1.06 1.06M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Z" />
+            </svg>
+            <svg id="icon-moon" class="block h-5 w-5 dark:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+            </svg>
+        </button>
+    </header>
+
+    <main>
+<article class="mx-auto max-w-2xl">
+    
+    
+    
+    <h2 class="mb-1 text-xl font-bold text-slate-900 dark:text-white">The State of the Social Web</h2>
+    
+    <time class="text-xs text-slate-500 dark:text-slate-500">January 23, 2008</time>
+    
+    <div class="prose prose-slate mt-6 max-w-none dark:prose-invert prose-a:text-teal-600 dark:prose-a:text-teal-400 prose-code:before:content-none prose-code:after:content-none">
+        <p>Today’s “social web” is nothing more than a playground for those desperate to create an identity for themselves in what we like to call “the virtual world.” While it’s a fine, and ambitious, idea, there are quite a few shortcomings in today’s virtual world that we will need to hurdle.</p>
 <p>First of all, there are too many isolated applications that do their job well, but use their own methods (or APIs) of exposing their data. Remember back in the 90s when XML was all the rage? A side effect of that was a determination to create standard schema definitions (XSD) for topic-specific information interchange. In my opinion, that was a great idea. Unfortunally, when the XML hype died down, so did the drive for standardization. There are a few artifacts hanging around, such as web service contracts. If today’s social web applications made use of a standard information scheme, web developers could easily put together a site that dynamically exposed their virtual identity. With that in mind, some quick research led me to XDI.org, which promotes and develops “open standards for digital identity addressing and trusted data sharing.” I’m a software developer and web developer. I keep track of the latest buzz, but I’ve never heard of XDI. Where is the standardization?</p>
 <p>Let’s say all of our favorite social networking sites decided to expose their data in a standard, secure way (RSS doesn’t count – it’s just a stream of static information). That’s great, now we can really put together a representation of our identity that integrates data from all of our frequently used internet applications. Now we have a website that is more than just seperate tables of data from various sources. We have an attractive, somewhat interesting, and dynamic identity to show to the world. Data from different services can be combined and us web developers can generate a “smart” web site. Data from one service could be consumed by another service to even further expand it’s definition of “you.” That’s way cool, but not enough. This solution still requires that we actively participate on <em>n</em> number of web applications and enter data, in one way or another. I want to see magic. Last.fm is on the right track with their song tracking system, which integrates with the most common media players. All I have to do is listen to music, as I normally would, and everything I listen to is “automagically” collected by Last.fm. I envision more of this type of thing in the future. Why not collect web browsing activity, television watching activity, GPS activity, telephone activity, purchasing activity, game playing activity, etc, etc. All of this information could be shared (in a standard way) to create a self-maintaining virtual identity. I know you’re thinking, “what about security, and privacy?” Well, XDI.ord, mentioned above, seems to have that kind of thing in mind. It’s true that none of this can happen without security and privacy. Think about your identity as a real world person. There are things that you would share with your friends that you wouldn’t share with a stranger. The same goes for the new virtual world. You choose who gets to see what.</p>
 <p>In summary, I want a virtual identity in a virtual world that doesn’t require for me to enter data. I want to share my virtual identity with whomever I choose, in an intersting, secure, and dynamic fashion. I want my virtual identity to be self-maintaining. I anticipate that blogging will be the typewriter of the future (the near future, in fact).</p>
 <p><em>Disclaimer: I am in no way an expert on social networking, nor do I actively participate in the current social network. I can’t even say that I would participate in a future, perfected social network. This article is mainly about innovation (and lack of) in the world of software. This is a rant. A blog entry…</em></p>
-</div>
+    </div>
+</article>
 
-    <p style="margin-top: 1.8em;">
-        <hr /> 
-        © 2021 Kevin Noone · Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://pages.github.com/">GitHub Pages</a>
-        <br/>
-    </p>
+    </main>
+
+    <footer class="mt-16 border-t border-slate-200 pt-6 text-sm text-slate-500 dark:border-slate-800 dark:text-slate-500">
+        © 2026 Kevin Noone · Powered by <a class="hover:text-teal-600 dark:hover:text-teal-400" href="https://gohugo.io/">Hugo</a> and <a class="hover:text-teal-600 dark:hover:text-teal-400" href="https://pages.github.com/">GitHub Pages</a>
+    </footer>
+
+    <script>
+        document.getElementById('theme-toggle').addEventListener('click', function () {
+            var dark = document.documentElement.classList.toggle('dark');
+            localStorage.setItem('theme', dark ? 'dark' : 'light');
+        });
+    </script>
 </body>
 
 </html>

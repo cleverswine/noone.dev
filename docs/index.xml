@@ -10,9 +10,51 @@
 		
 		
 		
-			<lastBuildDate>Wed, 26 May 2021 13:23:04 -0700</lastBuildDate>
+			<lastBuildDate>Mon, 24 Aug 2026 22:38:25 +0000</lastBuildDate>
 		
 			<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>HN Express</title>
+				<link>/posts/hn-express/</link>
+				<pubDate>Mon, 24 Aug 2026 22:38:25 +0000</pubDate>
+				<guid>/posts/hn-express/</guid>
+				<description>&lt;p&gt;Shows the Hacker News front page (via the official HN API, in HN&amp;rsquo;s own rank order), with an AI-generated summary and representative image for each linked article. Summaries are generated in the background by a locally-running &lt;a href=&#34;https://ollama.com&#34;&gt;Ollama&lt;/a&gt; model — never on the request path. The web UI is plain server-rendered HTML that only reads from a local SQLite database.&lt;/p&gt;&#xA;&lt;p&gt;Source: &lt;a href=&#34;https://github.com/cleverswine/hn-express&#34;&gt;github.com/cleverswine/hn-express&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;code-organization&#34;&gt;Code organization&lt;/h2&gt;&#xA;&lt;p&gt;Three npm workspaces sharing one SQLite file:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;db/&lt;/code&gt; — SQLite schema + query helpers.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;worker/&lt;/code&gt; — background process: polls the HN API into the database, then summarizes articles (fetch → extract text/image, falling back to a headless browser when needed → Ollama).&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;web/&lt;/code&gt; — Express server that renders the front page from the database.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Node.js 22.5+ (uses the built-in &lt;code&gt;node:sqlite&lt;/code&gt;; developed on Node 26).&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ollama.com&#34;&gt;Ollama&lt;/a&gt; installed and running locally, with a model pulled:&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ollama pull llama3.2&#xA;&lt;/code&gt;&lt;/pre&gt;(or set &lt;code&gt;OLLAMA_MODEL&lt;/code&gt; to whatever model you&amp;rsquo;ve pulled — see Configuration below).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;npm install&#xA;npx playwright install chromium&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Optionally copy &lt;code&gt;.env.example&lt;/code&gt; to &lt;code&gt;.env&lt;/code&gt; and adjust values (all settings have working defaults):&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Auntie Boo Crafts</title>
+				<link>/posts/auntie-boo-crafts/</link>
+				<pubDate>Sat, 01 Aug 2026 19:53:03 +0000</pubDate>
+				<guid>/posts/auntie-boo-crafts/</guid>
+				<description>&lt;p&gt;My wife makes and sells handmade, personalized crafts — keychains, badge reels, bookmarks, hair clips, and more — through her shop, &lt;a href=&#34;https://www.auntieboocrafts.com&#34;&gt;Auntie Boo Crafts&lt;/a&gt;. Everything is actually listed and sold on Etsy; Etsy handles the checkout. But it&amp;rsquo;s not a great home base: it&amp;rsquo;s crowded with other sellers, the branding isn&amp;rsquo;t hers, and it&amp;rsquo;s a clunky place to point someone who just wants to browse. She needed an actual website — one with her own name on it, that shows off the full catalog the way she wants it shown, with every item still linking straight through to its Etsy listing to actually buy it.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Exif Date Organizer</title>
+				<link>/posts/exif-date-organizer/</link>
+				<pubDate>Thu, 02 Jul 2026 23:43:54 +0000</pubDate>
+				<guid>/posts/exif-date-organizer/</guid>
+				<description>&lt;p&gt;Years of photos and videos end up scattered across old phone backups, camera SD card dumps, and random download folders, with no consistent naming or structure. &lt;code&gt;exif_date_organizer.py&lt;/code&gt; is a single-file Python CLI that fixes that: it recursively scans a source folder, figures out the real date each file was taken, and copies it into a clean &lt;code&gt;DEST/YYYY/MM/&lt;/code&gt; tree — leaving the original source untouched.&lt;/p&gt;&#xA;&lt;h2 id=&#34;where-the-date-comes-from&#34;&gt;Where the date comes from&lt;/h2&gt;&#xA;&lt;p&gt;Embedded EXIF is the source of truth when it&amp;rsquo;s available. The tool shells out to &lt;a href=&#34;https://exiftool.org/&#34;&gt;&lt;code&gt;exiftool&lt;/code&gt;&lt;/a&gt;, batching reads across many files at once for speed, and checks fields in order of trust: &lt;code&gt;DateTimeOriginal&lt;/code&gt;, then &lt;code&gt;CreateDate&lt;/code&gt;, then &lt;code&gt;ModifyDate&lt;/code&gt;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Todo App</title>
+				<link>/posts/todo-app/</link>
+				<pubDate>Tue, 17 Feb 2026 21:55:55 +0000</pubDate>
+				<guid>/posts/todo-app/</guid>
+				<description>&lt;p&gt;Every house has a running list of things that need attention — a cracked closet floor, a window seal that needs paint, the dozen small jobs that pile up between the big ones. I didn&amp;rsquo;t want to hand that list to another app with an account, a subscription, and a company on the other end deciding what happens to the data. I just wanted something simple that lived on my own server.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Watch Board</title>
+				<link>/posts/watchboard/</link>
+				<pubDate>Sun, 08 Feb 2026 02:39:01 +0000</pubDate>
+				<guid>/posts/watchboard/</guid>
+				<description>&lt;p&gt;&amp;ldquo;What should I watch&amp;rdquo; turns into a lot of overhead once you&amp;rsquo;re tracking more than one show at a time: a movie a friend recommended, the series you&amp;rsquo;re mid-season on, the one you keep meaning to start. A note-taking app or a sticky note works for a day, but it doesn&amp;rsquo;t hold up over months. Watch Board is a small, self-hosted board built for exactly that: one place to see everything you&amp;rsquo;re planning to watch, currently watching, and have finished, without it turning into a chore to maintain.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>SpotNet</title>
+				<link>/posts/spotnet/</link>
+				<pubDate>Wed, 31 Jul 2024 21:58:47 +0000</pubDate>
+				<guid>/posts/spotnet/</guid>
+				<description>&lt;p&gt;I spend most of the workday in a terminal, so alt-tabbing to a whole separate app just to skip a song or see what&amp;rsquo;s playing was always a little annoying. SpotNet is a small, self-contained TUI player built on the Spotify Web API — a live-updating now-playing table with a handful of single-key controls, that never needs its own window.&lt;/p&gt;&#xA;&lt;h2 id=&#34;two-apps-one-job-each&#34;&gt;Two apps, one job each&lt;/h2&gt;&#xA;&lt;p&gt;Spotify&amp;rsquo;s OAuth flow needs a real redirect URI, which a CLI can&amp;rsquo;t host on its own, so the repo splits into two pieces:&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Spockify - Part 1</title>
 				<link>/posts/spockify-part-1/</link>
@@ -92,9 +134,9 @@
 			</item>
 			<item>
 				<title>New Website</title>
-				<link>/archives/new-website/</link>
+				<link>/posts/new-website/</link>
 				<pubDate>Thu, 13 Jul 2017 13:54:15 -0700</pubDate>
-				<guid>/archives/new-website/</guid>
+				<guid>/posts/new-website/</guid>
 				<description>&lt;p&gt;It&amp;rsquo;s been almost 4 years since I last posted to a blog. I&amp;rsquo;ve been learning quite a bit over the past couple of years, so I thought I might give it another shot.&#xA;Some of the things that I&amp;rsquo;d like to write about:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Go (golang)&lt;/li&gt;&#xA;&lt;li&gt;Docker&lt;/li&gt;&#xA;&lt;li&gt;Kubernetes&lt;/li&gt;&#xA;&lt;li&gt;Dotnet Core&lt;/li&gt;&#xA;&lt;li&gt;IdentityServer&lt;/li&gt;&#xA;&lt;li&gt;OAuth and OpenID Connect&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Also, I&amp;rsquo;m ditching Wordpress in favor of a static site generator. Specifically, I&amp;rsquo;m using &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&#xA;Hugo is a bit geared toward the developer-type, which suits me. It&amp;rsquo;s even written in Go!&lt;/p&gt;</description>
 			</item>
 			<item>
@@ -2671,7 +2713,7 @@
 				<link>/about/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>/about/</guid>
-				<description>&lt;p&gt;Software Engineer in Portland, Oregon, USA&lt;/p&gt;&#xA;&lt;p&gt;I am a full stack senior software engineer with extensive experience in all aspects of enterprise-level software development. Most of my programming experience has been with C# on the .NET framework. In recent years, however, I have experience working with &lt;a href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt;, &lt;a href=&#34;https://www.microsoft.com/net/&#34;&gt;.NET Core&lt;/a&gt;, and &lt;a href=&#34;https://spark.apache.org/&#34;&gt;Spark&lt;/a&gt; with &lt;a href=&#34;https://www.scala-lang.org/&#34;&gt;Scala&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;&#xA;&lt;p&gt;I would consider my specialties to be:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;RESTful APIs&lt;/li&gt;&#xA;&lt;li&gt;Authentication and Authorization (oauth)&lt;/li&gt;&#xA;&lt;li&gt;General-purpose Services&lt;/li&gt;&#xA;&lt;li&gt;Systems Integration&lt;/li&gt;&#xA;&lt;li&gt;Microservices Infrastructures&lt;/li&gt;&#xA;&lt;li&gt;Continuous Integration and Continuous Deployment&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I have worked extensively with the following technologies:&lt;/p&gt;</description>
+				<description>&lt;p&gt;Retired Software Engineer near Kansas City, Missouri, USA&lt;/p&gt;&#xA;&lt;p&gt;I spent most of my adult life in Portland, Oregon, but these days I live near Kansas City, Missouri. I&amp;rsquo;m retired now, but for many years I was a full stack senior software engineer, working mostly in C# and .NET — and later Go, .NET Core, and Spark with Scala — on RESTful APIs, authentication and authorization, microservices, and the systems and CI/CD pipelines that tied it all together, both on-prem and across Google Cloud and Azure.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

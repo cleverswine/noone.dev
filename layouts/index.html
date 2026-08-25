@@ -1,14 +1,28 @@
 {{ define "main" }}
-<h3>Posts</h3>
-{{ $posts := where .Site.RegularPages "Section" "posts" }}
-{{ $paginator := .Paginate $posts }}
-{{ range $paginator.Pages }}
-<article style="margin-bottom: 2em;">
-    <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-    <sub>{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</sub>
-    {{ .Summary }}
-</article>
-{{ end }}
+{{ $posts := first 6 (where .Site.RegularPages "Section" "posts") }}
+<div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    {{ range $posts }}
+    {{ $image := "" }}
+    {{ with .Resources.GetMatch "cover.*" }}{{ $image = .RelPermalink }}{{ end }}
+    {{ $color := .Params.color | default "#0f172a" }}
+    <a href="{{ .RelPermalink }}"
+        class="group flex flex-col overflow-hidden rounded-xl shadow-sm ring-1 ring-slate-900/5 dark:ring-white/10">
+        {{ with $image }}
+        <div class="h-40 overflow-hidden bg-slate-900">
+            <img src="{{ . }}" alt="" loading="lazy"
+                class="size-full object-cover transition duration-300 ease-out group-hover:scale-105">
+        </div>
+        {{ end }}
+        <div class="flex flex-1 flex-col p-5" style="background-color: {{ $color }};">
+            <time class="text-xs font-medium text-white/70">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</time>
+            <h3 class="mt-1 text-base font-semibold text-white">{{ .Title }}</h3>
+            <p class="mt-1 text-sm text-white/80">{{ .Params.description | default .Summary | plainify | truncate 90 }}</p>
+        </div>
+    </a>
+    {{ end }}
+</div>
 
-{{ template "_internal/pagination.html" . }}
+<div class="mt-10 text-center">
+    <a class="text-sm font-medium text-teal-600 hover:underline dark:text-teal-400" href="{{ "/posts/" | relURL }}">View all posts &rarr;</a>
+</div>
 {{ end }}

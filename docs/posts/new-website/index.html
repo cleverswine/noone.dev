@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Kevin Noone">
+    <meta name="generator" content="Hugo 0.162.1" />
+    <title>noone.dev</title>
+    <link rel='stylesheet' href='/styles/main.css'>
+    <script>
+        (function () {
+            var stored = localStorage.getItem('theme');
+            var dark = stored ? stored === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+            document.documentElement.classList.toggle('dark', dark);
+        })();
+    </script>
+</head>
+
+<body class="mx-auto min-h-screen max-w-5xl bg-white px-4 py-8 font-sans text-slate-700 antialiased sm:py-12 dark:bg-slate-950 dark:text-slate-300">
+    <header class="mb-8 flex items-start justify-between gap-4">
+        <div>
+            <h1 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">
+                <a href="/">Kevin Noone</a>
+            </h1>
+            <nav class="mt-3 flex gap-5 text-sm">
+                <a class="text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400" href="/">Home</a>
+                <a class="text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400" href="/about/">About</a>
+                <a class="text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400" href="/posts/">Posts</a>
+            </nav>
+        </div>
+        <button id="theme-toggle" type="button" aria-label="Toggle dark mode"
+            class="mt-1 flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-slate-500 hover:bg-slate-100 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-white">
+            <svg id="icon-sun" class="hidden h-5 w-5 dark:block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1.5m0 15V21m9-9h-1.5m-15 0H3m15.364-6.364-1.06 1.06M6.696 17.304l-1.06 1.06m0-12.728 1.06 1.06M17.304 17.304l1.06 1.06M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Z" />
+            </svg>
+            <svg id="icon-moon" class="block h-5 w-5 dark:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+            </svg>
+        </button>
+    </header>
+
+    <main>
+<article class="mx-auto max-w-2xl">
+    
+    
+    
+    <h2 class="mb-1 text-xl font-bold text-slate-900 dark:text-white">New Website</h2>
+    
+    <time class="text-xs text-slate-500 dark:text-slate-500">July 13, 2017</time>
+    
+    <div class="prose prose-slate mt-6 max-w-none dark:prose-invert prose-a:text-teal-600 dark:prose-a:text-teal-400 prose-code:before:content-none prose-code:after:content-none">
+        <p>It&rsquo;s been almost 4 years since I last posted to a blog. I&rsquo;ve been learning quite a bit over the past couple of years, so I thought I might give it another shot.
+Some of the things that I&rsquo;d like to write about:</p>
+<ul>
+<li>Go (golang)</li>
+<li>Docker</li>
+<li>Kubernetes</li>
+<li>Dotnet Core</li>
+<li>IdentityServer</li>
+<li>OAuth and OpenID Connect</li>
+</ul>
+<p>Also, I&rsquo;m ditching Wordpress in favor of a static site generator. Specifically, I&rsquo;m using <a href="https://gohugo.io">Hugo</a>.
+Hugo is a bit geared toward the developer-type, which suits me. It&rsquo;s even written in Go!</p>
+
+    </div>
+</article>
+
+    </main>
+
+    <footer class="mt-16 border-t border-slate-200 pt-6 text-sm text-slate-500 dark:border-slate-800 dark:text-slate-500">
+        © 2026 Kevin Noone · Powered by <a class="hover:text-teal-600 dark:hover:text-teal-400" href="https://gohugo.io/">Hugo</a> and <a class="hover:text-teal-600 dark:hover:text-teal-400" href="https://pages.github.com/">GitHub Pages</a>
+    </footer>
+
+    <script>
+        document.getElementById('theme-toggle').addEventListener('click', function () {
+            var dark = document.documentElement.classList.toggle('dark');
+            localStorage.setItem('theme', dark ? 'dark' : 'light');
+        });
+    </script>
+</body>
+
+</html>

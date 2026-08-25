@@ -1,0 +1,13 @@
+{
+  "name": "noone.dev",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/styles/main.css -o ./static/styles/main.css --minify",
+    "watch:css": "tailwindcss -i ./src/styles/main.css -o ./static/styles/main.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "@tailwindcss/typography": "^0.5.20",
+    "tailwindcss": "^4.3.3"
+  }
+}

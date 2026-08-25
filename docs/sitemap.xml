@@ -1,12 +1,31 @@
+
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/posts/</loc>
-    <lastmod>2021-05-26T13:23:04-07:00</lastmod>
+    <lastmod>2026-08-24T22:38:25+00:00</lastmod>
+  </url><url>
+    <loc>/posts/hn-express/</loc>
+    <lastmod>2026-08-24T22:38:25+00:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2021-05-26T13:23:04-07:00</lastmod>
+    <lastmod>2026-08-24T22:38:25+00:00</lastmod>
+  </url><url>
+    <loc>/posts/auntie-boo-crafts/</loc>
+    <lastmod>2026-08-01T19:53:03+00:00</lastmod>
+  </url><url>
+    <loc>/posts/exif-date-organizer/</loc>
+    <lastmod>2026-07-02T23:43:54+00:00</lastmod>
+  </url><url>
+    <loc>/posts/todo-app/</loc>
+    <lastmod>2026-02-17T21:55:55+00:00</lastmod>
+  </url><url>
+    <loc>/posts/watchboard/</loc>
+    <lastmod>2026-02-08T02:39:01+00:00</lastmod>
+  </url><url>
+    <loc>/posts/spotnet/</loc>
+    <lastmod>2024-07-31T21:58:47+00:00</lastmod>
   </url><url>
     <loc>/posts/spockify-part-1/</loc>
     <lastmod>2021-05-26T13:23:04-07:00</lastmod>
@@ -41,10 +60,7 @@
     <loc>/posts/hello-web-go/</loc>
     <lastmod>2019-03-14T14:38:04-07:00</lastmod>
   </url><url>
-    <loc>/archives/</loc>
-    <lastmod>2017-07-13T13:54:15-07:00</lastmod>
-  </url><url>
-    <loc>/archives/new-website/</loc>
+    <loc>/posts/new-website/</loc>
     <lastmod>2017-07-13T13:54:15-07:00</lastmod>
   </url><url>
     <loc>/tags/</loc>

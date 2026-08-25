@@ -1,84 +1,211 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Kevin Noone">
-    <meta name="generator" content="Hugo 0.165.0" />
+    <meta name="generator" content="Hugo 0.162.1" />
     <title>noone.dev</title>
     <link rel='stylesheet' href='/styles/main.css'>
-    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css" type="text/css">
-    <style>
-        ul.pagination {
-            margin: 1.5em 0 0;
-            padding-left: 0;
-            list-style: none;
-            overflow: hidden;
-        }
-
-        ul.pagination li {
-            float: left;
-            margin-left: 0;
-            margin-right: 0.8em;
-        }
-
-        li.active {
-            border-bottom: 1px solid yellow;
-        }
-
-        nav a {
-            margin-right: 1em;
-        }
-    </style>
+    <script>
+        (function () {
+            var stored = localStorage.getItem('theme');
+            var dark = stored ? stored === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+            document.documentElement.classList.toggle('dark', dark);
+        })();
+    </script>
 </head>
 
-<body>
-    <h1><a href="/">Kevin Noone</a></h1>
-    <nav>
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
-        <a href="/archives/">Archives</a>
-    </nav>
-    <hr/>
-<h4>Blog Posts</h4>
-<p>I don&rsquo;t post to this blog very often, but here are some of the latest things I&rsquo;ve written.</p>
+<body class="mx-auto min-h-screen max-w-5xl bg-white px-4 py-8 font-sans text-slate-700 antialiased sm:py-12 dark:bg-slate-950 dark:text-slate-300">
+    <header class="mb-8 flex items-start justify-between gap-4">
+        <div>
+            <h1 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">
+                <a href="/">Kevin Noone</a>
+            </h1>
+            <nav class="mt-3 flex gap-5 text-sm">
+                <a class="text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400" href="/">Home</a>
+                <a class="text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400" href="/about/">About</a>
+                <a class="text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400" href="/posts/">Posts</a>
+            </nav>
+        </div>
+        <button id="theme-toggle" type="button" aria-label="Toggle dark mode"
+            class="mt-1 flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-slate-500 hover:bg-slate-100 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-white">
+            <svg id="icon-sun" class="hidden h-5 w-5 dark:block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1.5m0 15V21m9-9h-1.5m-15 0H3m15.364-6.364-1.06 1.06M6.696 17.304l-1.06 1.06m0-12.728 1.06 1.06M17.304 17.304l1.06 1.06M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Z" />
+            </svg>
+            <svg id="icon-moon" class="block h-5 w-5 dark:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+            </svg>
+        </button>
+    </header>
 
-<ul style="padding-left: 0; list-style-type: none;">
+    <main>
+<div class="mx-auto max-w-2xl">
+    <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">Blog Posts</h2>
     
-    <li>2021-05-26 :: <a href="/posts/spockify-part-1/">Spockify - Part 1</a> </li>
-    
-    <li>2021-02-12 :: <a href="/posts/hugo-top-tracks/">Spotify Top Tracks - Feb 2021</a> </li>
-    
-    <li>2020-07-31 :: <a href="/posts/impala-odbc/">Impala ODBC, Dotnet Core, and Docker</a> </li>
-    
-    <li>2020-06-18 :: <a href="/posts/authorization-flow-cli/">Authorization Flow with a CLI</a> </li>
-    
-    <li>2019-08-13 :: <a href="/posts/vuejs-in-docker/">Vue.js in Docker</a> </li>
-    
-    <li>2019-04-30 :: <a href="/posts/hello-k8s-windows-part-2/">Hello K8s in Windows - Part 2</a> </li>
-    
-    <li>2019-04-30 :: <a href="/posts/hello-k8s-windows-part-1/">Hello K8s in Windows - Part 1</a> </li>
-    
-    <li>2019-04-18 :: <a href="/posts/displaying-parquet-files/">Displaying Parquet Files</a> </li>
-    
-    <li>2019-03-21 :: <a href="/posts/parallelization-in-go-and-dotnet/">Parallelization in Go and .NET</a> </li>
-    
-    <li>2019-03-14 :: <a href="/posts/hello-web-dotnet/">Hello Web .NET Core</a> </li>
-    
-    <li>2019-03-14 :: <a href="/posts/hello-web-go/">Hello Web Go</a> </li>
-    
-</ul>
 
+    <div class="mt-8">
+        
+        
+        
+        
+        <h3 class="mt-10 mb-1 text-sm font-semibold tracking-wide text-teal-700 first:mt-0 dark:text-teal-400">2026</h3>
+        
+        
+        <a href="/posts/hn-express/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">HN Express</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Aug 24</time>
+        </a>
+        
+        
+        
+        <a href="/posts/auntie-boo-crafts/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Auntie Boo Crafts</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Aug 1</time>
+        </a>
+        
+        
+        
+        <a href="/posts/exif-date-organizer/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Exif Date Organizer</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Jul 2</time>
+        </a>
+        
+        
+        
+        <a href="/posts/todo-app/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Todo App</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Feb 17</time>
+        </a>
+        
+        
+        
+        <a href="/posts/watchboard/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Watch Board</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Feb 8</time>
+        </a>
+        
+        
+        
+        <h3 class="mt-10 mb-1 text-sm font-semibold tracking-wide text-teal-700 first:mt-0 dark:text-teal-400">2024</h3>
+        
+        
+        <a href="/posts/spotnet/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">SpotNet</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Jul 31</time>
+        </a>
+        
+        
+        
+        <h3 class="mt-10 mb-1 text-sm font-semibold tracking-wide text-teal-700 first:mt-0 dark:text-teal-400">2021</h3>
+        
+        
+        <a href="/posts/spockify-part-1/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Spockify - Part 1</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">May 26</time>
+        </a>
+        
+        
+        
+        <a href="/posts/hugo-top-tracks/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Spotify Top Tracks - Feb 2021</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Feb 12</time>
+        </a>
+        
+        
+        
+        <h3 class="mt-10 mb-1 text-sm font-semibold tracking-wide text-teal-700 first:mt-0 dark:text-teal-400">2020</h3>
+        
+        
+        <a href="/posts/impala-odbc/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Impala ODBC, Dotnet Core, and Docker</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Jul 31</time>
+        </a>
+        
+        
+        
+        <a href="/posts/authorization-flow-cli/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Authorization Flow with a CLI</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Jun 18</time>
+        </a>
+        
+        
+        
+        <h3 class="mt-10 mb-1 text-sm font-semibold tracking-wide text-teal-700 first:mt-0 dark:text-teal-400">2019</h3>
+        
+        
+        <a href="/posts/vuejs-in-docker/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Vue.js in Docker</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Aug 13</time>
+        </a>
+        
+        
+        
+        <a href="/posts/hello-k8s-windows-part-2/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Hello K8s in Windows - Part 2</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Apr 30</time>
+        </a>
+        
+    </div>
 
+    
+		<ul class="pagination pagination-default">
+			<li class="page-item disabled">
+				<a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
+			</li>
+		<li class="page-item disabled">
+			<a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
+		</li>
+			<li class="page-item active">
+				<a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
+			</li>
+			<li class="page-item">
+				<a href="/posts/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
+			</li>
+			<li class="page-item">
+				<a href="/posts/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
+			</li>
+			<li class="page-item">
+				<a href="/posts/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
+			</li>
+			<li class="page-item">
+				<a href="/posts/page/5/" aria-label="Page 5" class="page-link" role="button">5</a>
+			</li>
+		<li class="page-item">
+			<a href="/posts/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+		</li>
+			<li class="page-item">
+				<a href="/posts/page/33/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+			</li>
+		</ul>
+</div>
 
+    </main>
 
-    <p style="margin-top: 1.8em;">
-        <hr /> 
-        © 2021 Kevin Noone · Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://pages.github.com/">GitHub Pages</a>
-        <br/>
-    </p>
+    <footer class="mt-16 border-t border-slate-200 pt-6 text-sm text-slate-500 dark:border-slate-800 dark:text-slate-500">
+        © 2026 Kevin Noone · Powered by <a class="hover:text-teal-600 dark:hover:text-teal-400" href="https://gohugo.io/">Hugo</a> and <a class="hover:text-teal-600 dark:hover:text-teal-400" href="https://pages.github.com/">GitHub Pages</a>
+    </footer>
+
+    <script>
+        document.getElementById('theme-toggle').addEventListener('click', function () {
+            var dark = document.documentElement.classList.toggle('dark');
+            localStorage.setItem('theme', dark ? 'dark' : 'light');
+        });
+    </script>
 </body>
 
 </html>

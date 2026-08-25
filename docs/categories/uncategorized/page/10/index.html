@@ -1,78 +1,156 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Kevin Noone">
-    <meta name="generator" content="Hugo 0.165.0" />
+    <meta name="generator" content="Hugo 0.162.1" />
     <title>noone.dev</title>
     <link rel='stylesheet' href='/styles/main.css'>
-    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css" type="text/css">
-    <style>
-        ul.pagination {
-            margin: 1.5em 0 0;
-            padding-left: 0;
-            list-style: none;
-            overflow: hidden;
-        }
-
-        ul.pagination li {
-            float: left;
-            margin-left: 0;
-            margin-right: 0.8em;
-        }
-
-        li.active {
-            border-bottom: 1px solid yellow;
-        }
-
-        nav a {
-            margin-right: 1em;
-        }
-    </style>
+    <script>
+        (function () {
+            var stored = localStorage.getItem('theme');
+            var dark = stored ? stored === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+            document.documentElement.classList.toggle('dark', dark);
+        })();
+    </script>
 </head>
 
-<body>
-    <h1><a href="/">Kevin Noone</a></h1>
-    <nav>
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
-        <a href="/archives/">Archives</a>
-    </nav>
-    <hr/>
-<h4>Uncategorized</h4>
+<body class="mx-auto min-h-screen max-w-5xl bg-white px-4 py-8 font-sans text-slate-700 antialiased sm:py-12 dark:bg-slate-950 dark:text-slate-300">
+    <header class="mb-8 flex items-start justify-between gap-4">
+        <div>
+            <h1 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">
+                <a href="/">Kevin Noone</a>
+            </h1>
+            <nav class="mt-3 flex gap-5 text-sm">
+                <a class="text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400" href="/">Home</a>
+                <a class="text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400" href="/about/">About</a>
+                <a class="text-slate-500 hover:text-teal-600 dark:text-slate-400 dark:hover:text-teal-400" href="/posts/">Posts</a>
+            </nav>
+        </div>
+        <button id="theme-toggle" type="button" aria-label="Toggle dark mode"
+            class="mt-1 flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-slate-500 hover:bg-slate-100 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-white">
+            <svg id="icon-sun" class="hidden h-5 w-5 dark:block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1.5m0 15V21m9-9h-1.5m-15 0H3m15.364-6.364-1.06 1.06M6.696 17.304l-1.06 1.06m0-12.728 1.06 1.06M17.304 17.304l1.06 1.06M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Z" />
+            </svg>
+            <svg id="icon-moon" class="block h-5 w-5 dark:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+            </svg>
+        </button>
+    </header>
 
-<ul style="padding-left: 0; list-style-type: none;">
+    <main>
+<div class="mx-auto max-w-2xl">
+    <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">Uncategorized</h2>
     
-    <li>2008-05-30 :: <a href="/2008/05/30/indiana-jones/">Indiana Jones&amp;#8230;</a> </li>
-    
-    <li>2008-05-25 :: <a href="/2008/05/25/lars-and-the-real-girl/">Lars and the Real Girl</a> </li>
-    
-    <li>2008-05-18 :: <a href="/2008/05/18/a-letter-to-his-son/">A Letter to His Son</a> </li>
-    
-    <li>2008-05-15 :: <a href="/2008/05/15/a-collection/">A Collection</a> </li>
-    
-    <li>2008-05-10 :: <a href="/2008/05/10/overheard-in-pdx/">Overheard in PDX</a> </li>
-    
-    <li>2008-05-10 :: <a href="/2008/05/10/when-obama-wins/">When Obama wins</a> </li>
-    
-    <li>2008-05-08 :: <a href="/2008/05/08/funny-jokes/">Funny Jokes</a> </li>
-    
-    <li>2008-05-05 :: <a href="/2008/05/05/garden-show/">Garden Show</a> </li>
-    
-    <li>2008-05-01 :: <a href="/2008/05/01/kids-these-days/">Kids These Days</a> </li>
-    
-    <li>2008-04-30 :: <a href="/2008/04/30/job-changes/">Job Changes</a> </li>
-    
-    <li>2008-04-27 :: <a href="/2008/04/27/infinity/">Infinity</a> </li>
-    
-    <li>2008-04-23 :: <a href="/2008/04/23/home-from-tejas/">Home from Tejas</a> </li>
-    
-</ul>
 
+    <div class="mt-8">
+        
+        
+        
+        
+        <h3 class="mt-10 mb-1 text-sm font-semibold tracking-wide text-teal-700 first:mt-0 dark:text-teal-400">2008</h3>
+        
+        
+        <a href="/2008/05/30/indiana-jones/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Indiana Jones&amp;#8230;</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">May 30</time>
+        </a>
+        
+        
+        
+        <a href="/2008/05/25/lars-and-the-real-girl/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Lars and the Real Girl</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">May 25</time>
+        </a>
+        
+        
+        
+        <a href="/2008/05/18/a-letter-to-his-son/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">A Letter to His Son</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">May 18</time>
+        </a>
+        
+        
+        
+        <a href="/2008/05/15/a-collection/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">A Collection</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">May 15</time>
+        </a>
+        
+        
+        
+        <a href="/2008/05/10/overheard-in-pdx/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Overheard in PDX</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">May 10</time>
+        </a>
+        
+        
+        
+        <a href="/2008/05/10/when-obama-wins/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">When Obama wins</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">May 10</time>
+        </a>
+        
+        
+        
+        <a href="/2008/05/08/funny-jokes/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Funny Jokes</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">May 8</time>
+        </a>
+        
+        
+        
+        <a href="/2008/05/05/garden-show/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Garden Show</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">May 5</time>
+        </a>
+        
+        
+        
+        <a href="/2008/05/01/kids-these-days/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Kids These Days</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">May 1</time>
+        </a>
+        
+        
+        
+        <a href="/2008/04/30/job-changes/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Job Changes</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Apr 30</time>
+        </a>
+        
+        
+        
+        <a href="/2008/04/27/infinity/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Infinity</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Apr 27</time>
+        </a>
+        
+        
+        
+        <a href="/2008/04/23/home-from-tejas/"
+            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">Home from Tejas</span>
+            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">Apr 23</time>
+        </a>
+        
+    </div>
 
+    
 		<ul class="pagination pagination-default">
 			<li class="page-item">
 				<a href="/categories/uncategorized/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
@@ -102,13 +180,20 @@
 				<a href="/categories/uncategorized/page/31/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
 			</li>
 		</ul>
+</div>
 
+    </main>
 
-    <p style="margin-top: 1.8em;">
-        <hr /> 
-        © 2021 Kevin Noone · Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://pages.github.com/">GitHub Pages</a>
-        <br/>
-    </p>
+    <footer class="mt-16 border-t border-slate-200 pt-6 text-sm text-slate-500 dark:border-slate-800 dark:text-slate-500">
+        © 2026 Kevin Noone · Powered by <a class="hover:text-teal-600 dark:hover:text-teal-400" href="https://gohugo.io/">Hugo</a> and <a class="hover:text-teal-600 dark:hover:text-teal-400" href="https://pages.github.com/">GitHub Pages</a>
+    </footer>
+
+    <script>
+        document.getElementById('theme-toggle').addEventListener('click', function () {
+            var dark = document.documentElement.classList.toggle('dark');
+            localStorage.setItem('theme', dark ? 'dark' : 'light');
+        });
+    </script>
 </body>
 
 </html>

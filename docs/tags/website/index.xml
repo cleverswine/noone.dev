@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>WebSite on noone.dev</title>
+		<title>Website on noone.dev</title>
 		<link>/tags/website/</link>
-		<description>Recent content in WebSite on noone.dev</description>
+		<description>Recent content in Website on noone.dev</description>
 		<generator>Hugo</generator>
 		<language>en-US</language>
 		
@@ -15,9 +15,9 @@
 			<atom:link href="/tags/website/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>New Website</title>
-				<link>/archives/new-website/</link>
+				<link>/posts/new-website/</link>
 				<pubDate>Thu, 13 Jul 2017 13:54:15 -0700</pubDate>
-				<guid>/archives/new-website/</guid>
+				<guid>/posts/new-website/</guid>
 				<description>&lt;p&gt;It&amp;rsquo;s been almost 4 years since I last posted to a blog. I&amp;rsquo;ve been learning quite a bit over the past couple of years, so I thought I might give it another shot.&#xA;Some of the things that I&amp;rsquo;d like to write about:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Go (golang)&lt;/li&gt;&#xA;&lt;li&gt;Docker&lt;/li&gt;&#xA;&lt;li&gt;Kubernetes&lt;/li&gt;&#xA;&lt;li&gt;Dotnet Core&lt;/li&gt;&#xA;&lt;li&gt;IdentityServer&lt;/li&gt;&#xA;&lt;li&gt;OAuth and OpenID Connect&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Also, I&amp;rsquo;m ditching Wordpress in favor of a static site generator. Specifically, I&amp;rsquo;m using &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&#xA;Hugo is a bit geared toward the developer-type, which suits me. It&amp;rsquo;s even written in Go!&lt;/p&gt;</description>
 			</item>
 			<item>

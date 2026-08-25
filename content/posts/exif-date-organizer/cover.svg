@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Destination folder layout">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c2410c"/>
+      <stop offset="100%" stop-color="#431407"/>
+    </linearGradient>
+    <pattern id="dots" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="2" fill="#ffffff" fill-opacity="0.14"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect width="1200" height="900" fill="url(#dots)"/>
+  <rect x="90" y="120" width="1020" height="660" rx="16" fill="#0b0f19" fill-opacity="0.72"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="29" fill="#f8fafc">
+    <text x="130" y="180" fill="#fdba74">Pictures_Organized/</text>
+    <text x="130" y="220">├── 2023/</text>
+    <text x="130" y="260">│   ├── 01/</text>
+    <text x="130" y="300">│   │   └── IMG_0182.jpg</text>
+    <text x="130" y="340">│   └── 07/</text>
+    <text x="130" y="380">│       ├── IMG_0941.heic</text>
+    <text x="130" y="420">│       └── VID_0114.mov</text>
+    <text x="130" y="460">├── 2024/</text>
+    <text x="130" y="500">│   └── 03/</text>
+    <text x="130" y="540">│       └── DSC_1049.NEF</text>
+    <text x="130" y="580" fill="#fdba74">├── unknown_date/</text>
+    <text x="130" y="620">│   └── Archive_2020_photo.jpg</text>
+    <text x="130" y="660" fill="#fdba74">└── unsupported_ext/</text>
+    <text x="130" y="700">    └── notes.txt</text>
+  </g>
+</svg>
