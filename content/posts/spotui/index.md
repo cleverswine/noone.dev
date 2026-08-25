@@ -1,6 +1,6 @@
 ---
 title: "spotui"
-date: 2026-08-25T02:16:03Z
+date: 2023-01-30T19:50:20Z
 draft: false
 image: "cover.png"
 color: "#6d28d9"

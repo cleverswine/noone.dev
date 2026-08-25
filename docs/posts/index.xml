@@ -10,16 +10,9 @@
 		
 		
 		
-			<lastBuildDate>Tue, 25 Aug 2026 02:16:03 +0000</lastBuildDate>
+			<lastBuildDate>Mon, 24 Aug 2026 22:38:25 +0000</lastBuildDate>
 		
 			<atom:link href="https://noone.dev/posts/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>spotui</title>
-				<link>https://noone.dev/posts/spotui/</link>
-				<pubDate>Tue, 25 Aug 2026 02:16:03 +0000</pubDate>
-				<guid>https://noone.dev/posts/spotui/</guid>
-				<description>&lt;p&gt;spotui is a terminal-based Spotify library browser, built mostly as an excuse to learn Go&amp;rsquo;s TUI ecosystem — &lt;a href=&#34;https://github.com/rivo/tview&#34;&gt;tview&lt;/a&gt; and &lt;a href=&#34;https://github.com/gdamore/tcell&#34;&gt;tcell&lt;/a&gt; — rather than to be a polished tool. It lays your followed artists and your playlists out as two trees side by side, with a log pane underneath, and lets you build a playlist by browsing an artist&amp;rsquo;s catalog and tapping a single key.&lt;/p&gt;&#xA;&lt;h2 id=&#34;two-lazy-trees&#34;&gt;Two lazy trees&lt;/h2&gt;&#xA;&lt;p&gt;Nothing loads until you ask for it. Pressing the right arrow on a node calls its &lt;code&gt;ExpandFunc&lt;/code&gt; — a closure attached to that &lt;code&gt;Node&lt;/code&gt; — which hits the Spotify API and appends the results as children; pressing right again on an already-expanded node just re-shows what&amp;rsquo;s there instead of re-fetching. Left collapses the current node, and Esc collapses every top-level node at once so a deep dive into one artist doesn&amp;rsquo;t leave the rest of the tree sprawling.&lt;/p&gt;</description>
-			</item>
 			<item>
 				<title>HN Express</title>
 				<link>https://noone.dev/posts/hn-express/</link>
@@ -61,6 +54,13 @@
 				<pubDate>Wed, 31 Jul 2024 21:58:47 +0000</pubDate>
 				<guid>https://noone.dev/posts/spotnet/</guid>
 				<description>&lt;p&gt;I spend most of the workday in a terminal, so alt-tabbing to a whole separate app just to skip a song or see what&amp;rsquo;s playing was always a little annoying. SpotNet is a small, self-contained TUI player built on the Spotify Web API — a live-updating now-playing table with a handful of single-key controls, that never needs its own window.&lt;/p&gt;&#xA;&lt;h2 id=&#34;two-apps-one-job-each&#34;&gt;Two apps, one job each&lt;/h2&gt;&#xA;&lt;p&gt;Spotify&amp;rsquo;s OAuth flow needs a real redirect URI, which a CLI can&amp;rsquo;t host on its own, so the repo splits into two pieces:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>spotui</title>
+				<link>https://noone.dev/posts/spotui/</link>
+				<pubDate>Mon, 30 Jan 2023 19:50:20 +0000</pubDate>
+				<guid>https://noone.dev/posts/spotui/</guid>
+				<description>&lt;p&gt;spotui is a terminal-based Spotify library browser, built mostly as an excuse to learn Go&amp;rsquo;s TUI ecosystem — &lt;a href=&#34;https://github.com/rivo/tview&#34;&gt;tview&lt;/a&gt; and &lt;a href=&#34;https://github.com/gdamore/tcell&#34;&gt;tcell&lt;/a&gt; — rather than to be a polished tool. It lays your followed artists and your playlists out as two trees side by side, with a log pane underneath, and lets you build a playlist by browsing an artist&amp;rsquo;s catalog and tapping a single key.&lt;/p&gt;&#xA;&lt;h2 id=&#34;two-lazy-trees&#34;&gt;Two lazy trees&lt;/h2&gt;&#xA;&lt;p&gt;Nothing loads until you ask for it. Pressing the right arrow on a node calls its &lt;code&gt;ExpandFunc&lt;/code&gt; — a closure attached to that &lt;code&gt;Node&lt;/code&gt; — which hits the Spotify API and appends the results as children; pressing right again on an already-expanded node just re-shows what&amp;rsquo;s there instead of re-fetching. Left collapses the current node, and Esc collapses every top-level node at once so a deep dive into one artist doesn&amp;rsquo;t leave the rest of the tree sprawling.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Spockify - Part 1</title>
