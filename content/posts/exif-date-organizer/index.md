@@ -30,6 +30,10 @@ DATE_PATTERNS = [
 
 If a file has both an embedded date and a derived one and they land in different year/month buckets, the embedded one wins — the filename is just a fallback, not a second vote.
 
+## It writes dates back, too
+
+This isn't just a read — the tool also stamps the destination copy's EXIF with whatever date it decided on. If a file has no embedded date at all, or its `DateTimeOriginal`/`CreateDate`/`ModifyDate` are only partially set, or a derived date from the filename/folder overrides a mismatched embedded one, `exiftool -overwrite_original` writes all three fields on the copy once it lands in `DEST/YYYY/MM/`. So an old scanned photo named `1998-06-14 scan.jpg` with zero metadata doesn't just get filed into the right folder — it comes out the other end with real embedded EXIF dates too. The source file is never touched; only the copy in the destination tree gets rewritten.
+
 ## Collisions and duplicates
 
 Since files get copied (never moved) and re-runs are expected — you'll point it at the same messy source folder more than once as you find new drives to pull from — the destination path can already have something sitting there. Before overwriting anything, it compares the two files by MD5 hash:
