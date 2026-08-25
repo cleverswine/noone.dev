@@ -93,9 +93,9 @@
 			<item>
 				<title>Authorization Flow with a CLI</title>
 				<link>https://noone.dev/posts/authorization-flow-cli/</link>
-				<pubDate>Thu, 18 Jun 2020 19:01:22 +0000</pubDate>
+				<pubDate>Fri, 19 Jun 2020 00:19:52 +0000</pubDate>
 				<guid>https://noone.dev/posts/authorization-flow-cli/</guid>
-				<description>&lt;p&gt;When calling a public API on behalf of a user, you&amp;rsquo;ll often need to use the &lt;a href=&#34;https://tools.ietf.org/html/rfc6749#section-4.1&#34;&gt;Authorization Code Flow&lt;/a&gt; to get a token to use on the API calls. This flow invloves redirecting the user to the authorization server where they will sign in and give consent for your application to access the requested resources (scopes).&lt;/p&gt;&#xA;&lt;p&gt;From a command-line application, we don&amp;rsquo;t have a web page to do this redirect flow. What we can do is start up a simple web server and present the user with a URL to visit. When the authorization server redirects back to our simple web server, we can handle the authorization code exchange.&lt;/p&gt;</description>
+				<description>&lt;p&gt;OAuth2&amp;rsquo;s Authorization Code flow expects a web page: redirect the user to the authorization server, they sign in and grant consent, it redirects back to &lt;em&gt;your&lt;/em&gt; page with a code. A CLI doesn&amp;rsquo;t have a page to redirect back to — so it has to fake one. &lt;a href=&#34;https://github.com/cleverswine/cliauthorizationflow&#34;&gt;&lt;code&gt;cliauthorizationflow&lt;/code&gt;&lt;/a&gt; packages that whole dance into a single &lt;code&gt;NewClient&lt;/code&gt; call, and &lt;a href=&#34;https://github.com/cleverswine/cliauthorizationflow-spotify&#34;&gt;&lt;code&gt;cliauthorizationflow-spotify&lt;/code&gt;&lt;/a&gt; is a minimal example wired up to Spotify&amp;rsquo;s API to print your top tracks.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Vue.js in Docker</title>
