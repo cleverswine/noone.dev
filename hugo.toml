@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://noone.dev/"
 locale = "en-US"
 title = "noone.dev"
 publishDir = "docs"
@@ -8,6 +8,13 @@ pagerSize = 12
 
 [params]
 author = "Kevin Noone"
+tagline = "Retired software engineer, tinkering with side projects"
+description = "Kevin Noone's personal site and blog — notes on side projects, self-hosted tools, and the occasional deep dive."
+
+[params.social]
+github = "https://github.com/cleverswine"
+linkedin = "https://www.linkedin.com/in/kevinnoone/"
+facebook = "https://www.facebook.com/kevin.noone.902"
 
 [markup.goldmark.renderer]
 unsafe = true

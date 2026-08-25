@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Hacking on noone.dev</title>
-		<link>/tags/hacking/</link>
+		<link>https://noone.dev/tags/hacking/</link>
 		<description>Recent content in Hacking on noone.dev</description>
 		<generator>Hugo</generator>
 		<language>en-US</language>
@@ -12,453 +12,453 @@
 		
 			<lastBuildDate>Wed, 18 Sep 2013 17:22:38 +0000</lastBuildDate>
 		
-			<atom:link href="/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://noone.dev/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Evolution</title>
-				<link>/2013/09/18/evolution/</link>
+				<link>https://noone.dev/2013/09/18/evolution/</link>
 				<pubDate>Wed, 18 Sep 2013 17:22:38 +0000</pubDate>
-				<guid>/2013/09/18/evolution/</guid>
+				<guid>https://noone.dev/2013/09/18/evolution/</guid>
 				<description>&lt;p&gt;I’ve been thinking for a while about moving my simple web site and blog to a different platform. I’m currently paying to host everything on a traditional hosting service. Ten years ago, this was really the only option if you wanted buy a domain and put a web site out there (there was also self hosting with dynamic DNS, but I was never brave enough to open up my home network). Now, we have so many options that it would be difficult to list them all. We have “cloud” hosts like &lt;a href=&#34;http://www.windowsazure.com/&#34; target=&#34;_blank&#34;&gt;Azure&lt;/a&gt; and &lt;a href=&#34;http://aws.amazon.com/&#34; target=&#34;_blank&#34;&gt;AWS&lt;/a&gt;. We have developer-friendly hosts like &lt;a href=&#34;https://www.heroku.com/&#34; target=&#34;_blank&#34;&gt;Heroku&lt;/a&gt;. &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt; can even host your static pages (more on that later). Most of these cloud-based options can be utilized for free with limited traffic and processing power.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Using cookies with HttpClient</title>
-				<link>/2013/08/06/using-cookies-with-httpclient/</link>
+				<link>https://noone.dev/2013/08/06/using-cookies-with-httpclient/</link>
 				<pubDate>Tue, 06 Aug 2013 18:06:41 +0000</pubDate>
-				<guid>/2013/08/06/using-cookies-with-httpclient/</guid>
+				<guid>https://noone.dev/2013/08/06/using-cookies-with-httpclient/</guid>
 				<description>&lt;p&gt;This simple code snippet shows how to store and use cookies from a web request using the .Net &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/system.net.http.httpclient.aspx&#34; target=&#34;_blank&#34;&gt;HttpClient&lt;/a&gt;. For example, if an API or site sends a token or authentication cookie, you may need to store it and send it on all subsequent requests to show that you are authenticated. This would be for a session-based service. The key is to create a single &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/system.net.cookiecontainer.aspx&#34; target=&#34;_blank&#34;&gt;CookieContainer&lt;/a&gt; instance and a single &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/system.net.http.httpclienthandler.aspx&#34; target=&#34;_blank&#34;&gt;HttpClientHandler&lt;/a&gt; instance to hold it. Assume the following class is registered as a singleton.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Trying out Windows Live Writer</title>
-				<link>/2013/08/05/trying-out-windows-live-writer/</link>
+				<link>https://noone.dev/2013/08/05/trying-out-windows-live-writer/</link>
 				<pubDate>Mon, 05 Aug 2013 15:18:45 +0000</pubDate>
-				<guid>/2013/08/05/trying-out-windows-live-writer/</guid>
+				<guid>https://noone.dev/2013/08/05/trying-out-windows-live-writer/</guid>
 				<description>&lt;p&gt;Scott Hanselman has been trumpeting Windows Live Writer for some time now.  I’ve been hesitant to try it out because I’m a control freak and I was convinced that Live Writer wouldn’t do things correctly.  Well, he &lt;a href=&#34;http://www.hanselman.com/blog/DownloadWindowsLiveWriter2012.aspx&#34; target=&#34;_blank&#34;&gt;blogged about it again today&lt;/a&gt; so I’m giving it a try (with this post).  It was the comments on his post that swayed me.&lt;/p&gt;&#xA;&lt;p&gt;Live Writer has improved quite a bit since last time I tried it.  It actually pulled down my WordPress theme in order to provide a themed preview, which isn’t perfect, but it’s good enough to get an idea.  Adding categories and tags is really simple, with type-ahead suggestions from previous posts.  It looks like it has some powerful picture, video and map embedding tools, which I will try eventually.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Last.fm Recent Tracks with AngularJS</title>
-				<link>/2013/03/20/last-fm-recent-tracks-with-angularjs/</link>
+				<link>https://noone.dev/2013/03/20/last-fm-recent-tracks-with-angularjs/</link>
 				<pubDate>Wed, 20 Mar 2013 20:51:55 +0000</pubDate>
-				<guid>/2013/03/20/last-fm-recent-tracks-with-angularjs/</guid>
+				<guid>https://noone.dev/2013/03/20/last-fm-recent-tracks-with-angularjs/</guid>
 				<description>&lt;p&gt;&lt;a href=&#34;http://angularjs.org/&#34; title=&#34;AngularJS&#34; target=&#34;_blank&#34;&gt;AngularJS&lt;/a&gt; is an MVC framework for javascript. It is best suited for round-tripping resources with a RESTful service. In this post, I will simply get a list of recent tracks from Last.fm, treating each track as a resource. The Last.fm API is documented &lt;a href=&#34;http://www.last.fm/api&#34; title=&#34;Last.fm API&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. There is no round-tripping in this example. I’ll also be utilizing &lt;a href=&#34;http://twitter.github.com/bootstrap/&#34; title=&#34;Bootstrap&#34; target=&#34;_blank&#34;&gt;Twitter Bootstrap&lt;/a&gt; for layout.&lt;/p&gt;&#xA;&lt;p&gt;To start, create the AngularJS application and a controller for recent tracks. Since this is a simple application, there are no routes and views. The controller will be invoked inline on the main page. Routes and views are easily added once you get a handle on the framework.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Thumbnail Gallery with Flickr, Bootstrap, and Javascript</title>
-				<link>/2012/11/01/thumbnail-gallery-with-flickr-bootstrap-and-javascript/</link>
+				<link>https://noone.dev/2012/11/01/thumbnail-gallery-with-flickr-bootstrap-and-javascript/</link>
 				<pubDate>Thu, 01 Nov 2012 15:38:59 +0000</pubDate>
-				<guid>/2012/11/01/thumbnail-gallery-with-flickr-bootstrap-and-javascript/</guid>
+				<guid>https://noone.dev/2012/11/01/thumbnail-gallery-with-flickr-bootstrap-and-javascript/</guid>
 				<description>&lt;p&gt;I recently created a thumbnail gallery of my latest Flickr photos using the &lt;a href=&#34;http://www.flickr.com/services/feeds/&#34; target=&#34;_blank&#34;&gt;Flickr feeds&lt;/a&gt; API, &lt;a href=&#34;http://twitter.github.com/bootstrap/index.html&#34; target=&#34;_blank&#34;&gt;Twitter Bootstrap&lt;/a&gt;, and Javascript/&lt;a href=&#34;http://jquery.com/&#34; target=&#34;_blank&#34;&gt;jQuery&lt;/a&gt;.  There is no server side code for this solution, and the client side code is really simple.  To start, create a blank html page (I like to start with the &lt;a href=&#34;http://html5boilerplate.com/&#34; target=&#34;_blank&#34;&gt;HTML5 Boilerplate&lt;/a&gt;).  Make sure you include the Bootstrap css and jQuery.  I used the &lt;a href=&#34;http://twitter.github.com/bootstrap/components.html#thumbnails&#34; target=&#34;_blank&#34;&gt;Thumbnails&lt;/a&gt; component of Bootstrap for the gallery layout.  Here’s the div to hold the thumbnails:&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Project &amp;#8211; La Cocina</title>
-				<link>/2012/08/07/project-la-cocina/</link>
+				<link>https://noone.dev/2012/08/07/project-la-cocina/</link>
 				<pubDate>Tue, 07 Aug 2012 15:15:17 +0000</pubDate>
-				<guid>/2012/08/07/project-la-cocina/</guid>
+				<guid>https://noone.dev/2012/08/07/project-la-cocina/</guid>
 				<description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/7735155734/&#34; title=&#34;photo sharing&#34;&gt;&lt;img style=&#34;border: solid 2px #000000;&#34; src=&#34;https://i2.wp.com/farm9.staticflickr.com/8422/7735155734_7110a42dea_m.jpg?w=840&#34; alt=&#34;&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I’ve been working on a new Rails application for storing our recipes. It’s at a point where it is being hosted and used by us. Some of the style is borrowed (stolen) from &lt;a href=&#34;http://www.themarthablog.com/&#34; target=&#34;_blank&#34;&gt;Martha Stewart’s blog&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The big feature of La Cocina is it’s ability to pull in recipes from a number of other recipe sites.  I’m using the &lt;a href=&#34;http://nokogiri.org/&#34; target=&#34;_blank&#34;&gt;nokogiri&lt;/a&gt; gem to do screen scraping for recipe data.  There’s an admin interface for creating new screen scrapers (which I call “scarfers”), so it’s easy to add new recipe sites by entering DOM paths (CSS or XPath) and some other options.  With one click of a bookmarklet on a supported site (we have 5 configured so far), the recipe is in our database.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Show SVN revision number in a Rails application</title>
-				<link>/2012/06/07/show-svn-revision-number-in-a-rails-application/</link>
+				<link>https://noone.dev/2012/06/07/show-svn-revision-number-in-a-rails-application/</link>
 				<pubDate>Thu, 07 Jun 2012 16:06:18 +0000</pubDate>
-				<guid>/2012/06/07/show-svn-revision-number-in-a-rails-application/</guid>
+				<guid>https://noone.dev/2012/06/07/show-svn-revision-number-in-a-rails-application/</guid>
 				<description>&lt;p&gt;This is a hack to display the Subversion revision in a Rails application using &lt;a href=&#34;http://capify.org&#34; title=&#34;Capistrano&#34; target=&#34;_blank&#34;&gt;Capistrano&lt;/a&gt; to insert the current revision number on each deploy.&lt;/p&gt;&#xA;&lt;p&gt;Create a partial that will contain the revision number. For example, _~/app/views/layouts/&lt;em&gt;revision.html.erb&lt;/em&gt;. You can put anything in that file, as it will be overwritten by Capistrano on each deploy. The word “Development” or “Current” seems a good choice.&lt;/p&gt;&#xA;&lt;p&gt;In the page where you want to display the revision number (probably in the application layout), render the partial. In development mode, you’ll see something like “version 1.0.Development”. In your deployment environment, you’ll see the SVN revision number, like so: “version 1.0.504”.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>FizzBuzz one-liner in C#</title>
-				<link>/2012/04/27/fizzbuzz-one-liner-in-c/</link>
+				<link>https://noone.dev/2012/04/27/fizzbuzz-one-liner-in-c/</link>
 				<pubDate>Fri, 27 Apr 2012 12:36:39 +0000</pubDate>
-				<guid>/2012/04/27/fizzbuzz-one-liner-in-c/</guid>
+				<guid>https://noone.dev/2012/04/27/fizzbuzz-one-liner-in-c/</guid>
 				<description>&lt;p&gt;FizzBuzz: &lt;em&gt;Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”. &lt;a href=&#34;http://www.codinghorror.com/blog/2007/02/why-cant-programmers-program.html&#34; target=&#34;_blank&#34;&gt;Reference&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;pre lang=&#34;csharp&#34;&gt;Console.WriteLine(String.Join(Environment.NewLine, Enumerable.Range(1, 100)&#xA;    .Select(i =&gt; (i % 3 == 0) ? new { n = i, w = &#34;Fizz&#34; } : new { n = i, w = &#34;&#34; })&#xA;    .Select(o =&gt; (o.n % 5 == 0) ? new { n = o.n, w = o.w + &#34;Buzz&#34; } : o)&#xA;    .Select(o =&gt; o.w == &#34;&#34; ? o.n.ToString() : o.w)));&#xA;&lt;/pre&gt;</description>
 			</item>
 			<item>
 				<title>jQuery Autocomplete and Rails</title>
-				<link>/2012/03/09/jquery-autocomplete-and-rails/</link>
+				<link>https://noone.dev/2012/03/09/jquery-autocomplete-and-rails/</link>
 				<pubDate>Fri, 09 Mar 2012 17:00:07 +0000</pubDate>
-				<guid>/2012/03/09/jquery-autocomplete-and-rails/</guid>
+				<guid>https://noone.dev/2012/03/09/jquery-autocomplete-and-rails/</guid>
 				<description>&lt;p&gt;This is an example of how I used the &lt;a href=&#34;http://jqueryui.com/demos/autocomplete/&#34; target=&#34;_blank&#34;&gt;jQuery Automcomplete Widget&lt;/a&gt; with Rails 3.2 for a recipe search field. Some of the jQuery stuff mentioned below is included out of the box with a new Rails application.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Make sure the jQuery gem is referenced in the &lt;em&gt;Gemfile&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre lang=&#34;ruby&#34;&gt;gem &#39;jquery-rails&#39;&lt;/pre&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Include the jQuery javascripts in &lt;em&gt;app/assets/javascripts/application.js&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre lang=&#34;ruby&#34;&gt;//= require jquery&#xA;//= require jquery_ujs&#xA;//= require jquery-ui&lt;/pre&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Download one of the jQuery-ui css files, or a custom one, and put it in one of you asset locations. I put mine in vendor/assets/stylesheets/jquery-ui-1.8.18.custom.css. Include the css file in &lt;em&gt;app/assets/stylesheets/application.css&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre lang=&#34;ruby&#34;&gt;*= require jquery-ui-1.8.18.custom.css&lt;/pre&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Create a controller action to search and return values for the autocomplete dropdown menu. In my Recipes controller (you could also create a seperate Search controller), I created an Action to return a list of matching recipe titles as a json array. The search can also be applied to recipes in a single category, hence the category_id parameter.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre lang=&#34;ruby&#34;&gt;def search_on_title&#xA;    # search_on_title is a method on the model to do a wildcard search on keyword&#xA;    recipes = Recipe.search_on_title(params[:term], params[:category_id])&#xA;    render json: recipes.map(&amp;:title)&#xA;  end&lt;/pre&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add a route for the search_on_title action.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre lang=&#34;ruby&#34;&gt;resources :recipes do&#xA;    get &#39;search_on_title&#39;, :on =&gt; :collection&#xA;  end&lt;/pre&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The search form is just a normal form.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre lang=&#34;ruby&#34;&gt;&amp;lt;%= form_tag &#39;&#39;, :method =&gt; :get do %&gt;&#xA;&#x9;&amp;lt;%= search_field_tag :term, params[:term], :class=&gt; &#34;input-large&#34; %&gt;&#xA;&#x9;&amp;lt;%= submit_tag &#34;Filter&#34;, :name =&gt; nil, :class =&gt; &#39;button btn&#39;, :id =&gt; &#34;search_bn&#34; %&gt;&#xA;  &amp;lt;% end %&gt;         &#xA;&lt;/pre&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The javascript to hook up the autocomplete functionality looks like this. Notice the extra parameter to the source url – that’s how you would pass multiple values to your filter.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre lang=&#34;javascript&#34;&gt;$(&#34;input#term&#34;).autocomplete({&#xA;    source: &#39;&amp;lt;%=search_on_title_recipes_path%&gt;?category_id=&amp;lt;%=params[:category_id]%&gt;&#39;,&#xA;    minLength: 2, delay: 500&#xA;});&lt;/pre&gt;&#xA;&lt;p&gt;There’s also a Rails gem to make autocomplete easier, but I found this to be easy enough such that I didn’t have to depend on an additional plugin.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>WCF Client and the &amp;#8220;using&amp;#8221; Statement</title>
-				<link>/2011/09/26/wcf-client-and-the-using-statement/</link>
+				<link>https://noone.dev/2011/09/26/wcf-client-and-the-using-statement/</link>
 				<pubDate>Mon, 26 Sep 2011 17:55:56 +0000</pubDate>
-				<guid>/2011/09/26/wcf-client-and-the-using-statement/</guid>
+				<guid>https://noone.dev/2011/09/26/wcf-client-and-the-using-statement/</guid>
 				<description>&lt;p&gt;As I was researching patterns and practices for a WCF client implementation, I came across a bug in the .Net implementation of ClientBase&lt;T&gt; (whether it’s actually a bug is arguable). It’s well documented on the web, but it could cause major headaches if you happened to miss it.&lt;/p&gt;&#xA;&lt;p&gt;The core of the issue is that ClientBase&lt;T&gt; implements IDisposable. With this knowledge, just about any programmer would naturally wrap its usage in a using{} block. Digging deeper, you’ll find that the ClientBase&lt;T&gt; Dispose() method simply calls Close() on the underlying connection. This is problematic because in certain connection states (such as “Faulted”), the Close() will fail. As I said, this is well documented elsewhere, for example: &lt;a title=&#34;Avoiding Problems with the Using Statement&#34; href=&#34;http://msdn.microsoft.com/en-us/library/aa355056.aspx&#34; target=&#34;_blank&#34;&gt;on MSDN&lt;/a&gt;, &lt;a href=&#34;http://stackoverflow.com/questions/573872/what-is-the-best-workaround-for-the-wcf-client-using-block-issue&#34; title=&#34;What is the best workaround for the WCF client `using` block issue?&#34; target=&#34;_blank&#34;&gt;Stack Overflow&lt;/a&gt;, and &lt;a href=&#34;http://blogs.msdn.com/b/jjameson/archive/2010/03/18/avoiding-problems-with-the-using-statement-and-wcf-service-proxies.aspx&#34; title=&#34;Avoiding Problems with the Using Statement and WCF Service Proxies&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Find/Kill a Linux Process by Name</title>
-				<link>/2011/09/09/findkill-a-linux-process-by-name/</link>
+				<link>https://noone.dev/2011/09/09/findkill-a-linux-process-by-name/</link>
 				<pubDate>Fri, 09 Sep 2011 17:19:40 +0000</pubDate>
-				<guid>/2011/09/09/findkill-a-linux-process-by-name/</guid>
+				<guid>https://noone.dev/2011/09/09/findkill-a-linux-process-by-name/</guid>
 				<description>&lt;p&gt;I was doing some research to figure out how to easily kill a Linux process given part of it’s name. It’s fairly simple to do it manually, but if you didn’t already know, programmers are lazy.&lt;/p&gt;&#xA;&lt;p&gt;The first thing I was doing…&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;ps aux | grep Foo&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;find the process ID (PID) with my eyes, and then kill it…&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;kill -9 123456&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Next, I started finding complex piped commands to find and extract the PID. For instance…&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Simple Moq</title>
-				<link>/2011/04/20/simple-moq/</link>
+				<link>https://noone.dev/2011/04/20/simple-moq/</link>
 				<pubDate>Wed, 20 Apr 2011 17:40:32 +0000</pubDate>
-				<guid>/2011/04/20/simple-moq/</guid>
+				<guid>https://noone.dev/2011/04/20/simple-moq/</guid>
 				<description>&lt;p&gt;I recently worked on a project in which 90% of its tests were integration tests because the core purpose of the project was to interact with external entities. In an effort create more unit tests, I employed &lt;a title=&#34;Moq&#34; href=&#34;http://code.google.com/p/moq/&#34; target=&#34;_blank&#34;&gt;Moq&lt;/a&gt; (and lots of refactoring).  This is an example of basic Moq usage.&lt;/p&gt;&#xA;&lt;p&gt;Let’s say we have a repository that gets documents from a database.  The assumption is that a repository interface, IDocumentRepository, is being implemented.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Complex XSDs as Embedded Resources</title>
-				<link>/2011/03/17/using-complex-xsds-as-embedded-resources/</link>
+				<link>https://noone.dev/2011/03/17/using-complex-xsds-as-embedded-resources/</link>
 				<pubDate>Thu, 17 Mar 2011 18:44:43 +0000</pubDate>
-				<guid>/2011/03/17/using-complex-xsds-as-embedded-resources/</guid>
+				<guid>https://noone.dev/2011/03/17/using-complex-xsds-as-embedded-resources/</guid>
 				<description>&lt;p&gt;I was recently tasked with validating XML files against a very complex set of XSD schema files.  This is easily accomplished if your XSD files live on the filesystem, because the .Net xml resolver can find referenced schemas via a relative or absolute Uri.  In my case, the schema files were compiled as embedded resources in my project.  As expected, the XML schema loader didn’t know how to find referenced schemas – it was likely searching for them  in the path of the running application.  To solve this, I had to help out the schema loader by implementing a custom resolver that knew how to pull schema from the embedded resources.  The code…&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>MVC3 &#43; MongoDB &#43; Autofac</title>
-				<link>/2011/03/08/mvc3-mongodb-autofac/</link>
+				<link>https://noone.dev/2011/03/08/mvc3-mongodb-autofac/</link>
 				<pubDate>Tue, 08 Mar 2011 22:31:08 +0000</pubDate>
-				<guid>/2011/03/08/mvc3-mongodb-autofac/</guid>
+				<guid>https://noone.dev/2011/03/08/mvc3-mongodb-autofac/</guid>
 				<description>&lt;p&gt;I recently posted a &lt;a href=&#34;http://blog.cleverswine.net/2011/03/08/a-diet-and-an-application/&#34;&gt;brief summary&lt;/a&gt; of creating a recipe database.  I decided to expand on that and go into the implementation details of using ASP.NET MVC3 with MongoDB and Autofac.  This code depends on the &lt;a href=&#34;https://github.com/atheken/NoRM&#34;&gt;NoRM&lt;/a&gt; driver for &lt;a href=&#34;http://www.mongodb.org/&#34;&gt;MongoDB&lt;/a&gt;, &lt;a href=&#34;http://code.google.com/p/autofac/&#34;&gt;Autofac&lt;/a&gt;, and &lt;a href=&#34;http://www.asp.net/mvc&#34;&gt;MVC3&lt;/a&gt; (and it’s dependencies). This is by no means the only (or best) way to do things, but this is how I chose to do it.  I’ve simplified the repository to one method for brevity, but you’d obviously want to add all of the required CRUD operations.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>A Diet and an Application</title>
-				<link>/2011/03/08/a-diet-and-an-application/</link>
+				<link>https://noone.dev/2011/03/08/a-diet-and-an-application/</link>
 				<pubDate>Tue, 08 Mar 2011 20:13:27 +0000</pubDate>
-				<guid>/2011/03/08/a-diet-and-an-application/</guid>
+				<guid>https://noone.dev/2011/03/08/a-diet-and-an-application/</guid>
 				<description>&lt;p&gt;I’ve started on the &lt;a title=&#34;Paleo Lifestyle&#34; href=&#34;http://paleodietlifestyle.com/&#34; target=&#34;_blank&#34;&gt;Paleo Diet&lt;/a&gt;, which, of course, means I have to create a software application to go along with it.&lt;/p&gt;&#xA;&lt;p&gt;I decided this was a good time to give &lt;a title=&#34;Asp.net MVC&#34; href=&#34;http://www.asp.net/mvc&#34; target=&#34;_blank&#34;&gt;MVC3&lt;/a&gt; and &lt;a title=&#34;MongoDB&#34; href=&#34;http://www.mongodb.org/&#34; target=&#34;_blank&#34;&gt;MongoDB&lt;/a&gt; a test drive.  After diving in, I realized that I could benefit from some dependency injection via MVC3’s DependencyResolver.  I’ve been wanting to learn &lt;a title=&#34;Autofac&#34; href=&#34;http://code.google.com/p/autofac/&#34; target=&#34;_blank&#34;&gt;Autofac&lt;/a&gt;, so I threw that in as the container.  This was sweet, as it injected my repository implementations into my controllers with very little setup.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>What I&amp;#8217;m Working On</title>
-				<link>/2009/11/23/what-im-working-on/</link>
+				<link>https://noone.dev/2009/11/23/what-im-working-on/</link>
 				<pubDate>Mon, 23 Nov 2009 13:32:54 +0000</pubDate>
-				<guid>/2009/11/23/what-im-working-on/</guid>
+				<guid>https://noone.dev/2009/11/23/what-im-working-on/</guid>
 				<description>&lt;p&gt;&lt;del datetime=&#34;2011-03-18T00:50:48+00:00&#34;&gt;Here’s what I’m working on&lt;/del&gt; &lt;a title=&#34;Test Site&#34; href=&#34;http://cleverswine.net/&#34; target=&#34;_blank&#34;&gt;What I worked on&lt;/a&gt;.  Right now it’s just a basic display of feeds from some of my social networks.  I’d like to fancy it up a bit at some point, perhaps with some nice jQuery tooltips.  I’m using the SimplePie PHP library to fetch the feeds (each one asynchronously).  The design is borrowed from &lt;a title=&#34;Popurls&#34; href=&#34;http://popurls.com/&#34; target=&#34;_blank&#34;&gt;Popurls&lt;/a&gt;.  I know it’s not that interesting, but it’s fun for me.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>ID3 Tag Parsing</title>
-				<link>/2009/03/25/id3-tag-parsing/</link>
+				<link>https://noone.dev/2009/03/25/id3-tag-parsing/</link>
 				<pubDate>Wed, 25 Mar 2009 19:29:26 +0000</pubDate>
-				<guid>/2009/03/25/id3-tag-parsing/</guid>
+				<guid>https://noone.dev/2009/03/25/id3-tag-parsing/</guid>
 				<description>&lt;p&gt;I’ve been working on a project to read and update &lt;a href=&#34;http://www.id3.org/Home&#34;&gt;ID3 tags&lt;/a&gt; on my music collection. An ID3 tag is the meta data embedded in mp3 files that contains artist and other information. My initial goal is to batch update the “genre” field in my mp3 files. I’ve written a simple .Net forms application to do this. I found a really good library created by Novell called &lt;a href=&#34;http://developer.novell.com/wiki/index.php/TagLib_Sharp&#34;&gt;TagLib Sharp&lt;/a&gt;. The library makes it super easy to read and write ID3 tags.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Dr. Dobb&amp;#8217;s Journal</title>
-				<link>/2009/03/17/dr-dobbs-journal/</link>
+				<link>https://noone.dev/2009/03/17/dr-dobbs-journal/</link>
 				<pubDate>Tue, 17 Mar 2009 08:56:22 +0000</pubDate>
-				<guid>/2009/03/17/dr-dobbs-journal/</guid>
+				<guid>https://noone.dev/2009/03/17/dr-dobbs-journal/</guid>
 				<description>&lt;p&gt;&lt;a href=&#34;http://dobbschallenge2.com/&#34;&gt;&lt;img src=&#34;https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2009/03/dd2.jpg?resize=125%2C100&#34; alt=&#34;&#34; title=&#34;dd2&#34; class=&#34;alignleft size-full wp-image-541&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt; I’ve been subscribing to &lt;a href=&#34;http://www.ddj.com/&#34;&gt;Dr. Dobb’s Journal&lt;/a&gt; for at least 10 years. It has always been my favorite technical magazine because of it’s diversity of topics and brain-stirring articles. I got a letter in the mail last week saying that they were ceasing production of the full magazine. Instead, they will offer a Dr. Dobb’s Report stuffed into issues of InformationWeek. I’ll have to spend more time on their web site, as it looks like they have some good content on there.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Kevin Enjoys Things</title>
-				<link>/2009/01/06/kevin-enjoys-things/</link>
+				<link>https://noone.dev/2009/01/06/kevin-enjoys-things/</link>
 				<pubDate>Tue, 06 Jan 2009 16:13:30 +0000</pubDate>
-				<guid>/2009/01/06/kevin-enjoys-things/</guid>
+				<guid>https://noone.dev/2009/01/06/kevin-enjoys-things/</guid>
 				<description>&lt;p&gt;Ted has been vigorously working on a rad new site called &lt;a href=&#34;http://enjoysthin.gs&#34;&gt;enjoys things&lt;/a&gt;. He has been adding new features almost daily for the past few weeks, and it’s shaping up nicely. &lt;a href=&#34;http://cleverswine.enjoysthin.gs/&#34;&gt;Check what I enjoy&lt;/a&gt; and see how cool it is. When I find some room on my front page, I’ll add my enjoys things badge.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Learning WPF</title>
-				<link>/2008/12/22/learning-wpf/</link>
+				<link>https://noone.dev/2008/12/22/learning-wpf/</link>
 				<pubDate>Mon, 22 Dec 2008 08:38:48 +0000</pubDate>
-				<guid>/2008/12/22/learning-wpf/</guid>
+				<guid>https://noone.dev/2008/12/22/learning-wpf/</guid>
 				<description>&lt;p&gt;Since I’m pretty much stuck in the house due to the snow (and lack of a job), I’ve decided to learn something new. I’ve begun writing a &lt;a href=&#34;http://windowsclient.net/&#34;&gt;Windows Presentation Foundation&lt;/a&gt; (WPF) application. WPF has some insanely cool UI features, including declarative UI effects. My first project is a simple screensaver that pulls photos from Flickr and displays them as a slideshow with cool transition effects. Eventually, I’d like to create a dashboard type application that displays news, weather, email, etc. The dashboard will be more UI intensive, so I’m not quite ready for that. Creating WPF forms is very different than creating traditional Windows forms.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Testing Windows Live Writer</title>
-				<link>/2008/12/03/testing-windows-live-writer/</link>
+				<link>https://noone.dev/2008/12/03/testing-windows-live-writer/</link>
 				<pubDate>Wed, 03 Dec 2008 09:35:29 +0000</pubDate>
-				<guid>/2008/12/03/testing-windows-live-writer/</guid>
+				<guid>https://noone.dev/2008/12/03/testing-windows-live-writer/</guid>
 				<description>&lt;div class=&#34;wlWriterSmartContent&#34; id=&#34;scid:0767317B-992E-4b12-91E0-4F059A8CECA8:f3d6c94e-065d-4cb6-baa3-caa8ce76972e&#34; style=&#34;padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px&#34;&gt;&#xA;  Technorati Tags: &lt;a href=&#34;http://technorati.com/tags/Hacking&#34; rel=&#34;tag&#34;&gt;Hacking&lt;/a&gt;,&lt;a href=&#34;http://technorati.com/tags/Personal&#34; rel=&#34;tag&#34;&gt;Personal&lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;I just installed &lt;a href=&#34;http://get.live.com/writer/overview&#34;&gt;Windows Live Writer&lt;/a&gt; as a tool to publish stories to my web site.  It has some promising features, and works with WordPress (yay MS).&lt;/p&gt;&#xA;&lt;p&gt;I also just installed DropBox because I’ve been meaning to find a way to create offsite copies of some of our important files.  I haven’t tried it yet, but I hear good things about it.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Fennec Alpha 1 Testing</title>
-				<link>/2008/10/20/fennec-alpha-1-testing/</link>
+				<link>https://noone.dev/2008/10/20/fennec-alpha-1-testing/</link>
 				<pubDate>Mon, 20 Oct 2008 14:19:48 +0000</pubDate>
-				<guid>/2008/10/20/fennec-alpha-1-testing/</guid>
+				<guid>https://noone.dev/2008/10/20/fennec-alpha-1-testing/</guid>
 				<description>&lt;p&gt;I installed the mobile version of Firefox, named &lt;a href=&#34;http://www.mozilla.org/projects/fennec/1.0a1/releasenotes/&#34;&gt;Fennec&lt;/a&gt;, on my Nokia n800 today. It’s intolerably slow (but it’s alpha, so that can be ignored for now), but has some potentially cool features like tabbed browsing and a “smart” URL bar.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/search/?q=fennec%EF%BF%BDw=28573526%40N00&#34;&gt;&lt;img src=&#34;https://i2.wp.com/farm4.static.flickr.com/3202/2959865912_6926b51af5_m_d.jpg?w=840&#34; alt=&#34;fennec&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>We Like the Dark</title>
-				<link>/2008/10/15/we-like-the-dark/</link>
+				<link>https://noone.dev/2008/10/15/we-like-the-dark/</link>
 				<pubDate>Wed, 15 Oct 2008 10:05:57 +0000</pubDate>
-				<guid>/2008/10/15/we-like-the-dark/</guid>
+				<guid>https://noone.dev/2008/10/15/we-like-the-dark/</guid>
 				<description>&lt;p&gt;Most software engineers prefer to avoid the sun and bright lights. At my office, we keep the lights out and the window shades closed. However, when we do choose to look out the window, this is what we see…&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/&#34;&gt;&lt;img src=&#34;https://i1.wp.com/farm4.static.flickr.com/3230/2959923652_d260474503_m_d.jpg?w=840&#34; alt=&#34;view&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>New Look</title>
-				<link>/2008/10/07/new-look/</link>
+				<link>https://noone.dev/2008/10/07/new-look/</link>
 				<pubDate>Tue, 07 Oct 2008 13:48:25 +0000</pubDate>
-				<guid>/2008/10/07/new-look/</guid>
+				<guid>https://noone.dev/2008/10/07/new-look/</guid>
 				<description>&lt;p&gt;I found the &lt;a href=&#34;http://thebuckmaker.com/aeros&#34;&gt;Aeros&lt;/a&gt; wordpress theme, downloaded it, made some modifications, added my photos/movies/music widget, and here it is! I’ve only tested in Firefox 3 and Internet Explorer 7. The font looks a bit strange in IE7… Anyway, I’ll be fiddling with it some more over time. Let me know if something doesn’t look right in your browser.&lt;/p&gt;&#xA;&lt;p&gt;I know the sidebar isn’t very elegant (especially the photos/movies/music links). I am soooo bad at design. Fooling around with those 3 links took longer than anything else I’ve done with this update. Every time I tried to get fancy, the layout would go to hell. I have grand ideas – really.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>A Working Widget</title>
-				<link>/2008/10/06/a-working-widget/</link>
+				<link>https://noone.dev/2008/10/06/a-working-widget/</link>
 				<pubDate>Mon, 06 Oct 2008 14:07:02 +0000</pubDate>
-				<guid>/2008/10/06/a-working-widget/</guid>
+				<guid>https://noone.dev/2008/10/06/a-working-widget/</guid>
 				<description>&lt;p&gt;I have a working tabbed (ajax) media widget. The tabs display media from Flickr, Netflix, and Last.fm. It looks crazy simple, but there’s actually a lot of processing and caching code going on. It’s about 250 lines of PHP, with some simple jQuery on the front end. (update) Now it’s in the side bar to the right.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>PHP and Last.fm Fun II</title>
-				<link>/2008/10/04/php-and-lastfm-fun-ii/</link>
+				<link>https://noone.dev/2008/10/04/php-and-lastfm-fun-ii/</link>
 				<pubDate>Sat, 04 Oct 2008 00:31:23 +0000</pubDate>
-				<guid>/2008/10/04/php-and-lastfm-fun-ii/</guid>
+				<guid>https://noone.dev/2008/10/04/php-and-lastfm-fun-ii/</guid>
 				<description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/2793204095/&#34;&gt;&lt;img class=&#34;alignleft&#34; src=&#34;https://i1.wp.com/farm3.static.flickr.com/2022/2793204095_7751ec18e7_s.jpg?resize=75%2C75&#34; alt=&#34;McNutty&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;{.tt-flickr.tt-flickr-Square} It seems like I can’t use the following code on my server:&lt;/p&gt;&#xA;&lt;p&gt;$dom = new DOMDocument(); $dom-&amp;gt;load($recentTracksUrl);&lt;/p&gt;&#xA;&lt;p&gt;because “URL file-access is disabled in the server “. I guess I’ll have to find another way to handle REST responses with php. I’m guessing there’s a better solution anyway. Research begins…&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>PHP and Last.fm Fun</title>
-				<link>/2008/10/03/php_and_lastfm_fun/</link>
+				<link>https://noone.dev/2008/10/03/php_and_lastfm_fun/</link>
 				<pubDate>Fri, 03 Oct 2008 09:53:27 +0000</pubDate>
-				<guid>/2008/10/03/php_and_lastfm_fun/</guid>
+				<guid>https://noone.dev/2008/10/03/php_and_lastfm_fun/</guid>
 				<description>&lt;p&gt;I’ve been working on some code to display various pieces of my web life here on cleverswine.net. My first chosen task is to display my recently listened to album covers from Last.fm (like you see in the side bar to the right). I could have used the widget that I’m currently using, but my end goal is a little different (more on that later). Plus, I’m learning PHP, and it’s always fun to learn a new language.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>BitNami WordPress Stack</title>
-				<link>/2008/09/30/bitnami-wordpress-stack/</link>
+				<link>https://noone.dev/2008/09/30/bitnami-wordpress-stack/</link>
 				<pubDate>Tue, 30 Sep 2008 12:37:07 +0000</pubDate>
-				<guid>/2008/09/30/bitnami-wordpress-stack/</guid>
+				<guid>https://noone.dev/2008/09/30/bitnami-wordpress-stack/</guid>
 				<description>&lt;p&gt;I’ve just installed the &lt;a href=&#34;http://bitnami.org/stack/wordpress&#34;&gt;BitNami WordPress Stack&lt;/a&gt; on my laptop and it was so easy, and so cool! After the install, I had a fully functioning WordPress up and running locally – complete with Apache, MySql, and PHP. After installation, I exported all of the data from cleverswine.net and imported it locally – again, super easy. As a result, I have a copy of my web site running locally that I can play around with. Sure, I could have installed Linux and set up everything that way, but I’ve had a hell of a time getting Linux to work on my laptop (I tried bleeding edge Ubuntu, Fedora, and Mint). Anyway, I happen to be very pleased with Vista.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Testing a Plugin</title>
-				<link>/2008/09/23/testing-a-plugin/</link>
+				<link>https://noone.dev/2008/09/23/testing-a-plugin/</link>
 				<pubDate>Tue, 23 Sep 2008 15:05:22 +0000</pubDate>
-				<guid>/2008/09/23/testing-a-plugin/</guid>
+				<guid>https://noone.dev/2008/09/23/testing-a-plugin/</guid>
 				<description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/2640724824/&#34;&gt;&lt;img class=&#34;alignleft&#34; src=&#34;https://i1.wp.com/farm4.static.flickr.com/3024/2640724824_ae6d76e485_t.jpg?resize=78%2C100&#34; alt=&#34;Bridal Veil&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;{.tt-flickr.tt-flickr-Thumbnail}&lt;/p&gt;&#xA;&lt;p&gt;Testing a &lt;a href=&#34;http://tantannoodles.com/toolkit/photo-album/&#34;&gt;Flickr plugin&lt;/a&gt; that I just installed…&lt;br&gt;&#xA;This is a waterfall in Oregon called Bridal Veil. Yep.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Network Attached Storage</title>
-				<link>/2008/09/01/network-attached-storage/</link>
+				<link>https://noone.dev/2008/09/01/network-attached-storage/</link>
 				<pubDate>Mon, 01 Sep 2008 13:04:09 +0000</pubDate>
-				<guid>/2008/09/01/network-attached-storage/</guid>
+				<guid>https://noone.dev/2008/09/01/network-attached-storage/</guid>
 				<description>&lt;p&gt;I just bought a &lt;a href=&#34;http://www.amazon.com/gp/product/B0013FSU80&#34;&gt;Netgear RND2175 ReadyNAS Duo 750 GB Desktop Network Attached Storage&lt;/a&gt; from Amazon.com. I’ve been looking at these for a while, and finally decided on this one. The device holds 2 750gb drives which are mirrored for constant data redundancy. In addition, it runs an embedded version of Linux and can do pretty much anything a Linux computer can do. There’s an active &lt;a href=&#34;http://www.readynas.com/&#34;&gt;user and developer community&lt;/a&gt; for help with every aspect of the system, including extending it and customizing it. Very exciting stuff!&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Thinking About Another Redesign</title>
-				<link>/2008/08/24/thinking-about-another-redesign/</link>
+				<link>https://noone.dev/2008/08/24/thinking-about-another-redesign/</link>
 				<pubDate>Sun, 24 Aug 2008 12:01:28 +0000</pubDate>
-				<guid>/2008/08/24/thinking-about-another-redesign/</guid>
+				<guid>https://noone.dev/2008/08/24/thinking-about-another-redesign/</guid>
 				<description>&lt;p&gt;I’ve been pretty happy with the current state of cleverswine.net, but I think it’s time for a redesign. I would like to de-emphasize the blogging portion of the site and instead create something more like a portal. I use quite a few web sites that provide activity feeds (&lt;a href=&#34;http://www.new.facebook.com/home.php&#34;&gt;Facebook&lt;/a&gt;, &lt;a href=&#34;http://delicious.com/dolcex&#34;&gt;Delicious&lt;/a&gt;, &lt;a href=&#34;http://www.amazon.com/gp/registry/wishlist/3JHXWI5OX7HGS&#34;&gt;Amazon&lt;/a&gt;, &lt;a href=&#34;http://www.netflix.com/&#34;&gt;Netflix&lt;/a&gt;, &lt;a href=&#34;http://www.last.fm/user/dolcex&#34;&gt;Last.fm&lt;/a&gt;, and &lt;a href=&#34;http://www.flickr.com/photos/cleverswine/&#34;&gt;Flickr&lt;/a&gt; to name a few). Since I rarely blog anything of interest, I’m thinking that the main content on cleverswine.net should be a summary of my online activity (a la &lt;a href=&#34;http://friendfeed.com/cleverswine&#34;&gt;FriendFeed&lt;/a&gt;). That way, it’s constantly being updated and it gives more insight into me than my shallow blog entries. To take it even further, I’d like to be able to annotate my activity (I may be able to utilize FriendFeed for that). I still want to have a traditional blog, it just wouldn’t be the main focus.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>apt-get install wife</title>
-				<link>/2008/06/08/apt-get-install-wife/</link>
+				<link>https://noone.dev/2008/06/08/apt-get-install-wife/</link>
 				<pubDate>Sun, 08 Jun 2008 11:48:02 +0000</pubDate>
-				<guid>/2008/06/08/apt-get-install-wife/</guid>
+				<guid>https://noone.dev/2008/06/08/apt-get-install-wife/</guid>
 				<description>&lt;p&gt;This comic is especially funny since I’m about to get married.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.lessaid.net/fun/apt-get-wife.png&#34;&gt;http://www.lessaid.net/fun/apt-get-wife.png&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Note: apt-get is a Linux (Debian) command to install software, therefore “apt-get install wife” says to add wife to the system.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>What I Do</title>
-				<link>/2008/06/06/what-i-do/</link>
+				<link>https://noone.dev/2008/06/06/what-i-do/</link>
 				<pubDate>Fri, 06 Jun 2008 17:55:00 +0000</pubDate>
-				<guid>/2008/06/06/what-i-do/</guid>
+				<guid>https://noone.dev/2008/06/06/what-i-do/</guid>
 				<description>&lt;p&gt;For those who know what I do for a living, but don’t actually know what I do, I submit this link to an article called &lt;a href=&#34;http://bytes.com/forum/thread641516.html&#34;&gt;What Is Programming?&lt;/a&gt; If you would like to know what my levels of enthusiasm are, &lt;a href=&#34;http://www.west-wind.com/weblog/posts/377676.aspx&#34;&gt;check here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;These are things that I am &lt;em&gt;not&lt;/em&gt;: web designer, tech support, network engineer, and a bunch of other things that I can’t think of right off hand. I’ve not eaten today because I’ve been inspired and wired.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Funny Jokes</title>
-				<link>/2008/05/08/funny-jokes/</link>
+				<link>https://noone.dev/2008/05/08/funny-jokes/</link>
 				<pubDate>Thu, 08 May 2008 12:46:02 +0000</pubDate>
-				<guid>/2008/05/08/funny-jokes/</guid>
+				<guid>https://noone.dev/2008/05/08/funny-jokes/</guid>
 				<description>&lt;p&gt;Ripped from &lt;a href=&#34;http://www.devtopics.com/best-programming-jokes/&#34;&gt;http://www.devtopics.com/best-programming-jokes/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Q. How did the programmer die in the shower?&lt;/p&gt;&#xA;&lt;p&gt;A. He read the shampoo bottle instructions: Lather. Rinse. Repeat.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;  &#xA;Programming is like sex:&#xA;  &#xA;One mistake and you have to support it for the rest of your life.&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;All programmers are playwrights, and all computers are lousy actors.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;  &#xA;A computer science student is studying under a tree and another pulls up on a flashy new bike. The first student asks, &amp;amp;#8220;Where&amp;amp;#8217;d you get that?&amp;amp;#8221;&#xA;&#xA;The student on the bike replies, &amp;amp;#8220;While I was studying outside, a beautiful girl pulled up on her bike. She took off all her clothes and said, &amp;amp;#8216;You can have anything you want&amp;amp;#8217;.&amp;amp;#8221;&#xA;&#xA;The first student responds, &amp;amp;#8220;Good choice! Her clothes probably wouldn&amp;amp;#8217;t have fit you.&amp;amp;#8221;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
 			</item>
 			<item>
 				<title>Job Changes</title>
-				<link>/2008/04/30/job-changes/</link>
+				<link>https://noone.dev/2008/04/30/job-changes/</link>
 				<pubDate>Wed, 30 Apr 2008 21:06:00 +0000</pubDate>
-				<guid>/2008/04/30/job-changes/</guid>
+				<guid>https://noone.dev/2008/04/30/job-changes/</guid>
 				<description>&lt;p&gt;&lt;img src=&#34;https://i1.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Face-monkey.svg/48px-Face-monkey.svg.png?w=840&#34; alt=&#34;code-monkey&#34; align=&#34;left&#34; style=&#34;margin-right: 4px;&#34; data-recalc-dims=&#34;1&#34; /&gt;After 8 fruitful years with &lt;a href=&#34;http://portlandgeneral.com/&#34;&gt;Portland General Electric&lt;/a&gt;, I’ve decided to give independent software consulting a try. My first gig is at &lt;a href=&#34;http://www.avenuea-razorfish.com/&#34;&gt;Avenue A | Razorfish&lt;/a&gt;. As I really enjoy writing software, this feels like a natural course. I foresee interesting challenges, fun projects, and a chance to co-mingle with the many great minds of Portland. Off I go!&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Software As a Mullet</title>
-				<link>/2008/04/10/software-as-a-mullet/</link>
+				<link>https://noone.dev/2008/04/10/software-as-a-mullet/</link>
 				<pubDate>Thu, 10 Apr 2008 15:38:11 +0000</pubDate>
-				<guid>/2008/04/10/software-as-a-mullet/</guid>
+				<guid>https://noone.dev/2008/04/10/software-as-a-mullet/</guid>
 				<description>&lt;p&gt;While considering the fun of programming today, I came up with a new mantra: “Software development should be like a mullet – business in the front, party in the back.”&lt;/p&gt;&#xA;&lt;p&gt;Today’s biggest buzzword in the industry is “software as a service”. I propose that we toss that idea, and instead standardize on “software as a mullet”. The new approach will focus on having fun during the software lifecycle, while producing business approved results. This will be followed by books such as:&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Google App Engine</title>
-				<link>/2008/04/08/google-app-engine/</link>
+				<link>https://noone.dev/2008/04/08/google-app-engine/</link>
 				<pubDate>Tue, 08 Apr 2008 12:05:07 +0000</pubDate>
-				<guid>/2008/04/08/google-app-engine/</guid>
+				<guid>https://noone.dev/2008/04/08/google-app-engine/</guid>
 				<description>&lt;p&gt;Hmmm, the &lt;a href=&#34;http://code.google.com/appengine/&#34;&gt;Google App Engine&lt;/a&gt; is all over the “blogosphere” today. I first read about Google’s new service yesterday, so I promptly signed up to be a beta tester. Today, I was invited to join 10,0000 other programmers to give the App Engine a trial run.&lt;/p&gt;&#xA;&lt;p&gt;The App Engine is being greeted with mixed feelings by the developer community. Personally, after reading the documentation and API, I can’t think of a good reason to use it. It has some benefits over other application hosting options, but it sacrifices flexibility in return.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Am I A Rockstar Software Engineer?</title>
-				<link>/2008/04/08/am-i-a-rockstar-software-engineer/</link>
+				<link>https://noone.dev/2008/04/08/am-i-a-rockstar-software-engineer/</link>
 				<pubDate>Tue, 08 Apr 2008 11:53:29 +0000</pubDate>
-				<guid>/2008/04/08/am-i-a-rockstar-software-engineer/</guid>
+				<guid>https://noone.dev/2008/04/08/am-i-a-rockstar-software-engineer/</guid>
 				<description>&lt;p&gt;According to the article, &lt;a href=&#34;http://www.readwriteweb.com/archives/top_10_software_engineer_traits.php&#34;&gt;Top 10 Traits of a Rockstar Software Engineer&lt;/a&gt;, I might be a Rockstar Software Engineer. Yay. Here’s the list, with comments about myself.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Loves To Code (I do)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Gets Things Done (I mostly do)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Continuously Refactors Code (I do)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Uses Design Patterns (I sometimes do)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Writes Tests (I rarely do…)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Leverages Existing Code (I do)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Focuses on Usability (I do)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Writes Maintainable Code (I do)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Can Code in Any Language (I can)&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>I Dig Vagalume</title>
-				<link>/2008/03/25/i-dig-vagalume/</link>
+				<link>https://noone.dev/2008/03/25/i-dig-vagalume/</link>
 				<pubDate>Tue, 25 Mar 2008 16:43:34 +0000</pubDate>
-				<guid>/2008/03/25/i-dig-vagalume/</guid>
+				<guid>https://noone.dev/2008/03/25/i-dig-vagalume/</guid>
 				<description>&lt;p&gt;I’ve been using &lt;a href=&#34;http://vagalume.igalia.com/&#34;&gt;Vagalume&lt;/a&gt;, a &lt;a href=&#34;http://www.last.fm/user/dolcex/&#34;&gt;last.fm&lt;/a&gt; player, on my internet tablet. This might be one of the best and most useful pieces of software that I’ve ever used. I particularly like the neighborhood radio feature, which plays songs from last.fm users that have similar tastes to mine. It’s like having a portable radio that only plays stuff that I like.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2008/03/screenshot01.png&#34; title=&#34;smiths&#34;&gt;&lt;img src=&#39;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2008/03/screenshot01.png?resize=150%2C150&#39; alt=&#39;smiths&#39; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>The Hyperinflation of XMLSpy</title>
-				<link>/2008/03/20/the-hyperinflation-of-xmlspy/</link>
+				<link>https://noone.dev/2008/03/20/the-hyperinflation-of-xmlspy/</link>
 				<pubDate>Thu, 20 Mar 2008 14:24:35 +0000</pubDate>
-				<guid>/2008/03/20/the-hyperinflation-of-xmlspy/</guid>
+				<guid>https://noone.dev/2008/03/20/the-hyperinflation-of-xmlspy/</guid>
 				<description>&lt;p&gt;Just a couple of days ago, I was using &lt;a href=&#34;https://shop.altova.com/category.asp?category_name=XMLSPY&#34;&gt;XMLSpy&lt;/a&gt; at work to do some test XSLT transformations. Our XSL templates here at work are pretty complex, with a few xsl:include tags to import common code. After trying for nearly a day to get XMLSpy to render my transformations, I gave up. I tried every available rendering engine, I tried inserting all of the included code into one file, I tried simplifying the XML – all to no avail. I finally wrote a small C# program to do the transformation, which worked much better than XMLSpy. I’m writing this because &lt;a href=&#34;http://www.yafla.com/dforbes/The_Hyperinflation_Of_XMLSpy/&#34;&gt;I just came across a story&lt;/a&gt; about the ever-increasing price of XMLSpy. I have wondered myself why it’s so expensive, but large companies seem to be willing to dish out the dollars.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Happy PI Day (3/14)</title>
-				<link>/2008/03/14/happy-pi-day-314/</link>
+				<link>https://noone.dev/2008/03/14/happy-pi-day-314/</link>
 				<pubDate>Fri, 14 Mar 2008 10:14:41 +0000</pubDate>
-				<guid>/2008/03/14/happy-pi-day-314/</guid>
+				<guid>https://noone.dev/2008/03/14/happy-pi-day-314/</guid>
 				<description>&lt;p&gt;PI = 3.14159 26535 89793 23846 26433 83279 50288 41971 69399 37510 58209 74944 59230 78164 06286 20899 86280 34825 34211 70679 82148 08651 32823 06647 09384 46095 50582 23172 53594 08128 48111 74502 84102 70193 85211 05559 64462 29489 54930 38196 44288 10975 66593 34461 28475 64823 37867 83165 27120 19091 45648 56692 34603 48610 45432 66482 13393 60726 02491 41273 72458 70066 06315 58817 48815 20920 96282 92540 91715 36436 78925 90360 01133 05305 48820 46652 13841 46951 94151 16094 33057 27036 57595 91953 09218 61173 81932 61179 31051 18548 07446 23799 62749 56735 18857 52724 89122 79381 83011 94912 98336 73362 44065 66430 &lt;a href=&#34;http://mapage.noos.fr/echolalie/l127.htm&#34;&gt;…&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Crashing Las Vegas</title>
-				<link>/2008/02/26/crashing-las-vegas/</link>
+				<link>https://noone.dev/2008/02/26/crashing-las-vegas/</link>
 				<pubDate>Tue, 26 Feb 2008 16:28:56 +0000</pubDate>
-				<guid>/2008/02/26/crashing-las-vegas/</guid>
+				<guid>https://noone.dev/2008/02/26/crashing-las-vegas/</guid>
 				<description>&lt;p&gt;This is classic! It seems that the Paris hotel and casino in Las Vegas had a small technical problem with their giant display screen. Microsoft Windows. BSOD.&lt;/p&gt;&#xA;&lt;p&gt;[&lt;/p&gt;&#xA;&lt;p&gt;Crashing Las Vegas](&lt;a href=&#34;http://thedailywtf.com/Articles/Crashing-Las-Vegas.aspx&#34;&gt;http://thedailywtf.com/Articles/Crashing-Las-Vegas.aspx&lt;/a&gt;)&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>In Training II</title>
-				<link>/2008/02/07/in-training-ii/</link>
+				<link>https://noone.dev/2008/02/07/in-training-ii/</link>
 				<pubDate>Thu, 07 Feb 2008 10:49:46 +0000</pubDate>
-				<guid>/2008/02/07/in-training-ii/</guid>
+				<guid>https://noone.dev/2008/02/07/in-training-ii/</guid>
 				<description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/2237695476/&#34;&gt;&lt;img src=&#34;https://i0.wp.com/farm3.static.flickr.com/2042/2237695476_9d9ea6e4b5_t_d.jpg?w=840&#34; alt=&#34;aging&#34; align=&#34;left&#34; style=&#34;margin-right:4px;&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;It’s my fourth day in &lt;a href=&#34;http://www-306.ibm.com/software/websphere/&#34;&gt;IBM Websphere&lt;/a&gt; training. I’m becoming an expert with Process Server (cough cough). It’s been a long time since I’ve been in a training class that really challenges me. As an old school procedural programmer, it’s a bit mind-blowing to design processes visually. I’m a proponent of simple, straight-forward software design – which Process Server is not. I’m not knocking Process Server, it’s actually quite a cool tool. I can foresee hours of fun with it, once I understand it. I am aging prematurely…&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>In Training</title>
-				<link>/2008/02/05/in-training/</link>
+				<link>https://noone.dev/2008/02/05/in-training/</link>
 				<pubDate>Tue, 05 Feb 2008 09:20:51 +0000</pubDate>
-				<guid>/2008/02/05/in-training/</guid>
+				<guid>https://noone.dev/2008/02/05/in-training/</guid>
 				<description>&lt;p&gt;This week, I am in a training class for &lt;a href=&#34;http://www-306.ibm.com/software/websphere/&#34;&gt;IBM Websphere&lt;/a&gt;. What is Websphere? Well, it’s something along the lines of an integration and application infrastructure software built around J2EE (Java framework). Visit the web site for more information, and good luck trying to figure it out.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>CardDAV &amp;#8211; WebDAV for vCard</title>
-				<link>/2008/02/02/carddav-webdav-for-vcard/</link>
+				<link>https://noone.dev/2008/02/02/carddav-webdav-for-vcard/</link>
 				<pubDate>Sat, 02 Feb 2008 11:08:21 +0000</pubDate>
-				<guid>/2008/02/02/carddav-webdav-for-vcard/</guid>
+				<guid>https://noone.dev/2008/02/02/carddav-webdav-for-vcard/</guid>
 				<description>&lt;p&gt;While reading my daily dose of the &lt;a href=&#34;http://dataportability.org/&#34;&gt;Data Portability&lt;/a&gt; mailing list, I uncovered an interesting idea that could solve a problem that I’ve been thinking about for a long time. That problem would be the inability to share personal address books (PAB) across multiple computers. The project is called &lt;a href=&#34;http://tools.ietf.org/html/draft-daboo-carddav-03&#34;&gt;CardDAV&lt;/a&gt;. Think of it as IMAP for email, or WebDAV for files. So far, it’s just an idea. I certainly hope the idea becomes a specification and is adopted by the major address book applications.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>FriendFeed.  I like.</title>
-				<link>/2008/02/01/friendfeed-i-like/</link>
+				<link>https://noone.dev/2008/02/01/friendfeed-i-like/</link>
 				<pubDate>Fri, 01 Feb 2008 16:43:36 +0000</pubDate>
-				<guid>/2008/02/01/friendfeed-i-like/</guid>
+				<guid>https://noone.dev/2008/02/01/friendfeed-i-like/</guid>
 				<description>&lt;p&gt;A friend just told me about &lt;a href=&#34;http://friendfeed.com/&#34;&gt;FriendFeed&lt;/a&gt;, which is sort of a social web aggregater. Rather than try to explain it, here’s what they say about themselves:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Our goal is to make content on the Web more useful and discoverable by taking advantage of your social connections. FriendFeed is a simple tool that scratches the surface of that goal by making it easier to keep track of the web pages, videos, music, and photos your friends and family interact with around the Internet.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>The State of the Social Web</title>
-				<link>/2008/01/23/the-state-of-the-social-web/</link>
+				<link>https://noone.dev/2008/01/23/the-state-of-the-social-web/</link>
 				<pubDate>Wed, 23 Jan 2008 10:12:17 +0000</pubDate>
-				<guid>/2008/01/23/the-state-of-the-social-web/</guid>
+				<guid>https://noone.dev/2008/01/23/the-state-of-the-social-web/</guid>
 				<description>&lt;p&gt;Today’s “social web” is nothing more than a playground for those desperate to create an identity for themselves in what we like to call “the virtual world.” While it’s a fine, and ambitious, idea, there are quite a few shortcomings in today’s virtual world that we will need to hurdle.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Fun with the Google Chart API</title>
-				<link>/2008/01/22/fun-with-the-google-chart-api/</link>
+				<link>https://noone.dev/2008/01/22/fun-with-the-google-chart-api/</link>
 				<pubDate>Tue, 22 Jan 2008 14:17:03 +0000</pubDate>
-				<guid>/2008/01/22/fun-with-the-google-chart-api/</guid>
+				<guid>https://noone.dev/2008/01/22/fun-with-the-google-chart-api/</guid>
 				<description>&lt;p&gt;I just finish developing another weight loss application with Ruby on Rails. For the most part, it’s nothing noteworthy – just your standard Rails MVC project with simple views. The one tiny noteworthy thing is that I made use of the &lt;a href=&#34;http://code.google.com/apis/chart/&#34;&gt;Google Chart API&lt;/a&gt; for charting the progress of one’s diet. I wouldn’t call it an API… it’s more like a URL query string specification. Anyway, I created a model attribute to mine one’s weigh-in history and produce a query string for the Google Chart API URL. It’s quite cool. I would post source code here, but I really just threw the program together in two days, and it’s ugly. The important thing is that it works and I’ll be the only one using it. Yes, I’m on a diet.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>My Brilliant Idea</title>
-				<link>/2008/01/17/my-brilliant-idea/</link>
+				<link>https://noone.dev/2008/01/17/my-brilliant-idea/</link>
 				<pubDate>Thu, 17 Jan 2008 20:21:17 +0000</pubDate>
-				<guid>/2008/01/17/my-brilliant-idea/</guid>
+				<guid>https://noone.dev/2008/01/17/my-brilliant-idea/</guid>
 				<description>&lt;p&gt;Yesterday I wrote about my brilliant idea of walking around Portland taking photos. I would post the photo here with some information about where I took it.&lt;/p&gt;&#xA;&lt;p&gt;Today, I saw an improved version of my idea posteed on delicious. It’s called &lt;a href=&#34;http://www.communitywalk.com/&#34;&gt;CommunityWalk&lt;/a&gt;. I think they did a fine job with the implementation. I might even use it at some point.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>101 Great Computer Programming Quotes</title>
-				<link>/2008/01/14/101-great-computer-programming-quotes/</link>
+				<link>https://noone.dev/2008/01/14/101-great-computer-programming-quotes/</link>
 				<pubDate>Mon, 14 Jan 2008 19:30:07 +0000</pubDate>
-				<guid>/2008/01/14/101-great-computer-programming-quotes/</guid>
+				<guid>https://noone.dev/2008/01/14/101-great-computer-programming-quotes/</guid>
 				<description>&lt;p&gt;My geek side finds this list to be very amusing!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.devtopics.com/101-great-computer-programming-quotes/&#34;&gt;101 Great Computer Programming Quotes&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;“Good code is its own best documentation.”&lt;/p&gt;&#xA;&lt;p&gt;(Steve McConnell)&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Wedding Web &amp;#8211; Update</title>
-				<link>/2008/01/04/wedding-web-update/</link>
+				<link>https://noone.dev/2008/01/04/wedding-web-update/</link>
 				<pubDate>Fri, 04 Jan 2008 21:22:44 +0000</pubDate>
-				<guid>/2008/01/04/wedding-web-update/</guid>
+				<guid>https://noone.dev/2008/01/04/wedding-web-update/</guid>
 				<description>&lt;p&gt;I am working on a custom-built website for our wedding which will contain tons of information about us and the big day. As we don’t even know where the wedding will be, the web site is far from done. Below is a sneak preview of what it will look like. Ignore the wedding date – that’s just a placeholder.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2008/01/weddingweb.jpg&#34; title=&#34;wed&#34;&gt;&lt;img src=&#39;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2008/01/weddingweb.jpg?resize=150%2C150&#39; alt=&#39;wed&#39; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Wedding Web</title>
-				<link>/2007/12/31/wedding-web/</link>
+				<link>https://noone.dev/2007/12/31/wedding-web/</link>
 				<pubDate>Mon, 31 Dec 2007 08:56:30 +0000</pubDate>
-				<guid>/2007/12/31/wedding-web/</guid>
+				<guid>https://noone.dev/2007/12/31/wedding-web/</guid>
 				<description>&lt;p&gt;Now that I’m engaged, the obvious next step is to build a web site for the wedding. So far, I’m looking at four choices.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.brides.com/&#34;&gt;Brides.com&lt;/a&gt; has a free web site builder. The template looks really nice, but it doesn’t seem to be real flexible.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://weddings.theknot.com/pwp/pwp_offers.aspx&#34;&gt;TheKnot.com&lt;/a&gt; also has a free web site builder. It seems a little basic and inflexible.&lt;/li&gt;&#xA;&lt;li&gt;I could create my own, with a subdomain like wedding.cleverswine.net. I would hate to reinvent the wheel, though. I could use WordPress or something to have a starter shell.&lt;/li&gt;&#xA;&lt;li&gt;The fourth option is “none of the above,” which means I’d use something I haven’t discovered yet.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I wouldn’t expect to see anything for a couple of months. Suggestions are welcome. Note that you have to register and log in to add comments to my posts. I was getting some spam comments, so I had to lock it down.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Knitting Meets Geekiness</title>
-				<link>/2007/12/14/knitting-meets-geekiness/</link>
+				<link>https://noone.dev/2007/12/14/knitting-meets-geekiness/</link>
 				<pubDate>Fri, 14 Dec 2007 12:00:43 +0000</pubDate>
-				<guid>/2007/12/14/knitting-meets-geekiness/</guid>
+				<guid>https://noone.dev/2007/12/14/knitting-meets-geekiness/</guid>
 				<description>&lt;p&gt;I may have found something geeky that Bren and I can have in common. I’m talking about &lt;a href=&#34;http://www.knitml.com/blog/&#34;&gt;KnitML&lt;/a&gt;. KnitML is a new markup language (like html or xml) used to describe knitting patterns. How geeky is that?&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The KnitML Project’s main goal is to develop and promote adoption of a standard content model for knitting patterns. By developing a community-supported specification (KnitML) and providing basic rendering and transformation tools, the KnitML Project aims to make KnitML easy to use and valuable to the knitter.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>ActiveRecord::Migration</title>
-				<link>/2007/12/12/activerecordmigration/</link>
+				<link>https://noone.dev/2007/12/12/activerecordmigration/</link>
 				<pubDate>Wed, 12 Dec 2007 12:59:19 +0000</pubDate>
-				<guid>/2007/12/12/activerecordmigration/</guid>
+				<guid>https://noone.dev/2007/12/12/activerecordmigration/</guid>
 				<description>&lt;p&gt;I started a new Ruby on Rails project today, and I decided to create the database using migrations. I should have been doing this all along, but I never really understood migrations or what the benefit might be. Well, now I know. In about 10 minutes, I created my Rails migration files, and then I ran “rake db:migrate”. Bam! There was my MySQL database, just as I had planned for it to look. Amazing! To see the simplicity first hand, here is a code sample using Rails 2.0.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>An Annoyingly Efficient Relevancy Engine</title>
-				<link>/2007/11/12/an-annoyingly-efficient-relevancy-engine/</link>
+				<link>https://noone.dev/2007/11/12/an-annoyingly-efficient-relevancy-engine/</link>
 				<pubDate>Mon, 12 Nov 2007 11:25:36 +0000</pubDate>
-				<guid>/2007/11/12/an-annoyingly-efficient-relevancy-engine/</guid>
+				<guid>https://noone.dev/2007/11/12/an-annoyingly-efficient-relevancy-engine/</guid>
 				<description>&lt;p&gt;This article is a must read if you are dating or married to a nerd.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The Nerd Handbook&lt;/p&gt;&#xA;&lt;p&gt;A nerd needs a project because a nerd builds stuff. All the time. Those lulls in the conversation over dinner? That’s the nerd working on his project in his head.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.randsinrepose.com/archives/2007/11/11/the_nerd_handbook.html&#34;&gt;Read it here&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Code Library</title>
-				<link>/2007/08/14/code-library/</link>
+				<link>https://noone.dev/2007/08/14/code-library/</link>
 				<pubDate>Tue, 14 Aug 2007 08:47:09 +0000</pubDate>
-				<guid>/2007/08/14/code-library/</guid>
+				<guid>https://noone.dev/2007/08/14/code-library/</guid>
 				<description>&lt;p&gt;I enhanced my code library application by applying an &lt;a href=&#34;http://extjs.com/&#34;&gt;Ext JS&lt;/a&gt; front end to it. The coolest part is the tree on the left. You can drag/drop code and categories to rearrange them and the changes are saved asynchronously to the database via ajax. I’m hoping that it’s user-friendly enough that I’ll start using it as a code sample repository.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photo_zoom.gne?id=1117254732%EF%BF%BDsize=o&#34;&gt;&lt;img src=&#34;https://i1.wp.com/farm2.static.flickr.com/1422/1117254732_1df51b9d43_d.jpg?w=840&#34; alt=&#34;codelib&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Upgrading&amp;#8230;</title>
-				<link>/2007/08/08/upgrading/</link>
+				<link>https://noone.dev/2007/08/08/upgrading/</link>
 				<pubDate>Wed, 08 Aug 2007 14:02:25 +0000</pubDate>
-				<guid>/2007/08/08/upgrading/</guid>
+				<guid>https://noone.dev/2007/08/08/upgrading/</guid>
 				<description>&lt;p&gt;I finally got upgraded to Windows XP at work. I was using Windows 2000 until now. I am currently reinstalling all of my development tools, giving me time to write on my web site (and clean up my desk). My reason for making an “urgent” request for Windows XP is that it has remote desktop capability built in. With this, I can VPN to work and then remote to my desktop. That basically means that I can use my work computer from home.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>You Can Text Message Me</title>
-				<link>/2007/08/05/you-can-text-message-me/</link>
+				<link>https://noone.dev/2007/08/05/you-can-text-message-me/</link>
 				<pubDate>Sun, 05 Aug 2007 09:25:47 +0000</pubDate>
-				<guid>/2007/08/05/you-can-text-message-me/</guid>
+				<guid>https://noone.dev/2007/08/05/you-can-text-message-me/</guid>
 				<description>&lt;p&gt;I added a tool to the side bar on the right from which you can send a text message to my cell phone. Pretty cool, eh?&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Four Gigabytes</title>
-				<link>/2007/07/12/four-gigabytes/</link>
+				<link>https://noone.dev/2007/07/12/four-gigabytes/</link>
 				<pubDate>Thu, 12 Jul 2007 12:14:01 +0000</pubDate>
-				<guid>/2007/07/12/four-gigabytes/</guid>
+				<guid>https://noone.dev/2007/07/12/four-gigabytes/</guid>
 				<description>&lt;p&gt;I got a 4gb SD card for my PDA and installed the root filesystem to it. That means I have tons of room for extra software and stuff.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2007/07/119e71a64693e005aa6aacdccc31a926.png&#34; title=&#34;119e71a64693e005aa6aacdccc31a926.png&#34;&gt;&lt;img src=&#39;https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2007/07/119e71a64693e005aa6aacdccc31a926.png?resize=150%2C150&#39; alt=&#39;119e71a64693e005aa6aacdccc31a926.png&#39; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Programmer Personality Test</title>
-				<link>/2007/06/07/programmer-personality-test/</link>
+				<link>https://noone.dev/2007/06/07/programmer-personality-test/</link>
 				<pubDate>Thu, 07 Jun 2007 12:48:35 +0000</pubDate>
-				<guid>/2007/06/07/programmer-personality-test/</guid>
+				<guid>https://noone.dev/2007/06/07/programmer-personality-test/</guid>
 				<description>&lt;p&gt;According to the &lt;a href=&#34;http://www.doolwind.com/index.php?page=11&#34;&gt;Programmer Personality Test&lt;/a&gt;, my programmer personality type is DHSC:&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;You’re a &lt;strong&gt;D&lt;/strong&gt;oer.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;You are very quick at getting tasks done. You believe the outcome is the most important part of a task and the faster you can reach that outcome the better. After all, time is money.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;You like coding at a &lt;strong&gt;H&lt;/strong&gt;igh level.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;The world is made up of objects and components, you should create your programs in the same way.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Why Ruby on Rails?</title>
-				<link>/2007/05/02/why-ruby-on-rails/</link>
+				<link>https://noone.dev/2007/05/02/why-ruby-on-rails/</link>
 				<pubDate>Wed, 02 May 2007 09:32:27 +0000</pubDate>
-				<guid>/2007/05/02/why-ruby-on-rails/</guid>
+				<guid>https://noone.dev/2007/05/02/why-ruby-on-rails/</guid>
 				<description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photo_zoom.gne?id=124599419%EF%BF%BDsize=m&#34;&gt;&lt;img src=&#34;https://i2.wp.com/farm1.static.flickr.com/48/124599419_8fa59d799d_m_d.jpg?w=840&#34; alt=&#34;RR&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Weight Watcher</title>
-				<link>/2007/05/01/weight-watcher/</link>
+				<link>https://noone.dev/2007/05/01/weight-watcher/</link>
 				<pubDate>Tue, 01 May 2007 15:41:01 +0000</pubDate>
-				<guid>/2007/05/01/weight-watcher/</guid>
+				<guid>https://noone.dev/2007/05/01/weight-watcher/</guid>
 				<description>&lt;p&gt;I joined Weight Watchers about 2.5 weeks ago. Because I’m a geek, I wrote a small web application to manage my daily points (rather than using pen and paper). It is written with &lt;a href=&#34;http://www.rubyonrails.org/&#34;&gt;Ruby on Rails&lt;/a&gt;, using the &lt;a href=&#34;http://extjs.com/&#34;&gt;Ext JS&lt;/a&gt; framework. Here is a screenshot:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photo_zoom.gne?id=480594956%EF%BF%BDsize=o&#34;&gt;&lt;img src=&#34;https://i0.wp.com/farm1.static.flickr.com/226/480594956_008d4fa66e_m_d.jpg?w=840&#34; alt=&#34;WW&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>New Rails Project (with Ext JS)</title>
-				<link>/2007/04/09/ext-web-20-test-project/</link>
+				<link>https://noone.dev/2007/04/09/ext-web-20-test-project/</link>
 				<pubDate>Mon, 09 Apr 2007 10:17:44 +0000</pubDate>
-				<guid>/2007/04/09/ext-web-20-test-project/</guid>
+				<guid>https://noone.dev/2007/04/09/ext-web-20-test-project/</guid>
 				<description>&lt;p&gt;I’ve been working on a new Ruby on Rails project for the past week. What I’m aiming for is a well organized, simple, easy to use code snippet library. There are plenty of community code snippet sites out there, but I found that I needed my own personal collection of code since I know what I’m likely to need. When I first started this project, I heard about &lt;a href=&#34;http://extjs.com/&#34;&gt;Ext JS&lt;/a&gt;, which is a toolkit for Ajax and UI components. It’s basically a wrapper around &lt;a href=&#34;http://developer.yahoo.com/yui/&#34;&gt;Yahoo UI&lt;/a&gt;, &lt;a href=&#34;http://script.aculo.us/&#34;&gt;script.aculo.us&lt;/a&gt;, and &lt;a href=&#34;http://www.prototypejs.org/&#34;&gt;prototype&lt;/a&gt;. I decided to learn more about Ext by using it with my Rails application. So far I’m quite impressed. The documentation is way lacking, but if you’re familiar with Javascript. Html, and some Ajax, then it’s not that difficult to figure out. In a matter of hours, I’ve managed to throw together the following rich interface – fully functional. The tree on the left supports in-place &lt;a href=&#34;http://en.wikipedia.org/wiki/CRUD_(acronym)&#34;&gt;CRUD&lt;/a&gt; and drag/drop. (click screenshot to see more detail)&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>I like WordPress</title>
-				<link>/2006/02/01/i-like-wordpress/</link>
+				<link>https://noone.dev/2006/02/01/i-like-wordpress/</link>
 				<pubDate>Wed, 01 Feb 2006 17:10:11 +0000</pubDate>
-				<guid>/2006/02/01/i-like-wordpress/</guid>
+				<guid>https://noone.dev/2006/02/01/i-like-wordpress/</guid>
 				<description>&lt;p&gt;The longer I use WordPress, the more I like it. It has quite a few features, but they don’t get in the way of simplicity. I’m finding it easy to add content, pages, and links, all “willy-nilly”. Customizing the appearance isn’t that difficult if you’re familiar with CSS and/or PHP. There are also “plugins” galore, such as &lt;a href=&#34;http://dev.wp-plugins.org/wiki/PluginDirectory&#34;&gt;these&lt;/a&gt;. A good experience so far.&lt;/p&gt;&#xA;&lt;p&gt;I might also mention thatÂ  &lt;a target=&#34;_blank&#34; href=&#34;http://www.a2hosting.com/ruby_on_rails_hosting.php&#34;&gt;a2&lt;/a&gt; web hosting has been phenomenal so far.&lt;/p&gt;</description>
 			</item>
 	</channel>

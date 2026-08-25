@@ -1,8 +1,8 @@
 {{ define "main" }}
 <div class="mx-auto max-w-2xl">
-    <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">{{ .Title }}</h2>
+    <h2 class="font-mono text-2xl font-semibold tracking-tight text-slate-900 dark:text-white">{{ .Title }}</h2>
     {{ with .Content }}
-    <div class="prose prose-slate mt-2 max-w-none dark:prose-invert prose-a:text-teal-600 dark:prose-a:text-teal-400">
+    <div class="prose prose-slate mt-2 max-w-none dark:prose-invert prose-headings:font-mono prose-a:text-teal-600 dark:prose-a:text-teal-400">
         {{ . }}
     </div>
     {{ end }}
@@ -12,13 +12,13 @@
         {{ range .Paginator.Pages }}
         {{ $year := .Date.Format "2006" }}
         {{ if ne $year $lastYear }}
-        <h3 class="mt-10 mb-1 text-sm font-semibold tracking-wide text-teal-700 first:mt-0 dark:text-teal-400">{{ $year }}</h3>
+        <h3 class="mt-10 mb-1 font-mono text-sm font-semibold tracking-wide text-teal-700 first:mt-0 dark:text-teal-400">{{ $year }}</h3>
         {{ $lastYear = $year }}
         {{ end }}
         <a href="{{ .RelPermalink }}"
-            class="group flex items-baseline justify-between gap-6 border-b border-slate-100 py-2.5 dark:border-slate-900">
+            class="group flex items-baseline justify-between gap-6 rounded-sm border-b border-slate-100 py-2.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 dark:border-slate-900 dark:focus-visible:ring-offset-slate-950">
             <span class="truncate text-sm text-slate-700 group-hover:text-teal-600 dark:text-slate-300 dark:group-hover:text-teal-400">{{ .Title }}</span>
-            <time class="shrink-0 text-xs tabular-nums text-slate-400 dark:text-slate-600">{{ .Date.Format "Jan 2" }}</time>
+            <time class="shrink-0 font-mono text-xs tabular-nums text-slate-400 dark:text-slate-600">{{ .Date.Format "Jan 2" }}</time>
         </a>
         {{ end }}
     </div>

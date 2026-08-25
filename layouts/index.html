@@ -6,7 +6,7 @@
     {{ with .Resources.GetMatch "cover.*" }}{{ $image = .RelPermalink }}{{ end }}
     {{ $color := .Params.color | default "#0f172a" }}
     <a href="{{ .RelPermalink }}"
-        class="group flex flex-col overflow-hidden rounded-xl shadow-sm ring-1 ring-slate-900/5 dark:ring-white/10">
+        class="group flex flex-col overflow-hidden rounded-xl shadow-sm ring-1 ring-slate-900/5 transition duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md focus-visible:-translate-y-0.5 focus-visible:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 dark:ring-white/10 dark:focus-visible:ring-offset-slate-950">
         {{ with $image }}
         <div class="h-40 overflow-hidden bg-slate-900">
             <img src="{{ . }}" alt="" loading="lazy"
@@ -14,8 +14,8 @@
         </div>
         {{ end }}
         <div class="flex flex-1 flex-col p-5" style="background-color: {{ $color }};">
-            <time class="text-xs font-medium text-white/70">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</time>
-            <h3 class="mt-1 text-base font-semibold text-white">{{ .Title }}</h3>
+            <time class="font-mono text-xs font-medium text-white/70">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</time>
+            <h3 class="mt-1 font-mono text-base font-semibold text-white">{{ .Title }}</h3>
             <p class="mt-1 text-sm text-white/80">{{ .Params.description | default .Summary | plainify | truncate 90 }}</p>
         </div>
     </a>
@@ -23,6 +23,6 @@
 </div>
 
 <div class="mt-10 text-center">
-    <a class="text-sm font-medium text-teal-600 hover:underline dark:text-teal-400" href="{{ "/posts/" | relURL }}">View all posts &rarr;</a>
+    <a class="rounded-sm text-sm font-medium text-teal-600 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 dark:text-teal-400 dark:focus-visible:ring-offset-slate-950" href="{{ "/posts/" | relURL }}">View all posts &rarr;</a>
 </div>
 {{ end }}

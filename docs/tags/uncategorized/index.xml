@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Uncategorized on noone.dev</title>
-		<link>/tags/uncategorized/</link>
+		<link>https://noone.dev/tags/uncategorized/</link>
 		<description>Recent content in Uncategorized on noone.dev</description>
 		<generator>Hugo</generator>
 		<language>en-US</language>
@@ -12,334 +12,334 @@
 		
 			<lastBuildDate>Sat, 14 Jul 2007 12:22:08 +0000</lastBuildDate>
 		
-			<atom:link href="/tags/uncategorized/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://noone.dev/tags/uncategorized/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Matchbox Desktop Config</title>
-				<link>/2007/07/14/matchbox-desktop-config/</link>
+				<link>https://noone.dev/2007/07/14/matchbox-desktop-config/</link>
 				<pubDate>Sat, 14 Jul 2007 12:22:08 +0000</pubDate>
-				<guid>/2007/07/14/matchbox-desktop-config/</guid>
+				<guid>https://noone.dev/2007/07/14/matchbox-desktop-config/</guid>
 				<description>&lt;p&gt;I’m working on a new project for my PDA. The application will allow for configuring the &lt;a href=&#34;http://matchbox-project.org/documentation/manual/mbdesktop.html&#34;&gt;Matchbox Desktop&lt;/a&gt; (which is the user interface for my PDA). Without this application, users of Matchbox (on a PDA anyway) must edit a series of configuration files in order to create folders and move programs from folder to folder. My program allows for adding/editing/deleting applications and folders. It’s written in Python 2.4 using the GTK library for UI. Here’s a screenshot of my alpha version:&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>iPhone, OpenMoko, HTC Shift</title>
-				<link>/2007/07/09/iphone-openmoko-htc-shift/</link>
+				<link>https://noone.dev/2007/07/09/iphone-openmoko-htc-shift/</link>
 				<pubDate>Mon, 09 Jul 2007 14:00:44 +0000</pubDate>
-				<guid>/2007/07/09/iphone-openmoko-htc-shift/</guid>
+				<guid>https://noone.dev/2007/07/09/iphone-openmoko-htc-shift/</guid>
 				<description>&lt;p&gt;I’ve been hacking away at my Sharp Zaurus for a couple of years now. It has brought me great pleasure, but I’m in need of a new toy. Anyone’s input is appreciated. At the moment, my options are:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;iPhone&lt;/strong&gt;:&lt;br&gt;&#xA;Pros: It looks nice and does lots of cool stuff (I assume). There will be a large software repository due to it’s popularity.&lt;br&gt;&#xA;Cons: It’s Apple. I don’t want a machine so tightly coupled with a corporation.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Web Builder 2.0</title>
-				<link>/2006/12/04/web-builder-20/</link>
+				<link>https://noone.dev/2006/12/04/web-builder-20/</link>
 				<pubDate>Mon, 04 Dec 2006 11:25:00 +0000</pubDate>
-				<guid>/2006/12/04/web-builder-20/</guid>
+				<guid>https://noone.dev/2006/12/04/web-builder-20/</guid>
 				<description>&lt;p&gt;I am in Vegas at the Web Builder 2.0 conference. It is day 1 and I’ve aleady picked up some interesting ideas. The focus is creating rich front-end web applications using tools such as Ajax and web services.&lt;/p&gt;&#xA;&lt;p&gt;Also, I met Pete Rose yesterday!&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>N.L. Cardinals Win!</title>
-				<link>/2006/10/28/nl-cardinals-win/</link>
+				<link>https://noone.dev/2006/10/28/nl-cardinals-win/</link>
 				<pubDate>Sat, 28 Oct 2006 11:45:39 +0000</pubDate>
-				<guid>/2006/10/28/nl-cardinals-win/</guid>
+				<guid>https://noone.dev/2006/10/28/nl-cardinals-win/</guid>
 				<description>&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/2006_World_Series&#34;&gt;&lt;img id=&#34;image80&#34; src=&#34;https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2006/10/cimg1935.JPG?w=840&#34; alt=&#34;Cardinals&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Updated Zaurus Screenshots</title>
-				<link>/2006/10/18/updated-zaurus-screenshots/</link>
+				<link>https://noone.dev/2006/10/18/updated-zaurus-screenshots/</link>
 				<pubDate>Wed, 18 Oct 2006 14:59:33 +0000</pubDate>
-				<guid>/2006/10/18/updated-zaurus-screenshots/</guid>
-				<description>&lt;p&gt;&lt;a href=&#34;/kn/zaurus.html&#34;&gt;&lt;img src=&#34;/kn-images/Screenshot_th.png&#34; align=&#34;left&#34; style=&#34;margin-right:4px;&#34; /&gt;&lt;/a&gt;I’ve spent quite a bit of time lately configuring my PDA to be just how I like it, from the look-and-feel to the installed applications.&lt;br&gt;&#xA;&lt;a href=&#34;http://cleverswine.net/?page_id=51&#34;&gt;Here is the updated page with screenshots&lt;/a&gt;.&lt;/p&gt;</description>
+				<guid>https://noone.dev/2006/10/18/updated-zaurus-screenshots/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://noone.dev/kn/zaurus.html&#34;&gt;&lt;img src=&#34;https://noone.dev/kn-images/Screenshot_th.png&#34; align=&#34;left&#34; style=&#34;margin-right:4px;&#34; /&gt;&lt;/a&gt;I’ve spent quite a bit of time lately configuring my PDA to be just how I like it, from the look-and-feel to the installed applications.&lt;br&gt;&#xA;&lt;a href=&#34;http://cleverswine.net/?page_id=51&#34;&gt;Here is the updated page with screenshots&lt;/a&gt;.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Get Motivated</title>
-				<link>/2006/10/06/get-motivated/</link>
+				<link>https://noone.dev/2006/10/06/get-motivated/</link>
 				<pubDate>Fri, 06 Oct 2006 14:51:08 +0000</pubDate>
-				<guid>/2006/10/06/get-motivated/</guid>
+				<guid>https://noone.dev/2006/10/06/get-motivated/</guid>
 				<description>&lt;p&gt;On Monday, I get to attend a seminar called “Get Motivated,” with speakers including Steve Forbes, Rudoph Giuliani, and General Colin Powell. To boot, I get to use this as training for my job. &lt;a href=&#34;http://www.rosequarter.com/events/eventPages/370.asp&#34;&gt;Details&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Last Harvest</title>
-				<link>/2006/09/16/last-harvest/</link>
+				<link>https://noone.dev/2006/09/16/last-harvest/</link>
 				<pubDate>Sat, 16 Sep 2006 15:57:41 +0000</pubDate>
-				<guid>/2006/09/16/last-harvest/</guid>
+				<guid>https://noone.dev/2006/09/16/last-harvest/</guid>
 				<description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/244949693/&#34;&gt;&lt;img src=&#34;https://i0.wp.com/static.flickr.com/89/244949693_c80ae06d51_s.jpg?w=840&#34; align=&#34;left&#34; style=&#34;margin-right:4px;&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;Summer is over and the colder weather is rolling in, so we picked the last of our tomatos, onions, and peppers. Salsa!&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Beverly Beach</title>
-				<link>/2006/09/13/beverly-beach/</link>
+				<link>https://noone.dev/2006/09/13/beverly-beach/</link>
 				<pubDate>Wed, 13 Sep 2006 19:01:28 +0000</pubDate>
-				<guid>/2006/09/13/beverly-beach/</guid>
-				<description>&lt;p&gt;&lt;img src=&#34;https://i2.wp.com/static.flickr.com/95/240996574_8b5da35a01_s.jpg?w=840&#34; align=&#34;left&#34; style=&#34;margin-right:4px;&#34; data-recalc-dims=&#34;1&#34; /&gt;We went on a nice camping trip to Beverly Beach, in Newport, last weekend. We also explored downtown Newport, going to the “Ripley’s Believe it or Not” museum and the wax museum. &lt;a href=&#34;/kn-video/CIMG1757.AVI&#34;&gt;Here is a video of the beach&lt;/a&gt;, and &lt;a href=&#34;http://www.flickr.com/photos/cleverswine/sets/72157594280155453/&#34;&gt;here are some photos&lt;/a&gt;.&lt;/p&gt;</description>
+				<guid>https://noone.dev/2006/09/13/beverly-beach/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;https://i2.wp.com/static.flickr.com/95/240996574_8b5da35a01_s.jpg?w=840&#34; align=&#34;left&#34; style=&#34;margin-right:4px;&#34; data-recalc-dims=&#34;1&#34; /&gt;We went on a nice camping trip to Beverly Beach, in Newport, last weekend. We also explored downtown Newport, going to the “Ripley’s Believe it or Not” museum and the wax museum. &lt;a href=&#34;https://noone.dev/kn-video/CIMG1757.AVI&#34;&gt;Here is a video of the beach&lt;/a&gt;, and &lt;a href=&#34;http://www.flickr.com/photos/cleverswine/sets/72157594280155453/&#34;&gt;here are some photos&lt;/a&gt;.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>New Toys</title>
-				<link>/2006/09/04/new-toys/</link>
+				<link>https://noone.dev/2006/09/04/new-toys/</link>
 				<pubDate>Mon, 04 Sep 2006 19:35:59 +0000</pubDate>
-				<guid>/2006/09/04/new-toys/</guid>
+				<guid>https://noone.dev/2006/09/04/new-toys/</guid>
 				<description>&lt;p&gt;I have 2 fairly new toys that are exciting enough (to me) to write about. One is a 37″ LCD television from Olevia. I got a great deal on it, and we are very happy with it. Unfortunately, we don’t have HD service yet. Soon. The other toy is a mouse for my PDA. The mouse itself isn’t that impressive, but it gives my PDA a laptop feel. I’m currently running Linux with ICEWM as the window manager. It is fully loaded with a variety of Linux aplications.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>I am a&amp;#8230;</title>
-				<link>/2006/08/25/i-am-a/</link>
+				<link>https://noone.dev/2006/08/25/i-am-a/</link>
 				<pubDate>Fri, 25 Aug 2006 14:36:09 +0000</pubDate>
-				<guid>/2006/08/25/i-am-a/</guid>
+				<guid>https://noone.dev/2006/08/25/i-am-a/</guid>
 				<description>&lt;table border=&#39;0&#39; cellpadding=&#39;0&#39; cellspacing=&#39;0&#39; width=&#39;300&#39;&gt;&#xA;  &lt;tr&gt;&#xA;    &lt;td&gt;&#xA;      &lt;table border=&#39;0&#39; width=&#39;300&#39; cellspacing=&#39;0&#39; cellpadding=&#39;0&#39;&gt;&#xA;        &lt;tr&gt;&#xA;          &lt;td&gt;&#xA;            &lt;p&gt;&#xA;              &lt;font face=&#39;Arial&#39; size=&#39;1&#39;&gt;Materialist&lt;/font&gt;&#xA;            &lt;/p&gt;&#xA;          &lt;/td&gt;&#xA;&lt;pre&gt;&lt;code&gt;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;table border=&#39;1&#39; cellpadding=&#39;0&#39; cellspacing=&#39;0&#39; width=&#39;94&#39; bgcolor=&#39;#dddddd&#39;&amp;gt;&#xA;          &amp;lt;tr&amp;gt;&#xA;            &amp;lt;td&amp;gt;&#xA;            &amp;lt;/td&amp;gt;&#xA;          &amp;lt;/tr&amp;gt;&#xA;        &amp;lt;/table&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;      &#xA;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;font face=&#39;Arial&#39; size=&#39;1&#39;&amp;gt;94%&amp;lt;/font&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;    &amp;lt;/tr&amp;gt;&#xA;    &#xA;    &amp;lt;tr&amp;gt;&#xA;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;p&amp;gt;&#xA;          &amp;lt;font face=&#39;Arial&#39; size=&#39;1&#39;&amp;gt;Modernist&amp;lt;/font&amp;gt;&#xA;        &amp;lt;/p&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;      &#xA;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;table border=&#39;1&#39; cellpadding=&#39;0&#39; cellspacing=&#39;0&#39; width=&#39;88&#39; bgcolor=&#39;#dddddd&#39;&amp;gt;&#xA;          &amp;lt;tr&amp;gt;&#xA;            &amp;lt;td&amp;gt;&#xA;            &amp;lt;/td&amp;gt;&#xA;          &amp;lt;/tr&amp;gt;&#xA;        &amp;lt;/table&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;      &#xA;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;font face=&#39;Arial&#39; size=&#39;1&#39;&amp;gt;88%&amp;lt;/font&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;    &amp;lt;/tr&amp;gt;&#xA;    &#xA;    &amp;lt;tr&amp;gt;&#xA;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;p&amp;gt;&#xA;          &amp;lt;font face=&#39;Arial&#39; size=&#39;1&#39;&amp;gt;Existentialist&amp;lt;/font&amp;gt;&#xA;        &amp;lt;/p&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;      &#xA;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;table border=&#39;1&#39; cellpadding=&#39;0&#39; cellspacing=&#39;0&#39; width=&#39;69&#39; bgcolor=&#39;#dddddd&#39;&amp;gt;&#xA;          &amp;lt;tr&amp;gt;&#xA;            &amp;lt;td&amp;gt;&#xA;            &amp;lt;/td&amp;gt;&#xA;          &amp;lt;/tr&amp;gt;&#xA;        &amp;lt;/table&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;      &#xA;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;font face=&#39;Arial&#39; size=&#39;1&#39;&amp;gt;69%&amp;lt;/font&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;    &amp;lt;/tr&amp;gt;&#xA;    &#xA;    &amp;lt;tr&amp;gt;&#xA;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;p&amp;gt;&#xA;          &amp;lt;font face=&#39;Arial&#39; size=&#39;1&#39;&amp;gt;Postmodernist&amp;lt;/font&amp;gt;&#xA;        &amp;lt;/p&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;      &#xA;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;table border=&#39;1&#39; cellpadding=&#39;0&#39; cellspacing=&#39;0&#39; width=&#39;44&#39; bgcolor=&#39;#dddddd&#39;&amp;gt;&#xA;          &amp;lt;tr&amp;gt;&#xA;            &amp;lt;td&amp;gt;&#xA;            &amp;lt;/td&amp;gt;&#xA;          &amp;lt;/tr&amp;gt;&#xA;        &amp;lt;/table&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;      &#xA;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;font face=&#39;Arial&#39; size=&#39;1&#39;&amp;gt;44%&amp;lt;/font&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;    &amp;lt;/tr&amp;gt;&#xA;    &#xA;    &amp;lt;tr&amp;gt;&#xA;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;p&amp;gt;&#xA;          &amp;lt;font face=&#39;Arial&#39; size=&#39;1&#39;&amp;gt;Cultural Creative&amp;lt;/font&amp;gt;&#xA;        &amp;lt;/p&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;      &#xA;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;table border=&#39;1&#39; cellpadding=&#39;0&#39; cellspacing=&#39;0&#39; width=&#39;44&#39; bgcolor=&#39;#dddddd&#39;&amp;gt;&#xA;          &amp;lt;tr&amp;gt;&#xA;            &amp;lt;td&amp;gt;&#xA;            &amp;lt;/td&amp;gt;&#xA;          &amp;lt;/tr&amp;gt;&#xA;        &amp;lt;/table&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;      &#xA;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;font face=&#39;Arial&#39; size=&#39;1&#39;&amp;gt;44%&amp;lt;/font&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;    &amp;lt;/tr&amp;gt;&#xA;    &#xA;    &amp;lt;tr&amp;gt;&#xA;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;p&amp;gt;&#xA;          &amp;lt;font face=&#39;Arial&#39; size=&#39;1&#39;&amp;gt;Romanticist&amp;lt;/font&amp;gt;&#xA;        &amp;lt;/p&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;      &#xA;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;table border=&#39;1&#39; cellpadding=&#39;0&#39; cellspacing=&#39;0&#39; width=&#39;44&#39; bgcolor=&#39;#dddddd&#39;&amp;gt;&#xA;          &amp;lt;tr&amp;gt;&#xA;            &amp;lt;td&amp;gt;&#xA;            &amp;lt;/td&amp;gt;&#xA;          &amp;lt;/tr&amp;gt;&#xA;        &amp;lt;/table&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;      &#xA;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;font face=&#39;Arial&#39; size=&#39;1&#39;&amp;gt;44%&amp;lt;/font&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;    &amp;lt;/tr&amp;gt;&#xA;    &#xA;    &amp;lt;tr&amp;gt;&#xA;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;p&amp;gt;&#xA;          &amp;lt;font face=&#39;Arial&#39; size=&#39;1&#39;&amp;gt;Idealist&amp;lt;/font&amp;gt;&#xA;        &amp;lt;/p&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;      &#xA;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;table border=&#39;1&#39; cellpadding=&#39;0&#39; cellspacing=&#39;0&#39; width=&#39;19&#39; bgcolor=&#39;#dddddd&#39;&amp;gt;&#xA;          &amp;lt;tr&amp;gt;&#xA;            &amp;lt;td&amp;gt;&#xA;            &amp;lt;/td&amp;gt;&#xA;          &amp;lt;/tr&amp;gt;&#xA;        &amp;lt;/table&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;      &#xA;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;font face=&#39;Arial&#39; size=&#39;1&#39;&amp;gt;19%&amp;lt;/font&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;    &amp;lt;/tr&amp;gt;&#xA;    &#xA;    &amp;lt;tr&amp;gt;&#xA;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;p&amp;gt;&#xA;          &amp;lt;font face=&#39;Arial&#39; size=&#39;1&#39;&amp;gt;Fundamentalist&amp;lt;/font&amp;gt;&#xA;        &amp;lt;/p&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;      &#xA;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;table border=&#39;1&#39; cellpadding=&#39;0&#39; cellspacing=&#39;0&#39; width=&#39;6&#39; bgcolor=&#39;#dddddd&#39;&amp;gt;&#xA;          &amp;lt;tr&amp;gt;&#xA;            &amp;lt;td&amp;gt;&#xA;            &amp;lt;/td&amp;gt;&#xA;          &amp;lt;/tr&amp;gt;&#xA;        &amp;lt;/table&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;      &#xA;      &amp;lt;td&amp;gt;&#xA;        &amp;lt;font face=&#39;Arial&#39; size=&#39;1&#39;&amp;gt;6%&amp;lt;/font&amp;gt;&#xA;      &amp;lt;/td&amp;gt;&#xA;    &amp;lt;/tr&amp;gt;&amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt;&#xA;  &amp;lt;/table&amp;gt;&#xA;  &#xA;  &amp;lt;p&amp;gt;&#xA;    &amp;lt;a href=&#39;http://quizfarm.com/test.php?q_id=23320&#39;&amp;gt;What is Your World View?&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;font face=&#39;Arial&#39; size=&#39;1&#39;&amp;gt;created with &amp;lt;a href=&#39;http://quizfarm.com&#39;&amp;gt;QuizFarm.com&amp;lt;/a&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;/table&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
 			</item>
 			<item>
 				<title>Happy Birthday Bren</title>
-				<link>/2006/07/26/happy-birthday-bren/</link>
+				<link>https://noone.dev/2006/07/26/happy-birthday-bren/</link>
 				<pubDate>Wed, 26 Jul 2006 09:50:48 +0000</pubDate>
-				<guid>/2006/07/26/happy-birthday-bren/</guid>
+				<guid>https://noone.dev/2006/07/26/happy-birthday-bren/</guid>
 				<description>&lt;p&gt;Today is Brenda’s birthday!&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>100&#43; degrees, part II</title>
-				<link>/2006/07/22/100-degrees-part-ii/</link>
+				<link>https://noone.dev/2006/07/22/100-degrees-part-ii/</link>
 				<pubDate>Sat, 22 Jul 2006 11:01:03 +0000</pubDate>
-				<guid>/2006/07/22/100-degrees-part-ii/</guid>
+				<guid>https://noone.dev/2006/07/22/100-degrees-part-ii/</guid>
 				<description>&lt;p&gt;Yesterday (Friday), the temperature reached 104 degrees in the Portland area. Today we’re in for another hot one. Did &lt;a href=&#34;http://www.transbuddha.com/mediaHolder.php?id=1147&#34;&gt;someone&lt;/a&gt; say that global warming is not a concern?&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Small Vacation</title>
-				<link>/2006/07/21/small-vacation/</link>
+				<link>https://noone.dev/2006/07/21/small-vacation/</link>
 				<pubDate>Fri, 21 Jul 2006 09:07:16 +0000</pubDate>
-				<guid>/2006/07/21/small-vacation/</guid>
+				<guid>https://noone.dev/2006/07/21/small-vacation/</guid>
 				<description>&lt;p&gt;&lt;img id=&#34;image70&#34; src=&#34;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2006/07/image007.gif?resize=25%2C32&#34; alt=&#34;vacation&#34; align=&#34;left&#34; style=&#34;margin-right: 4px; border: 0px; &#34; data-recalc-dims=&#34;1&#34; /&gt;Work has kept me busy and tired, hence the lack of updates…&lt;/p&gt;&#xA;&lt;p&gt;I’m taking a small vacation to Seattle this weekend. We’ll be seeing the &lt;a href=&#34;http://seattle.mariners.mlb.com/NASApp/mlb/index.jsp?c_id=sea&#34;&gt;Red Sox vs. Mariners&lt;/a&gt; on Sunday, and then we’re going to &lt;a href=&#34;http://www.ikea.com/&#34;&gt;Ikea&lt;/a&gt; on Monday. Before we take off to Seattle, we’re going to see &lt;a href=&#34;http://www.billmaher.com/&#34;&gt;Bill Maher&lt;/a&gt; here in P-town.&lt;/p&gt;&#xA;&lt;p&gt;I saw something disturbing yesterday: there are &lt;a href=&#34;http://www.harpers.org/rapture-ready-20060718001.html&#34;&gt;some crazy people&lt;/a&gt; that think the current conflict between Israel and Hezbollah is a sign of the second coming of Christ, and they are happy about it.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>New PDA Screenshots</title>
-				<link>/2006/07/07/new-pda-screenshots/</link>
+				<link>https://noone.dev/2006/07/07/new-pda-screenshots/</link>
 				<pubDate>Fri, 07 Jul 2006 15:47:21 +0000</pubDate>
-				<guid>/2006/07/07/new-pda-screenshots/</guid>
-				<description>&lt;p&gt;I’ve updated the software on my Sharp Zaurus PDA, and also updated my screenshots:&lt;br&gt;&#xA;&lt;a href=&#34;/kn/zaurus.html&#34;&gt;See screenshots here&lt;/a&gt;&lt;/p&gt;</description>
+				<guid>https://noone.dev/2006/07/07/new-pda-screenshots/</guid>
+				<description>&lt;p&gt;I’ve updated the software on my Sharp Zaurus PDA, and also updated my screenshots:&lt;br&gt;&#xA;&lt;a href=&#34;https://noone.dev/kn/zaurus.html&#34;&gt;See screenshots here&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>100&#43; degrees</title>
-				<link>/2006/06/25/98-degrees/</link>
+				<link>https://noone.dev/2006/06/25/98-degrees/</link>
 				<pubDate>Sun, 25 Jun 2006 13:22:39 +0000</pubDate>
-				<guid>/2006/06/25/98-degrees/</guid>
+				<guid>https://noone.dev/2006/06/25/98-degrees/</guid>
 				<description>&lt;p&gt;It has reached 100 degrees here in Gresham… in the shade!&lt;/p&gt;&#xA;&lt;img id=&#34;image67&#34; src=&#34;https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2006/06/CIMG1365.jpg?w=840&#34; alt=&#34;Temperature&#34; data-recalc-dims=&#34;1&#34; /&gt;</description>
 			</item>
 			<item>
 				<title>My first Ruby/GTK app</title>
-				<link>/2006/06/19/my-first-rubygtk-app/</link>
+				<link>https://noone.dev/2006/06/19/my-first-rubygtk-app/</link>
 				<pubDate>Mon, 19 Jun 2006 20:41:52 +0000</pubDate>
-				<guid>/2006/06/19/my-first-rubygtk-app/</guid>
+				<guid>https://noone.dev/2006/06/19/my-first-rubygtk-app/</guid>
 				<description>&lt;p&gt;In experimenting with the &lt;a href=&#34;http://www.gtk.org/&#34;&gt;GTK&lt;/a&gt; widget set (an open source, cross platform user interface library), I’ve produced this little application to search Amazon.com for movie titles. The movies can be saved locally and be printed to make DVD covers, etc. It’s not finished yet. Ruby is the language I’ve chosen for this development.&lt;/p&gt;&#xA;&lt;img src=&#34;https://i2.wp.com/static.flickr.com/62/171049931_7ac86bba18_m.jpg?w=840&#34; data-recalc-dims=&#34;1&#34; /&gt;</description>
 			</item>
 			<item>
 				<title>Bye Netflix</title>
-				<link>/2006/06/02/bye-netflix/</link>
+				<link>https://noone.dev/2006/06/02/bye-netflix/</link>
 				<pubDate>Fri, 02 Jun 2006 14:34:55 +0000</pubDate>
-				<guid>/2006/06/02/bye-netflix/</guid>
+				<guid>https://noone.dev/2006/06/02/bye-netflix/</guid>
 				<description>&lt;p&gt;I’m no longer using Netflix since I now have Directv with more channels than I know what to do with (including the MLB channels so I can watch the Astros make their way to the World Series again). I replaced the movie section of this page (below, to the right) with a music section, “I’m listening to…”. Here I will link to the artist site and provide 1 full song for download. My wish is to update that section to really reflect what I’m listening to the most at any time.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Schmap Portland Guide</title>
-				<link>/2006/05/29/schmap-portland-guide/</link>
+				<link>https://noone.dev/2006/05/29/schmap-portland-guide/</link>
 				<pubDate>Mon, 29 May 2006 10:23:18 +0000</pubDate>
-				<guid>/2006/05/29/schmap-portland-guide/</guid>
+				<guid>https://noone.dev/2006/05/29/schmap-portland-guide/</guid>
 				<description>&lt;p&gt;9 of my flickr photos were chosen to be used for the &lt;a href=&#34;http://www.schmap.com/guides/portland&#34;&gt;Schmap Portland Guide&lt;/a&gt;. From the Schmap web site:&lt;/p&gt;&#xA;&lt;p&gt;The Schmap Portland Guide comes with dynamic maps, useful links, playable tours, top picks, plus photos and reviews for 100s of sights and attractions, hotels, restaurants, theaters, museums…&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>G-town</title>
-				<link>/2006/05/28/g-town/</link>
+				<link>https://noone.dev/2006/05/28/g-town/</link>
 				<pubDate>Sun, 28 May 2006 21:31:55 +0000</pubDate>
-				<guid>/2006/05/28/g-town/</guid>
+				<guid>https://noone.dev/2006/05/28/g-town/</guid>
 				<description>&lt;p&gt;I’ve officially moved to Gresham (see garden photos –&amp;gt;), and we are busily unpacking and getting organized. Garage sale coming soon.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Funny Installation Message</title>
-				<link>/2006/05/19/funny-installation-message/</link>
+				<link>https://noone.dev/2006/05/19/funny-installation-message/</link>
 				<pubDate>Fri, 19 May 2006 22:26:55 +0000</pubDate>
-				<guid>/2006/05/19/funny-installation-message/</guid>
+				<guid>https://noone.dev/2006/05/19/funny-installation-message/</guid>
 				<description>&lt;p&gt;This is an actual screenshot from an installation program for my usb device server:&lt;/p&gt;&#xA;&lt;img id=&#34;image60&#34; src=&#34;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2006/05/pricom.png?w=840&#34; alt=&#34;msg&#34; data-recalc-dims=&#34;1&#34; /&gt;</description>
 			</item>
 			<item>
 				<title>Some Weekend Fun</title>
-				<link>/2006/05/08/weekend-fun/</link>
+				<link>https://noone.dev/2006/05/08/weekend-fun/</link>
 				<pubDate>Mon, 08 May 2006 11:10:14 +0000</pubDate>
-				<guid>/2006/05/08/weekend-fun/</guid>
+				<guid>https://noone.dev/2006/05/08/weekend-fun/</guid>
 				<description>&lt;p&gt;Check out &lt;a href=&#34;http://www.flickr.com/photos/cleverswine/sets/72057594118972860/&#34; target=&#34;_blank&#34;&gt;&lt;b&gt;many&lt;/b&gt; photos&lt;/a&gt; from the family visit to PDX. They are on my flickr page.&lt;br&gt;&#xA;&lt;/br&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.pgepark.com/beavers/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2006/05/beavers.png?w=840&#34; alt=&#34;Beavers&#34; align=&#34;left&#34; style=&#34;margin-right: 4px;&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;I’ve been on call all weekend – no fun. This weekend, however, I’m going to see the Round Rock Express vs. Portland Beavers (baseball) at PGE Park.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>A Ruby Project (finally)</title>
-				<link>/2006/04/27/a-ruby-project-finally/</link>
+				<link>https://noone.dev/2006/04/27/a-ruby-project-finally/</link>
 				<pubDate>Thu, 27 Apr 2006 13:46:29 +0000</pubDate>
-				<guid>/2006/04/27/a-ruby-project-finally/</guid>
-				<description>&lt;p&gt;&lt;a href=&#34;http://cleverswine.net/?page_id=5&#34;&gt;&lt;img src=&#34;/kn-images/ruby.png&#34; alt=&#34;ruby&#34; align=&#34;left&#34; style=&#34;margin-right:4px;&#34; /&gt;&lt;/a&gt;I have finally published some Ruby code that I’ve been playing around with. It’s nothing big, but I’m still learning. See the &lt;a href=&#34;http://cleverswine.net/?page_id=5&#34;&gt;ruby [on rails]&lt;/a&gt; page.&lt;/p&gt;</description>
+				<guid>https://noone.dev/2006/04/27/a-ruby-project-finally/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://cleverswine.net/?page_id=5&#34;&gt;&lt;img src=&#34;https://noone.dev/kn-images/ruby.png&#34; alt=&#34;ruby&#34; align=&#34;left&#34; style=&#34;margin-right:4px;&#34; /&gt;&lt;/a&gt;I have finally published some Ruby code that I’ve been playing around with. It’s nothing big, but I’m still learning. See the &lt;a href=&#34;http://cleverswine.net/?page_id=5&#34;&gt;ruby [on rails]&lt;/a&gt; page.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Hometown Tourism</title>
-				<link>/2006/04/27/hometown-tourism/</link>
+				<link>https://noone.dev/2006/04/27/hometown-tourism/</link>
 				<pubDate>Thu, 27 Apr 2006 12:22:41 +0000</pubDate>
-				<guid>/2006/04/27/hometown-tourism/</guid>
+				<guid>https://noone.dev/2006/04/27/hometown-tourism/</guid>
 				<description>&lt;p&gt;We had a delightful time last weekend with my parents and aunt and uncle. Our activities included: Multnomah Falls, Mt. Hood, Vista House, Mt. St. Helens, Japanese Garden, Council Crest, Saturday Market, and the Farmer’s Market. Photos coming real soon…&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>VNC on the PDA</title>
-				<link>/2006/04/17/vnc-on-the-pda/</link>
+				<link>https://noone.dev/2006/04/17/vnc-on-the-pda/</link>
 				<pubDate>Mon, 17 Apr 2006 07:49:17 +0000</pubDate>
-				<guid>/2006/04/17/vnc-on-the-pda/</guid>
-				<description>&lt;p&gt;I was able to VNC (Virtual Network Computing) from my PDA, running linux, to my Windows 2000 server. It’s very cool.&lt;/p&gt;&#xA;&lt;p&gt;Here’s a screenshot (click thumbnail):&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;/kn/sc_vnc.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;/kn/sc_vnc_sm.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+				<guid>https://noone.dev/2006/04/17/vnc-on-the-pda/</guid>
+				<description>&lt;p&gt;I was able to VNC (Virtual Network Computing) from my PDA, running linux, to my Windows 2000 server. It’s very cool.&lt;/p&gt;&#xA;&lt;p&gt;Here’s a screenshot (click thumbnail):&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://noone.dev/kn/sc_vnc.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://noone.dev/kn/sc_vnc_sm.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Kohl&amp;#8217;s</title>
-				<link>/2006/04/09/kohls/</link>
+				<link>https://noone.dev/2006/04/09/kohls/</link>
 				<pubDate>Sun, 09 Apr 2006 21:54:27 +0000</pubDate>
-				<guid>/2006/04/09/kohls/</guid>
+				<guid>https://noone.dev/2006/04/09/kohls/</guid>
 				<description>&lt;p&gt;&lt;a href=&#34;http://www.kohls.com/main/home.jsp&#34; target=&#34;_blank&#34;&gt;Kohl’s&lt;/a&gt; had a grand opening sale today in Gresham. I’ve never been to a Kohl’s before and now I know where I’ll be buying most of my clothing. Their stuff is insanely cheap, and high quality (brand names). Today, I bought 15 pairs of black socks for about $18 total! I’ll be disposing of my current inventory of socks and I’ll never have to match them up again – because my 15 pairs are all exactly the same! This idea was inspired by GTD (Getting Things Done) on &lt;a href=&#34;http://www.43folders.com/&#34; target=&#34;_blank&#34;&gt;43 Folders&lt;/a&gt;. I can’t find the original article, but the site is full of useful information to simplify day to day things (such as pairing up socks).&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>New PDA</title>
-				<link>/2006/03/23/new-pda/</link>
+				<link>https://noone.dev/2006/03/23/new-pda/</link>
 				<pubDate>Thu, 23 Mar 2006 08:21:49 +0000</pubDate>
-				<guid>/2006/03/23/new-pda/</guid>
-				<description>&lt;p&gt;&lt;img id=&#34;image49&#34; src=&#34;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2006/03/3364715483647815.JPG?resize=96%2C96&#34; alt=&#34;Zaurus&#34; align=&#34;left&#34; style=&#34;margin-right:4px;&#34; data-recalc-dims=&#34;1&#34; /&gt;I bought a new linux-based PDA last week. This one is the &lt;a href=&#34;http://www.engadget.com/2005/03/11/new-sharp-zaurus-sl-c1000/&#34; target=&#34;_blank&#34;&gt;Sharp SL-C1000&lt;/a&gt;. It has a 640×480 screen and a full qwerty keyboard. It’s basically a tiny laptop.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;/kn/zaurus.html&#34;&gt;Screenshots&lt;/a&gt;&lt;/p&gt;</description>
+				<guid>https://noone.dev/2006/03/23/new-pda/</guid>
+				<description>&lt;p&gt;&lt;img id=&#34;image49&#34; src=&#34;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2006/03/3364715483647815.JPG?resize=96%2C96&#34; alt=&#34;Zaurus&#34; align=&#34;left&#34; style=&#34;margin-right:4px;&#34; data-recalc-dims=&#34;1&#34; /&gt;I bought a new linux-based PDA last week. This one is the &lt;a href=&#34;http://www.engadget.com/2005/03/11/new-sharp-zaurus-sl-c1000/&#34; target=&#34;_blank&#34;&gt;Sharp SL-C1000&lt;/a&gt;. It has a 640×480 screen and a full qwerty keyboard. It’s basically a tiny laptop.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://noone.dev/kn/zaurus.html&#34;&gt;Screenshots&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>St. Patrick&amp;#8217;s Day</title>
-				<link>/2006/03/17/st-patricks-day/</link>
+				<link>https://noone.dev/2006/03/17/st-patricks-day/</link>
 				<pubDate>Fri, 17 Mar 2006 10:04:53 +0000</pubDate>
-				<guid>/2006/03/17/st-patricks-day/</guid>
+				<guid>https://noone.dev/2006/03/17/st-patricks-day/</guid>
 				<description>&lt;img src=&#34;https://i2.wp.com/a1848.g.akamaitech.net/7/1848/33/a0720e4c69665e/images.citysearch.com/profile/4c/0d/8462009p1.jpg?w=840&#34; title=&#34;Bucket Brigade Cafe &amp;#038; Ale House&#34; alt=&#34;Bucket Brigade Cafe &amp;#038; Ale House&#34; data-recalc-dims=&#34;1&#34; /&gt;&#xA;&lt;p&gt;We will be going to the &lt;em&gt;Bucket Brigade Cafe &amp;amp; Ale House&lt;/em&gt; (pictured above) this evening to celebrate St. Patrick’s Day.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Anti-pattern</title>
-				<link>/2006/03/16/anti-pattern/</link>
+				<link>https://noone.dev/2006/03/16/anti-pattern/</link>
 				<pubDate>Thu, 16 Mar 2006 08:42:12 +0000</pubDate>
-				<guid>/2006/03/16/anti-pattern/</guid>
+				<guid>https://noone.dev/2006/03/16/anti-pattern/</guid>
 				<description>&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Antipattern&#34; target=&#34;_blank&#34;&gt;This&lt;/a&gt; is an interesting read about anti-patterns as they apply to programming and other facets of IT.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>PDX Shows</title>
-				<link>/2006/03/09/pdx-shows/</link>
+				<link>https://noone.dev/2006/03/09/pdx-shows/</link>
 				<pubDate>Thu, 09 Mar 2006 09:30:33 +0000</pubDate>
-				<guid>/2006/03/09/pdx-shows/</guid>
+				<guid>https://noone.dev/2006/03/09/pdx-shows/</guid>
 				<description>&lt;p&gt;&lt;img src=&#34;https://i2.wp.com/static.flickr.com/33/51898448_ad7f625301_s_d.jpg?w=840&#34; align=&#34;left&#34; style=&#34;margin-right: 4px;&#34; data-recalc-dims=&#34;1&#34; /&gt;A new &lt;a href=&#34;http://flickr.com/groups/pdxshows/&#34; target=&#34;_blank&#34;&gt;flickr group&lt;/a&gt; focused on live music in Portland has been started.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>March Snow</title>
-				<link>/2006/03/09/march-snow/</link>
+				<link>https://noone.dev/2006/03/09/march-snow/</link>
 				<pubDate>Thu, 09 Mar 2006 08:23:02 +0000</pubDate>
-				<guid>/2006/03/09/march-snow/</guid>
+				<guid>https://noone.dev/2006/03/09/march-snow/</guid>
 				<description>&lt;p&gt;It snowed again last night. We thought Spring was around the corner, but it’s not quite here yet. &lt;a href=&#34;http://www.katu.com/stories/83953.html&#34; target=&#34;_blank&#34;&gt;KATU News&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This isn’t weather-related, but some friends of a friend got a cool write-up in this week’s Willamette Week. &lt;a href=&#34;http://www.wweek.com/calendar/music/index.php?date=1141891200#23131&#34; target=&#34;_blank&#34;&gt;Jackmove. Read it here&lt;/a&gt;.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Kevin</title>
-				<link>/2006/03/02/kevin/</link>
+				<link>https://noone.dev/2006/03/02/kevin/</link>
 				<pubDate>Thu, 02 Mar 2006 08:12:50 +0000</pubDate>
-				<guid>/2006/03/02/kevin/</guid>
+				<guid>https://noone.dev/2006/03/02/kevin/</guid>
 				<description>&lt;img id=&#34;image40&#34; src=&#34;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2006/03/img-ja.png?resize=128%2C43&#34; alt=&#34;img-ja.png&#34; data-recalc-dims=&#34;1&#34; /&gt;  &#xA;This is my name in Japanese, according to &lt;a href=&#34;http://www.ohui.net/lexiquetos/&#34; target=&#34;_blank&#34;&gt;Lexiquetos&lt;/a&gt;.</description>
 			</item>
 			<item>
 				<title>Mariners vs. Beavers</title>
-				<link>/2006/02/27/mariners-vs-beavers/</link>
+				<link>https://noone.dev/2006/02/27/mariners-vs-beavers/</link>
 				<pubDate>Mon, 27 Feb 2006 10:03:40 +0000</pubDate>
-				<guid>/2006/02/27/mariners-vs-beavers/</guid>
+				<guid>https://noone.dev/2006/02/27/mariners-vs-beavers/</guid>
 				<description>&lt;p&gt;&lt;a href=&#34;http://www.pgepark.com/beavers/pressRoom.shtml&#34; target=&#34;_blank&#34;&gt;&lt;img id=&#34;image38&#34; src=&#34;https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2006/02/marinersday.png?resize=74%2C96&#34; alt=&#34;marinersday.png&#34; align=&#34;left&#34; style=&#34;margin-right: 4px;&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;I will be seeing the Seattle Mariners play the Portland Beavers here at PGE Park on March 31.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.pgepark.com/beavers/pressRoom.shtml&#34; target=&#34;_blank&#34;&gt;“Popular major league club travels to Portland to face 2006 edition of hometown Portland Beavers.”&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Home and Garden</title>
-				<link>/2006/02/25/home-and-garden/</link>
+				<link>https://noone.dev/2006/02/25/home-and-garden/</link>
 				<pubDate>Sat, 25 Feb 2006 19:13:18 +0000</pubDate>
-				<guid>/2006/02/25/home-and-garden/</guid>
+				<guid>https://noone.dev/2006/02/25/home-and-garden/</guid>
 				<description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/104443632/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://i1.wp.com/static.flickr.com/39/104443632_519d698ff8_s_d.jpg?w=840&#34; title=&#34;PHGS&#34; align=&#34;left&#34; style=&#34;margin-right: 4px;&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;I survived the Portland Home and Garden Show today.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>This is Me</title>
-				<link>/2006/02/24/this-is-me/</link>
+				<link>https://noone.dev/2006/02/24/this-is-me/</link>
 				<pubDate>Fri, 24 Feb 2006 17:40:49 +0000</pubDate>
-				<guid>/2006/02/24/this-is-me/</guid>
+				<guid>https://noone.dev/2006/02/24/this-is-me/</guid>
 				<description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/103986148/&#34; target=&#34;_blank&#34;&gt;&lt;img id=&#34;image34&#34; src=&#34;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2006/02/CIMG0642_th.jpg?resize=68%2C96&#34; alt=&#34;KMN&#34; align=&#34;left&#34; style=&#34;margin-right: 4px;&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;This is me.&lt;/p&gt;&#xA;&lt;p&gt;I didn’t get photos from Bridgeport, but I did upload some of me doing handyman work. &lt;a href=&#34;http://www.flickr.com/photos/cleverswine/&#34; target=&#34;_blank&#34;&gt;see them on flickr&lt;/a&gt;.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>New Eyes</title>
-				<link>/2006/02/23/new-eyes/</link>
+				<link>https://noone.dev/2006/02/23/new-eyes/</link>
 				<pubDate>Thu, 23 Feb 2006 10:36:00 +0000</pubDate>
-				<guid>/2006/02/23/new-eyes/</guid>
+				<guid>https://noone.dev/2006/02/23/new-eyes/</guid>
 				<description>&lt;p&gt;&lt;img id=&#34;image32&#34; src=&#34;https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2006/02/elvisbw3.jpg?resize=86%2C96&#34; alt=&#34;Elvis Costello&#34; align=&#34;left&#34; style=&#34;margin-right: 4px;&#34; data-recalc-dims=&#34;1&#34; /&gt;My new eye glasses have arrived. How do I look? Actually, that’s Elvis Costello. I’ll get a photo of myself in the near future. We’re going to the grand re-opening of the &lt;a href=&#34;http://www.bridgeportbrew.com/home.html&#34; target=&#34;_blank&#34;&gt;Bridgeport Brewpub and Bakery&lt;/a&gt; this evening. Maybe I’ll take some photos there.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Teeth</title>
-				<link>/2006/02/21/teeth/</link>
+				<link>https://noone.dev/2006/02/21/teeth/</link>
 				<pubDate>Tue, 21 Feb 2006 17:03:10 +0000</pubDate>
-				<guid>/2006/02/21/teeth/</guid>
+				<guid>https://noone.dev/2006/02/21/teeth/</guid>
 				<description>&lt;p&gt;&lt;img id=&#34;image30&#34; src=&#34;https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2006/02/tooth.jpg?resize=18%2C20&#34; alt=&#34;tooth&#34; align=&#34;left&#34; style=&#34;margin-right: 4px;&#34; data-recalc-dims=&#34;1&#34; /&gt;I had my teeth cleaned today, for the first time in… a while. I stand by my theory that the number of visits to the dentist is proportional to the number of tooth problems one has (the theory is not unfounded). I’m thinking once every 18 months is often enough for cleaning.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Rubbernecking</title>
-				<link>/2006/02/18/rubbernecking/</link>
+				<link>https://noone.dev/2006/02/18/rubbernecking/</link>
 				<pubDate>Sat, 18 Feb 2006 13:07:41 +0000</pubDate>
-				<guid>/2006/02/18/rubbernecking/</guid>
+				<guid>https://noone.dev/2006/02/18/rubbernecking/</guid>
 				<description>&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Rubbernecking&#34; target=&#34;_blank&#34;&gt;Rubbernecking&lt;/a&gt; is where drivers slow down to look at recent collisions or anything out of the ordinary on the highway.&lt;/p&gt;&#xA;&lt;p&gt;No one likes a rubbernecker, so why does everyone do it?&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Popsicles</title>
-				<link>/2006/02/17/popsicles/</link>
+				<link>https://noone.dev/2006/02/17/popsicles/</link>
 				<pubDate>Fri, 17 Feb 2006 10:16:23 +0000</pubDate>
-				<guid>/2006/02/17/popsicles/</guid>
+				<guid>https://noone.dev/2006/02/17/popsicles/</guid>
 				<description>&lt;p&gt;We are all popsicles in Portland. Not only is it freezing, but the winds are blowing “pretty good”.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.wunderground.com/cgi-bin/findweather/getForecast?query=97035&#34; target=&#34;_blank&#34;&gt;wunderground.com&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>February Snow</title>
-				<link>/2006/02/14/february-snow/</link>
+				<link>https://noone.dev/2006/02/14/february-snow/</link>
 				<pubDate>Tue, 14 Feb 2006 16:36:22 +0000</pubDate>
-				<guid>/2006/02/14/february-snow/</guid>
+				<guid>https://noone.dev/2006/02/14/february-snow/</guid>
 				<description>&lt;p&gt;&lt;img src=&#34;https://i0.wp.com/icons.wunderground.com/graphics/conds/nt_snow.GIF?w=840&#34; align=&#34;left&#34; style=&#34;margin-right: 4px;&#34; data-recalc-dims=&#34;1&#34; /&gt;We got a little bit of snow in Lake Oswego last night, and more is forecast for this weekend. I guess spring isn’t quite here yet.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Squirrel</title>
-				<link>/2006/02/13/squirrel/</link>
+				<link>https://noone.dev/2006/02/13/squirrel/</link>
 				<pubDate>Mon, 13 Feb 2006 08:56:05 +0000</pubDate>
-				<guid>/2006/02/13/squirrel/</guid>
-				<description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/99027030/&#34; target=&#34;_blank&#34; title=&#34;squirrel&#34;&gt;&lt;img src=&#34;/wp-content/uploads/2006/02/99027030_06a096927d_s.jpg&#34; title=&#34;squirrel&#34; align=&#34;left&#34; style=&#34;margin-right: 4px;&#34; /&gt;&lt;/a&gt;Squirrels in Gresham are friendly. We took a nice walk on the &lt;a href=&#34;http://www.flickr.com/photos/cleverswine/99027159/&#34; target=&#34;_blank&#34;&gt;Springwater Corridor Trail&lt;/a&gt; on Sunday.&lt;/p&gt;</description>
+				<guid>https://noone.dev/2006/02/13/squirrel/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/cleverswine/99027030/&#34; target=&#34;_blank&#34; title=&#34;squirrel&#34;&gt;&lt;img src=&#34;https://noone.dev/wp-content/uploads/2006/02/99027030_06a096927d_s.jpg&#34; title=&#34;squirrel&#34; align=&#34;left&#34; style=&#34;margin-right: 4px;&#34; /&gt;&lt;/a&gt;Squirrels in Gresham are friendly. We took a nice walk on the &lt;a href=&#34;http://www.flickr.com/photos/cleverswine/99027159/&#34; target=&#34;_blank&#34;&gt;Springwater Corridor Trail&lt;/a&gt; on Sunday.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Spring Cleaning, Valentine&amp;#8217;s, and Fake Meat</title>
-				<link>/2006/02/11/spring-cleaning-valentines-and-fake-meat/</link>
+				<link>https://noone.dev/2006/02/11/spring-cleaning-valentines-and-fake-meat/</link>
 				<pubDate>Sat, 11 Feb 2006 19:30:59 +0000</pubDate>
-				<guid>/2006/02/11/spring-cleaning-valentines-and-fake-meat/</guid>
+				<guid>https://noone.dev/2006/02/11/spring-cleaning-valentines-and-fake-meat/</guid>
 				<description>&lt;p&gt;We took some old computer hardware to &lt;a href=&#34;http://freegeek.org&#34; target=&#34;_blank&#34;&gt;Free Geek&lt;/a&gt; today. Bren had an old school Tandy and a dot matrix printer stored away in the closet. I meant to take photos, in case the computer museum needed them, but I forgot. Meanwhile, I received a fabulous Valentine’s Day present today (early, I know) – a Creative Zen Micro 6gb mp3 player! Very nice, very nice. And if that isn’t enough, we just ate stuffed bellpeppers made with fake ground meat. It was delicious.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Or&amp;#8230; Drew Carey</title>
-				<link>/2006/02/10/or-drew-carey/</link>
+				<link>https://noone.dev/2006/02/10/or-drew-carey/</link>
 				<pubDate>Fri, 10 Feb 2006 16:32:27 +0000</pubDate>
-				<guid>/2006/02/10/or-drew-carey/</guid>
+				<guid>https://noone.dev/2006/02/10/or-drew-carey/</guid>
 				<description>&lt;p&gt;&lt;img id=&#34;image22&#34; src=&#34;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2006/02/Drew_Carey.jpg?resize=96%2C96&#34; alt=&#34;Drew Carey&#34; title=&#34;Drew Carey&#34; align=&#34;left&#34; style=&#34;margin-right: 4px&#34; data-recalc-dims=&#34;1&#34; /&gt;I’m thinking that I’ll look more like Drew Carey when I get my new glasses. I’d never wear a suit, of course.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>I look just like Buddy Holly</title>
-				<link>/2006/02/07/i-look-just-like-buddy-holly/</link>
+				<link>https://noone.dev/2006/02/07/i-look-just-like-buddy-holly/</link>
 				<pubDate>Tue, 07 Feb 2006 16:30:01 +0000</pubDate>
-				<guid>/2006/02/07/i-look-just-like-buddy-holly/</guid>
-				<description>&lt;p&gt;&lt;a href=&#34;http://www.weezer.com/discography/?AssetID=1269241&#34; target=&#34;_blank&#34; title=&#34;I look just like Buddy Holly&#34;&gt;&lt;img src=&#34;/kn-images/bh.jpg&#34; alt=&#34;Buddy Holly&#34; border=&#34;0&#34; align=&#34;left&#34; style=&#34;margin-right: 4px;&#34; /&gt;&lt;/a&gt;I went to the optometrist today and ordered new glasses, similar to the ones pictured here (but not quite as extreme). My eyes were proclaimed healthy and they have only slightly degraded over the past 4 years (the last time I saw the optometrist).&lt;/p&gt;</description>
+				<guid>https://noone.dev/2006/02/07/i-look-just-like-buddy-holly/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://www.weezer.com/discography/?AssetID=1269241&#34; target=&#34;_blank&#34; title=&#34;I look just like Buddy Holly&#34;&gt;&lt;img src=&#34;https://noone.dev/kn-images/bh.jpg&#34; alt=&#34;Buddy Holly&#34; border=&#34;0&#34; align=&#34;left&#34; style=&#34;margin-right: 4px;&#34; /&gt;&lt;/a&gt;I went to the optometrist today and ordered new glasses, similar to the ones pictured here (but not quite as extreme). My eyes were proclaimed healthy and they have only slightly degraded over the past 4 years (the last time I saw the optometrist).&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Sunshine II</title>
-				<link>/2006/02/06/sunshine-ii/</link>
+				<link>https://noone.dev/2006/02/06/sunshine-ii/</link>
 				<pubDate>Mon, 06 Feb 2006 10:13:42 +0000</pubDate>
-				<guid>/2006/02/06/sunshine-ii/</guid>
+				<guid>https://noone.dev/2006/02/06/sunshine-ii/</guid>
 				<description>&lt;p&gt;&lt;a href=&#34;http://www.wunderground.com/US/OR/Portland.html?bannertypeclick=smalltemp&#34; target=&#34;_blank&#34; border=&#34;0&#34;&gt;&lt;img src=&#34;https://i1.wp.com/banners.wunderground.com/weathersticker/smalltemp/language/www/US/OR/Portland.gif?resize=53%2C28&#34; border=&#34;0&#34; align=&#34;left&#34; style=&#34;margin-right:4px;&#34; alt=&#34;Click for Portland, Oregon Forecast&#34;  data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;It is forecasted that we will have a week of sunshine in Portland. Spring is near.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Pink Monkey</title>
-				<link>/2006/02/02/pink-monkey/</link>
+				<link>https://noone.dev/2006/02/02/pink-monkey/</link>
 				<pubDate>Thu, 02 Feb 2006 13:30:07 +0000</pubDate>
-				<guid>/2006/02/02/pink-monkey/</guid>
-				<description>&lt;p&gt;&lt;img align=&#34;left&#34; style=&#34;margin-right: 4px&#34; title=&#34;Peer Monkey&#34; src=&#34;/kn-images/CIMG0506.JPG&#34; /&gt;I have acquired two pink monkeys, one of which laughs hysterically. See comment for more info.&lt;/p&gt;</description>
+				<guid>https://noone.dev/2006/02/02/pink-monkey/</guid>
+				<description>&lt;p&gt;&lt;img align=&#34;left&#34; style=&#34;margin-right: 4px&#34; title=&#34;Peer Monkey&#34; src=&#34;https://noone.dev/kn-images/CIMG0506.JPG&#34; /&gt;I have acquired two pink monkeys, one of which laughs hysterically. See comment for more info.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Stacy&amp;#8217;s</title>
-				<link>/2006/02/02/stacys/</link>
+				<link>https://noone.dev/2006/02/02/stacys/</link>
 				<pubDate>Thu, 02 Feb 2006 08:10:32 +0000</pubDate>
-				<guid>/2006/02/02/stacys/</guid>
-				<description>&lt;p&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://www.pitachips.com/pita_chips.html&#34;&gt;&lt;img align=&#34;left&#34; title=&#34;Stacys Pita Chips&#34; style=&#34;margin-right: 4px&#34; src=&#34;/wp-content/uploads/2006/02/stacys.jpg&#34; /&gt;&lt;/a&gt;Stacy’s Pita Chips are the best chips that I have ever tasted. I particularly like the Parmesan, Garlic &amp;amp; Herb and the Pesto &amp;amp; Sundried Tomato.&lt;/p&gt;</description>
+				<guid>https://noone.dev/2006/02/02/stacys/</guid>
+				<description>&lt;p&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://www.pitachips.com/pita_chips.html&#34;&gt;&lt;img align=&#34;left&#34; title=&#34;Stacys Pita Chips&#34; style=&#34;margin-right: 4px&#34; src=&#34;https://noone.dev/wp-content/uploads/2006/02/stacys.jpg&#34; /&gt;&lt;/a&gt;Stacy’s Pita Chips are the best chips that I have ever tasted. I particularly like the Parmesan, Garlic &amp;amp; Herb and the Pesto &amp;amp; Sundried Tomato.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Sunshine</title>
-				<link>/2006/02/01/sunshine/</link>
+				<link>https://noone.dev/2006/02/01/sunshine/</link>
 				<pubDate>Wed, 01 Feb 2006 19:49:55 +0000</pubDate>
-				<guid>/2006/02/01/sunshine/</guid>
+				<guid>https://noone.dev/2006/02/01/sunshine/</guid>
 				<description>&lt;p&gt;&lt;a title=&#34;Sunshine Dairy Foods&#34; target=&#34;_blank&#34; href=&#34;http://www.sunshinedairyfoods.com/&#34;&gt;&lt;img align=&#34;left&#34; alt=&#34;Sunshine Dairy Foods&#34; id=&#34;image11&#34; title=&#34;Sunshine Dairy Foods&#34; style=&#34;margin-right: 4px&#34; src=&#34;https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2006/02/newsunshinelogo.jpg?w=840&#34; data-recalc-dims=&#34;1&#34; /&gt; &lt;/a&gt;Sunshine milk is the best milk that I have ever tasted, and I am a milk connoisseur.&lt;/p&gt;</description>
 			</item>
 	</channel>

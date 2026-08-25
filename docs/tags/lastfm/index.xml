@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Lastfm on noone.dev</title>
-		<link>/tags/lastfm/</link>
+		<link>https://noone.dev/tags/lastfm/</link>
 		<description>Recent content in Lastfm on noone.dev</description>
 		<generator>Hugo</generator>
 		<language>en-US</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Wed, 17 Mar 2010 12:09:56 +0000</lastBuildDate>
 		
-			<atom:link href="/tags/lastfm/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://noone.dev/tags/lastfm/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>My Favorite Albums (Right Now)</title>
-				<link>/2010/03/17/my-favorite-albums-right-now/</link>
+				<link>https://noone.dev/2010/03/17/my-favorite-albums-right-now/</link>
 				<pubDate>Wed, 17 Mar 2010 12:09:56 +0000</pubDate>
-				<guid>/2010/03/17/my-favorite-albums-right-now/</guid>
+				<guid>https://noone.dev/2010/03/17/my-favorite-albums-right-now/</guid>
 				<description>&lt;p&gt;These are the albums that I’ve been enjoying the most lately.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a title=&#34;Beautiful Death&#34; href=&#34;http://www.last.fm/music/Bella+Morte/Beautiful+Death&#34; target=&#34;_blank&#34;&gt;Beautiful Death&lt;/a&gt; by &lt;strong&gt;&lt;a title=&#34;Bella Morte&#34; href=&#34;http://www.last.fm/music/Bella+Morte&#34; target=&#34;_blank&#34;&gt;Bella Morte&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a title=&#34;Years of Refusal&#34; href=&#34;http://www.last.fm/music/Morrissey/Years+Of+Refusal&#34; target=&#34;_blank&#34;&gt;Years of Refusal&lt;/a&gt; by &lt;strong&gt;&lt;a title=&#34;Morrissey&#34; href=&#34;http://www.last.fm/music/Morrissey&#34; target=&#34;_blank&#34;&gt;Morrissey&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a title=&#34;Walking with Strangers&#34; href=&#34;http://www.last.fm/music/The+Birthday+Massacre/Walking+With+Strangers&#34; target=&#34;_blank&#34;&gt;Walking with Strangers&lt;/a&gt; by &lt;strong&gt;&lt;a title=&#34;The Birthday Massacre&#34; href=&#34;http://www.last.fm/music/The+Birthday+Massacre&#34; target=&#34;_blank&#34;&gt;The Birthday M&lt;/a&gt;&lt;a title=&#34;The Birthday Massacre&#34; href=&#34;http://www.last.fm/music/The+Birthday+Massacre&#34; target=&#34;_blank&#34;&gt;assacre&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a title=&#34;My Winter Storm&#34; href=&#34;http://www.last.fm/music/Tarja/My+Winter+Storm&#34; target=&#34;_blank&#34;&gt;My Winter Storm&lt;/a&gt; by &lt;strong&gt;&lt;a title=&#34;Tarja&#34; href=&#34;http://www.last.fm/music/Tarja&#34; target=&#34;_blank&#34;&gt;Tarja&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a title=&#34;Oceanborn&#34; href=&#34;http://www.last.fm/music/Nightwish/Oceanborn&#34; target=&#34;_blank&#34;&gt;Oceanborn&lt;/a&gt; by &lt;strong&gt;&lt;a title=&#34;Nightwish&#34; href=&#34;http://www.last.fm/music/Nightwish&#34; target=&#34;_blank&#34;&gt;Nightwish&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a title=&#34;Banned in D.C.&#34; href=&#34;http://www.last.fm/music/Bad+Brains/Banned+in+D.C.%3A+Bad+Brains+Greatest+Riffs&#34; target=&#34;_blank&#34;&gt;Banned in D.C.&lt;/a&gt; by &lt;strong&gt;&lt;a title=&#34;Bad Brains&#34; href=&#34;http://www.last.fm/music/Bad+Brains&#34; target=&#34;_blank&#34;&gt;Bad Brains&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p style=&#34;text-align: center;&#34;&gt;&#xA;  &lt;a href=&#34;http://www.last.fm/music/Bella+Morte/Beautiful+Death&#34;&gt;&lt;img class=&#34;aligncenter&#34; title=&#34;Bella Morte - Beautiful Death&#34; src=&#34;https://i2.wp.com/userserve-ak.last.fm/serve/174s/14788965.gif?resize=174%2C174&#34; alt=&#34;&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&#xA;&lt;/p&gt;</description>
 			</item>
 	</channel>

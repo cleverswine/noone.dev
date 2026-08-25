@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>MiscTech on noone.dev</title>
-		<link>/tags/misctech/</link>
+		<link>https://noone.dev/tags/misctech/</link>
 		<description>Recent content in MiscTech on noone.dev</description>
 		<generator>Hugo</generator>
 		<language>en-US</language>
@@ -12,110 +12,110 @@
 		
 			<lastBuildDate>Wed, 18 Sep 2013 17:22:38 +0000</lastBuildDate>
 		
-			<atom:link href="/tags/misctech/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://noone.dev/tags/misctech/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Evolution</title>
-				<link>/2013/09/18/evolution/</link>
+				<link>https://noone.dev/2013/09/18/evolution/</link>
 				<pubDate>Wed, 18 Sep 2013 17:22:38 +0000</pubDate>
-				<guid>/2013/09/18/evolution/</guid>
+				<guid>https://noone.dev/2013/09/18/evolution/</guid>
 				<description>&lt;p&gt;I’ve been thinking for a while about moving my simple web site and blog to a different platform. I’m currently paying to host everything on a traditional hosting service. Ten years ago, this was really the only option if you wanted buy a domain and put a web site out there (there was also self hosting with dynamic DNS, but I was never brave enough to open up my home network). Now, we have so many options that it would be difficult to list them all. We have “cloud” hosts like &lt;a href=&#34;http://www.windowsazure.com/&#34; target=&#34;_blank&#34;&gt;Azure&lt;/a&gt; and &lt;a href=&#34;http://aws.amazon.com/&#34; target=&#34;_blank&#34;&gt;AWS&lt;/a&gt;. We have developer-friendly hosts like &lt;a href=&#34;https://www.heroku.com/&#34; target=&#34;_blank&#34;&gt;Heroku&lt;/a&gt;. &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt; can even host your static pages (more on that later). Most of these cloud-based options can be utilized for free with limited traffic and processing power.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Best Purchases</title>
-				<link>/2013/02/25/best-purchases/</link>
+				<link>https://noone.dev/2013/02/25/best-purchases/</link>
 				<pubDate>Mon, 25 Feb 2013 13:51:14 +0000</pubDate>
-				<guid>/2013/02/25/best-purchases/</guid>
+				<guid>https://noone.dev/2013/02/25/best-purchases/</guid>
 				<description>&lt;p&gt;I feel like we’ve made some good purchases in the past year. Here are some of the things that I like the most. Click the thumbnails for more information.&lt;/p&gt;&#xA;&lt;div id=&#39;gallery-1&#39; class=&#39;gallery galleryid-817 gallery-columns-3 gallery-size-thumbnail&#39;&gt;&#xA;  &lt;figure class=&#39;gallery-item&#39;&gt; &#xA;  &lt;div class=&#39;gallery-icon landscape&#39;&gt;&#xA;    &lt;a href=&#39;http://blog.cleverswine.net/2013/02/25/best-purchases/bullet2/&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2013/02/bullet2.jpg?resize=150%2C150&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;&#34; aria-describedby=&#34;gallery-1-829&#34; srcset=&#34;https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2013/02/bullet2.jpg?w=400 400w, https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2013/02/bullet2.jpg?resize=150%2C150 150w, https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2013/02/bullet2.jpg?resize=300%2C300 300w&#34; sizes=&#34;(max-width: 150px) 85vw, 150px&#34; /&gt;&lt;/a&gt;&#xA;  &lt;/div&gt;&lt;figcaption class=&#39;wp-caption-text gallery-caption&#39; id=&#39;gallery-1-829&#39;&gt; Magic Bullet &lt;/figcaption&gt;&lt;/figure&gt;&lt;figure class=&#39;gallery-item&#39;&gt; &#xA;  &lt;div class=&#39;gallery-icon portrait&#39;&gt;&#xA;    &lt;a href=&#39;http://blog.cleverswine.net/2013/02/25/best-purchases/light2/&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2013/02/light2.jpg?resize=150%2C150&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;&#34; aria-describedby=&#34;gallery-1-830&#34; srcset=&#34;https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2013/02/light2.jpg?resize=150%2C150 150w, https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2013/02/light2.jpg?zoom=2&amp;resize=150%2C150 300w&#34; sizes=&#34;(max-width: 150px) 85vw, 150px&#34; /&gt;&lt;/a&gt;&#xA;  &lt;/div&gt;&lt;figcaption class=&#39;wp-caption-text gallery-caption&#39; id=&#39;gallery-1-830&#39;&gt; Mr Beams LED Spotlight &lt;/figcaption&gt;&lt;/figure&gt;&lt;figure class=&#39;gallery-item&#39;&gt; &#xA;  &lt;div class=&#39;gallery-icon landscape&#39;&gt;&#xA;    &lt;a href=&#39;http://blog.cleverswine.net/2013/02/25/best-purchases/roku2/&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2013/02/roku2.jpg?resize=150%2C150&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;&#34; aria-describedby=&#34;gallery-1-831&#34; srcset=&#34;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2013/02/roku2.jpg?w=500 500w, https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2013/02/roku2.jpg?resize=150%2C150 150w, https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2013/02/roku2.jpg?resize=300%2C300 300w&#34; sizes=&#34;(max-width: 150px) 85vw, 150px&#34; /&gt;&lt;/a&gt;&#xA;  &lt;/div&gt;&lt;figcaption class=&#39;wp-caption-text gallery-caption&#39; id=&#39;gallery-1-831&#39;&gt; Roku 2 XD &lt;/figcaption&gt;&lt;/figure&gt;&lt;figure class=&#39;gallery-item&#39;&gt; &#xA;  &lt;div class=&#39;gallery-icon portrait&#39;&gt;&#xA;    &lt;a href=&#39;http://blog.cleverswine.net/2013/02/25/best-purchases/saga2/&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;https://i0.wp.com/blog.cleverswine.net/wp-content/uploads/2013/02/saga2.jpg?resize=150%2C150&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;&#34; aria-describedby=&#34;gallery-1-832&#34; /&gt;&lt;/a&gt;&#xA;  &lt;/div&gt;&lt;figcaption class=&#39;wp-caption-text gallery-caption&#39; id=&#39;gallery-1-832&#39;&gt; Saga, by Brian K. Vaughan &lt;/figcaption&gt;&lt;/figure&gt;&lt;figure class=&#39;gallery-item&#39;&gt; &#xA;  &lt;div class=&#39;gallery-icon landscape&#39;&gt;&#xA;    &lt;a href=&#39;http://blog.cleverswine.net/2013/02/25/best-purchases/sundbar2/&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2013/02/sundbar2.jpg?resize=150%2C150&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;&#34; aria-describedby=&#34;gallery-1-833&#34; srcset=&#34;https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2013/02/sundbar2.jpg?resize=150%2C150 150w, https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2013/02/sundbar2.jpg?zoom=2&amp;resize=150%2C150 300w, https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2013/02/sundbar2.jpg?zoom=3&amp;resize=150%2C150 450w&#34; sizes=&#34;(max-width: 150px) 85vw, 150px&#34; /&gt;&lt;/a&gt;&#xA;  &lt;/div&gt;&lt;figcaption class=&#39;wp-caption-text gallery-caption&#39; id=&#39;gallery-1-833&#39;&gt; Samsung HW-E551 Sound Bar &lt;/figcaption&gt;&lt;/figure&gt;&lt;figure class=&#39;gallery-item&#39;&gt; &#xA;  &lt;div class=&#39;gallery-icon landscape&#39;&gt;&#xA;    &lt;a href=&#39;http://blog.cleverswine.net/2013/02/25/best-purchases/tea2/&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2013/02/tea2.jpg?resize=150%2C150&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;&#34; aria-describedby=&#34;gallery-1-834&#34; srcset=&#34;https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2013/02/tea2.jpg?w=500 500w, https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2013/02/tea2.jpg?resize=150%2C150 150w, https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2013/02/tea2.jpg?resize=300%2C300 300w&#34; sizes=&#34;(max-width: 150px) 85vw, 150px&#34; /&gt;&lt;/a&gt;&#xA;  &lt;/div&gt;&lt;figcaption class=&#39;wp-caption-text gallery-caption&#39; id=&#39;gallery-1-834&#39;&gt; Teavana PerfecTea Tea Maker &lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt; &lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Find/Kill a Linux Process by Name</title>
-				<link>/2011/09/09/findkill-a-linux-process-by-name/</link>
+				<link>https://noone.dev/2011/09/09/findkill-a-linux-process-by-name/</link>
 				<pubDate>Fri, 09 Sep 2011 17:19:40 +0000</pubDate>
-				<guid>/2011/09/09/findkill-a-linux-process-by-name/</guid>
+				<guid>https://noone.dev/2011/09/09/findkill-a-linux-process-by-name/</guid>
 				<description>&lt;p&gt;I was doing some research to figure out how to easily kill a Linux process given part of it’s name. It’s fairly simple to do it manually, but if you didn’t already know, programmers are lazy.&lt;/p&gt;&#xA;&lt;p&gt;The first thing I was doing…&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;ps aux | grep Foo&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;find the process ID (PID) with my eyes, and then kill it…&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;kill -9 123456&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Next, I started finding complex piped commands to find and extract the PID. For instance…&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Moto Droid</title>
-				<link>/2009/12/21/moto-droid/</link>
+				<link>https://noone.dev/2009/12/21/moto-droid/</link>
 				<pubDate>Mon, 21 Dec 2009 19:29:46 +0000</pubDate>
-				<guid>/2009/12/21/moto-droid/</guid>
+				<guid>https://noone.dev/2009/12/21/moto-droid/</guid>
 				<description>&lt;p&gt;I switched to Verizon and got the Droid phone this weekend. I am writing from it. So far it’s great. That’s all…&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>card.ly</title>
-				<link>/2009/07/27/cardly/</link>
+				<link>https://noone.dev/2009/07/27/cardly/</link>
 				<pubDate>Mon, 27 Jul 2009 15:03:39 +0000</pubDate>
-				<guid>/2009/07/27/cardly/</guid>
+				<guid>https://noone.dev/2009/07/27/cardly/</guid>
 				<description>&lt;p&gt;&lt;a href=&#34;http://card.ly/cleverswine&#34;&gt;&lt;img src=&#34;https://i2.wp.com/card.ly/images/vcard-blue-big.png?w=840&#34; alt=&#34;card.ly&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is basically what I wanted to do with my web site. I wonder if I should just relinquish cleverswine.net and call &lt;a href=&#34;http://card.ly/cleverswine&#34;&gt;http://card.ly/cleverswine&lt;/a&gt; my new home?&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Dr. Dobb&amp;#8217;s Journal</title>
-				<link>/2009/03/17/dr-dobbs-journal/</link>
+				<link>https://noone.dev/2009/03/17/dr-dobbs-journal/</link>
 				<pubDate>Tue, 17 Mar 2009 08:56:22 +0000</pubDate>
-				<guid>/2009/03/17/dr-dobbs-journal/</guid>
+				<guid>https://noone.dev/2009/03/17/dr-dobbs-journal/</guid>
 				<description>&lt;p&gt;&lt;a href=&#34;http://dobbschallenge2.com/&#34;&gt;&lt;img src=&#34;https://i2.wp.com/blog.cleverswine.net/wp-content/uploads/2009/03/dd2.jpg?resize=125%2C100&#34; alt=&#34;&#34; title=&#34;dd2&#34; class=&#34;alignleft size-full wp-image-541&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt; I’ve been subscribing to &lt;a href=&#34;http://www.ddj.com/&#34;&gt;Dr. Dobb’s Journal&lt;/a&gt; for at least 10 years. It has always been my favorite technical magazine because of it’s diversity of topics and brain-stirring articles. I got a letter in the mail last week saying that they were ceasing production of the full magazine. Instead, they will offer a Dr. Dobb’s Report stuffed into issues of InformationWeek. I’ll have to spend more time on their web site, as it looks like they have some good content on there.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Some Notes on Job Searching</title>
-				<link>/2009/02/23/some-notes-on-job-searching/</link>
+				<link>https://noone.dev/2009/02/23/some-notes-on-job-searching/</link>
 				<pubDate>Mon, 23 Feb 2009 12:04:58 +0000</pubDate>
-				<guid>/2009/02/23/some-notes-on-job-searching/</guid>
+				<guid>https://noone.dev/2009/02/23/some-notes-on-job-searching/</guid>
 				<description>&lt;p&gt;I’ve recently been thinking about how I can improve my job search tactics. There are &lt;a href=&#34;http://www.google.com/search?q=job+search+advice&#34;&gt;tons of web sites&lt;/a&gt; out there with great advice for job seekers, and some things are just obvious. I’ve decided to jot down some random, and not so random, thoughts of my own about the process (with a focus on the tech industry).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Where to find job openings…&lt;/p&gt;&#xA;&lt;p&gt;I’ve actually found the most promising job opportunities on &lt;a href=&#34;http://portland.craigslist.org/sof/&#34;&gt;Craigslist&lt;/a&gt;. By “most promising,” I mean companies with exciting products, cutting edge technology, and fun work environments. My second go to site is &lt;a href=&#34;http://www.indeed.com/&#34;&gt;Indeed.com&lt;/a&gt;. Indeed is a job aggregater that pulls in job postings from thousands of different sites. I’ve found it to be the most complete listing of jobs out there. &lt;a href=&#34;http://www.simplyhired.com/&#34;&gt;SimplyHired.com&lt;/a&gt; is another aggregater that I use daily. It’s results vary slightly from Indeed, so I use them both.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Free HD With DVR Capability</title>
-				<link>/2009/02/02/free-hd-with-dvr-capability/</link>
+				<link>https://noone.dev/2009/02/02/free-hd-with-dvr-capability/</link>
 				<pubDate>Mon, 02 Feb 2009 16:51:01 +0000</pubDate>
-				<guid>/2009/02/02/free-hd-with-dvr-capability/</guid>
+				<guid>https://noone.dev/2009/02/02/free-hd-with-dvr-capability/</guid>
 				<description>&lt;p&gt;I bought a PCTV 800e HD TV tuner card from &lt;a href=&#34;http://www.woot.com/&#34;&gt;Woot!&lt;/a&gt; some time ago, but never really used it. While watching &lt;em&gt;The Office&lt;/em&gt; last night in high definition (using a cheap HD antenna, not a cable or satellite subscription), we were wishing that we could pause the show as we do with our DirecTV service. That’s when I remembered my tuner card purchase and decided to get that set up with our media PC today. The plan was to hook it up to the media PC that is connected to our LCD television and then use Windows Media Center as a DVR. It was amazingly simple! I plugged in the USB tuner, installed the driver, started up WMC and ran through the TV setup wizard. We can now DVR HD television, and we get better sound because the media PC has an optical audio connect to our high end receiver. We also get program listings, which we didn’t get with just an antenna and TV. Yummy screenshots…&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>First Impressions</title>
-				<link>/2008/11/10/first-impressions/</link>
+				<link>https://noone.dev/2008/11/10/first-impressions/</link>
 				<pubDate>Mon, 10 Nov 2008 06:37:01 +0000</pubDate>
-				<guid>/2008/11/10/first-impressions/</guid>
+				<guid>https://noone.dev/2008/11/10/first-impressions/</guid>
 				<description>&lt;p&gt;I’m at the Chicago office this week, helping out on a .Net web project. I haven’t seen much of the city yet, but my first impression is that it’s big and old (old != bad). I’m staying about .75 miles from the office, so I might walk back to the hotel this evening and check things out on the way. I probably won’t get out much while I’m here, but if I do, I’ll be sure to take photos.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>More Buying News</title>
-				<link>/2008/07/30/more-buying-news/</link>
+				<link>https://noone.dev/2008/07/30/more-buying-news/</link>
 				<pubDate>Wed, 30 Jul 2008 09:23:46 +0000</pubDate>
-				<guid>/2008/07/30/more-buying-news/</guid>
+				<guid>https://noone.dev/2008/07/30/more-buying-news/</guid>
 				<description>&lt;p&gt;I’ve put my big buys on hold for now. I can’t decide what kind of car I want. I test drove the MINI Cooper and did not like it. It was too small, too noisy, and although the interior was pretty fancy, it felt cheap. As for the BMW and Audi, I can’t see spending $40k on a car when I can get one that works just as well for $20k. Needless to say, I have a lot of research left to do before I buy anything. The Honda Fit is now on my list.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>FriendFeed</title>
-				<link>/2008/06/02/friendfeed/</link>
+				<link>https://noone.dev/2008/06/02/friendfeed/</link>
 				<pubDate>Mon, 02 Jun 2008 15:38:07 +0000</pubDate>
-				<guid>/2008/06/02/friendfeed/</guid>
+				<guid>https://noone.dev/2008/06/02/friendfeed/</guid>
 				<description>&lt;p&gt;So I’ve been using FriendFeed for a few months now. It basically aggregates my online activity (mostly via “social” networks like Facebook and Flickr) and then provides a feed for anyone to consume. It’s not a bad idea, but it’s really too bad that we need something like this. I think it’s a sign that the social web is out of control. Anyway, I find it useful to track what my friends are doing on the web, since we have similar interests. To see what it looks like, check my feed here: &lt;a href=&#34;http://friendfeed.com/cleverswine&#34;&gt;http://friendfeed.com/cleverswine&lt;/a&gt;.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Multitasking Television</title>
-				<link>/2008/04/12/multitasking-television/</link>
+				<link>https://noone.dev/2008/04/12/multitasking-television/</link>
 				<pubDate>Sat, 12 Apr 2008 16:59:25 +0000</pubDate>
-				<guid>/2008/04/12/multitasking-television/</guid>
+				<guid>https://noone.dev/2008/04/12/multitasking-television/</guid>
 				<description>&lt;p&gt;Now that I’ve had enough of the Perfect Day (sun is bad), I’ve migrated to the great indoors. There are at least 4 things I’d like to be doing while indoors: listening to music, looking at photos, browsing the web, and watching baseball. As it turns out, I’m doing all 4 at once! &lt;a href=&#34;http://www.flickr.com/photos/cleverswine/2409044570/&#34;&gt;Check it out.&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>The Programmer Dress Code</title>
-				<link>/2007/12/07/the-programmer-dress-code/</link>
+				<link>https://noone.dev/2007/12/07/the-programmer-dress-code/</link>
 				<pubDate>Fri, 07 Dec 2007 09:16:28 +0000</pubDate>
-				<guid>/2007/12/07/the-programmer-dress-code/</guid>
+				<guid>https://noone.dev/2007/12/07/the-programmer-dress-code/</guid>
 				<description>&lt;p&gt;&lt;a href=&#34;http://www.codethinked.com/post/2007/12/The-Programmer-Dress-Code.aspx&#34;&gt;This is an funny article&lt;/a&gt; about how most visionaries in the programming world have beards and dress like slobs. I have to say, dressing nice and shaving are at the bottom of my list of priorities. I think the same could be said for most of the programmers that I know.&lt;/p&gt;&#xA;&lt;img src=&#39;https://i1.wp.com/blog.cleverswine.net/wp-content/uploads/2007/12/imageaxd.jpg?w=840&#39; alt=&#39;Stallman&#39; data-recalc-dims=&#34;1&#34; /&gt;</description>
 			</item>
 			<item>
 				<title>IT Crowd coming to NBC!?</title>
-				<link>/2007/05/14/it-crowd-coming-to-nbc/</link>
+				<link>https://noone.dev/2007/05/14/it-crowd-coming-to-nbc/</link>
 				<pubDate>Mon, 14 May 2007 11:50:21 +0000</pubDate>
-				<guid>/2007/05/14/it-crowd-coming-to-nbc/</guid>
+				<guid>https://noone.dev/2007/05/14/it-crowd-coming-to-nbc/</guid>
 				<description>&lt;p&gt;According to &lt;a href=&#34;http://news.yahoo.com/s/nm/20070514/media_nm/nbc_dc&#34;&gt;this article&lt;/a&gt;, my favorite geek TV show, The IT Crowd, is coming to NBC. The show is about misunderstood IT workers, and is hilarious. It currently only airs in Britain and can also be &lt;a href=&#34;http://www.channel4.com/entertainment/tv/microsites/I/itcrowd/index.html&#34;&gt;watched online&lt;/a&gt;.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Software List</title>
-				<link>/2007/03/06/software-list/</link>
+				<link>https://noone.dev/2007/03/06/software-list/</link>
 				<pubDate>Tue, 06 Mar 2007 15:27:39 +0000</pubDate>
-				<guid>/2007/03/06/software-list/</guid>
+				<guid>https://noone.dev/2007/03/06/software-list/</guid>
 				<description>&lt;p&gt;I created a somewhat exhaustive list of software that I use (see &lt;strong&gt;Pages&lt;/strong&gt; on the right). I did this for 2 reasons: one, it’s a convenient place for me to go if I need to reinstall any or all of my software, and two, it may be helpful to others. If there’s something that you think I left off of the list, add it as a comment to this post. Gracias.&lt;/p&gt;</description>
 			</item>
 	</channel>
