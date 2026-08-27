@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Mon, 24 Aug 2026 18:00:00 -0700</lastBuildDate>
+			<lastBuildDate>Thu, 27 Aug 2026 12:00:00 -0700</lastBuildDate>
 		
 			<atom:link href="https://noone.dev/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Raised Vegetable Garden</title>
+				<link>https://noone.dev/posts/raised-vegetable-garden/</link>
+				<pubDate>Thu, 27 Aug 2026 12:00:00 -0700</pubDate>
+				<guid>https://noone.dev/posts/raised-vegetable-garden/</guid>
+				<description>&lt;p&gt;My wife and I finally got tired of staring at an empty stretch of backyard and decided it should be growing something. Rather than build a bed from scratch, we ordered a pre-cut cedar kit from &lt;a href=&#34;https://www.outdoorlivingtoday.com/&#34;&gt;Outdoor Living Today&lt;/a&gt; — an 8&amp;rsquo;x16&amp;rsquo; raised garden with a deer-proof wire fence enclosure built right into the design, since deer treat an unfenced garden in our neighborhood as a standing invitation. The lumber shows up pre-cut and pre-drilled; you&amp;rsquo;re assembling panels, not building from raw boards.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Rebuilding This Site with Claude Code</title>
 				<link>https://noone.dev/posts/rebuilding-this-site-with-claude-code/</link>
