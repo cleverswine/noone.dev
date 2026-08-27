@@ -32,7 +32,7 @@ The kit needed level, cleared ground, and our backyard slopes just enough that "
 
 ## Building it
 
-The kit itself is straightforward — pre-cut cedar boards that bolt together into wall panels, sitting on a paver and gravel base with stone edging around the perimeter. The wire mesh fence panels bolt on top of the cedar walls and fold out into a walk-in enclosure with a hinged gate, tall enough to keep deer out without blocking sun or airflow. With the help of the lasndscpers, my wife and I put most of it together over an afternoon.
+The kit itself is straightforward — pre-cut cedar boards that bolt together into wall panels, sitting on a paver and gravel base with stone edging around the perimeter. The wire mesh fence panels bolt on top of the cedar walls and fold out into a walk-in enclosure with a hinged gate, tall enough to keep deer out without blocking sun or airflow. With the help of the landscapers, my wife and I put most of it together over an afternoon.
 
 <div class="not-prose relative mt-6 overflow-hidden rounded-xl bg-slate-900 shadow-sm ring-1 ring-slate-900/5 dark:ring-white/10" id="rvg-build">
   <div class="relative aspect-video">
