@@ -8,7 +8,7 @@
     
     <meta name="description" content="A storefront for my wife&#39;s handmade craft shop, built to mirror what&#39;s actually for sale on her Etsy shop.">
     <meta name="author" content="Kevin Noone">
-    <meta name="generator" content="Hugo 0.165.0" />
+    <meta name="generator" content="Hugo 0.162.1" />
     <title>Auntie Boo Crafts · noone.dev</title>
     <link rel="canonical" href="https://noone.dev/posts/auntie-boo-crafts/">
 
@@ -104,6 +104,7 @@
   var slides = root.querySelectorAll('img');
   var dots = root.querySelectorAll('[data-abc-dots] button');
   var index = 0;
+  var timer;
   function show(i) {
     index = (i + slides.length) % slides.length;
     slides.forEach(function (img, n) {
@@ -113,9 +114,17 @@
       dot.className = 'h-2 w-2 rounded-full ' + (n === index ? 'bg-white' : 'bg-white/40');
     });
   }
-  root.querySelector('[data-abc-prev]').addEventListener('click', function () { show(index - 1); });
-  root.querySelector('[data-abc-next]').addEventListener('click', function () { show(index + 1); });
-  dots.forEach(function (dot, n) { dot.addEventListener('click', function () { show(n); }); });
+  function startAutoplay() { timer = setInterval(function () { show(index + 1); }, 4000); }
+  function stopAutoplay() { clearInterval(timer); }
+  function restartAutoplay() { stopAutoplay(); startAutoplay(); }
+  root.querySelector('[data-abc-prev]').addEventListener('click', function () { show(index - 1); restartAutoplay(); });
+  root.querySelector('[data-abc-next]').addEventListener('click', function () { show(index + 1); restartAutoplay(); });
+  dots.forEach(function (dot, n) { dot.addEventListener('click', function () { show(n); restartAutoplay(); }); });
+  root.addEventListener('mouseenter', stopAutoplay);
+  root.addEventListener('mouseleave', startAutoplay);
+  root.addEventListener('focusin', stopAutoplay);
+  root.addEventListener('focusout', startAutoplay);
+  startAutoplay();
 })();
 </script>
 <p>Shop: <a href="https://www.auntieboocrafts.com">auntieboocrafts.com</a> · Source: <a href="https://github.com/cleverswine/abc11ty">github.com/cleverswine/abc11ty</a></p>

@@ -7,11 +7,11 @@ color: "#059669"
 description: "A cedar raised bed kit from Outdoor Living Today, installed with a hired landscaping crew and a deer-proof fence, then filled with tomatoes, peppers, beans, squash, and cucumbers all summer."
 ---
 
-My wife and I finally got tired of staring at an empty stretch of backyard and decided it should be growing something. Rather than build a bed from scratch, we ordered a pre-cut cedar kit from [Outdoor Living Today](https://www.outdoorlivingtoday.com/) — an 8'x16' raised garden with a deer-proof wire fence enclosure built right into the design, since deer treat an unfenced garden in our neighborhood as a standing invitation. The lumber shows up pre-cut and pre-drilled; you're assembling panels, not building from raw boards.
+My wife and I have always wanted to have a decent sized vegetable garden, and now we have the land to do it. Rather than build a bed from scratch, we ordered a pre-cut cedar kit from [Outdoor Living Today](https://www.outdoorlivingtoday.com/) — an 8'x16' raised garden with a deer-proof wire fence enclosure built right into the design, since deer treat an unfenced garden in our neighborhood as a standing invitation. The lumber shows up pre-cut and pre-drilled; you're assembling panels, not building from raw boards.
 
 ## Site prep
 
-The kit needed level, cleared ground, and our backyard slopes just enough that "level" meant real grading, not just picking a flat-looking spot. We hired a local landscaping company to strip the sod and level the footprint — cutting the sod with a walk-behind cutter, hauling it off, and grading the bare dirt to a level base before any lumber showed up.
+The kit needed level, cleared ground, and our backyard slopes just enough that "level" meant real grading, not just picking a flat-looking spot. We hired a local landscaping company to strip the sod and level the footprint — cutting the sod with a walk-behind cutter, hauling it off, and grading the bare dirt to a level base before building the garden with the kit.
 
 <div class="not-prose relative mt-6 overflow-hidden rounded-xl bg-slate-900 shadow-sm ring-1 ring-slate-900/5 dark:ring-white/10" id="rvg-siteprep">
   <div class="relative aspect-video">
@@ -32,7 +32,7 @@ The kit needed level, cleared ground, and our backyard slopes just enough that "
 
 ## Building it
 
-The kit itself is straightforward — pre-cut cedar boards that bolt together into wall panels, sitting on a paver and gravel base with stone edging around the perimeter. The wire mesh fence panels bolt on top of the cedar walls and fold out into a walk-in enclosure with a hinged gate, tall enough to keep deer out without blocking sun or airflow. It's genuinely a family job: my wife and I put most of it together over an afternoon, with our kid roped in to hold panels steady while we squared them up.
+The kit itself is straightforward — pre-cut cedar boards that bolt together into wall panels, sitting on a paver and gravel base with stone edging around the perimeter. The wire mesh fence panels bolt on top of the cedar walls and fold out into a walk-in enclosure with a hinged gate, tall enough to keep deer out without blocking sun or airflow. With the help of the lasndscpers, my wife and I put most of it together over an afternoon.
 
 <div class="not-prose relative mt-6 overflow-hidden rounded-xl bg-slate-900 shadow-sm ring-1 ring-slate-900/5 dark:ring-white/10" id="rvg-build">
   <div class="relative aspect-video">
@@ -101,6 +101,7 @@ By late summer the bed looked like a completely different project. The cucumbers
     var slides = root.querySelectorAll('img');
     var dots = root.querySelectorAll('[data-' + id + '-dots] button');
     var index = 0;
+    var timer;
     function show(i) {
       index = (i + slides.length) % slides.length;
       slides.forEach(function (img, n) {
@@ -110,9 +111,17 @@ By late summer the bed looked like a completely different project. The cucumbers
         dot.className = 'h-2 w-2 rounded-full ' + (n === index ? 'bg-white' : 'bg-white/40');
       });
     }
-    root.querySelector('[data-' + id + '-prev]').addEventListener('click', function () { show(index - 1); });
-    root.querySelector('[data-' + id + '-next]').addEventListener('click', function () { show(index + 1); });
-    dots.forEach(function (dot, n) { dot.addEventListener('click', function () { show(n); }); });
+    function startAutoplay() { timer = setInterval(function () { show(index + 1); }, 4000); }
+    function stopAutoplay() { clearInterval(timer); }
+    function restartAutoplay() { stopAutoplay(); startAutoplay(); }
+    root.querySelector('[data-' + id + '-prev]').addEventListener('click', function () { show(index - 1); restartAutoplay(); });
+    root.querySelector('[data-' + id + '-next]').addEventListener('click', function () { show(index + 1); restartAutoplay(); });
+    dots.forEach(function (dot, n) { dot.addEventListener('click', function () { show(n); restartAutoplay(); }); });
+    root.addEventListener('mouseenter', stopAutoplay);
+    root.addEventListener('mouseleave', startAutoplay);
+    root.addEventListener('focusin', stopAutoplay);
+    root.addEventListener('focusout', startAutoplay);
+    startAutoplay();
   });
 })();
 </script>

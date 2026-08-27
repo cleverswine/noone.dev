@@ -34,6 +34,7 @@ description: "A CLI for listing, installing, and upgrading .NET SDKs — mostly 
   var slides = root.querySelectorAll('img');
   var dots = root.querySelectorAll('[data-dvm-dots] button');
   var index = 0;
+  var timer;
   function show(i) {
     index = (i + slides.length) % slides.length;
     slides.forEach(function (img, n) {
@@ -43,9 +44,17 @@ description: "A CLI for listing, installing, and upgrading .NET SDKs — mostly 
       dot.className = 'h-2 w-2 rounded-full ' + (n === index ? 'bg-white' : 'bg-white/40');
     });
   }
-  root.querySelector('[data-dvm-prev]').addEventListener('click', function () { show(index - 1); });
-  root.querySelector('[data-dvm-next]').addEventListener('click', function () { show(index + 1); });
-  dots.forEach(function (dot, n) { dot.addEventListener('click', function () { show(n); }); });
+  function startAutoplay() { timer = setInterval(function () { show(index + 1); }, 4000); }
+  function stopAutoplay() { clearInterval(timer); }
+  function restartAutoplay() { stopAutoplay(); startAutoplay(); }
+  root.querySelector('[data-dvm-prev]').addEventListener('click', function () { show(index - 1); restartAutoplay(); });
+  root.querySelector('[data-dvm-next]').addEventListener('click', function () { show(index + 1); restartAutoplay(); });
+  dots.forEach(function (dot, n) { dot.addEventListener('click', function () { show(n); restartAutoplay(); }); });
+  root.addEventListener('mouseenter', stopAutoplay);
+  root.addEventListener('mouseleave', startAutoplay);
+  root.addEventListener('focusin', stopAutoplay);
+  root.addEventListener('focusout', startAutoplay);
+  startAutoplay();
 })();
 </script>
 
