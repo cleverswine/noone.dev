@@ -1,13 +1,15 @@
-
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://noone.dev/posts/</loc>
-    <lastmod>2026-08-24T18:00:00-07:00</lastmod>
+    <lastmod>2026-08-27T12:00:00-07:00</lastmod>
   </url><url>
     <loc>https://noone.dev/</loc>
-    <lastmod>2026-08-24T18:00:00-07:00</lastmod>
+    <lastmod>2026-08-27T12:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://noone.dev/posts/raised-vegetable-garden/</loc>
+    <lastmod>2026-08-27T12:00:00-07:00</lastmod>
   </url><url>
     <loc>https://noone.dev/posts/rebuilding-this-site-with-claude-code/</loc>
     <lastmod>2026-08-24T18:00:00-07:00</lastmod>
