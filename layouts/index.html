@@ -1,12 +1,12 @@
 {{ define "main" }}
-{{ $posts := first 8 (where .Site.RegularPages "Section" "posts") }}
+{{ $posts := first 9 (where .Site.RegularPages "Section" "posts") }}
 <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-    {{ range $posts }}
+    {{ range $index, $page := $posts }}
     {{ $image := "" }}
-    {{ with .Resources.GetMatch "cover.*" }}{{ $image = .RelPermalink }}{{ end }}
-    {{ $color := .Params.color | default "#0f172a" }}
-    <a href="{{ .RelPermalink }}"
-        class="group flex flex-col overflow-hidden rounded-xl shadow-sm ring-1 ring-slate-900/5 transition duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md focus-visible:-translate-y-0.5 focus-visible:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 dark:ring-white/10 focus-visible:ring-offset-canvas dark:focus-visible:ring-offset-canvas-dark">
+    {{ with $page.Resources.GetMatch "cover.*" }}{{ $image = .RelPermalink }}{{ end }}
+    {{ $color := $page.Params.color | default "#0f172a" }}
+    <a href="{{ $page.RelPermalink }}"
+        class="group {{ if eq $index 8 }}hidden lg:flex{{ else }}flex{{ end }} flex-col overflow-hidden rounded-xl shadow-sm ring-1 ring-slate-900/5 transition duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md focus-visible:-translate-y-0.5 focus-visible:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 dark:ring-white/10 focus-visible:ring-offset-canvas dark:focus-visible:ring-offset-canvas-dark">
         {{ with $image }}
         <div class="h-40 overflow-hidden bg-slate-900">
             <img src="{{ . }}" alt="" loading="lazy"
