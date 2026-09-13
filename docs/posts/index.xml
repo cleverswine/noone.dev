@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Fri, 28 Aug 2026 12:00:00 -0700</lastBuildDate>
+			<lastBuildDate>Sun, 13 Sep 2026 16:07:22 +0000</lastBuildDate>
 		
 			<atom:link href="https://noone.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Auntie Boo Crafts Gets an Admin Page</title>
+				<link>https://noone.dev/posts/auntie-boo-crafts-admin/</link>
+				<pubDate>Sun, 13 Sep 2026 16:07:22 +0000</pubDate>
+				<guid>https://noone.dev/posts/auntie-boo-crafts-admin/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://noone.dev/posts/auntie-boo-crafts/&#34;&gt;Auntie Boo Crafts&lt;/a&gt; mostly mirrors my wife&amp;rsquo;s Etsy shop automatically, but a few things — like items only sold in person at craft fairs — aren&amp;rsquo;t on Etsy at all and have to be added by hand. That used to mean editing a raw data file directly, which was fine for a couple of items and increasingly annoying once there were dozens.&lt;/p&gt;&#xA;&lt;p&gt;So now there&amp;rsquo;s a small admin page just for that. Everything pulled in from Etsy still shows up as read-only, but the hand-added stuff can be edited right there: titles, descriptions, whether something&amp;rsquo;s shown, and its photos — including uploading new ones or picking from what&amp;rsquo;s already there.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Ripping a Damaged CD</title>
 				<link>https://noone.dev/posts/ripping-a-damaged-cd/</link>
