@@ -4,22 +4,18 @@ date: 2026-09-13T16:07:22Z
 draft: false
 image: "cover.png"
 color: "#7e22ce"
-description: "A local-only admin page for editing Auntie Boo Crafts' hand-added catalog items, built end to end by describing it to Claude Code."
+description: "A simple new admin page for the handful of items on Auntie Boo Crafts that don't come from Etsy — built by just describing it to Claude Code."
 ---
 
-[Auntie Boo Crafts](/posts/auntie-boo-crafts/) is mostly a mirror of my wife's Etsy shop — a script scrapes the real listings and writes them to `_data/boo.json`. But not everything on the site comes from Etsy. Things like the "In Person Events" section — items sold at craft fairs, never listed online — live in that same JSON file by hand, tagged `"manual": true` so the scraper leaves them alone on every re-run. Hand-editing JSON to add a bookmark, swap a photo, or rename a section was fine for the first few items. It stopped being fine once there were dozens.
+[Auntie Boo Crafts](/posts/auntie-boo-crafts/) mostly mirrors my wife's Etsy shop automatically, but a few things — like items only sold in person at craft fairs — aren't on Etsy at all and have to be added by hand. That used to mean editing a raw data file directly, which was fine for a couple of items and increasingly annoying once there were dozens.
 
-## What it does
-
-The fix is a small local-only admin page, added on the [`dev` branch](https://github.com/cleverswine/abc11ty/tree/dev) of the [abc11ty](https://github.com/cleverswine/abc11ty) repo. It reads and writes the same `_data/boo.json` the site builds from, so nothing is out of sync — run `npm run admin`, edit, hit save, and the change is already there the next time the site builds.
-
-Etsy-sourced sections render read-only, enforced server-side, not just grayed out in the UI. Anything tagged manual is fully editable: add, edit, delete, and reorder sections, subcategories, and items; toggle a section's `pinned` or `show` flags; and manage each item's photos with a small per-image carousel — pick from what's already in `img-product/`, upload a new one straight from a file picker, or delete one out of the middle. Uploaded images get piped through `sharp` on the way to disk, which strips EXIF/GPS/camera metadata as a side effect of the re-encode. It's paired with a `docker-compose.yml` that runs the admin tool and the site's dev server together, so an edit shows up on the live preview immediately.
+So now there's a small admin page just for that. Everything pulled in from Etsy still shows up as read-only, but the hand-added stuff can be edited right there: titles, descriptions, whether something's shown, and its photos — including uploading new ones or picking from what's already there.
 
 <div class="not-prose relative mt-6 overflow-hidden rounded-xl bg-slate-950 shadow-sm ring-1 ring-slate-900/5 dark:ring-white/10" id="abca-slideshow">
   <div class="relative h-[420px]">
-    <img src="img_2.png" alt="Auntie Boo Crafts admin — the section list, manual sections editable and pinnable, Etsy sections read-only" class="absolute inset-0 mx-auto size-full object-contain p-6 transition-opacity duration-300 opacity-100">
-    <img src="img_3.png" alt="Auntie Boo Crafts admin — a manual section's items, each with its own image carousel" class="absolute inset-0 mx-auto size-full object-contain p-6 transition-opacity duration-300 opacity-0">
-    <img src="img_1.png" alt="Auntie Boo Crafts admin — the edit item modal, with section, subcategory, title, description, and link fields" class="absolute inset-0 mx-auto size-full object-contain p-6 transition-opacity duration-300 opacity-0">
+    <img src="img_2.png" alt="Auntie Boo Crafts admin — the section list, hand-added sections editable, Etsy sections read-only" class="absolute inset-0 mx-auto size-full object-contain p-6 transition-opacity duration-300 opacity-100">
+    <img src="img_3.png" alt="Auntie Boo Crafts admin — a section's items, each with its own photo carousel" class="absolute inset-0 mx-auto size-full object-contain p-6 transition-opacity duration-300 opacity-0">
+    <img src="img_1.png" alt="Auntie Boo Crafts admin — the edit item screen, with title, description, and link fields" class="absolute inset-0 mx-auto size-full object-contain p-6 transition-opacity duration-300 opacity-0">
     <button type="button" aria-label="Previous screenshot" data-abca-prev class="absolute left-3 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/50 text-white hover:bg-black/70">‹</button>
     <button type="button" aria-label="Next screenshot" data-abca-next class="absolute right-3 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/50 text-white hover:bg-black/70">›</button>
   </div>
@@ -60,12 +56,6 @@ Etsy-sourced sections render read-only, enforced server-side, not just grayed ou
 })();
 </script>
 
-## How fast this came together
-
-The whole thing is a plain Express server plus a vanilla JS/Bootstrap frontend — no framework, no build step, no bundler. The first working version — the server, every CRUD route, the modals for editing sections/subcategories/items, image upload, reordering, and immediate show/hide toggling — landed in one sitting, roughly 370 lines of server code and 600 lines of frontend JS, just by describing what I wanted to Claude Code and looking at what came back. No scaffolding, no boilerplate to write by hand first.
-
-Everything after that first version was the same loop in miniature: a short back-and-forth, a small commit. Delete confirmations that just said "are you sure?" became messages naming exactly what's being deleted and what goes with it. The image modal got a thumbnail strip so all of an item's photos are visible at once, not just reachable one at a time via prev/next. Uploaded images turned out to keep their EXIF data — camera model, sometimes GPS — so that got routed through `sharp` to strip it. Each of these was a single sentence in, a working commit out.
-
-None of this needed to be production-grade. It's a tool for one person, running locally, never deployed — so it could just be built at the pace of actually needing each feature, rather than designed up front.
+The whole thing came together just by describing what I wanted to Claude Code — a working first version in one sitting, then a handful of small follow-up asks (clearer warnings before deleting something, an easier way to flip through an item's photos) each turned around in a few minutes. It's just for me to use at home, so it didn't need to be anything more than exactly what it needed to be.
 
 Source: [github.com/cleverswine/abc11ty](https://github.com/cleverswine/abc11ty) (`dev` branch)
