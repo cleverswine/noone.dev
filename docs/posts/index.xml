@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Fri, 28 Aug 2026 12:00:00 -0700</lastBuildDate>
+			<lastBuildDate>Sun, 13 Sep 2026 16:07:22 +0000</lastBuildDate>
 		
 			<atom:link href="https://noone.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Auntie Boo Crafts Gets an Admin Page</title>
+				<link>https://noone.dev/posts/auntie-boo-crafts-admin/</link>
+				<pubDate>Sun, 13 Sep 2026 16:07:22 +0000</pubDate>
+				<guid>https://noone.dev/posts/auntie-boo-crafts-admin/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://noone.dev/posts/auntie-boo-crafts/&#34;&gt;Auntie Boo Crafts&lt;/a&gt; is mostly a mirror of my wife&amp;rsquo;s Etsy shop — a script scrapes the real listings and writes them to &lt;code&gt;_data/boo.json&lt;/code&gt;. But not everything on the site comes from Etsy. Things like the &amp;ldquo;In Person Events&amp;rdquo; section — items sold at craft fairs, never listed online — live in that same JSON file by hand, tagged &lt;code&gt;&amp;quot;manual&amp;quot;: true&lt;/code&gt; so the scraper leaves them alone on every re-run. Hand-editing JSON to add a bookmark, swap a photo, or rename a section was fine for the first few items. It stopped being fine once there were dozens.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Ripping a Damaged CD</title>
 				<link>https://noone.dev/posts/ripping-a-damaged-cd/</link>
